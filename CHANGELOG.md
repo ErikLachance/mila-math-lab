@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.0 — 2026-11-26
+
+- Added ML-PNP-005: self-contained graph-immunity characterization, exact threshold degrees, the maximal-degree majority family, Cartesian-product non-amplification, affine invariance and an inverse-degree bound.
+- Added independent exact evaluation-rank and Möbius checks: 278 small functions, 529 products, 12,870 balanced four-input functions and two balanced five-input examples, 36 thresholds, and 10,922 majority witness evaluations. The thirteen-input lower bound is proved analytically, not claimed as an executed rank calculation.
+- Credited established algebraic-immunity literature and Pass's integer-recursion principle explicitly. No novelty, general circuit hardness or P-versus-NP solution is claimed.
+- Expanded the portal to thirteen notes; added a reusable Markdown renderer with pinned provenance links, and corrected a malformed DOI link, older SAT display wording and the nontrivial-zero qualifier for RH.
+
 ## 0.4.0 — 2026-11-26
 
 - Added three notes on fixed rational bilinear recursion, rational-image valuation obstructions, and Carleman spatial-interface coupling (ML-PNP-004, ML-BEAL-004, ML-RH-004).

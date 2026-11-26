@@ -6,6 +6,8 @@
 
 A fixed rational bilinear matrix multiplication identity can be implemented recursively over integers by clearing denominators in each of its three linear maps and normalizing exactly at every node. We give a magnitude bound for all intermediate data, including partial sums with cancellation, and a corresponding bit-complexity bound. The conclusion is conditional on a specified fixed identity and does not construct an improved polynomial identity testing algorithm.
 
+The denominator-clearing recursion and logarithmic growth of intermediate bit lengths already appear in [Pass, Section 4.3](https://arxiv.org/html/2610.28627v2#S4.SS3). This note is a reconstruction and elaboration with a rectangular formulation, an explicit magnitude guard, and additional exact tests. The underlying simulation principle is not claimed as a new discovery.
+
 ## 1. Base identity and normalization
 
 Fix positive integer dimensions a,b,c and a rank-r rational identity for multiplying a-by-b by b-by-c matrices. Flatten input and output blocks in row-major order. Let U and V be the r-by-ab and r-by-bc linear maps, and W the ac-by-r recombination map. The identity is

@@ -1,0 +1,1142 @@
+{
+  "arithmetic": "exact GF(2); Python integers; no floating point",
+  "balanced_functions": {
+    "all_balanced_four_input_functions": {
+      "cases": 12870,
+      "degree_pairs": [
+        {
+          "algebraic_immunity": 1,
+          "count": 30,
+          "graph_relation_degree": 1
+        },
+        {
+          "algebraic_immunity": 2,
+          "count": 12840,
+          "graph_relation_degree": 2
+        }
+      ],
+      "transcript_sha256": "7e13eb6844edb82fda344b800f224655fe1a744a0fe7bdd1113a621374118d77"
+    },
+    "balanced_five_input_strict_example": {
+      "algebraic_immunity": 2,
+      "function_anf_monomial_masks": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27
+      ],
+      "graph_rank_through_degree_2": 22,
+      "graph_relation_degree": 3,
+      "graph_relation_monomial_masks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        32,
+        33
+      ],
+      "input_variables": 5,
+      "one_set": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        18,
+        20,
+        22,
+        24,
+        25,
+        26,
+        28
+      ],
+      "quadratic_annihilator_monomial_mask": 3,
+      "truth_table_hex": "0x17543756"
+    },
+    "balanced_five_input_structured_strict_example": {
+      "algebraic_immunity": 2,
+      "coordinate_names": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "formula_over_F2": "f=b+c+d+bc+bd+cd; h=(1+a)f+a(1+b)e",
+      "function_anf_monomial_masks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        17,
+        19
+      ],
+      "graph_rank_through_degree_2": 22,
+      "graph_relation_degree": 3,
+      "graph_relation_monomial_masks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        32,
+        33
+      ],
+      "input_variables": 5,
+      "one_set": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        17,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        28,
+        29
+      ],
+      "quadratic_annihilator_monomial_mask": 3,
+      "truth_table_hex": "0x37761554"
+    }
+  },
+  "cartesian_products": {
+    "all_nonempty_subsets_dimensions_0_to_2": {
+      "cases": 361,
+      "transcript_sha256": "65bac3872490112d585490f3decc8dd5b3d7d5839fbb00ef3940a664f7f27f7f"
+    },
+    "free_coordinates_0_to_4": {
+      "cases": 95,
+      "transcript_sha256": "b36a430e32cd8120c2226bb1b6468e50c2754fd6b575b4b7aa7490842c3d7d7e"
+    },
+    "seed": 20261126,
+    "seeded_and_structured_larger_products": {
+      "cases": 73,
+      "transcript_sha256": "5733a275a8b1ac5d9eaaa4895a229777bcf515a78fa5d336aa3eea4bd1bf0a6b"
+    }
+  },
+  "conventions": {
+    "coordinates": "little endian",
+    "infinite_relation_degree": null,
+    "internal_zero_polynomial_degree": -1,
+    "monomial_mask": "bit i selects variable x_i; 0 is constant 1",
+    "truth_table_bit_x": "function value at point x"
+  },
+  "date": "2026-11-26",
+  "graph_formula_and_algebraic_immunity": {
+    "arities": [
+      {
+        "degree_pairs": [
+          {
+            "algebraic_immunity": 0,
+            "count": 2,
+            "graph_relation_degree": 1
+          }
+        ],
+        "functions": 2,
+        "input_variables": 0
+      },
+      {
+        "degree_pairs": [
+          {
+            "algebraic_immunity": 0,
+            "count": 2,
+            "graph_relation_degree": 1
+          },
+          {
+            "algebraic_immunity": 1,
+            "count": 2,
+            "graph_relation_degree": 1
+          }
+        ],
+        "functions": 4,
+        "input_variables": 1
+      },
+      {
+        "degree_pairs": [
+          {
+            "algebraic_immunity": 0,
+            "count": 2,
+            "graph_relation_degree": 1
+          },
+          {
+            "algebraic_immunity": 1,
+            "count": 6,
+            "graph_relation_degree": 1
+          },
+          {
+            "algebraic_immunity": 1,
+            "count": 8,
+            "graph_relation_degree": 2
+          }
+        ],
+        "functions": 16,
+        "input_variables": 2
+      },
+      {
+        "degree_pairs": [
+          {
+            "algebraic_immunity": 0,
+            "count": 2,
+            "graph_relation_degree": 1
+          },
+          {
+            "algebraic_immunity": 1,
+            "count": 14,
+            "graph_relation_degree": 1
+          },
+          {
+            "algebraic_immunity": 1,
+            "count": 184,
+            "graph_relation_degree": 2
+          },
+          {
+            "algebraic_immunity": 2,
+            "count": 56,
+            "graph_relation_degree": 2
+          }
+        ],
+        "functions": 256,
+        "input_variables": 3
+      }
+    ],
+    "cases": 278,
+    "nonzero_multiplier_evaluations": 65534,
+    "transcript_sha256": "5c21ab3fe84aed949478086d342e1d39426d81de2d90b8a52f2caa54aba04412"
+  },
+  "limitations": [
+    "Finite checks do not prove the Cartesian-product or threshold formulas for all dimensions.",
+    "The n=13 majority calculation verifies an explicit degree-seven relation on all 8192 graph points; it does not independently compute the rank of all degree-six monomials.",
+    "Boolean relation degree is not a general Boolean-circuit lower bound and gives no P-versus-NP separation.",
+    "No literature novelty is claimed."
+  ],
+  "schema_version": 1,
+  "source_sha256": "128a3fd0e188cf5b026b8a04608c5b602354944013ec94b2b797157dcad63cc0",
+  "status": "pass",
+  "threshold_functions": {
+    "cases": 36,
+    "majority_graph_evaluations": 10922,
+    "odd_majority_expanded_witnesses": [
+      {
+        "graph_points_checked": 2,
+        "input_variables": 1,
+        "lower_degree_rank_computed": true,
+        "threshold": 1,
+        "witness_degree": 1,
+        "witness_monomial_masks": [
+          1,
+          2
+        ],
+        "witness_terms": 2
+      },
+      {
+        "graph_points_checked": 8,
+        "input_variables": 3,
+        "lower_degree_rank_computed": true,
+        "threshold": 2,
+        "witness_degree": 2,
+        "witness_monomial_masks": [
+          3,
+          8,
+          9,
+          10
+        ],
+        "witness_terms": 4
+      },
+      {
+        "graph_points_checked": 32,
+        "input_variables": 5,
+        "lower_degree_rank_computed": true,
+        "threshold": 3,
+        "witness_degree": 3,
+        "witness_monomial_masks": [
+          7,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "witness_terms": 8
+      },
+      {
+        "graph_points_checked": 128,
+        "input_variables": 7,
+        "lower_degree_rank_computed": true,
+        "threshold": 4,
+        "witness_degree": 4,
+        "witness_monomial_masks": [
+          15,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142
+        ],
+        "witness_terms": 16
+      },
+      {
+        "graph_points_checked": 512,
+        "input_variables": 9,
+        "lower_degree_rank_computed": false,
+        "threshold": 5,
+        "witness_degree": 5,
+        "witness_monomial_masks": [
+          31,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          521,
+          522,
+          523,
+          524,
+          525,
+          526,
+          527,
+          528,
+          529,
+          530,
+          531,
+          532,
+          533,
+          534,
+          535,
+          536,
+          537,
+          538,
+          539,
+          540,
+          541,
+          542
+        ],
+        "witness_terms": 32
+      },
+      {
+        "graph_points_checked": 2048,
+        "input_variables": 11,
+        "lower_degree_rank_computed": false,
+        "threshold": 6,
+        "witness_degree": 6,
+        "witness_monomial_masks": [
+          63,
+          2048,
+          2049,
+          2050,
+          2051,
+          2052,
+          2053,
+          2054,
+          2055,
+          2056,
+          2057,
+          2058,
+          2059,
+          2060,
+          2061,
+          2062,
+          2063,
+          2064,
+          2065,
+          2066,
+          2067,
+          2068,
+          2069,
+          2070,
+          2071,
+          2072,
+          2073,
+          2074,
+          2075,
+          2076,
+          2077,
+          2078,
+          2079,
+          2080,
+          2081,
+          2082,
+          2083,
+          2084,
+          2085,
+          2086,
+          2087,
+          2088,
+          2089,
+          2090,
+          2091,
+          2092,
+          2093,
+          2094,
+          2095,
+          2096,
+          2097,
+          2098,
+          2099,
+          2100,
+          2101,
+          2102,
+          2103,
+          2104,
+          2105,
+          2106,
+          2107,
+          2108,
+          2109,
+          2110
+        ],
+        "witness_terms": 64
+      },
+      {
+        "graph_points_checked": 8192,
+        "input_variables": 13,
+        "lower_degree_rank_computed": false,
+        "threshold": 7,
+        "witness_degree": 7,
+        "witness_monomial_masks": [
+          127,
+          8192,
+          8193,
+          8194,
+          8195,
+          8196,
+          8197,
+          8198,
+          8199,
+          8200,
+          8201,
+          8202,
+          8203,
+          8204,
+          8205,
+          8206,
+          8207,
+          8208,
+          8209,
+          8210,
+          8211,
+          8212,
+          8213,
+          8214,
+          8215,
+          8216,
+          8217,
+          8218,
+          8219,
+          8220,
+          8221,
+          8222,
+          8223,
+          8224,
+          8225,
+          8226,
+          8227,
+          8228,
+          8229,
+          8230,
+          8231,
+          8232,
+          8233,
+          8234,
+          8235,
+          8236,
+          8237,
+          8238,
+          8239,
+          8240,
+          8241,
+          8242,
+          8243,
+          8244,
+          8245,
+          8246,
+          8247,
+          8248,
+          8249,
+          8250,
+          8251,
+          8252,
+          8253,
+          8254,
+          8255,
+          8256,
+          8257,
+          8258,
+          8259,
+          8260,
+          8261,
+          8262,
+          8263,
+          8264,
+          8265,
+          8266,
+          8267,
+          8268,
+          8269,
+          8270,
+          8271,
+          8272,
+          8273,
+          8274,
+          8275,
+          8276,
+          8277,
+          8278,
+          8279,
+          8280,
+          8281,
+          8282,
+          8283,
+          8284,
+          8285,
+          8286,
+          8287,
+          8288,
+          8289,
+          8290,
+          8291,
+          8292,
+          8293,
+          8294,
+          8295,
+          8296,
+          8297,
+          8298,
+          8299,
+          8300,
+          8301,
+          8302,
+          8303,
+          8304,
+          8305,
+          8306,
+          8307,
+          8308,
+          8309,
+          8310,
+          8311,
+          8312,
+          8313,
+          8314,
+          8315,
+          8316,
+          8317,
+          8318
+        ],
+        "witness_terms": 128
+      }
+    ],
+    "scope": "Ranks certify thresholds through n=8. For n=9,11,13 only the explicit upper-bound witness is evaluated; the lower bound requires the analytic proof.",
+    "thresholds": [
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 0,
+        "graph_relation_degree": 1,
+        "input_variables": 1,
+        "rank_at_that_degree": 1,
+        "threshold": 1,
+        "witness_monomial_masks": [
+          1,
+          2
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 2,
+        "rank_at_that_degree": 4,
+        "threshold": 1,
+        "witness_monomial_masks": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 2,
+        "rank_at_that_degree": 4,
+        "threshold": 2,
+        "witness_monomial_masks": [
+          3,
+          4
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 3,
+        "rank_at_that_degree": 5,
+        "threshold": 1,
+        "witness_monomial_masks": [
+          1,
+          9
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 3,
+        "rank_at_that_degree": 5,
+        "threshold": 2,
+        "witness_monomial_masks": [
+          3,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 3,
+        "rank_at_that_degree": 5,
+        "threshold": 3,
+        "witness_monomial_masks": [
+          8,
+          9
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 4,
+        "rank_at_that_degree": 6,
+        "threshold": 1,
+        "witness_monomial_masks": [
+          1,
+          17
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 4,
+        "rank_at_that_degree": 16,
+        "threshold": 2,
+        "witness_monomial_masks": [
+          3,
+          5,
+          6,
+          7,
+          16,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 4,
+        "rank_at_that_degree": 16,
+        "threshold": 3,
+        "witness_monomial_masks": [
+          7,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 4,
+        "rank_at_that_degree": 6,
+        "threshold": 4,
+        "witness_monomial_masks": [
+          16,
+          17
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 5,
+        "rank_at_that_degree": 7,
+        "threshold": 1,
+        "witness_monomial_masks": [
+          1,
+          33
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 5,
+        "rank_at_that_degree": 22,
+        "threshold": 2,
+        "witness_monomial_masks": [
+          3,
+          35
+        ]
+      },
+      {
+        "algebraic_immunity": 3,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 5,
+        "rank_at_that_degree": 22,
+        "threshold": 3,
+        "witness_monomial_masks": [
+          7,
+          11,
+          13,
+          14,
+          33,
+          34,
+          36,
+          40
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 5,
+        "rank_at_that_degree": 22,
+        "threshold": 4,
+        "witness_monomial_masks": [
+          32,
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 5,
+        "rank_at_that_degree": 7,
+        "threshold": 5,
+        "witness_monomial_masks": [
+          32,
+          33
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 6,
+        "rank_at_that_degree": 8,
+        "threshold": 1,
+        "witness_monomial_masks": [
+          1,
+          65
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 6,
+        "rank_at_that_degree": 29,
+        "threshold": 2,
+        "witness_monomial_masks": [
+          3,
+          67
+        ]
+      },
+      {
+        "algebraic_immunity": 3,
+        "full_rank_through_degree": 3,
+        "graph_relation_degree": 4,
+        "input_variables": 6,
+        "rank_at_that_degree": 64,
+        "threshold": 3,
+        "witness_monomial_masks": [
+          7,
+          11,
+          13,
+          14,
+          15,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          72,
+          73,
+          74,
+          76
+        ]
+      },
+      {
+        "algebraic_immunity": 3,
+        "full_rank_through_degree": 3,
+        "graph_relation_degree": 4,
+        "input_variables": 6,
+        "rank_at_that_degree": 64,
+        "threshold": 4,
+        "witness_monomial_masks": [
+          15,
+          64,
+          67,
+          69,
+          70,
+          73,
+          74,
+          76
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 6,
+        "rank_at_that_degree": 29,
+        "threshold": 5,
+        "witness_monomial_masks": [
+          64,
+          65,
+          66,
+          67
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 6,
+        "rank_at_that_degree": 8,
+        "threshold": 6,
+        "witness_monomial_masks": [
+          64,
+          65
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 7,
+        "rank_at_that_degree": 9,
+        "threshold": 1,
+        "witness_monomial_masks": [
+          1,
+          129
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 7,
+        "rank_at_that_degree": 37,
+        "threshold": 2,
+        "witness_monomial_masks": [
+          3,
+          131
+        ]
+      },
+      {
+        "algebraic_immunity": 3,
+        "full_rank_through_degree": 3,
+        "graph_relation_degree": 4,
+        "input_variables": 7,
+        "rank_at_that_degree": 93,
+        "threshold": 3,
+        "witness_monomial_masks": [
+          7,
+          135
+        ]
+      },
+      {
+        "algebraic_immunity": 4,
+        "full_rank_through_degree": 3,
+        "graph_relation_degree": 4,
+        "input_variables": 7,
+        "rank_at_that_degree": 93,
+        "threshold": 4,
+        "witness_monomial_masks": [
+          15,
+          23,
+          27,
+          29,
+          30,
+          128,
+          131,
+          133,
+          134,
+          137,
+          138,
+          140,
+          145,
+          146,
+          148,
+          152
+        ]
+      },
+      {
+        "algebraic_immunity": 3,
+        "full_rank_through_degree": 3,
+        "graph_relation_degree": 4,
+        "input_variables": 7,
+        "rank_at_that_degree": 93,
+        "threshold": 5,
+        "witness_monomial_masks": [
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 7,
+        "rank_at_that_degree": 37,
+        "threshold": 6,
+        "witness_monomial_masks": [
+          128,
+          129,
+          130,
+          131
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 7,
+        "rank_at_that_degree": 9,
+        "threshold": 7,
+        "witness_monomial_masks": [
+          128,
+          129
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 8,
+        "rank_at_that_degree": 10,
+        "threshold": 1,
+        "witness_monomial_masks": [
+          1,
+          257
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 8,
+        "rank_at_that_degree": 46,
+        "threshold": 2,
+        "witness_monomial_masks": [
+          3,
+          259
+        ]
+      },
+      {
+        "algebraic_immunity": 3,
+        "full_rank_through_degree": 3,
+        "graph_relation_degree": 4,
+        "input_variables": 8,
+        "rank_at_that_degree": 130,
+        "threshold": 3,
+        "witness_monomial_masks": [
+          7,
+          263
+        ]
+      },
+      {
+        "algebraic_immunity": 4,
+        "full_rank_through_degree": 4,
+        "graph_relation_degree": 5,
+        "input_variables": 8,
+        "rank_at_that_degree": 256,
+        "threshold": 4,
+        "witness_monomial_masks": [
+          15,
+          23,
+          27,
+          29,
+          30,
+          31,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          280,
+          281,
+          282,
+          284
+        ]
+      },
+      {
+        "algebraic_immunity": 4,
+        "full_rank_through_degree": 4,
+        "graph_relation_degree": 5,
+        "input_variables": 8,
+        "rank_at_that_degree": 256,
+        "threshold": 5,
+        "witness_monomial_masks": [
+          31,
+          257,
+          258,
+          260,
+          263,
+          264,
+          267,
+          269,
+          270,
+          272,
+          275,
+          277,
+          278,
+          281,
+          282,
+          284
+        ]
+      },
+      {
+        "algebraic_immunity": 3,
+        "full_rank_through_degree": 3,
+        "graph_relation_degree": 4,
+        "input_variables": 8,
+        "rank_at_that_degree": 130,
+        "threshold": 6,
+        "witness_monomial_masks": [
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263
+        ]
+      },
+      {
+        "algebraic_immunity": 2,
+        "full_rank_through_degree": 2,
+        "graph_relation_degree": 3,
+        "input_variables": 8,
+        "rank_at_that_degree": 46,
+        "threshold": 7,
+        "witness_monomial_masks": [
+          256,
+          257,
+          258,
+          259
+        ]
+      },
+      {
+        "algebraic_immunity": 1,
+        "full_rank_through_degree": 1,
+        "graph_relation_degree": 2,
+        "input_variables": 8,
+        "rank_at_that_degree": 10,
+        "threshold": 8,
+        "witness_monomial_masks": [
+          256,
+          257
+        ]
+      }
+    ],
+    "transcript_sha256": "757cf58d697cee322b499402ac1a01c6272d3c89cc818373136c3cc34d10603b"
+  }
+}

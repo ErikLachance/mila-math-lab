@@ -1,0 +1,26 @@
+{
+  "id": "ML-PNP-005",
+  "version": "0.5.0",
+  "date": "2026-11-26",
+  "source": "notes/pnp-graph-degree.md",
+  "output": "docs/papers/ml-pnp-005.html",
+  "code": "experiments/boolean-degree-20261126.py",
+  "data": "results/boolean-degree-20261126.json",
+  "type": "analysis",
+  "title": {
+    "en": "Graph algebraic immunity: exact threshold benchmarks and limits of repetition",
+    "fr": "Immunité algébrique des graphes : fonctions à seuil et limites de la répétition"
+  },
+  "summary": {
+    "en": "Self-contained proofs for threshold graphs and Cartesian products, applied to the finite-generator research program.",
+    "fr": "Preuves autonomes pour les graphes des fonctions à seuil et les produits cartésiens, appliquées à notre recherche sur les générateurs finis."
+  },
+  "result": {
+    "en": "Odd majority on 2k−1 inputs has exact graph relation degree k; repeating independent blocks preserves the minimum degree.",
+    "fr": "La majorité sur 2k−1 entrées a un degré minimal de relation exactement égal à k ; répéter des blocs indépendants conserve le degré minimal."
+  },
+  "scope": {
+    "en": "Majority has small circuits. A growing relation degree alone gives no general circuit lower bound or P vs NP separation. Established concepts; no novelty claim.",
+    "fr": "La majorité possède de petits circuits. Un degré croissant ne suffit pas à établir une borne inférieure générale de circuits ou à séparer P de NP. Concepts établis ; aucune nouveauté revendiquée."
+  }
+}
