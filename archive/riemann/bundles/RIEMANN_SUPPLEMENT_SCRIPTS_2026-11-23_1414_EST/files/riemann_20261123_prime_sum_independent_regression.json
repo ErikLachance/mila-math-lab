@@ -1,0 +1,13 @@
+{
+  "maxN": 300000,
+  "max_psi_over_x": [
+    1.03882057760913,
+    113
+  ],
+  "max_prime_sum_minus_logx": [
+    0.1438410362258904,
+    3
+  ],
+  "independent_checks": 299999,
+  "numeric_only": true
+}

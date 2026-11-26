@@ -1,0 +1,19 @@
+unit 11 direct maxcoeff 2
+unit 12 direct maxcoeff 2
+unit 13 direct maxcoeff 2
+unit 14 direct maxcoeff 2
+unit 15 direct maxcoeff 3
+round 5 tested 124 small 17 coll 0 units 15 seconds 3.5139282790000266
+unit 16 direct maxcoeff 2
+unit 17 direct maxcoeff 2
+round 10 tested 244 small 38 coll 3 units 17 seconds 7.366406447000031
+unit 18 direct maxcoeff 2
+unit 19 direct maxcoeff 4
+unit 20 direct maxcoeff 3
+unit 21 direct maxcoeff 3
+unit 22 direct maxcoeff 4
+unit 23 direct maxcoeff 5
+round 15 tested 339 small 58 coll 3 units 23 seconds 10.092751320000048
+round 20 tested 444 small 79 coll 4 units 23 seconds 13.761175469000023
+round 25 tested 561 small 99 coll 4 units 23 seconds 17.324093568000023
+FINAL 26 584 104 7 23 seconds 18.083416426000042

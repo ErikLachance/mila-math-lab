@@ -1,0 +1,39 @@
+{
+  "source": "Rubinstein et al, The Alpoge-Claude proof explained for zeta, v2 (2026-11-22), page 5, numerical checks G(10^4),G(10^5),G(10^6),G(2*10^6).",
+  "independent_method": "sympy.primerange, direct powers p^j and independent mpmath 65-digit accumulation of (sum log(p)/p^j,sum log(p)); no reuse of previous sieve or coefficient code.",
+  "rows": [
+    {
+      "x": 10000,
+      "prime_powers_included": 1280,
+      "G_60_decimal": "1.7493152446183758329773849578581845365950246768653984601638447",
+      "printed_Rubinstein_I1_three_decimals": 1.749,
+      "difference": 0.00031524461837572287,
+      "3_decimal_agrees": true
+    },
+    {
+      "x": 100000,
+      "prime_powers_included": 9700,
+      "G_60_decimal": "3.6714618615067848075458327993029489022798734116613907508103183",
+      "printed_Rubinstein_I1_three_decimals": 3.671,
+      "difference": 0.00046186150678498875,
+      "3_decimal_agrees": true
+    },
+    {
+      "x": 1000000,
+      "prime_powers_included": 78734,
+      "G_60_decimal": "11.040436127001278628014096229489703182046428236109933212180024",
+      "printed_Rubinstein_I1_three_decimals": 11.04,
+      "difference": 0.00043612700127948067,
+      "3_decimal_agrees": true
+    },
+    {
+      "x": 2000000,
+      "prime_powers_included": 149235,
+      "G_60_decimal": "-12.267800731448220058323191380718613681404108035011535970576146",
+      "printed_Rubinstein_I1_three_decimals": -12.268,
+      "difference": 0.0001992685517806238,
+      "3_decimal_agrees": true
+    }
+  ],
+  "limitations": "Four sample values verify implementation of scalar G only. Do not infer RH, source (M), H12 or uniform growth."
+}

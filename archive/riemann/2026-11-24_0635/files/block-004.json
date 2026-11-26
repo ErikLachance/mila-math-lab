@@ -1,0 +1,11 @@
+{
+  "exact_two_projection_certificates": 5049,
+  "exact_orthogonal_class_cases": 5000,
+  "exact_class_checks": 39589,
+  "numerical_cases": 100,
+  "largest_numerical_duality_gap": 0.0003814552900527346,
+  "median_numerical_duality_gap": 3.9495769710296e-09,
+  "median_cost_fraction_of_entropy": 0.68354770956744,
+  "elapsed_seconds": 1.0438628039999855
+}
+

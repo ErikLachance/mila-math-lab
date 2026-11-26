@@ -1,0 +1,11 @@
+{
+  "exact_gram_checks": 175,
+  "strict": 168,
+  "exact_host_intersection_checks": 200,
+  "prime_powers": 1280,
+  "ramp_relation_checks": 30,
+  "max_abs_error": "5.15415091409471778899134287353822277036521345e-44",
+  "independent_quadrature_error": "3.41566500679174161037659085926917056999563848e-45",
+  "runtime_sec": 2.331427909999988
+}
+

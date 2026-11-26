@@ -1,0 +1,107 @@
+[
+  {
+    "p": 2,
+    "height": 2,
+    "N": 4,
+    "b_T^N_coefficient_p_exponent": 2,
+    "b_first_five_p_exponents": [
+      2,
+      13,
+      60,
+      251,
+      1018
+    ],
+    "full_pseries_congruence": "[p]_F(T) == T^(p^2) mod p",
+    "all_algebraic_checks_pass": true
+  },
+  {
+    "p": 3,
+    "height": 2,
+    "N": 9,
+    "b_T^N_coefficient_p_exponent": 7,
+    "b_first_five_p_exponents": [
+      7,
+      78,
+      725,
+      6556,
+      59043
+    ],
+    "full_pseries_congruence": "[p]_F(T) == T^(p^2) mod p",
+    "all_algebraic_checks_pass": true
+  },
+  {
+    "p": 5,
+    "height": 2,
+    "N": 25,
+    "b_T^N_coefficient_p_exponent": 23,
+    "b_first_five_p_exponents": [
+      23,
+      622,
+      15621,
+      390620,
+      9765619
+    ],
+    "full_pseries_congruence": "[p]_F(T) == T^(p^2) mod p",
+    "all_algebraic_checks_pass": true
+  },
+  {
+    "p": 7,
+    "height": 2,
+    "N": 49,
+    "b_T^N_coefficient_p_exponent": 47,
+    "b_first_five_p_exponents": [
+      47,
+      2398,
+      117645,
+      5764796,
+      282475243
+    ],
+    "full_pseries_congruence": "[p]_F(T) == T^(p^2) mod p",
+    "all_algebraic_checks_pass": true
+  },
+  {
+    "p": 11,
+    "height": 2,
+    "N": 121,
+    "b_T^N_coefficient_p_exponent": 119,
+    "b_first_five_p_exponents": [
+      119,
+      14638,
+      1771557,
+      214358876,
+      25937424595
+    ],
+    "full_pseries_congruence": "[p]_F(T) == T^(p^2) mod p",
+    "all_algebraic_checks_pass": true
+  },
+  {
+    "p": 13,
+    "height": 2,
+    "N": 169,
+    "b_T^N_coefficient_p_exponent": 167,
+    "b_first_five_p_exponents": [
+      167,
+      28558,
+      4826805,
+      815730716,
+      137858491843
+    ],
+    "full_pseries_congruence": "[p]_F(T) == T^(p^2) mod p",
+    "all_algebraic_checks_pass": true
+  },
+  {
+    "p": 17,
+    "height": 2,
+    "N": 289,
+    "b_T^N_coefficient_p_exponent": 287,
+    "b_first_five_p_exponents": [
+      287,
+      83518,
+      24137565,
+      6975757436,
+      2015993900443
+    ],
+    "full_pseries_congruence": "[p]_F(T) == T^(p^2) mod p",
+    "all_algebraic_checks_pass": true
+  }
+]

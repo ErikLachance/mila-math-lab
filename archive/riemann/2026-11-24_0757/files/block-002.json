@@ -1,0 +1,13 @@
+{
+  "exact_windows": 18000,
+  "exact_sharpness_models": 16035,
+  "exhaustive_involutions": 254,
+  "nonzero_Tate_defect": 107,
+  "nontrivial_quotient": 173,
+  "max_Tate_index": 4,
+  "exact_DVR_block_models": 12000,
+  "strict_bound": 10237,
+  "sharp_bound": 1763,
+  "elapsed_seconds": 2.3871059100000025
+}
+

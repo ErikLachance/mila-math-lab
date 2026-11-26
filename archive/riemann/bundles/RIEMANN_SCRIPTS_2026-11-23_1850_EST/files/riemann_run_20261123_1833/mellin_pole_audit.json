@@ -1,0 +1,6 @@
+{
+  "double_pole_coefficient": "0",
+  "simple_pole_coefficient": "0",
+  "finite_part": "-2*c1 + gamma**2 + gamma + 1",
+  "proved_scope": "Formal Laurent-series cancellation only, assuming local Laurent expansion of zeta near s=1; no global RH result"
+}

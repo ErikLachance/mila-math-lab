@@ -1,0 +1,98 @@
+{
+  "pass_count": 2688,
+  "all_exact": true,
+  "tight_source_budget_equals_b": 24,
+  "examples": [
+    {
+      "L": "2",
+      "y": "9",
+      "b": "1",
+      "f": "1",
+      "m": "1",
+      "Nc": "0",
+      "original_G_requirement_V_le": "1",
+      "relaxed_exact_budget": "81",
+      "slack_factor": "81"
+    },
+    {
+      "L": "2",
+      "y": "9",
+      "b": "1",
+      "f": "1",
+      "m": "1",
+      "Nc": "0",
+      "original_G_requirement_V_le": "1",
+      "relaxed_exact_budget": "81",
+      "slack_factor": "81"
+    },
+    {
+      "L": "2",
+      "y": "9",
+      "b": "1",
+      "f": "1",
+      "m": "1",
+      "Nc": "5",
+      "original_G_requirement_V_le": "1",
+      "relaxed_exact_budget": "176",
+      "slack_factor": "176"
+    },
+    {
+      "L": "2",
+      "y": "9",
+      "b": "1",
+      "f": "1",
+      "m": "1",
+      "Nc": "5",
+      "original_G_requirement_V_le": "1",
+      "relaxed_exact_budget": "176",
+      "slack_factor": "176"
+    },
+    {
+      "L": "2",
+      "y": "9",
+      "b": "1",
+      "f": "1",
+      "m": "4",
+      "Nc": "0",
+      "original_G_requirement_V_le": "1",
+      "relaxed_exact_budget": "324",
+      "slack_factor": "324"
+    },
+    {
+      "L": "2",
+      "y": "9",
+      "b": "1",
+      "f": "1",
+      "m": "4",
+      "Nc": "0",
+      "original_G_requirement_V_le": "1",
+      "relaxed_exact_budget": "324",
+      "slack_factor": "324"
+    },
+    {
+      "L": "2",
+      "y": "9",
+      "b": "1",
+      "f": "1",
+      "m": "4",
+      "Nc": "5",
+      "original_G_requirement_V_le": "1",
+      "relaxed_exact_budget": "419",
+      "slack_factor": "419"
+    },
+    {
+      "L": "2",
+      "y": "9",
+      "b": "1",
+      "f": "1",
+      "m": "4",
+      "Nc": "5",
+      "original_G_requirement_V_le": "1",
+      "relaxed_exact_budget": "419",
+      "slack_factor": "419"
+    }
+  ],
+  "derived_maximal_cohomology_budget": "For C>=0, V <= y(B0+Nc)+C(y-(log x)^2)Nc is the SHARP sufficient V-budget given saturation of LinkN and target bound, with B0=f*m*b*y and y>=(log x)^2.",
+  "source_G_assumption": "Theorem G gives V<=sqrt(b); source Proposition G2 only needs V<=b. The exact algebraic allowance can be as large as f*m*b*y^2 when Nc=0. No assertion that a weaker global Galois theorem has been established.",
+  "limitation": "This only tests implication LinkN+V bound=>III.259; obtaining LinkN and any uniform V bound for actual fields remains a difficult theorem."
+}

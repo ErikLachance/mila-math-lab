@@ -1,0 +1,189 @@
+{
+  "scale": {
+    "epsilon": "1/100",
+    "a": "52/25",
+    "kappa_exponent_2": 25,
+    "cpsi_exponent_2": 52,
+    "tests": [
+      {
+        "r": 1,
+        "xprime_exponent_2": 25,
+        "x_exponent_2": 50,
+        "twist_bound_holds": false,
+        "twist_bound_gap_exponent": -9975,
+        "frame_order_exponent": 104
+      },
+      {
+        "r": 25,
+        "xprime_exponent_2": 625,
+        "x_exponent_2": 650,
+        "twist_bound_holds": false,
+        "twist_bound_gap_exponent": -9375,
+        "frame_order_exponent": 1352
+      },
+      {
+        "r": 75,
+        "xprime_exponent_2": 1875,
+        "x_exponent_2": 1900,
+        "twist_bound_holds": false,
+        "twist_bound_gap_exponent": -8125,
+        "frame_order_exponent": 3952
+      },
+      {
+        "r": 100,
+        "xprime_exponent_2": 2500,
+        "x_exponent_2": 2525,
+        "twist_bound_holds": false,
+        "twist_bound_gap_exponent": -7500,
+        "frame_order_exponent": 5252
+      },
+      {
+        "r": 399,
+        "xprime_exponent_2": 9975,
+        "x_exponent_2": 10000,
+        "twist_bound_holds": false,
+        "twist_bound_gap_exponent": -25,
+        "frame_order_exponent": 20800
+      },
+      {
+        "r": 400,
+        "xprime_exponent_2": 10000,
+        "x_exponent_2": 10025,
+        "twist_bound_holds": true,
+        "twist_bound_gap_exponent": 0,
+        "frame_order_exponent": 20852
+      },
+      {
+        "r": 401,
+        "xprime_exponent_2": 10025,
+        "x_exponent_2": 10050,
+        "twist_bound_holds": true,
+        "twist_bound_gap_exponent": 25,
+        "frame_order_exponent": 20904
+      },
+      {
+        "r": 700,
+        "xprime_exponent_2": 17500,
+        "x_exponent_2": 17525,
+        "twist_bound_holds": true,
+        "twist_bound_gap_exponent": 7500,
+        "frame_order_exponent": 36452
+      }
+    ],
+    "source_window_example": {
+      "Y_exponent_2": 10000,
+      "Z_exponent_2": 10025,
+      "target_end_exponent_2": "30075/2",
+      "source_end_exponent_2": 20025
+    },
+    "conclusion": "exact threshold xprime >= kappa^400 is NECESSARY for this exponent comparison; source assumes it"
+  },
+  "lengths": {
+    "cases": 288,
+    "all_pass": true,
+    "illustrative": {
+      "p": 3,
+      "e": 3,
+      "f": 2,
+      "s": 2,
+      "length_over_O": 6,
+      "length_over_Zp": 12,
+      "cardinality": 531441
+    },
+    "untwisted_index_countermodel": "Over K=Q, lattices A=Z,A_prime=3^N Z give index 3^N; if no primes twisted, H_j=0 despite arbitrarily large log index N log 3. This ONLY refutes equating the twisted-only H with entire lattice index without further hypotheses.",
+    "residue_degree_trap": "O length cannot be read from Z_p length without factor f; extension from Z_p length to O length needs factor e"
+  },
+  "g2_test": {
+    "bad_condition_missing": {
+      "y": "1.013911385736679411998828",
+      "logx_sq": "190.86833197722232838022",
+      "logx_sq_le_y": false,
+      "left": "190868331980.0559125653933",
+      "right": "2027822777.140527194344282",
+      "conclusion_holds": false
+    },
+    "large_x_condition_present": {
+      "y": "2.688117141816135448412626e+43",
+      "logx_sq": "10000000000.0",
+      "logx_sq_le_y": true,
+      "left": "1.998965791228728769152845e+11674344414002886632798167381008836736851967",
+      "right": "3.997931582457457538305691e+11674344414002886632798167381008836736851967",
+      "conclusion_holds": true
+    },
+    "status": "source G2 condition indispensable; test does not challenge source since source includes it"
+  },
+  "field_group": {
+    "q": 3,
+    "d": 7,
+    "tests": [
+      {
+        "n": 1,
+        "modulus": 4,
+        "quotient_size": 1,
+        "order_of_5_mod_pm": 1,
+        "composite_galois_order_with_two_independent_quadratics": 4
+      },
+      {
+        "n": 2,
+        "modulus": 8,
+        "quotient_size": 2,
+        "order_of_5_mod_pm": 2,
+        "composite_galois_order_with_two_independent_quadratics": 8
+      },
+      {
+        "n": 4,
+        "modulus": 16,
+        "quotient_size": 4,
+        "order_of_5_mod_pm": 4,
+        "composite_galois_order_with_two_independent_quadratics": 16
+      },
+      {
+        "n": 8,
+        "modulus": 32,
+        "quotient_size": 8,
+        "order_of_5_mod_pm": 8,
+        "composite_galois_order_with_two_independent_quadratics": 32
+      },
+      {
+        "n": 16,
+        "modulus": 64,
+        "quotient_size": 16,
+        "order_of_5_mod_pm": 16,
+        "composite_galois_order_with_two_independent_quadratics": 64
+      },
+      {
+        "n": 32,
+        "modulus": 128,
+        "quotient_size": 32,
+        "order_of_5_mod_pm": 32,
+        "composite_galois_order_with_two_independent_quadratics": 128
+      },
+      {
+        "n": 64,
+        "modulus": 256,
+        "quotient_size": 64,
+        "order_of_5_mod_pm": 64,
+        "composite_galois_order_with_two_independent_quadratics": 256
+      },
+      {
+        "n": 128,
+        "modulus": 512,
+        "quotient_size": 128,
+        "order_of_5_mod_pm": 128,
+        "composite_galois_order_with_two_independent_quadratics": 512
+      },
+      {
+        "n": 256,
+        "modulus": 1024,
+        "quotient_size": 256,
+        "order_of_5_mod_pm": 256,
+        "composite_galois_order_with_two_independent_quadratics": 1024
+      }
+    ],
+    "reason": "q,d odd, distinct, ramify at 3 and 7 not in the real 2-power cyclotomic part; three components independent"
+  },
+  "parity": {
+    "odd_ell": "since 2 invertible, projection operators (1+j)/2,(1-j)/2 split involution eigenspaces",
+    "ell_2_countermodel": "T=Z/2Z, j=identity. Both +1 and -1 eigenspaces equal T (because 1=-1 mod 2). Their naive lengths sum 2 while length T is 1; decomposition needs ell odd or altered formulation."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "uniformity_lemma": "Assuming uniform mean-square bound on S_p(a) and D_p(v) with one C for all a in [Y,Y^K], the fraction of primes bad somewhere is <=[32 C/(tau(1-2^-tau))] Y^-tau for tau in (0,1], Y>=2. No probabilistic independence or discretization needed.",
+  "proof_steps": [
+    "Cauchy-Schwarz for each p along [a,b]",
+    "sum C a log(a) and C log(v)/v bounds",
+    "Markov on maximum point w_p to get 16C log(2a)/a^(2tau)",
+    "monotone bound log(2a)<=2a^tau/tau",
+    "sum dyadic geometric series"
+  ],
+  "thresholds_for_illustrative_C_1_eta_.1": [
+    {
+      "epsilon": "0.01",
+      "tau": "0.005",
+      "logY_sufficient_threshold": "3346.6402033902140745165930201949294",
+      "log10Y_sufficient_threshold": "1453.4273732479463421740357659583236",
+      "bad_fraction_on_threshold": "0.1"
+    },
+    {
+      "epsilon": "0.005",
+      "tau": "0.0025",
+      "logY_sufficient_threshold": "7247.4517277796524879455556197761781",
+      "log10Y_sufficient_threshold": "3147.5282932348914785429770057186939",
+      "bad_fraction_on_threshold": "0.1"
+    },
+    {
+      "epsilon": "0.001",
+      "tau": "0.0005",
+      "logY_sufficient_threshold": "42673.6242345000447548290717859684",
+      "log10Y_sufficient_threshold": "18532.919527856248313584936645443469",
+      "bad_fraction_on_threshold": "0.1"
+    }
+  ],
+  "illustrative_union_bound_families": [
+    {
+      "number_existing_families": 1,
+      "log10Y_sufficient": "1573.83937151354",
+      "fraction_bad_per_family": "0.025"
+    },
+    {
+      "number_existing_families": 2,
+      "log10Y_sufficient": "1609.05762332468",
+      "fraction_bad_per_family": "0.0166666666666667"
+    },
+    {
+      "number_existing_families": 10,
+      "log10Y_sufficient": "1721.91190941239",
+      "fraction_bad_per_family": "0.00454545454545455"
+    },
+    {
+      "number_existing_families": 100,
+      "log10Y_sufficient": "1914.49764713727",
+      "fraction_bad_per_family": "0.000495049504950495"
+    }
+  ],
+  "caveat": "The uniform mean-square inputs, zero-free box and simultaneous admissible prime existence remain deep external assumptions; threshold sizes are illustrative and not explicit effective bounds for the actual theory."
+}

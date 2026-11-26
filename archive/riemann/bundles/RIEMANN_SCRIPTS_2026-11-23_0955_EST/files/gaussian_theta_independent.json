@@ -1,0 +1,41 @@
+{
+  "source": "Rubinstein 2026 guide section I.4.1 and III.12 Prop Le7, Cor Le8",
+  "precision_digits": 110,
+  "lattice_cutoff_axis": 12,
+  "T0": "(1.18034059901609622604533794055848858723371663488144729951586439940430418072071579497845862 + 0.0j)",
+  "omega": "2.62205755429211981046483958989111941368275495143162316281682170380079058707041425023029553",
+  "checks": [
+    {
+      "k": 1,
+      "r": "(0.25 + 1.381976394051989013703088040261101843020453832389904641e-117j)",
+      "expected": "1/4",
+      "absolute_error": "2.9107147e-111"
+    },
+    {
+      "k": 2,
+      "r": "(1.0625 + 4.82421191590112929484214601075107836928754804682830425e-116j)",
+      "expected": "17/16",
+      "absolute_error": "1.6632656e-110"
+    },
+    {
+      "k": 3,
+      "r": "(-1.734375 - 1.94834739655358545583869846876513377992856975132012765e-113j)",
+      "expected": "-111/64",
+      "absolute_error": "2.6612256e-110"
+    },
+    {
+      "k": 4,
+      "r": "(48.87890625 - 5.826405820954899314028165201086216929215364515685516618e-112j)",
+      "expected": "12513/256",
+      "absolute_error": "1.2773881e-108"
+    },
+    {
+      "k": 5,
+      "r": "(-142.6552734375 + 5.034406131320640855090451468108593793981063958454947283e-111j)",
+      "expected": "-146079/1024",
+      "absolute_error": "1.0645019e-108"
+    }
+  ],
+  "proven_finite_symmetry": "exact finite centered square invariant under multiplication by i, so non-4-divisible moments vanish; all infinite moments converge absolutely by Gaussian factor",
+  "note": "finite cutoff comparisons are high precision numerical checks, not proof of infinite Gaussian theta evaluations"
+}

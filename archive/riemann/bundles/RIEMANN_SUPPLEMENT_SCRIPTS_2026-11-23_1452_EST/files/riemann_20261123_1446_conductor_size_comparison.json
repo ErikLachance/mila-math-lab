@@ -1,0 +1,23 @@
+{
+  "analytic_limit": "exp(2eps*t/15)/t^2 -> infinity for fixed eps>0",
+  "sample_checks": [
+    {
+      "epsilon": 0.005,
+      "log_x": 64000.0,
+      "log_of_ratio_of_exponents": 20.533389941983046,
+      "ratio": 827061770.1056764
+    },
+    {
+      "epsilon": 0.01,
+      "log_x": 16000.0,
+      "log_of_ratio_of_exponents": 1.9726453308894953,
+      "ratio": 7.189670411889879
+    },
+    {
+      "epsilon": 0.018,
+      "log_x": 8000.0,
+      "log_of_ratio_of_exponents": 1.2256063586760533,
+      "ratio": 3.406230854362661
+    }
+  ]
+}

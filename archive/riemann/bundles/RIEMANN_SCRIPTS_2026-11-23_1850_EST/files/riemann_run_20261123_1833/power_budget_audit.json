@@ -1,0 +1,77 @@
+{
+  "exact_fraction_epsilon_cases": 5,
+  "passed": true,
+  "caution": "Exponent arithmetic only; does not establish the main analytic bound (M) or hypotheses H0-H12.",
+  "cases": [
+    {
+      "epsilon": "1/1000",
+      "m_exp": "7999/16000",
+      "n_exp": "251/125",
+      "k_exp": "451/100",
+      "A_term_exponents": [
+        "8001/16000",
+        "-48161/16000",
+        "7999/16000",
+        "247/500"
+      ],
+      "A_total_upper_exponent": "8001/16000",
+      "bound": "x/m + x*m/k + m + k/n^2 <= 7*x^(1/2+epsilon/16) for x>=1, assuming PageWin factor-2 bounds"
+    },
+    {
+      "epsilon": "1/200",
+      "m_exp": "1599/3200",
+      "n_exp": "51/25",
+      "k_exp": "91/20",
+      "A_term_exponents": [
+        "1601/3200",
+        "-9761/3200",
+        "1599/3200",
+        "47/100"
+      ],
+      "A_total_upper_exponent": "1601/3200",
+      "bound": "x/m + x*m/k + m + k/n^2 <= 7*x^(1/2+epsilon/16) for x>=1, assuming PageWin factor-2 bounds"
+    },
+    {
+      "epsilon": "1/52",
+      "m_exp": "415/832",
+      "n_exp": "28/13",
+      "k_exp": "61/13",
+      "A_term_exponents": [
+        "417/832",
+        "-2657/832",
+        "415/832",
+        "5/13"
+      ],
+      "A_total_upper_exponent": "417/832",
+      "bound": "x/m + x*m/k + m + k/n^2 <= 7*x^(1/2+epsilon/16) for x>=1, assuming PageWin factor-2 bounds"
+    },
+    {
+      "epsilon": "1/32",
+      "m_exp": "255/512",
+      "n_exp": "9/4",
+      "k_exp": "77/16",
+      "A_term_exponents": [
+        "257/512",
+        "-1697/512",
+        "255/512",
+        "5/16"
+      ],
+      "A_total_upper_exponent": "257/512",
+      "bound": "x/m + x*m/k + m + k/n^2 <= 7*x^(1/2+epsilon/16) for x>=1, assuming PageWin factor-2 bounds"
+    },
+    {
+      "epsilon": "1/16",
+      "m_exp": "127/256",
+      "n_exp": "5/2",
+      "k_exp": "41/8",
+      "A_term_exponents": [
+        "129/256",
+        "-929/256",
+        "127/256",
+        "1/8"
+      ],
+      "A_total_upper_exponent": "129/256",
+      "bound": "x/m + x*m/k + m + k/n^2 <= 7*x^(1/2+epsilon/16) for x>=1, assuming PageWin factor-2 bounds"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "statement": "RH iff for every integer j>=3, there exists finite C_j>=0 and arbitrarily large integers m such that G(n)<=C_j*n^theta_j at every integer node n of the grid for theta_j=1/2+1/j on [m^2,m^3].",
+  "proof": "RH => G(x)=O(sqrt(x)) from source explicit formula, so yes. Converse: for each j, exact grid h^(4j)<=8^(2j) a^(3j+2) ensures G(x)<=(C_j+1)x^theta_j for all real x in [m^2,m^3]. Given any tau>1/2 choose j so theta_j<tau, then m large enough that (C_j+1)*(m^2)^(theta_j-tau)<=1. Thus G(x)<=x^tau on arbitrarily far-out [m^2,m^3]. Source one-sided Landau interval lemma implies no zeta zeros with Re>tau; take tau down to half and functional equation to deduce RH. No hidden extension to arbitrary leading constants required.",
+  "notes": "This is strictly a conditional restatement and not a proof, since it supplies no uniform C_j or arithmetic G values for arbitrarily large m. It reduces quantifiers to countable j and integer grid nodes but still an infinite unproved arithmetic condition. Source Part II sections 4-5 are pointwise in x and permits auxiliary q,d to vary with x; a weakened H12 need only establish pointwise hypotheses at those nodes WITH constants uniform in m and x. This does not follow from finite testing.",
+  "finite_exact_integer_tests": [
+    {
+      "j": 3,
+      "theta": "(5)/(2*3)",
+      "m": 30,
+      "start": 900,
+      "end": 27000,
+      "steps": 4,
+      "max_gap": 13196,
+      "all_bigint_checks": "PASS"
+    },
+    {
+      "j": 4,
+      "theta": "(6)/(2*4)",
+      "m": 100,
+      "start": 10000,
+      "end": 1000000,
+      "steps": 9,
+      "max_gap": 299093,
+      "all_bigint_checks": "PASS"
+    },
+    {
+      "j": 10,
+      "theta": "(12)/(2*10)",
+      "m": 1000,
+      "start": 1000000,
+      "end": 1000000000,
+      "steps": 87,
+      "max_gap": 42872839,
+      "all_bigint_checks": "PASS"
+    },
+    {
+      "j": 100,
+      "theta": "(102)/(2*100)",
+      "m": 1000,
+      "start": 1000000,
+      "end": 1000000000,
+      "steps": 192,
+      "max_gap": 17324078,
+      "all_bigint_checks": "PASS"
+    },
+    {
+      "j": 100,
+      "theta": "(102)/(2*100)",
+      "m": 10000,
+      "start": 100000000,
+      "end": 1000000000000,
+      "steps": 1129,
+      "max_gap": 3233737672,
+      "all_bigint_checks": "PASS"
+    }
+  ]
+}

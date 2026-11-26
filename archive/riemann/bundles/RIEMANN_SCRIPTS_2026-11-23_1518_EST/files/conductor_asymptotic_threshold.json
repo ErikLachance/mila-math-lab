@@ -1,0 +1,35 @@
+{
+  "equivalence": "log(Xprime/d) >= exp(eps*t/5)*(exp(2eps*t/15)-t*t), t=log x; eventual Xprime/d greater than 4 if ratio >1 beyond asymptotic threshold",
+  "thresholds": [
+    {
+      "epsilon": 0.005,
+      "critical_log_x_large_root": 31027.929044344688,
+      "critical_log10_x": 13475.258368844534,
+      "ratio_at_t10000": 7.857719942274168e-06,
+      "ratio_at_t40000": 238.26826445430407,
+      "ratio_at_t60000": 65384796.34361661,
+      "test_f_below": -6.0220860476079e-07,
+      "test_f_above": 6.02208615418931e-07
+    },
+    {
+      "epsilon": 0.01,
+      "critical_log_x_large_root": 14358.10478242913,
+      "critical_log10_x": 6235.645677597661,
+      "ratio_at_t10000": 0.006174376269121316,
+      "ratio_at_t40000": 90834825353706.08,
+      "ratio_at_t60000": 1.5390617734426404e+25,
+      "test_f_below": -1.194039175089756e-06,
+      "test_f_above": 1.1940391928533245e-06
+    },
+    {
+      "epsilon": 0.018,
+      "critical_log_x_large_root": 7427.448005915814,
+      "critical_log10_x": 3225.6996835925493,
+      "ratio_at_t10000": 264.8912212984343,
+      "ratio_at_t40000": 3.07716142875753e+32,
+      "ratio_at_t60000": 9.59627960199311e+52,
+      "test_f_below": -2.130728486093858e-06,
+      "test_f_above": 2.130728532279136e-06
+    }
+  ]
+}

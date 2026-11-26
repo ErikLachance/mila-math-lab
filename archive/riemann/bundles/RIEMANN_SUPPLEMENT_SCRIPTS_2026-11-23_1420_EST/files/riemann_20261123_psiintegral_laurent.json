@@ -1,0 +1,49 @@
+{
+  "source": "https://mathworld.wolfram.com/MangoldtSummatoryFunction.html",
+  "finite_exact_formula": "Integral_1^X (psi(u)-u)/u^2 du = sum_{n<=X}Lambda(n)/n-psi(X)/X-log(X)",
+  "infinite_result": "-1-EulerGamma",
+  "finite_checkpoints": [
+    {
+      "x": 10,
+      "integral": "-1.39113585312012368",
+      "difference_from_limit": "0.18607981178141",
+      "primepower_mass_psi": "7.832014180505469"
+    },
+    {
+      "x": 100,
+      "integral": "-1.55999879840616474",
+      "difference_from_limit": "0.017216866495368",
+      "primepower_mass_psi": "94.04531122935739"
+    },
+    {
+      "x": 1000,
+      "integral": "-1.57568475156534699",
+      "difference_from_limit": "0.0015309133361859",
+      "primepower_mass_psi": "996.6809122471752"
+    },
+    {
+      "x": 10000,
+      "integral": "-1.57704073337707102",
+      "difference_from_limit": "0.00017493152446184",
+      "primepower_mass_psi": "10013.39669326311"
+    },
+    {
+      "x": 100000,
+      "integral": "-1.57717895028291779",
+      "difference_from_limit": "3.6714618615068e-5",
+      "primepower_mass_psi": "100051.564025658"
+    },
+    {
+      "x": 1000000,
+      "integral": "-1.57720462446540586",
+      "difference_from_limit": "1.1040436127001e-5",
+      "primepower_mass_psi": "999586.5974956329"
+    }
+  ],
+  "independent_step_integral_1000": "-1.575684751565346989704921",
+  "vs_primepower_formula_1000": "-1.575684751565346989704921",
+  "mellin_laurent_epsilon": "0.00000001",
+  "mellin_residue_numeric": "-1.577215647253913811972984",
+  "claimed_infinite_proof": "Dirichlet series analytic at Re(s)>1; PNT strong error for dominated limit as s down to1; Laurent expansion at1. Requires unconditional zero-free region/PNT input, not RH.",
+  "conclusion": "source identity confirmed; no new Riemann proof"
+}

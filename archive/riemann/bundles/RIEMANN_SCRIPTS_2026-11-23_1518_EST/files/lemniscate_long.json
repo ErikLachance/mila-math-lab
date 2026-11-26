@@ -1,0 +1,12 @@
+{
+  "n": 1945,
+  "A_n_integer": true,
+  "digits": 5034,
+  "v3": 734,
+  "bound_floor3": 729,
+  "excess3_numerator": 37,
+  "excess3_div8": 4.625,
+  "v7": 283,
+  "bound_floor7": 283,
+  "elapsed_s": 21.870016098999997
+}

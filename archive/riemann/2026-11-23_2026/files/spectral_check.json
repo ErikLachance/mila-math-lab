@@ -1,0 +1,36 @@
+{
+  "zeros_below_T": 79,
+  "next_zero": "(0.5 + 201.264751943703788733016133427548173222402864j)",
+  "T": 200,
+  "prime_count": 1028,
+  "trial_division_checked": 8191,
+  "log_numeric_checks": 482,
+  "rows": [
+    {
+      "x": 16,
+      "spectral_estimate": "0.00000276665490966153343877237824759155640167151978",
+      "analytic_tail_bound": "0.00000000168926227781223000146520146520146520146520147",
+      "inside_arithmetic_interval": true
+    },
+    {
+      "x": 64,
+      "spectral_estimate": "-0.0000259533982885829536027541770103136603673527265",
+      "analytic_tail_bound": "0.00000000337852455562446000293040293040293040293040293",
+      "inside_arithmetic_interval": true
+    },
+    {
+      "x": 256,
+      "spectral_estimate": "-0.0000551201440155804870184657687033741771514866583",
+      "analytic_tail_bound": "0.00000000675704911124892000586080586080586080586080586",
+      "inside_arithmetic_interval": true
+    },
+    {
+      "x": 1024,
+      "spectral_estimate": "-0.0000401856968477240974063037197255648620225140225",
+      "analytic_tail_bound": "0.0000000135140982224978400117216117216117216117216117",
+      "inside_arithmetic_interval": true
+    }
+  ],
+  "elapsed_code_seconds": 14.061039417999979,
+  "warning": "mpmath zero ordinates and finite product are not interval certified; tail bound analytic; independent numeric regression only."
+}

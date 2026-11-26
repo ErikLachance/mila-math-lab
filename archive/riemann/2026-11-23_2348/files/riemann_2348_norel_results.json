@@ -1,0 +1,17 @@
+{
+  "shell_checks": 1680,
+  "triple_checks": 1018545,
+  "central_mass_checks": 15,
+  "anchor_checks": 4896,
+  "small_base_counter": [
+    2,
+    6,
+    5,
+    25,
+    22,
+    27,
+    30
+  ],
+  "runtime_seconds": 0.4303412929999979
+}
+

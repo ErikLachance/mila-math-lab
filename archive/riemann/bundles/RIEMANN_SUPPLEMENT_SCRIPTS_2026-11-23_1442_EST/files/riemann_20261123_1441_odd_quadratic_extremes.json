@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "scope": "d prime 3 modulo 4; chi_{-d} primitive odd real quadratic",
+  "cases": [
+    {
+      "bound": 10,
+      "num_primes": 4,
+      "chi_positive_d": "311",
+      "chi_negative_d": "547",
+      "progression_modulus_digits": 3,
+      "scan_steps_positive": 0,
+      "scan_steps_negative": 0,
+      "exact_lower_zero": true,
+      "max_bound": "0.83457331719860459757126631054241619",
+      "max_error": "0.0"
+    },
+    {
+      "bound": 30,
+      "num_primes": 10,
+      "chi_positive_d": "10792179191",
+      "chi_negative_d": "238929233467",
+      "progression_modulus_digits": 11,
+      "scan_steps_positive": 0,
+      "scan_steps_negative": 9,
+      "exact_lower_zero": true,
+      "max_bound": "2.03295976336352551149118808187535622",
+      "max_error": "0.0"
+    },
+    {
+      "bound": 100,
+      "num_primes": 25,
+      "chi_positive_d": "60765662588513235425022835652976245831",
+      "chi_negative_d": "77952153794507619893681285262321432427",
+      "progression_modulus_digits": 37,
+      "scan_steps_positive": 6,
+      "scan_steps_negative": 8,
+      "exact_lower_zero": true,
+      "max_bound": "3.92744002202365447251797944030498056",
+      "max_error": "0.0"
+    }
+  ]
+}

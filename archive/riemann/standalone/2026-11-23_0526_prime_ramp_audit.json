@@ -1,0 +1,38 @@
+{
+  "source": "Rubinstein zeta-paper v2 PDF I.2 and I.3 2026-11-22",
+  "regression": [
+    {
+      "x": 10000,
+      "S": 76332.99638599128,
+      "G": 1.7493152447786997,
+      "reference_3dp": 1.749,
+      "difference": 0.0003152447786995971
+    },
+    {
+      "x": 100000,
+      "S": 993574.6514687322,
+      "G": 3.671461862482829,
+      "reference_3dp": 3.671,
+      "difference": 0.0004618624828292006
+    },
+    {
+      "x": 1000000,
+      "S": 12238305.933498824,
+      "G": 11.040436083916575,
+      "reference_3dp": 11.04,
+      "difference": 0.0004360839165755692
+    },
+    {
+      "x": 2000000,
+      "S": 25862871.879444644,
+      "G": -12.267800728790462,
+      "reference_3dp": -12.268,
+      "difference": 0.00019927120953866506
+    }
+  ],
+  "n_prime_powers": 149235,
+  "max_rounding_difference": 0.0004618624828292006,
+  "toy_sparse_points_conclusion": "Pointwise upper bounds on infinitely many isolated x do not exclude off-line-type oscillations; long multiplicative intervals are a genuine extra condition.",
+  "elapsed_wall_seconds": 0.5872128470000462,
+  "status": "independent floating regression, not formal verification"
+}

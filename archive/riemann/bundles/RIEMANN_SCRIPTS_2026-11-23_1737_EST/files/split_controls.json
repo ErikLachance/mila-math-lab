@@ -1,0 +1,64 @@
+[
+  {
+    "prime": 7,
+    "case": "CM j=0 split p=7",
+    "Dpowp_x_modp": {
+      "A": {},
+      "B": {
+        "0": 1
+      }
+    },
+    "vanishes": false
+  },
+  {
+    "prime": 13,
+    "case": "CM j=0 split p=13",
+    "Dpowp_x_modp": {
+      "A": {},
+      "B": {
+        "0": 4
+      }
+    },
+    "vanishes": false
+  },
+  {
+    "prime": 5,
+    "case": "CM j=1728 split p=5",
+    "Dpowp_x_modp": {
+      "A": {},
+      "B": {
+        "0": 1
+      }
+    },
+    "vanishes": false
+  },
+  {
+    "prime": 13,
+    "case": "CM j=1728 split p=13",
+    "Dpowp_x_modp": {
+      "A": {},
+      "B": {
+        "0": 12
+      }
+    },
+    "vanishes": false
+  },
+  {
+    "prime": 5,
+    "case": "CM j=0 inert p=5",
+    "Dpowp_x_modp": {
+      "A": {},
+      "B": {}
+    },
+    "vanishes": true
+  },
+  {
+    "prime": 7,
+    "case": "CM j=1728 inert p=7",
+    "Dpowp_x_modp": {
+      "A": {},
+      "B": {}
+    },
+    "vanishes": true
+  }
+]

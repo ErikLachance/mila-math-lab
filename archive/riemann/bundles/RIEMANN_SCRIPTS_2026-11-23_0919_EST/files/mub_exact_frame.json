@@ -1,0 +1,57 @@
+{
+  "proof": "Odd finite field Gauss sums: for a!=0 mod p, |sum_x exp(2pi i (a*x*x+b*x)/p)|^2=p, since shifting by h leaves only h=0 after x sum; equal-a distinct-b geometric sums vanish. This proves the frame and overlaps exactly for all odd primes p.",
+  "status": "PASS",
+  "experimental_checks": [
+    {
+      "prime_dimension": 3,
+      "bases": 4,
+      "vectors": 12,
+      "frame_operator_eigen_min": 3.999999999999999,
+      "frame_operator_eigen_max": 4.000000000000002,
+      "max_overlap_squared_error": 2.220446049250313e-16,
+      "frame_operator_error": 8.881887986013117e-16,
+      "second_moment_defect_eta": -2.220446049250313e-16
+    },
+    {
+      "prime_dimension": 5,
+      "bases": 6,
+      "vectors": 30,
+      "frame_operator_eigen_min": 5.9999999999999964,
+      "frame_operator_eigen_max": 6.0000000000000036,
+      "max_overlap_squared_error": 1.6653345369377348e-16,
+      "frame_operator_error": 2.6645352591003757e-15,
+      "second_moment_defect_eta": 0.0
+    },
+    {
+      "prime_dimension": 7,
+      "bases": 8,
+      "vectors": 56,
+      "frame_operator_eigen_min": 7.999999999999987,
+      "frame_operator_eigen_max": 8.000000000000009,
+      "max_overlap_squared_error": 1.942890293094024e-16,
+      "frame_operator_error": 8.881784197001252e-15,
+      "second_moment_defect_eta": -1.1102230246251565e-16
+    },
+    {
+      "prime_dimension": 11,
+      "bases": 12,
+      "vectors": 132,
+      "frame_operator_eigen_min": 11.99999999999999,
+      "frame_operator_eigen_max": 12.000000000000016,
+      "max_overlap_squared_error": 1.3877787807814457e-16,
+      "frame_operator_error": 7.105427357601002e-15,
+      "second_moment_defect_eta": -2.220446049250313e-16
+    },
+    {
+      "prime_dimension": 13,
+      "bases": 14,
+      "vectors": 182,
+      "frame_operator_eigen_min": 13.999999999999982,
+      "frame_operator_eigen_max": 14.000000000000021,
+      "max_overlap_squared_error": 1.942890293094024e-16,
+      "frame_operator_error": 1.4210854715202004e-14,
+      "second_moment_defect_eta": 0.0
+    }
+  ],
+  "limits": "Finite-dimensional toy illustrating block correlations; does not verify theta lift bounds LinkS or Riemann"
+}

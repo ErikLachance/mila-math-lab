@@ -1,0 +1,210 @@
+{
+  "arithmetic": "exact integers and F_7; Python standard library; no floating point",
+  "cases": [
+    {
+      "ambient_dimension_over_F7": 42,
+      "identities_verified": [
+        "S^7=I",
+        "G^6=I",
+        "GS=S^3G",
+        "D^7=0",
+        "GD=3DG",
+        "S(U)=U",
+        "G(U)=U"
+      ],
+      "integer_table_composition_identities_checked": 441,
+      "jordan_block_lengths_on_orbit_span": [
+        7,
+        7,
+        6
+      ],
+      "multiplication_dimension": 21,
+      "orbit_rank": 20,
+      "q": 683,
+      "recorded_local_vectors": 5,
+      "restriction_ranks_D_power_U": [
+        20,
+        17,
+        14,
+        11,
+        8,
+        5,
+        2,
+        0
+      ],
+      "selected_units": [
+        {
+          "archived_index": 0,
+          "determinant": 1,
+          "maximum_absolute_coordinate": 1
+        },
+        {
+          "archived_index": 1,
+          "determinant": -1,
+          "maximum_absolute_coordinate": 1
+        },
+        {
+          "archived_index": 6,
+          "determinant": 1,
+          "maximum_absolute_coordinate": 1
+        },
+        {
+          "archived_index": 34,
+          "determinant": 1,
+          "maximum_absolute_coordinate": 3
+        },
+        {
+          "archived_index": 285,
+          "determinant": 1,
+          "maximum_absolute_coordinate": 3626
+        }
+      ],
+      "shift_orbit_columns": 35,
+      "sum_ranks_U_plus_image_D_power": [
+        38,
+        35,
+        32,
+        29,
+        26,
+        23,
+        20
+      ],
+      "weight_dimensions": [
+        3,
+        4,
+        3,
+        4,
+        3,
+        3
+      ],
+      "weight_eigenvalues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "ambient_dimension_over_F7": 42,
+      "identities_verified": [
+        "S^7=I",
+        "G^6=I",
+        "GS=S^3G",
+        "D^7=0",
+        "GD=3DG",
+        "S(U)=U",
+        "G(U)=U"
+      ],
+      "integer_table_composition_identities_checked": 441,
+      "jordan_block_lengths_on_orbit_span": [
+        7,
+        7,
+        6
+      ],
+      "multiplication_dimension": 21,
+      "orbit_rank": 20,
+      "q": 907,
+      "recorded_local_vectors": 5,
+      "restriction_ranks_D_power_U": [
+        20,
+        17,
+        14,
+        11,
+        8,
+        5,
+        2,
+        0
+      ],
+      "selected_units": [
+        {
+          "archived_index": 0,
+          "determinant": 1,
+          "maximum_absolute_coordinate": 1
+        },
+        {
+          "archived_index": 1,
+          "determinant": -1,
+          "maximum_absolute_coordinate": 1
+        },
+        {
+          "archived_index": 14,
+          "determinant": 1,
+          "maximum_absolute_coordinate": 3
+        },
+        {
+          "archived_index": 62,
+          "determinant": 1,
+          "maximum_absolute_coordinate": 6
+        },
+        {
+          "archived_index": 58,
+          "determinant": -1,
+          "maximum_absolute_coordinate": 211
+        }
+      ],
+      "shift_orbit_columns": 35,
+      "sum_ranks_U_plus_image_D_power": [
+        38,
+        35,
+        32,
+        29,
+        26,
+        23,
+        20
+      ],
+      "weight_dimensions": [
+        3,
+        4,
+        3,
+        4,
+        3,
+        3
+      ],
+      "weight_eigenvalues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "date": "2026-11-26",
+  "inputs": [
+    {
+      "path": "archive/riemann/2026-11-25_1151/files/minimal_certificate.json",
+      "sha256": "533bc4cb09a4ff49e770292d85c4d293bc9acdda21fccef3d1a5b0c9b9912723"
+    },
+    {
+      "path": "archive/riemann/2026-11-25_1105/files/units_wide683.json",
+      "sha256": "f1e53e11d457586cbd5c6dbb548742f0ba92c08b24b3d3e4557ec44347aa0cf5"
+    },
+    {
+      "path": "archive/riemann/2026-11-25_1105/files/units_wide907.json",
+      "sha256": "25eba4b147296fb037d5d6cc2326142e054ebb1b4ccacf89244f88fceb5af1ef"
+    }
+  ],
+  "schema_version": 1,
+  "scope": {
+    "not_replayed_or_proved": [
+      "Arithmetic evaluation of units in the claimed local embeddings.",
+      "Equality of independently regenerated 7-adic precision levels.",
+      "Identification or maximality of the number-field orders.",
+      "Completeness or saturation of the global unit groups.",
+      "Class-group, Kummer, reciprocity or global automorphy hypotheses.",
+      "The local expansion coefficients e_loc and e8.",
+      "Any proof of the Riemann hypothesis."
+    ],
+    "verified": [
+      "The supplied integer multiplication tables satisfy unital, commutative, associative table identities.",
+      "The ten selected multiplication determinants equal their recorded values +1 or -1.",
+      "The recorded local vectors generate the reported F_7 orbit spaces, filtrations and weight dimensions."
+    ]
+  },
+  "selected_unit_determinants_checked": 10,
+  "source_sha256": "07b0568d7fe00b526300085115ef7c854134910fcf8dff73e1b25245b4f1a2b4",
+  "status": "pass"
+}

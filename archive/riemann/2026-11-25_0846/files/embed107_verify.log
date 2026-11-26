@@ -1,0 +1,13 @@
+residue roots [(1, 0, 0, 0, 0, 0), (4, 0, 0, 1, 0, 0), (4, 0, 0, 6, 0, 0)]
+translated residue roots 3
+translated residue roots 3
+roots labeled [(215489, 789929, 624260, 0, 0, 0), (609809, 437940, 652945, 95859, 312357, 816352), (461696, 468473, 399016, 198626, 370768, 365227), (644312, 774287, 592724, 139523, 78073, 410858), (644312, 774287, 592724, 583178, 157225, 816053), (461696, 468473, 399016, 591303, 688073, 57349), (609809, 437940, 652945, 122632, 544800, 674669)]
+embedded unit count 19
+unit span rank 20
+R3 R4 rank 32 29
+global covariance checked
+rank R3 32 with X0 33 with Dy1 34 with utheta 35 with D2yb 35
+e_loc zero? False
+nonzero X0 coefficient verified
+semidirect covariance verified
+

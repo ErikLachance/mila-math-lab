@@ -1,0 +1,2 @@
+symbolic [ad_X V, ad_X^2 V] = Matrix([[0, -a**2*b, 0], [0, 0, -a**2*b], [-4*a**3, 0, 0]])
+exact randomized higher corrections for all nonzero leading triples 216 pair tests 1296 elapsed 2.774836402999995

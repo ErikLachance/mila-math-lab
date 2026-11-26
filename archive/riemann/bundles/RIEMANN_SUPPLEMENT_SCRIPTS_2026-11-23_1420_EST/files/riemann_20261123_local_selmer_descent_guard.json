@@ -1,0 +1,30 @@
+{
+  "l": 3,
+  "N": 7,
+  "e": 1,
+  "local_prime": 7,
+  "field": "real cubic subfield E=Q(zeta_7)^+; E_w/Q_7 totally ramified cyclic degree3",
+  "invariants": "M_e^{G_Ew} has order 3 (since v_3(7^e-1)=1) and C3 acts trivially",
+  "H1_C3_Z3_classes": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      1
+    ]
+  ],
+  "local_inflation_restriction_kernel_order": 3,
+  "source_file": "https://github.com/jimjamzola/RH-Alpoge-Reconstruction/blob/main/manuscript/sec17_twisted.tex",
+  "precise_warning": "The displayed proof establishes injection and invariant image, not the stated onto-all-invariants part for global Sha. Local restriction at a ramified 7-place has nonzero kernel; this alone does NOT disprove global surjectivity or affect the weaker injection/length claim actually used, and does NOT refute the Lean proof.",
+  "global_counterexample": false,
+  "riemann_status": "no RH implication"
+}

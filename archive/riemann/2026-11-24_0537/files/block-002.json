@@ -1,0 +1,18 @@
+{
+  "partitions": 1000,
+  "group_pair_checks": 8392,
+  "odd_primes": 25,
+  "exact_gauss_sums": 75993,
+  "residue_histogram_entries": 5726743,
+  "mub_basis_pair_checks": 38576,
+  "mub_partition_checks": 300,
+  "height_counterexamples": [
+    "5/2",
+    "17/4",
+    "257/16",
+    "65537/256",
+    "4294967297/65536"
+  ],
+  "seconds": 4.749789619999973
+}
+

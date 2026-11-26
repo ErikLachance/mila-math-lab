@@ -1,0 +1,7 @@
+F class factors -321 1498*z - 5992 -1498*z - 7490 47124084 B product -252
+h_F candidates [63, 126]
+Kummer dimensions F [((0, 0), 1), ((0, 2), 0), ((0, 4), 0), ((1, 0), 1), ((1, 2), 1), ((1, 4), 1)]
+cert1.json checked 42 simultaneous generator/place choices
+cert2.json checked 42 simultaneous generator/place choices
+total cases 84 elapsed 2.1187703900000088
+

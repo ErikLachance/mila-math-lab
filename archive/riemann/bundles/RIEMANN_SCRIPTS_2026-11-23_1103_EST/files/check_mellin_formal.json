@@ -1,0 +1,41 @@
+{
+  "mellin_prime_powers": [
+    {
+      "s": 2,
+      "N": 100000,
+      "prime_power_terms": 9700,
+      "finite_sum": "0.5699509987625496040569129",
+      "zeta_log_derivative": "0.5699609930945328063998644",
+      "positive_tail": "9.99433198320234295e-6",
+      "naive_integral_tail_upper": "0.000125129254649702284",
+      "tail_less_than_upper": true
+    },
+    {
+      "s": 3,
+      "N": 100000,
+      "prime_power_terms": 9700,
+      "finite_sum": "0.1648226821083349350200769",
+      "zeta_log_derivative": "0.1648226821582772401864934",
+      "positive_tail": "4.99423051664165362e-11",
+      "naive_integral_tail_upper": "6.00646273248511421e-10",
+      "tail_less_than_upper": true
+    },
+    {
+      "s": 4,
+      "N": 100000,
+      "prime_power_terms": 9700,
+      "finite_sum": "0.06366976495537079374549218",
+      "zeta_log_derivative": "0.06366976495537112649619868",
+      "positive_tail": "3.32750706495759988e-16",
+      "naive_integral_tail_upper": "3.94875293276785392e-15",
+      "tail_less_than_upper": true
+    }
+  ],
+  "formal_inverse": {
+    "p": 3,
+    "max_degree": 81,
+    "nonzero_coefficients": 11,
+    "composition_l_of_U_equals_z_to_order_D": true,
+    "failures": []
+  }
+}

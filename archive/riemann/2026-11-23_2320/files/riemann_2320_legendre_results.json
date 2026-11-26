@@ -1,0 +1,15 @@
+{
+  "q_count": 289,
+  "Z": 45,
+  "m0": 120,
+  "a0": 7,
+  "q_limit": 100000,
+  "exact_reciprocity_checks": 13005,
+  "exact_grouped_gram_checks": 100,
+  "group_count": 12,
+  "exception_candidate": 407,
+  "largest_abs_correlation": "31/289",
+  "second_largest_abs_correlation": "29/289",
+  "runtime_s": 1.424949631000004
+}
+

@@ -1,0 +1,69 @@
+{
+  "source": "RH-Alpoge-Reconstruction manuscript/sec5_auxiliary.tex (C9), source explicitly applies h=1 with logQ<=10*(logX)^(2/5) and X=(kb)^8.",
+  "needed": "Only the DYADIC count for X<g<=2X under logQ<=10*(logX)^(2/5) is used; the separately stated uniformity for all h as small as exp(-c sqrt(logX)) is not needed for that application.",
+  "conditionalFromC9": "Assuming C9, count>=cPrime*X/(Q^A logX). Let y=log X. It exceeds X^(9/10) whenever y/10 >= 10A y^(2/5)+log y-log cPrime. For any fixed A,cPrime>0 this holds for sufficiently large y. Moreover logQ<=10 y^(2/5) implies logQ<=c sqrt y once y >=(10/c)^10. These are elementary comparisons; this file does not prove C9 itself.",
+  "largeYRootIllustrations": [
+    {
+      "A": 1,
+      "cPrime": "1",
+      "largeRootLogX": "2281.8523747557465799",
+      "log10X": "990.99589487425179063",
+      "positiveAboveRoot": true
+    },
+    {
+      "A": 1,
+      "cPrime": "0.001",
+      "largeRootLogX": "2394.2027977408668048",
+      "log10X": "1039.7890636161857743",
+      "positiveAboveRoot": true
+    },
+    {
+      "A": 2,
+      "cPrime": "1",
+      "largeRootLogX": "6986.8095297731793229",
+      "log10X": "3034.332824889545439",
+      "positiveAboveRoot": true
+    },
+    {
+      "A": 2,
+      "cPrime": "0.001",
+      "largeRootLogX": "7100.8806404994129491",
+      "log10X": "3083.873278822523544",
+      "positiveAboveRoot": true
+    },
+    {
+      "A": 5,
+      "cPrime": "1",
+      "largeRootLogX": "31670.556835508342737",
+      "log10X": "13754.348072464586424",
+      "positiveAboveRoot": true
+    },
+    {
+      "A": 5,
+      "cPrime": "0.001",
+      "largeRootLogX": "31785.412997015643596",
+      "log10X": "13804.229469619795867",
+      "positiveAboveRoot": true
+    },
+    {
+      "A": 10,
+      "cPrime": "1",
+      "largeRootLogX": "100191.84050352838876",
+      "log10X": "43512.763462413103315",
+      "positiveAboveRoot": true
+    },
+    {
+      "A": 10,
+      "cPrime": "0.001",
+      "largeRootLogX": "100306.87437702093293",
+      "log10X": "43562.722038902872002",
+      "positiveAboveRoot": true
+    }
+  ],
+  "sourceConditionLogXThreshold": {
+    "1": "10000000000.0",
+    ".5": "10240000000000.0",
+    ".1": "100000000000000000000.0"
+  },
+  "caveat": "Uniform count in varying imaginary quadratic ray class fields including possible exceptional real zero is the source theorem not sourced in the human manuscript. We found no directly source-matching peer-reviewed statement in this pass. A dyadic-only theorem plus Siegel/zero-free/density estimates could be a substantially smaller proof target. The numerical roots are illustrative, not universal bound without actual constants."
+}

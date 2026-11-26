@@ -1,0 +1,21 @@
+{
+  "purpose": "Independent rigorous rational inequality certifying positive Chernoff exponent gap in source Part II \u00a71, for h=5/4, alpha=3/2, sigma=252, theta=3/5, rough-growth B=2.",
+  "definitions": {
+    "a": "4/5",
+    "b": "6/5",
+    "q": "1257/5",
+    "lambda": "250",
+    "q/lambda": "1257/1250"
+  },
+  "inequalities": [
+    "I(4/5)=-1/5-log(1-1/5)>=(1/5)^2/2=1/50 by positive -log series",
+    "I(6/5)=1/5-log(1+1/5)>=(1/5)^2/2-(1/5)^3/3=13/750 by alternating log series",
+    "log(q/lambda)=log(1+7/1250)<7/1250"
+  ],
+  "rate_lower": "13/750",
+  "logratio_upper": "7/1250",
+  "strict_gap_lower": "22/1875",
+  "numerical_gap_lower": 0.011733333333333333,
+  "exact_fraction_checks": "PASS",
+  "caution": "This verifies an elementary numerical margin of the published one-sided sparse-window analytical criterion, not its global RH premise. Source already proves criterion. No hypothesis of Riemann proved here."
+}

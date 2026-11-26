@@ -1,0 +1,25 @@
+{
+  "prime": 7,
+  "e": 2,
+  "chiValueModPrime": 2,
+  "residualExponents": [
+    2,
+    0,
+    -2
+  ],
+  "residualDiagonal": [
+    4,
+    1,
+    2
+  ],
+  "liftDiagonal": [
+    "4",
+    "8",
+    "1/32"
+  ],
+  "determinant": "1",
+  "eachEigenvalueCubeNot1": true,
+  "noEigenvalueGeometricMiddle": true,
+  "proof": "If a semisimple 3x3 matrix A is Sym^2 B over a field of characteristic 0, its eigenvalues with multiplicity are alpha^2, alpha*beta, beta^2. Hence det A=(det B)^3 and one eigenvalue alpha*beta=det B has cube equal det A. Our A has det1 and none of 4,8,1/32 has cube1, so it is not Sym^2 B even over an algebraic closure. Yet reduction mod7 is exactly chi^2,1,chi^-2 for chi(g)=2 mod7. Thus the residual triple does NOT alone imply arbitrary characteristic-0 deformations are symmetric squares of GL2.",
+  "limitation": "This is only a single matrix over Q_7 with the right residue, not a full global Galois representation or polarized deformation. It rules out a naive functorial inference, not a sophisticated compatible-family argument."
+}

@@ -1,0 +1,2 @@
+{'GT_patterns': 45696, 'GL3_weights': 560, 'ellipse_exact': 33264, 'separation_q_e': 1584, 'sympy_sign_disagreement': 36, 'sylvester_crosscheck': 60, 'resultant_and_pollution': 180, 'one_gcd_failure': 120}
+script_seconds 1.593808987999978

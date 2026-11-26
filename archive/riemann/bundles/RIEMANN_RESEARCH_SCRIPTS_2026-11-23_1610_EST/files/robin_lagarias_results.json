@@ -1,0 +1,95 @@
+{
+  "limit": 300000,
+  "checkedRobinIntegers": 294960,
+  "checkedLagariasIntegers": 300000,
+  "robinViolations": [],
+  "lagariasViolations": [],
+  "tightestRobinAbsoluteMargin": [
+    565.5185643415825,
+    10080
+  ],
+  "maxRobinRatio": [
+    0.985818611972329,
+    10080
+  ],
+  "tightestLagariasMarginExcludingN1": [
+    0.31716854341180234,
+    2
+  ],
+  "samples": [
+    {
+      "n": 1,
+      "sigma": 1,
+      "Robin_margin": null,
+      "Lagarias_margin": 0.0
+    },
+    {
+      "n": 2,
+      "sigma": 3,
+      "Robin_margin": -4.305572107370068,
+      "Lagarias_margin": 0.31716854341180234
+    },
+    {
+      "n": 3,
+      "sigma": 4,
+      "Robin_margin": -3.4974820247800014,
+      "Lagarias_margin": 1.6245315209272766
+    },
+    {
+      "n": 10,
+      "sigma": 18,
+      "Robin_margin": -3.145278160599455,
+      "Lagarias_margin": 5.033866806987348
+    },
+    {
+      "n": 5040,
+      "sigma": 19344,
+      "Robin_margin": -106.93846833630232,
+      "Lagarias_margin": 492.31873108945365
+    },
+    {
+      "n": 5041,
+      "sigma": 5113,
+      "Robin_margin": 14128.08734674173,
+      "Lagarias_margin": 14727.448196968195
+    },
+    {
+      "n": 10080,
+      "sigma": 39312,
+      "Robin_margin": 565.5185643415825,
+      "Lagarias_margin": 1667.807504308803
+    },
+    {
+      "n": 15120,
+      "sigma": 59520,
+      "Robin_margin": 1455.4688676977967,
+      "Lagarias_margin": 3036.440004126249
+    },
+    {
+      "n": 30030,
+      "sigma": 96768,
+      "Robin_margin": 28019.78091584888,
+      "Lagarias_margin": 30946.513762011207
+    },
+    {
+      "n": 60060,
+      "sigma": 225792,
+      "Robin_margin": 30743.89318763194,
+      "Lagarias_margin": 36227.13563631446
+    },
+    {
+      "n": 277200,
+      "sigma": 1199328,
+      "Robin_margin": 48939.53269352787,
+      "Lagarias_margin": 71186.10012809234
+    },
+    {
+      "n": 300000,
+      "sigma": 984312,
+      "Robin_margin": 369986.30497966637,
+      "Lagarias_margin": 393914.0180769565
+    }
+  ],
+  "seconds": 0.5484800870000015,
+  "note": "Finite double-precision numerical falsification only, not proof; Robin n=5040 excluded by theorem."
+}

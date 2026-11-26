@@ -1,0 +1,61 @@
+new unit 20 ideal norm 4544 maxcoef 4
+new unit 21 ideal norm 5993 maxcoef 4
+new unit 22 ideal norm 5993 maxcoef 4
+new unit 23 ideal norm 6299 maxcoef 2
+new unit 24 ideal norm 4544 maxcoef 2
+candidates 4096 small exact norms 42 collisions 8 units 24 elapsed 0.88
+candidates 8192 small exact norms 50 collisions 11 units 24 elapsed 1.34
+candidates 12288 small exact norms 52 collisions 11 units 24 elapsed 1.73
+candidates 16384 small exact norms 59 collisions 13 units 24 elapsed 2.2
+candidates 20480 small exact norms 61 collisions 15 units 24 elapsed 2.61
+candidates 24576 small exact norms 64 collisions 17 units 24 elapsed 3.01
+new unit 25 direct maxcoef 1
+candidates 28672 small exact norms 65 collisions 17 units 25 elapsed 3.37
+candidates 32768 small exact norms 67 collisions 19 units 25 elapsed 3.76
+candidates 36864 small exact norms 68 collisions 19 units 25 elapsed 4.11
+candidates 40960 small exact norms 69 collisions 19 units 25 elapsed 4.47
+candidates 45056 small exact norms 69 collisions 19 units 25 elapsed 4.84
+candidates 49152 small exact norms 69 collisions 19 units 25 elapsed 5.25
+candidates 53248 small exact norms 69 collisions 19 units 25 elapsed 5.67
+candidates 57344 small exact norms 73 collisions 20 units 25 elapsed 6.12
+new unit 26 ideal norm 4544 maxcoef 2
+candidates 61440 small exact norms 77 collisions 22 units 26 elapsed 6.55
+new unit 27 ideal norm 8681 maxcoef 1
+candidates 65536 small exact norms 79 collisions 24 units 27 elapsed 6.95
+candidates 69632 small exact norms 80 collisions 24 units 27 elapsed 7.3
+candidates 73728 small exact norms 81 collisions 24 units 27 elapsed 7.66
+new unit 28 direct maxcoef 1
+new unit 29 direct maxcoef 1
+new unit 30 ideal norm 2752 maxcoef 1
+candidates 77824 small exact norms 86 collisions 26 units 30 elapsed 8.1
+new unit 31 direct maxcoef 1
+candidates 81920 small exact norms 87 collisions 26 units 31 elapsed 8.45
+candidates 86016 small exact norms 89 collisions 27 units 31 elapsed 8.82
+candidates 90112 small exact norms 89 collisions 27 units 31 elapsed 9.16
+candidates 94208 small exact norms 89 collisions 27 units 31 elapsed 9.53
+candidates 98304 small exact norms 91 collisions 27 units 31 elapsed 9.91
+candidates 102400 small exact norms 91 collisions 27 units 31 elapsed 10.26
+candidates 106496 small exact norms 91 collisions 27 units 31 elapsed 10.62
+candidates 110592 small exact norms 92 collisions 28 units 31 elapsed 10.99
+candidates 114688 small exact norms 92 collisions 28 units 31 elapsed 11.34
+candidates 118784 small exact norms 92 collisions 28 units 31 elapsed 11.67
+candidates 122880 small exact norms 92 collisions 28 units 31 elapsed 12.01
+candidates 126976 small exact norms 92 collisions 28 units 31 elapsed 12.36
+candidates 131072 small exact norms 92 collisions 28 units 31 elapsed 12.75
+candidates 135168 small exact norms 93 collisions 28 units 31 elapsed 13.1
+candidates 139264 small exact norms 94 collisions 29 units 31 elapsed 13.47
+candidates 143360 small exact norms 96 collisions 30 units 31 elapsed 13.88
+candidates 147456 small exact norms 98 collisions 31 units 31 elapsed 14.26
+candidates 151552 small exact norms 98 collisions 31 units 31 elapsed 14.6
+new unit 32 ideal norm 1161 maxcoef 1
+candidates 155648 small exact norms 99 collisions 32 units 32 elapsed 14.97
+candidates 159744 small exact norms 100 collisions 33 units 32 elapsed 15.33
+candidates 163840 small exact norms 100 collisions 33 units 32 elapsed 15.67
+candidates 167936 small exact norms 100 collisions 33 units 32 elapsed 16.0
+candidates 172032 small exact norms 100 collisions 33 units 32 elapsed 16.34
+candidates 176128 small exact norms 100 collisions 33 units 32 elapsed 16.69
+new unit 33 ideal norm 2752 maxcoef 25
+candidates 180224 small exact norms 101 collisions 34 units 33 elapsed 17.11
+candidates 184320 small exact norms 101 collisions 34 units 33 elapsed 17.5
+candidates 188416 small exact norms 101 collisions 34 units 33 elapsed 17.86
+FINAL 190208 101 34 33 time 18.02003381899999

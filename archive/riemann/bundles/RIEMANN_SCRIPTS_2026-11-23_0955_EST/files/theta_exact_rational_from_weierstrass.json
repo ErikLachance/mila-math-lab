@@ -1,0 +1,41 @@
+{
+  "ODE": "wp_dd=6*wp^2-2; wp=u^-2 + sum_{k>=1} B_k*u^(4k-2); B_1=1/5; B_k=6 sum B_j B_(k-j)/((4k-2)*(4k-3)-12)",
+  "formal_sigma": "sigma(u)=u exp(S(u)); S_second=-(wp-u^-2); theta/T0=sigma(u)^2 wp(u)",
+  "max_k": 180,
+  "all_denominators_divide_4_pow_k": true,
+  "first_values": [
+    "1",
+    "1/4",
+    "17/16",
+    "-111/64",
+    "12513/256",
+    "-146079/1024"
+  ],
+  "v3_r30": 14,
+  "v3_r20_r40": {
+    "20": 8,
+    "21": 11,
+    "22": 11,
+    "23": 12,
+    "24": 12,
+    "25": 13,
+    "26": 13,
+    "27": 13,
+    "28": 13,
+    "29": 13,
+    "30": 14,
+    "31": 14,
+    "32": 15,
+    "33": 15,
+    "34": 17,
+    "35": 17,
+    "36": 17,
+    "37": 17,
+    "38": 17,
+    "39": 18,
+    "40": 18
+  },
+  "r30_numerator_digits": 80,
+  "r30_denominator": "1152921504606846976",
+  "warning": "Exact equality of theta and sigma/wp is quoted from Rubinstein Theorem Le6; this script independently computes consequences of that equality and ODE, but does NOT re-prove the theta-sigma identity nor prove the RH."
+}

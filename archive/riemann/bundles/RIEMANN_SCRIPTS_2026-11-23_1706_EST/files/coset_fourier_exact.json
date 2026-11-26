@@ -1,0 +1,374 @@
+[
+  {
+    "o": 2,
+    "q": 23,
+    "nontrivial_coeff": 10,
+    "all_characters_pass": true
+  },
+  {
+    "o": 3,
+    "q": 31,
+    "nontrivial_coeff": 28,
+    "all_characters_pass": true
+  },
+  {
+    "o": 4,
+    "q": 41,
+    "nontrivial_coeff": 19,
+    "all_characters_pass": true
+  },
+  {
+    "o": 5,
+    "q": 61,
+    "nontrivial_coeff": 42,
+    "all_characters_pass": true
+  },
+  {
+    "o": 6,
+    "q": 61,
+    "nontrivial_coeff": 45,
+    "all_characters_pass": true
+  },
+  {
+    "o": 7,
+    "q": 71,
+    "nontrivial_coeff": 42,
+    "all_characters_pass": true
+  },
+  {
+    "o": 8,
+    "q": 89,
+    "nontrivial_coeff": 57,
+    "all_characters_pass": true
+  },
+  {
+    "o": 9,
+    "q": 109,
+    "nontrivial_coeff": 74,
+    "all_characters_pass": true
+  },
+  {
+    "o": 10,
+    "q": 101,
+    "nontrivial_coeff": 88,
+    "all_characters_pass": true
+  },
+  {
+    "o": 11,
+    "q": 199,
+    "nontrivial_coeff": 41,
+    "all_characters_pass": true
+  },
+  {
+    "o": 12,
+    "q": 157,
+    "nontrivial_coeff": 17,
+    "all_characters_pass": true
+  },
+  {
+    "o": 13,
+    "q": 131,
+    "nontrivial_coeff": 95,
+    "all_characters_pass": true
+  },
+  {
+    "o": 14,
+    "q": 197,
+    "nontrivial_coeff": 55,
+    "all_characters_pass": true
+  },
+  {
+    "o": 15,
+    "q": 151,
+    "nontrivial_coeff": 23,
+    "all_characters_pass": true
+  },
+  {
+    "o": 16,
+    "q": 193,
+    "nontrivial_coeff": 130,
+    "all_characters_pass": true
+  },
+  {
+    "o": 17,
+    "q": 239,
+    "nontrivial_coeff": 23,
+    "all_characters_pass": true
+  },
+  {
+    "o": 18,
+    "q": 181,
+    "nontrivial_coeff": 79,
+    "all_characters_pass": true
+  },
+  {
+    "o": 19,
+    "q": 191,
+    "nontrivial_coeff": 56,
+    "all_characters_pass": true
+  },
+  {
+    "o": 20,
+    "q": 241,
+    "nontrivial_coeff": 162,
+    "all_characters_pass": true
+  },
+  {
+    "o": 21,
+    "q": 211,
+    "nontrivial_coeff": 122,
+    "all_characters_pass": true
+  },
+  {
+    "o": 22,
+    "q": 331,
+    "nontrivial_coeff": 84,
+    "all_characters_pass": true
+  },
+  {
+    "o": 23,
+    "q": 277,
+    "nontrivial_coeff": 186,
+    "all_characters_pass": true
+  },
+  {
+    "o": 24,
+    "q": 241,
+    "nontrivial_coeff": 208,
+    "all_characters_pass": true
+  },
+  {
+    "o": 25,
+    "q": 251,
+    "nontrivial_coeff": 109,
+    "all_characters_pass": true
+  },
+  {
+    "o": 26,
+    "q": 313,
+    "nontrivial_coeff": 210,
+    "all_characters_pass": true
+  },
+  {
+    "o": 27,
+    "q": 271,
+    "nontrivial_coeff": 195,
+    "all_characters_pass": true
+  },
+  {
+    "o": 28,
+    "q": 281,
+    "nontrivial_coeff": 162,
+    "all_characters_pass": true
+  },
+  {
+    "o": 29,
+    "q": 349,
+    "nontrivial_coeff": 234,
+    "all_characters_pass": true
+  },
+  {
+    "o": 30,
+    "q": 331,
+    "nontrivial_coeff": 291,
+    "all_characters_pass": true
+  },
+  {
+    "o": 31,
+    "q": 311,
+    "nontrivial_coeff": 268,
+    "all_characters_pass": true
+  },
+  {
+    "o": 32,
+    "q": 353,
+    "nontrivial_coeff": 222,
+    "all_characters_pass": true
+  },
+  {
+    "o": 33,
+    "q": 331,
+    "nontrivial_coeff": 96,
+    "all_characters_pass": true
+  },
+  {
+    "o": 34,
+    "q": 409,
+    "nontrivial_coeff": 274,
+    "all_characters_pass": true
+  },
+  {
+    "o": 35,
+    "q": 421,
+    "nontrivial_coeff": 282,
+    "all_characters_pass": true
+  },
+  {
+    "o": 36,
+    "q": 397,
+    "nontrivial_coeff": 51,
+    "all_characters_pass": true
+  },
+  {
+    "o": 37,
+    "q": 593,
+    "nontrivial_coeff": 503,
+    "all_characters_pass": true
+  },
+  {
+    "o": 38,
+    "q": 419,
+    "nontrivial_coeff": 368,
+    "all_characters_pass": true
+  },
+  {
+    "o": 39,
+    "q": 547,
+    "nontrivial_coeff": 51,
+    "all_characters_pass": true
+  },
+  {
+    "o": 40,
+    "q": 401,
+    "nontrivial_coeff": 116,
+    "all_characters_pass": true
+  },
+  {
+    "o": 41,
+    "q": 739,
+    "nontrivial_coeff": 149,
+    "all_characters_pass": true
+  },
+  {
+    "o": 42,
+    "q": 421,
+    "nontrivial_coeff": 242,
+    "all_characters_pass": true
+  },
+  {
+    "o": 43,
+    "q": 431,
+    "nontrivial_coeff": 63,
+    "all_characters_pass": true
+  },
+  {
+    "o": 44,
+    "q": 617,
+    "nontrivial_coeff": 450,
+    "all_characters_pass": true
+  },
+  {
+    "o": 45,
+    "q": 541,
+    "nontrivial_coeff": 362,
+    "all_characters_pass": true
+  },
+  {
+    "o": 46,
+    "q": 461,
+    "nontrivial_coeff": 199,
+    "all_characters_pass": true
+  },
+  {
+    "o": 47,
+    "q": 659,
+    "nontrivial_coeff": 181,
+    "all_characters_pass": true
+  },
+  {
+    "o": 48,
+    "q": 577,
+    "nontrivial_coeff": 386,
+    "all_characters_pass": true
+  },
+  {
+    "o": 49,
+    "q": 491,
+    "nontrivial_coeff": 282,
+    "all_characters_pass": true
+  },
+  {
+    "o": 50,
+    "q": 601,
+    "nontrivial_coeff": 402,
+    "all_characters_pass": true
+  },
+  {
+    "o": 51,
+    "q": 613,
+    "nontrivial_coeff": 410,
+    "all_characters_pass": true
+  },
+  {
+    "o": 52,
+    "q": 521,
+    "nontrivial_coeff": 448,
+    "all_characters_pass": true
+  },
+  {
+    "o": 53,
+    "q": 743,
+    "nontrivial_coeff": 339,
+    "all_characters_pass": true
+  },
+  {
+    "o": 54,
+    "q": 541,
+    "nontrivial_coeff": 156,
+    "all_characters_pass": true
+  },
+  {
+    "o": 55,
+    "q": 661,
+    "nontrivial_coeff": 442,
+    "all_characters_pass": true
+  },
+  {
+    "o": 56,
+    "q": 617,
+    "nontrivial_coeff": 387,
+    "all_characters_pass": true
+  },
+  {
+    "o": 57,
+    "q": 571,
+    "nontrivial_coeff": 83,
+    "all_characters_pass": true
+  },
+  {
+    "o": 58,
+    "q": 929,
+    "nontrivial_coeff": 430,
+    "all_characters_pass": true
+  },
+  {
+    "o": 59,
+    "q": 709,
+    "nontrivial_coeff": 474,
+    "all_characters_pass": true
+  },
+  {
+    "o": 60,
+    "q": 601,
+    "nontrivial_coeff": 259,
+    "all_characters_pass": true
+  },
+  {
+    "o": 61,
+    "q": 733,
+    "nontrivial_coeff": 490,
+    "all_characters_pass": true
+  },
+  {
+    "o": 62,
+    "q": 683,
+    "nontrivial_coeff": 599,
+    "all_characters_pass": true
+  },
+  {
+    "o": 63,
+    "q": 631,
+    "nontrivial_coeff": 362,
+    "all_characters_pass": true
+  }
+]

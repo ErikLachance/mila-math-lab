@@ -1,0 +1,100 @@
+{
+  "definition": "g(u)=exp(beta*u)*cos(u), G(x)=g(log x)=x**beta*cos(log x), beta=3/4>theta=3/5",
+  "claim": "For infinitely many Y_n=exp(pi+2*pi*n), every x in [Y_n,exp(pi/3)*Y_n] has G(x)<=0<=x^theta, yet Mellin F(s) has poles at s=beta+/-i. Thus replacing [Y,Y**alpha] fixed alpha>1 by [Y,c*Y] fixed c>1 invalidates general one-sided criterion. This is a toy Mellin function, not zeta G and not RH counterexample.",
+  "alpha_not_fixed": "log(c*Y)/log Y=1+log(c)/log(Y) -> 1",
+  "analytic_cos_sign": "cos(pi+t)=-cos(t)<=-1/2 for 0<=t<=pi/3, proves sign for every real x, not only samples",
+  "beta": "0.75",
+  "theta": "0.6",
+  "multiplicative_width_c": "2.8496539082263614974741273198529044",
+  "poles": [
+    "3/4+i",
+    "3/4-i"
+  ],
+  "residue_at_each": "1/2",
+  "integral_numeric": "(0.499116229453308104993498251925218217353048813722971026341812858666791251060913982262296869 + 0.0330148644755386328420036285204824530667227296440779586847002577339655991341384599811566104j)",
+  "closed_numeric": "(0.499116229453308104993498251925218217353048813722971026341812858666791251060913982262296869 + 0.0330148644755386328420036285204824530667227296440779586847002577339655991341384599811566104j)",
+  "absolute_error": "7.67045853953e-93",
+  "sample_windows": [
+    {
+      "n": 0,
+      "U": "3.1415926535897932385",
+      "log_width": "1.0471975511965977462",
+      "Y": "23.140692632779269",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    },
+    {
+      "n": 1,
+      "U": "9.4247779607693797154",
+      "log_width": "1.0471975511965977462",
+      "Y": "12391.6478079166975",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    },
+    {
+      "n": 2,
+      "U": "15.707963267948966192",
+      "log_width": "1.0471975511965977462",
+      "Y": "6635623.99934113423",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    },
+    {
+      "n": 3,
+      "U": "21.991148575128552669",
+      "log_width": "1.0471975511965977462",
+      "Y": "3553321280.84704436",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    },
+    {
+      "n": 4,
+      "U": "28.274333882308139146",
+      "log_width": "1.0471975511965977462",
+      "Y": "1902773895292.16129",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    },
+    {
+      "n": 5,
+      "U": "34.557519189487725623",
+      "log_width": "1.0471975511965977462",
+      "Y": "1018919543279304.8",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    },
+    {
+      "n": 6,
+      "U": "40.8407044966673121",
+      "log_width": "1.0471975511965977462",
+      "Y": "545622913077172100.0",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    },
+    {
+      "n": 7,
+      "U": "47.123889803846898577",
+      "log_width": "1.0471975511965977462",
+      "Y": "2.92176517015939695e+20",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    },
+    {
+      "n": 8,
+      "U": "53.407075111026485054",
+      "log_width": "1.0471975511965977462",
+      "Y": "1.56458086802325142e+23",
+      "c": "2.8496539082263615",
+      "max_cos_on_samples": "-0.5",
+      "all_values_negative": true
+    }
+  ]
+}

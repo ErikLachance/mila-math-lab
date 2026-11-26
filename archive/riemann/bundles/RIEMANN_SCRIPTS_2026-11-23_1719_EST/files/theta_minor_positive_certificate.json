@@ -1,0 +1,171 @@
+{
+  "pass": true,
+  "cases": 15,
+  "data": [
+    {
+      "p": 3,
+      "N": 81,
+      "v_p(J_F)": 39,
+      "rational_bound": "29/4",
+      "positive": true,
+      "slack": "127/4",
+      "v_p_N_factorial": 40,
+      "sum_odd_excess": "28",
+      "Delta": 31
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "v_p(J_F)": 120,
+      "rational_bound": "151/2",
+      "positive": true,
+      "slack": "89/2",
+      "v_p_N_factorial": 121,
+      "sum_odd_excess": "88",
+      "Delta": 43
+    },
+    {
+      "p": 3,
+      "N": 729,
+      "v_p(J_F)": 363,
+      "rational_bound": "1217/4",
+      "positive": true,
+      "slack": "235/4",
+      "v_p_N_factorial": 364,
+      "sum_odd_excess": "270",
+      "Delta": 57
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "v_p(J_F)": 155,
+      "rational_bound": "1477/12",
+      "positive": true,
+      "slack": "383/12",
+      "v_p_N_factorial": 156,
+      "sum_odd_excess": "128",
+      "Delta": 31
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "v_p(J_F)": 780,
+      "rational_bound": "2941/4",
+      "positive": true,
+      "slack": "179/4",
+      "v_p_N_factorial": 781,
+      "sum_odd_excess": "648",
+      "Delta": 43
+    },
+    {
+      "p": 5,
+      "N": 15625,
+      "v_p(J_F)": 3905,
+      "rational_bound": "46153/12",
+      "positive": true,
+      "slack": "707/12",
+      "v_p_N_factorial": 3906,
+      "sum_odd_excess": "3252",
+      "Delta": 57
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "v_p(J_F)": 399,
+      "rational_bound": "8809/24",
+      "positive": true,
+      "slack": "767/24",
+      "v_p_N_factorial": 400,
+      "sum_odd_excess": "348",
+      "Delta": 31
+    },
+    {
+      "p": 7,
+      "N": 16807,
+      "v_p(J_F)": 2800,
+      "rational_bound": "16531/6",
+      "positive": true,
+      "slack": "269/6",
+      "v_p_N_factorial": 2801,
+      "sum_odd_excess": "2448",
+      "Delta": 43
+    },
+    {
+      "p": 7,
+      "N": 117649,
+      "v_p(J_F)": 19607,
+      "rational_bound": "469153/24",
+      "positive": true,
+      "slack": "1415/24",
+      "v_p_N_factorial": 19608,
+      "sum_odd_excess": "17154",
+      "Delta": 57
+    },
+    {
+      "p": 11,
+      "N": 14641,
+      "v_p(J_F)": 1463,
+      "rational_bound": "85861/60",
+      "positive": true,
+      "slack": "1919/60",
+      "v_p_N_factorial": 1464,
+      "sum_odd_excess": "1340",
+      "Delta": 31
+    },
+    {
+      "p": 11,
+      "N": 161051,
+      "v_p(J_F)": 16104,
+      "rational_bound": "160591/10",
+      "positive": true,
+      "slack": "449/10",
+      "v_p_N_factorial": 16105,
+      "sum_odd_excess": "14760",
+      "Delta": 43
+    },
+    {
+      "p": 11,
+      "N": 1771561,
+      "v_p(J_F)": 177155,
+      "rational_bound": "10625761/60",
+      "positive": true,
+      "slack": "3539/60",
+      "v_p_N_factorial": 177156,
+      "sum_odd_excess": "162390",
+      "Delta": 57
+    },
+    {
+      "p": 13,
+      "N": 28561,
+      "v_p(J_F)": 2379,
+      "rational_bound": "197149/84",
+      "positive": true,
+      "slack": "2687/84",
+      "v_p_N_factorial": 2380,
+      "sum_odd_excess": "2208",
+      "Delta": 31
+    },
+    {
+      "p": 13,
+      "N": 371293,
+      "v_p(J_F)": 30940,
+      "rational_bound": "370741/12",
+      "positive": true,
+      "slack": "539/12",
+      "v_p_N_factorial": 30941,
+      "sum_odd_excess": "28728",
+      "Delta": 43
+    },
+    {
+      "p": 13,
+      "N": 4826809,
+      "v_p(J_F)": 402233,
+      "rational_bound": "33782617/84",
+      "positive": true,
+      "slack": "4955/84",
+      "v_p_N_factorial": 402234,
+      "sum_odd_excess": "373500",
+      "Delta": 57
+    }
+  ]
+}

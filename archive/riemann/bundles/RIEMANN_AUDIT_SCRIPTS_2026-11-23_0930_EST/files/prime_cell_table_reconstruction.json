@@ -1,0 +1,41 @@
+{
+  "source": "Rubinstein v2 II.4.2 pp35-37; p36 P_[1]=84701.0317",
+  "rprimepowers_seen": 18098,
+  "rprimepowers_with_nonzero_coeff": 9007,
+  "P1": "84701.031685162533297878941356647257",
+  "M_from_12_digit_reported_logderivative": "84463.394222941362842190254259442",
+  "records": [
+    {
+      "class": 1,
+      "P": "84701.031685162533297878941356647",
+      "P_minus_M_with_paper_c": "237.6374622211704556887",
+      "paper_P_minus_M": "237.6375",
+      "difference_to_paper": "-3.77788295443e-5"
+    },
+    {
+      "class": 3,
+      "P": "84163.137182066086120603463330628",
+      "P_minus_M_with_paper_c": "-300.2570408752767215868",
+      "paper_P_minus_M": "-300.257",
+      "difference_to_paper": "-4.08752767216e-5"
+    },
+    {
+      "class": 5,
+      "P": "84286.662824189005702823888212958",
+      "P_minus_M_with_paper_c": "-176.7313987523571393664",
+      "paper_P_minus_M": "-176.7314",
+      "difference_to_paper": "1.24764286063e-6"
+    },
+    {
+      "class": 7,
+      "P": "84692.527171971168490336079856051",
+      "P_minus_M_with_paper_c": "229.1329490298056481458",
+      "paper_P_minus_M": "229.1329",
+      "difference_to_paper": "4.90298056481e-5"
+    }
+  ],
+  "mean_excess": "-2.5545070941644392797",
+  "status": "PASS four translate computations",
+  "texterratum": "Guide prose II.4.1 says v=(1+chi_q)/2 equals 1 for nonsquare, but mathematically v=1 for square chi_q=+1; table (p=23) uses the formula, so apparent prose typo, not computational contradiction",
+  "limitations": "Finite example explicitly violates full proof size hypotheses; reproduces a toy table, not inequality M, source Lprime/L rounded constant used"
+}

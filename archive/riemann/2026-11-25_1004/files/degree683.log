@@ -1,0 +1,24 @@
+q,g 683 2
+u logs [-31.807870515050745, -23.725967662766436, -14.050903371876007, 30.630145303527385, 23.284519042200372, 15.670077203965434]
+b logs [17.2494141884114, -24.983224715574046, -42.232638903985446, -17.2494141884114, 24.983224715574046, 42.232638903985446]
+Traceback (most recent call last):
+  File "/mnt/data/riemann_1004/degree7.py", line 31, in <module>
+    A=s.Matrix([[int(m.nint(t*scale)) for t in row] for row in rows]); L,U=A.lll_transform(delta=s.Rational(3,4)); print('basis exponents',ks);print('transform',U.tolist());print('norms',[float(m.sqrt(sum(m.mpf(int(x))**2 for x in L.row(i)))/scale) for i in range(7)])
+                                                                           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/matrices/repmatrix.py", line 549, in lll_transform
+    basis, transform = dM.lll_transform(delta=delta)
+                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/polys/matrices/domainmatrix.py", line 3965, in lll_transform
+    reduced, transform = A.rep.lll_transform(delta=delta)
+                         ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/polys/matrices/sdm.py", line 1397, in lll_transform
+    reduced, transform = A.to_dfm_or_ddm().lll_transform(delta=delta)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/polys/matrices/ddm.py", line 1172, in lll_transform
+    return ddm_lll_transform(A, delta=delta)
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/polys/matrices/lll.py", line 94, in ddm_lll_transform
+    return _ddm_lll(x, delta=delta, return_transform=True)
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/polys/matrices/lll.py", line 85, in _ddm_lll
+    assert all(mu_small(i, j) for i in range(m) for j in range(i))
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,2 @@
+{'norm_sqrt_basis': 11664, 'norm_integral_basis': 11664, 'WD_slope_cases': 640, 'WD_entries_checked': 4160, 'strict_interval_pairs': 8555, 'GL2_flag_counts': 5, 'multiplicity_cases': 20}
+script_seconds 0.03722313699999802

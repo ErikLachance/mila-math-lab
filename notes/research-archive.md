@@ -1,4 +1,4 @@
-# Research archive — edition 0.5.0
+# Research archive — edition 0.5.1
 
 Selected historical results reconstructed and rechecked on 26 November 2026. Source dates are not priority claims. The private journal is not published.
 
@@ -23,3 +23,10 @@ Selected historical results reconstructed and rechecked on 26 November 2026. Sou
 [Frontier verifier](../experiments/frontier-20261126.mjs) · [Verification data](../results/frontier-20261126.json).
 
 [Boolean graph verifier](../experiments/boolean-degree-20261126.py) · [Exact degree checks](../results/boolean-degree-20261126.json).
+
+
+## Historical checkpoint archive
+
+The table above indexes the thirteen reconstructed research notes. A separate [chronological checkpoint archive](../archive/README.md) preserves all 151 inventoried Riemann sources dated 7 and 23–25 November, including scientific records, script bundles, corrections and historical outputs. The [file manifest](../archive/manifest.json) defines the covered batch and integrity checks. These records are not additional independently validated research notes.
+
+The [new finite replay](../experiments/verify-archived-units.py) checks ten selected determinants and exact linear algebra on recorded local vectors. It does not recompute their arithmetic embeddings or establish the global hypotheses of the historical arguments. See [recorded results](../results/archived-units-20261126.json) and [coverage limits](../archive/README.md#coverage-and-remaining-gaps).

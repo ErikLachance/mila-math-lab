@@ -1,0 +1,20 @@
+LLL 7 norms [2.646, 8.317, 9.56, 9.037, 9.155, 9.853, 12.581]
+smallgen x**7 - 10*x**6 + 31*x**5 - 40*x**4 + 247*x**3 - 298*x**2 - 215*x - 36 index 425984 candidates 161 mod7 (1, [(Poly(x + 1, x, modulus=7), 1), (Poly(x**2 + x - 1, x, modulus=7), 3)])
+initial disc -3899551173364177382563382085261194705031114622843
+p 7 radical dimension 18 step index 49
+p 7 radical dimension 18 step index 2401
+p 7 radical dimension 14 step index None
+final disc -281733275000784905869346976586964233243
+LLL 21 norms [4.583, 5.916, 5.916, 14.405, 12.75, 13.013, 15.366, 15.784, 12.75, 12.419, 12.419, 15.057, 12.932, 13.189, 15.72, 13.931, 13.152, 13.152, 13.365, 13.448, 13.792]
+max structure coeff 9
+unit 1 (1,) () norm 1 logrank 1
+unit 2 (2,) () norm -1 logrank 2
+unit 3 (0, 1) (-1,) norm -1 logrank 2
+unit 4 (0, 1) (1,) norm -1 logrank 2
+unit 5 (0, 2) (-1,) norm -1 logrank 2
+unit 6 (0, 2) (1,) norm -1 logrank 2
+unit 7 (1, 2) (-1,) norm 1 logrank 2
+unit 8 (0, 1, 2) (-1, 1) norm 1 logrank 2
+unit 9 (0, 1, 2) (1, -1) norm -1 logrank 2
+unit 10 (0, 1, 2) (1, 1) norm 1 logrank 2
+attempts 23476 passfilter 71 unit count 10 elapsed 20.316139299000014

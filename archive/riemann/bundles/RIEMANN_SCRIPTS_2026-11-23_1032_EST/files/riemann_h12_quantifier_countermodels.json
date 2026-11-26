@@ -1,0 +1,57 @@
+{
+  "theta": "3/5",
+  "beta": "4/5",
+  "countermodel": "F(x)=x^(4/5)*sin(log x)^2, x>=1. F is C^1, nonnegative, and |F'(x)| <= 9/5 for all x>=1. Zeros Y_k=exp(k*pi) are unbounded, so F(Y_k)<=Y_k^theta for every k. But x_k=exp((k+1/2)*pi) lies inside [Y_k,Y_k^(3/2)] for all k>=1, and F(x_k)/x_k^theta=exp((1/5)*(k+1/2)*pi)->infinity. Thus single good scales, even under global bounded derivative, cannot replace full windows. This is a toy function, not the prime-power statistic G(x).",
+  "uniform_constant_countermodel": "F(x)=x^(4/5): for each x there is C_x=x^(1/5) with F(x)<=C_x*x^(3/5), but there is no x-independent C. Thus the fixed K in H12 is a substantive quantifier.",
+  "samples": [
+    {
+      "k": 1,
+      "logY": 3.141592653589793,
+      "log(xbad)": 4.71238898038469,
+      "F(xbad)/xbad^theta": 2.566332395208135,
+      "F(Y)/Y^theta": 0,
+      "bad_point_inside_window": true
+    },
+    {
+      "k": 2,
+      "logY": 6.283185307179586,
+      "log(xbad)": 7.853981633974483,
+      "F(xbad)/xbad^theta": 4.810477380965351,
+      "F(Y)/Y^theta": 0,
+      "bad_point_inside_window": true
+    },
+    {
+      "k": 5,
+      "logY": 15.707963267948966,
+      "log(xbad)": 17.27875959474386,
+      "F(xbad)/xbad^theta": 31.68210210117924,
+      "F(Y)/Y^theta": 0,
+      "bad_point_inside_window": true
+    },
+    {
+      "k": 10,
+      "logY": 31.41592653589793,
+      "log(xbad)": 32.98672286269283,
+      "F(xbad)/xbad^theta": 733.1457866837196,
+      "F(Y)/Y^theta": 0,
+      "bad_point_inside_window": true
+    },
+    {
+      "k": 20,
+      "logY": 62.83185307179586,
+      "log(xbad)": 64.40264939859075,
+      "F(xbad)/xbad^theta": 392593.4510522706,
+      "F(Y)/Y^theta": 0,
+      "bad_point_inside_window": true
+    },
+    {
+      "k": 40,
+      "logY": 125.66370614359172,
+      "log(xbad)": 127.23450247038662,
+      "F(xbad)/xbad^theta": 112576687618.08916,
+      "F(Y)/Y^theta": 0,
+      "bad_point_inside_window": true
+    }
+  ],
+  "scope": "Quantifier logic of the human guide III.11, not an objection to Alpoge Lean theorem, which asserts full H12-type hypotheses within the formal proof."
+}

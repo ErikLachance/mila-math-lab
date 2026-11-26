@@ -1,0 +1,12 @@
+{
+  "theorem": "For every real x>=2, sum_{p<=x} log(p)/(p-1) < log(x)+63/20, hence source log(x)+17/5",
+  "proof": "prime power divisibility of central binomial + induction psi(N)<=2N log2; factorial von Mangoldt identity; missing prime-power tail <(2/3)log2+(7/6)log3<7/4; rational exp lower bounds",
+  "exp_7over10_degree4": "482921/240000",
+  "exp_11over10_degree5": "36015101/12000000",
+  "exp_2_degree3": "19/3",
+  "sharper_constant": "63/20",
+  "original_constant": "17/5",
+  "integer_binomial_divisibility_cases_tested": 249,
+  "mathematical_status": "unconditional elementary argument; finite tests are regression, not proof of all N",
+  "riemann_status": "does not prove or disprove RH/GRH"
+}

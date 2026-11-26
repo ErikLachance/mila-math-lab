@@ -1,0 +1,19 @@
+{
+  "verified_exact_rational_checks": {
+    "H100_gt_5.187": true,
+    "exp_4.617_gt_101": true,
+    "gamma_gt_0.57_from_two_inequalities": true,
+    "exp_0.57_gt_1.765": true,
+    "exp_8.5_lt_5041": true,
+    "exp_2.13_lt_8.5": true,
+    "support_235_margin": true,
+    "exp_13_lt_1e6": true,
+    "exp_2.5_lt_13": true,
+    "support_2357_margin": true
+  },
+  "numerical_margins": {
+    "235": "189/20000",
+    "2357": "3/80"
+  },
+  "proof_note": "Euler bound H100-ln101<gamma classical; all exp comparisons are certified via Taylor partial sum and tail bound"
+}

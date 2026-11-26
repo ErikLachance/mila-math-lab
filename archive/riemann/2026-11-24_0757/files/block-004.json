@@ -1,0 +1,9 @@
+{
+  "exact_twist_families": 6500,
+  "congruence_checks": 60158,
+  "nonexceptional_twists": 481121,
+  "power_lifting_checks": 23352,
+  "max_mean_valuation": "215/72",
+  "elapsed_seconds": 0.5922546850000003
+}
+

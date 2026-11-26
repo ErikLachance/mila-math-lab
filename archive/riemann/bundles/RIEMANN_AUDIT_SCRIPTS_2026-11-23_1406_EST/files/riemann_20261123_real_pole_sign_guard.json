@@ -1,0 +1,51 @@
+{
+  "assumptions": "Generic abstract Mellin F(s); x>=1, G_minus(x)=-x^(3/4) <= x^(3/5) for every x, yet F_minus(s)=-1/(s-3/4) has real pole at 3/4. It disproves an overgeneralized one-sided-criterion-for-arbitrary-meromorphic-F formulation; it does not apply to zeta F, whose zeros are nonreal in (0,1).",
+  "positive_real_pole": "G_plus=x^(3/4) has residue +1 at beta; its positive part violates the x^(3/5) bound for large x. For Dirichlet L a real zero beta in (0,1) contributes -nu/[beta(beta-1)] = nu/[beta(1-beta)]>0, so the relevant pole has favorable sign.",
+  "beta": "3/4",
+  "theta": "3/5",
+  "rows": [
+    {
+      "j": 0,
+      "neg_pole_Aj": "-4/9",
+      "pos_pole_Aj": "4/9",
+      "neg_pair_absA_plus_A": "0",
+      "pos_pair_absA_plus_A": "8/9"
+    },
+    {
+      "j": 1,
+      "neg_pole_Aj": "-16/81",
+      "pos_pole_Aj": "16/81",
+      "neg_pair_absA_plus_A": "0",
+      "pos_pair_absA_plus_A": "32/81"
+    },
+    {
+      "j": 2,
+      "neg_pole_Aj": "-64/729",
+      "pos_pole_Aj": "64/729",
+      "neg_pair_absA_plus_A": "0",
+      "pos_pair_absA_plus_A": "128/729"
+    },
+    {
+      "j": 5,
+      "neg_pole_Aj": "-4096/531441",
+      "pos_pole_Aj": "4096/531441",
+      "neg_pair_absA_plus_A": "0",
+      "pos_pair_absA_plus_A": "8192/531441"
+    },
+    {
+      "j": 10,
+      "neg_pole_Aj": "-4194304/31381059609",
+      "pos_pole_Aj": "4194304/31381059609",
+      "neg_pair_absA_plus_A": "0",
+      "pos_pair_absA_plus_A": "8388608/31381059609"
+    },
+    {
+      "j": 20,
+      "neg_pole_Aj": "-4398046511104/109418989131512359209",
+      "pos_pole_Aj": "4398046511104/109418989131512359209",
+      "neg_pair_absA_plus_A": "0",
+      "pos_pair_absA_plus_A": "8796093022208/109418989131512359209"
+    }
+  ],
+  "status": "Exact symbolic SymPy rational assertions PASS; no Riemann proof/disproof."
+}

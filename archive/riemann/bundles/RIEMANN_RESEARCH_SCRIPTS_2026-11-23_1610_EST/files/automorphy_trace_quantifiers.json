@@ -1,0 +1,199 @@
+{
+  "claim": "Under normalized purity |tr rho(Frob_w)|<=3, |t(z)|>=p^e-1-p^-e>3 whenever p^e>=5. This PROVES the local nonvanishing inequality only, assuming the source normalized-purity and trace hypotheses; it does NOT prove Count, whose cardinality/integer-norm bound is the difficult ingredient.",
+  "arithmeticCondition": "a^2-4a-1>0, true for integers a>=5, false for a in {1,2,3,4}.",
+  "checksExactRational": 80,
+  "selectedExamples": [
+    {
+      "p": 2,
+      "e": 1,
+      "a": 2,
+      "lowerBoundAsFraction": "1/2",
+      "strictGapFrom3": "-5/2",
+      "provedDistinctUsingThisBound": false
+    },
+    {
+      "p": 2,
+      "e": 2,
+      "a": 4,
+      "lowerBoundAsFraction": "11/4",
+      "strictGapFrom3": "-1/4",
+      "provedDistinctUsingThisBound": false
+    },
+    {
+      "p": 3,
+      "e": 1,
+      "a": 3,
+      "lowerBoundAsFraction": "5/3",
+      "strictGapFrom3": "-4/3",
+      "provedDistinctUsingThisBound": false
+    },
+    {
+      "p": 3,
+      "e": 2,
+      "a": 9,
+      "lowerBoundAsFraction": "71/9",
+      "strictGapFrom3": "44/9",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 5,
+      "e": 1,
+      "a": 5,
+      "lowerBoundAsFraction": "19/5",
+      "strictGapFrom3": "4/5",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 5,
+      "e": 2,
+      "a": 25,
+      "lowerBoundAsFraction": "599/25",
+      "strictGapFrom3": "524/25",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 7,
+      "e": 1,
+      "a": 7,
+      "lowerBoundAsFraction": "41/7",
+      "strictGapFrom3": "20/7",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 7,
+      "e": 2,
+      "a": 49,
+      "lowerBoundAsFraction": "2351/49",
+      "strictGapFrom3": "2204/49",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 11,
+      "e": 1,
+      "a": 11,
+      "lowerBoundAsFraction": "109/11",
+      "strictGapFrom3": "76/11",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 11,
+      "e": 2,
+      "a": 121,
+      "lowerBoundAsFraction": "14519/121",
+      "strictGapFrom3": "14156/121",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 13,
+      "e": 1,
+      "a": 13,
+      "lowerBoundAsFraction": "155/13",
+      "strictGapFrom3": "116/13",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 13,
+      "e": 2,
+      "a": 169,
+      "lowerBoundAsFraction": "28391/169",
+      "strictGapFrom3": "27884/169",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 17,
+      "e": 1,
+      "a": 17,
+      "lowerBoundAsFraction": "271/17",
+      "strictGapFrom3": "220/17",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 17,
+      "e": 2,
+      "a": 289,
+      "lowerBoundAsFraction": "83231/289",
+      "strictGapFrom3": "82364/289",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 23,
+      "e": 1,
+      "a": 23,
+      "lowerBoundAsFraction": "505/23",
+      "strictGapFrom3": "436/23",
+      "provedDistinctUsingThisBound": true
+    },
+    {
+      "p": 23,
+      "e": 2,
+      "a": 529,
+      "lowerBoundAsFraction": "279311/529",
+      "strictGapFrom3": "277724/529",
+      "provedDistinctUsingThisBound": true
+    }
+  ],
+  "varyingEvenTwistCounterToUniformity": [
+    [
+      17,
+      4
+    ],
+    [
+      41,
+      10
+    ],
+    [
+      73,
+      18
+    ],
+    [
+      89,
+      22
+    ],
+    [
+      97,
+      24
+    ],
+    [
+      113,
+      28
+    ],
+    [
+      137,
+      34
+    ],
+    [
+      193,
+      48
+    ],
+    [
+      233,
+      58
+    ],
+    [
+      241,
+      60
+    ],
+    [
+      257,
+      64
+    ],
+    [
+      281,
+      70
+    ],
+    [
+      313,
+      78
+    ],
+    [
+      337,
+      84
+    ],
+    [
+      353,
+      88
+    ]
+  ],
+  "varyingTwistTotalUnder2000": 68,
+  "scope": "Exact rational identity and elementary triangle inequalities. Neither G3 automorphy lifting nor RH independently proved."
+}

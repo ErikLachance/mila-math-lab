@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests": 5000,
+  "min_difference": "0",
+  "max_difference": "1099261/960",
+  "exclusions": "arbitrary finite odd exponents",
+  "analytic_identity": "g1>=g0 before price for al>=0, cap>=0, all odd e"
+}

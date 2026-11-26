@@ -1,0 +1,63 @@
+{
+  "source": "Rubinstein zeta v2 Part II section 1, screenshot p31 (Gamma kernel high derivatives)",
+  "rate_formula": "P(U outside [u,1.5u]) <= exp(-k*(r_low-1-ln r_low))+exp(-k*(r_high-1-ln r_high)), k=j+1, r_low=a*u/k, r_high=1.5*a*u/k, a=sigma-2",
+  "cases": [
+    {
+      "U": 20,
+      "j": 50,
+      "k": 51,
+      "relative_low": 0.7843137254901961,
+      "relative_high": 1.1764705882352942,
+      "actual_gamma_mass_outside": 0.16030592772873184,
+      "chernoff_bound_outside": 0.7399020723949054
+    },
+    {
+      "U": 40,
+      "j": 100,
+      "k": 101,
+      "relative_low": 0.7920792079207921,
+      "relative_high": 1.188118811881188,
+      "actual_gamma_mass_outside": 0.047836889570358816,
+      "chernoff_bound_outside": 0.28249330311821963
+    },
+    {
+      "U": 80,
+      "j": 200,
+      "k": 201,
+      "relative_low": 0.7960199004975125,
+      "relative_high": 1.1940298507462686,
+      "actual_gamma_mass_outside": 0.0054706222689251734,
+      "chernoff_bound_outside": 0.04267365960341865
+    },
+    {
+      "U": 160,
+      "j": 400,
+      "k": 401,
+      "relative_low": 0.7980049875311721,
+      "relative_high": 1.1970074812967582,
+      "actual_gamma_mass_outside": 0.0001034646593479862,
+      "chernoff_bound_outside": 0.0010938293568694619
+    },
+    {
+      "U": 320,
+      "j": 800,
+      "k": 801,
+      "relative_low": 0.7990012484394506,
+      "relative_high": 1.198501872659176,
+      "actual_gamma_mass_outside": 5.97686885812482e-08,
+      "chernoff_bound_outside": 8.718256386140014e-07
+    },
+    {
+      "U": 640,
+      "j": 1600,
+      "k": 1601,
+      "relative_low": 0.7995003123048094,
+      "relative_high": 1.1992504684572143,
+      "actual_gamma_mass_outside": 3.063952758764228e-14,
+      "chernoff_bound_outside": 6.235211211729497e-13
+    }
+  ],
+  "wrong_j_equal_aU_tail_probability": 0.48513823412893453,
+  "elapsed_seconds": 0.005163474000028145,
+  "scope": "rigorous elementary Chernoff inequalities; decimal evaluations are diagnostics, not a recheck of the whole RH proof"
+}

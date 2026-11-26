@@ -1,0 +1,42 @@
+{
+  "elementary_primorial_lemma": "For each integer N>=2, P(N)=prod_{prime p<=N} p <=2^N P(ceil(N/2)). Iterate to theta(N)<= (2N+ceil(log2N))ln2. This follows since each p in (ceil(N/2),N] divides binom(N,floor N/2), and binom<=2^N.",
+  "exact_integer_N_checked": 1999,
+  "stage2_bound": "log m0<=log(16 M)+z+(2z+ceil(log2 z))ln2 for q<=exp(z); for z>=20, <=log(16M)+(1+(9/4)ln2)z. Thus log m0<=4z eventually for fixed M, with positive coefficient margin.",
+  "coefficient_margin_4_minus_1_minus_9over4log2": "1.44041884374012305381122772671910272183",
+  "q_gt_T_large_branch_thresholds": [
+    {
+      "epsilon": ".01",
+      "K": 3,
+      "logY_at_q_greater_T_threshold": "8410.21305102022231507252474",
+      "log10Y": "3652.50911968879428009843356",
+      "z_at_threshold": "20184511.3224485335561740594",
+      "q_gt_T_inequality_ratio_at_threshold": "1.0",
+      "first_stage_mean_square_condition_ratio_for_M_1000": "0.127010604338435",
+      "log10Y_stage1_threshold_M1000": "4156.75192618709313362391",
+      "log10Y_both_suffices_in_example": "4156.75192618709313362391"
+    },
+    {
+      "epsilon": ".005",
+      "K": 3,
+      "logY_at_q_greater_T_threshold": "17556.3977213262800498125971",
+      "log10Y": "7624.64665247082775465209359",
+      "z_at_threshold": "42135354.5311830721195502331",
+      "q_gt_T_inequality_ratio_at_threshold": "1.0",
+      "first_stage_mean_square_condition_ratio_for_M_1000": "0.0608431330379074",
+      "log10Y_stage1_threshold_M1000": "8982.82114412968004846211",
+      "log10Y_both_suffices_in_example": "8982.82114412968004846211"
+    },
+    {
+      "epsilon": ".001",
+      "K": 3,
+      "logY_at_q_greater_T_threshold": "96291.8129732716205909207655",
+      "log10Y": "41819.0030267518213925111247",
+      "z_at_threshold": "231100351.135851889418209837",
+      "q_gt_T_inequality_ratio_at_threshold": "1.0",
+      "first_stage_mean_square_condition_ratio_for_M_1000": "0.0110932197581696",
+      "log10Y_stage1_threshold_M1000": "52588.920778665912234659",
+      "log10Y_both_suffices_in_example": "52588.920778665912234659"
+    }
+  ],
+  "limitations": "No proof that either prime q or d exists in the required short exponential interval/progression, no zero-density or uniform character bounds; estimates are elementary necessary feasibility, not sufficient. q>T thresholds may be astronomically large and do not on their own ensure all other hypotheses."
+}

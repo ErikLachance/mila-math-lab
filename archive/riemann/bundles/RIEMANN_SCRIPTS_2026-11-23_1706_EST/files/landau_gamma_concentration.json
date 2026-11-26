@@ -1,0 +1,42 @@
+[
+  {
+    "U": "1",
+    "m": 1250,
+    "k": 1249,
+    "tail_upper_log10": "-10.85509058717139",
+    "ratio_actual_to_goal_log10": "-12.77130639466898",
+    "pass": true
+  },
+  {
+    "U": "7/5",
+    "m": 1750,
+    "k": 1749,
+    "tail_upper_log10": "-14.76468566558384",
+    "ratio_actual_to_goal_log10": "-16.24704070746797",
+    "pass": true
+  },
+  {
+    "U": "2",
+    "m": 2500,
+    "k": 2499,
+    "tail_upper_log10": "-20.59830289756405",
+    "ratio_actual_to_goal_log10": "-21.429866791028",
+    "pass": true
+  },
+  {
+    "U": "9/2",
+    "m": 5625,
+    "k": 5624,
+    "tail_upper_log10": "-44.76425885436786",
+    "ratio_actual_to_goal_log10": "-42.88419296274771",
+    "pass": true
+  },
+  {
+    "U": "10",
+    "m": 12500,
+    "k": 12499,
+    "tail_upper_log10": "-97.72024352847231",
+    "ratio_actual_to_goal_log10": "-89.87459210966713",
+    "pass": true
+  }
+]

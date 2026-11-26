@@ -1,0 +1,10 @@
+{
+  "lifting_determinant_checks": 4611,
+  "singular_free_cases": 0,
+  "aggregate_bounds": 450,
+  "pointwise_bounds": 450,
+  "torsion_quotient_checks": 500,
+  "singular_free_finite_torsion": 0,
+  "seconds": 0.5823517240000058
+}
+

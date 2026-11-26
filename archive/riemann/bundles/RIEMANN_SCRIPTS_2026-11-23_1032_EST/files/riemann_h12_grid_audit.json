@@ -1,0 +1,49 @@
+{
+  "claim": "For x>=2, G(x)=sum_{n<=x} Lambda(n)(x/n-1)-x log x+(1+gamma)x is continuous piecewise differentiable and |G'(x)| <= log(x)^2+2log(x)+1, away from prime powers; hence is globally Lipschitz on [Y,Y^{3/2}] with M(Y)=(3logY/2)^2+3logY+1.",
+  "proof": "A(x)=sum_{n<=x} Lambda(n)/n <= log(x) * sum_{n<=x}1/n <= log(x)*(1+log x). Piecewise G'=A(x)-log x+gamma. At jumps S(x) has new factor (x/n-1)=0, so continuous. Each piece satisfies |G'| <= log^2 x+2log x+1 for x>=2. Then integration over finitely many breaks gives Lipschitz bound. If a left-anchored h-net with h<=Y^theta/M has G(x_j)<=C*x_j^theta at each node, then G(x)<=C*x^theta+Y^theta <=(C+1)*x^theta for all x; theta>0, C>=0. Node count O(Y^{3/2-theta} log^2 Y).",
+  "scope": "This elementary discretization reduces a continuous scalar bound to finitely many scalar bounds at each chosen window Y. It does NOT establish (M), H12, control uniform constants, or RH. Additional arithmetic data may vary with x; the lemma alone cannot furnish them.",
+  "derivative_checks": 6000,
+  "max_differencing_error": 1.4950710272576605e-05,
+  "tests": [
+    {
+      "Y": 40,
+      "U": 252.98221281347034,
+      "theta": 0.55,
+      "h": 0.17818258017464303,
+      "n_grid_intervals": 1196,
+      "max_G_ratio_C": 0.23878487131047613,
+      "largest_tested_G_minus_proved_envelope": -7.609058032902446,
+      "failures": 0
+    },
+    {
+      "Y": 100,
+      "U": 1000.0,
+      "theta": 0.6,
+      "h": 0.2534507370362514,
+      "n_grid_intervals": 3551,
+      "max_G_ratio_C": 0.11185208532212451,
+      "largest_tested_G_minus_proved_envelope": -15.848907902105339,
+      "failures": 0
+    },
+    {
+      "Y": 200,
+      "U": 2828.42712474619,
+      "theta": 0.53,
+      "h": 0.2070831719515747,
+      "n_grid_intervals": 12693,
+      "max_G_ratio_C": 0.12416544602518433,
+      "largest_tested_G_minus_proved_envelope": -16.578752004065056,
+      "failures": 0
+    },
+    {
+      "Y": 1000,
+      "U": 31622.776601683792,
+      "theta": 0.6,
+      "h": 0.48878570131407373,
+      "n_grid_intervals": 62651,
+      "max_G_ratio_C": 0.03193288759086336,
+      "largest_tested_G_minus_proved_envelope": -63.09919098808999,
+      "failures": 0
+    }
+  ]
+}

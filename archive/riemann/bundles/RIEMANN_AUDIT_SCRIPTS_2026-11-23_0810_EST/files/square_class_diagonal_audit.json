@@ -1,0 +1,105 @@
+{
+  "structural_exact_identity": "For prime-power terms a(p^r)=ln(p)*min(1,y/p^r), the square-class portion of sum_{n,m<=T}a(n)a(m) 1[n*m is square] equals E_T(y)^2 + sum_p O_{p,T}(y)^2; E counts even exponents, O_p counts odd exponents for one prime.",
+  "rigorous_bound_for_y>=2": "D_T(y) <= 400*y*log(y), uniform all cutoffs T>=2. This uses elementary Chebyshev theta(x)<=3 log2*x, psi(x)<=5*x, by binomial primorial recurrence and partial summation. The weaker exact upper coefficient before rounding: 225/log2 + 24 +(16/9)*(3log2)*(2+1/log2).",
+  "bound_constant": "361.33328745932284995643352918764628",
+  "brute_pair_checks": 25,
+  "brute_examples": [
+    {
+      "T": 30,
+      "y": 2,
+      "pairs": 256,
+      "ratio_diagonal_over_ylogy": "2.50130799832649679",
+      "error": "1.42e-65"
+    },
+    {
+      "T": 30,
+      "y": 3,
+      "pairs": 256,
+      "ratio_diagonal_over_ylogy": "2.13033890275014987",
+      "error": "0.0"
+    },
+    {
+      "T": 30,
+      "y": 5,
+      "pairs": 256,
+      "ratio_diagonal_over_ylogy": "1.88101003998991312",
+      "error": "0.0"
+    },
+    {
+      "T": 30,
+      "y": 8,
+      "pairs": 256,
+      "ratio_diagonal_over_ylogy": "1.66113473531694521",
+      "error": "3.8e-65"
+    },
+    {
+      "T": 30,
+      "y": 20,
+      "pairs": 256,
+      "ratio_diagonal_over_ylogy": "1.13561386134062754",
+      "error": "1.52e-64"
+    },
+    {
+      "T": 80,
+      "y": 2,
+      "pairs": 961,
+      "ratio_diagonal_over_ylogy": "2.89337738519611548",
+      "error": "9.5e-66"
+    },
+    {
+      "T": 80,
+      "y": 3,
+      "pairs": 961,
+      "ratio_diagonal_over_ylogy": "2.48772479084163386",
+      "error": "1.9e-65"
+    },
+    {
+      "T": 80,
+      "y": 5,
+      "pairs": 961,
+      "ratio_diagonal_over_ylogy": "2.26427749887340154",
+      "error": "1.52e-64"
+    },
+    {
+      "T": 80,
+      "y": 8,
+      "pairs": 961,
+      "ratio_diagonal_over_ylogy": "2.10687696787958277",
+      "error": "0.0"
+    }
+  ],
+  "larger_tests": [
+    {
+      "y": 2,
+      "D_T_100000": "4.82237502988738311115205",
+      "D_div_ylogy": "3.47860827046264716",
+      "odd_prime_classes": 9592
+    },
+    {
+      "y": 10,
+      "D_T_100000": "63.40117729577361156086297",
+      "D_div_ylogy": "2.75347814457242134",
+      "odd_prime_classes": 9592
+    },
+    {
+      "y": 100,
+      "D_T_100000": "1201.705617733012845526163",
+      "D_div_ylogy": "2.60947059326793003",
+      "odd_prime_classes": 9592
+    },
+    {
+      "y": 1000,
+      "D_T_100000": "16881.81054568838198881411",
+      "D_div_ylogy": "2.44389238817619629",
+      "odd_prime_classes": 9592
+    },
+    {
+      "y": 10000,
+      "D_T_100000": "198581.3737926004061273154",
+      "D_div_ylogy": "2.1560698711723346",
+      "odd_prime_classes": 9592
+    }
+  ],
+  "context": "This proves a bound for square-coherent diagonal terms only; the actual mean-square prime progression theorem also needs difficult cancellation for non-square nm (quadratic reciprocity, large sieve/zero-density), not established here.",
+  "status": "elementary analytic proof of toy diagonal input, not RH proof"
+}

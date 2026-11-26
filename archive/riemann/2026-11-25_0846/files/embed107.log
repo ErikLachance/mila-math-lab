@@ -1,0 +1,13 @@
+residue roots [(1, 0, 0, 0, 0, 0), (4, 0, 0, 1, 0, 0), (4, 0, 0, 6, 0, 0)]
+translated residue roots 3
+translated residue roots 3
+roots labeled [(11404, 5145, 8575, 0, 0, 0), (10448, 8711, 363, 9339, 13165, 3829), (14361, 8161, 12564, 4621, 10174, 8244), (10308, 7481, 15542, 12662, 8590, 3498), (10308, 7481, 15542, 6546, 10275, 11594), (14361, 8161, 12564, 181, 8348, 9935), (10448, 8711, 363, 5067, 11874, 12635)]
+embedded unit count 19
+unit span rank 20
+R3 R4 rank 32 29
+global covariance checked
+rank R3 32 with X0 33 with Dy1 34 with utheta 35 with D2yb 35
+e_loc zero? False
+nonzero X0 coefficient verified
+semidirect covariance verified
+

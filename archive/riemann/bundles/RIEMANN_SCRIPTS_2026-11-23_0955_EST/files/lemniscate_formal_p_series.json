@@ -1,0 +1,59 @@
+{
+  "computed": [
+    {
+      "p": 3,
+      "N": 9,
+      "first_nonzero_degree_mod_p": [
+        9,
+        2
+      ],
+      "nonzero_count": 1
+    },
+    {
+      "p": 7,
+      "N": 49,
+      "first_nonzero_degree_mod_p": [
+        49,
+        6
+      ],
+      "nonzero_count": 1
+    },
+    {
+      "p": 11,
+      "N": 121,
+      "first_nonzero_degree_mod_p": [
+        121,
+        10
+      ],
+      "nonzero_count": 1
+    },
+    {
+      "p": 5,
+      "N": 5,
+      "first_nonzero_degree_mod_p": [
+        5,
+        3
+      ],
+      "nonzero_count": 1
+    },
+    {
+      "p": 13,
+      "N": 13,
+      "first_nonzero_degree_mod_p": [
+        13,
+        6
+      ],
+      "nonzero_count": 1
+    },
+    {
+      "p": 17,
+      "N": 17,
+      "first_nonzero_degree_mod_p": [
+        17,
+        2
+      ],
+      "nonzero_count": 1
+    }
+  ],
+  "warnings": "finite p-adic modular checks; not proof for all primes; exact Fraction coefficients, polynomial ring Z_(p)[[X]] truncated"
+}

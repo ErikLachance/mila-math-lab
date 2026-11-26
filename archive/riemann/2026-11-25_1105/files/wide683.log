@@ -1,0 +1,13 @@
+unit 71 direct maxcoeff 7
+round 5 tested 125 small 16 coll 0 units 71 seconds 6.097098105000043
+unit 72 direct maxcoeff 49
+unit 73 direct maxcoeff 27
+unit 74 direct maxcoeff 33
+unit 75 direct maxcoeff 22
+unit 76 direct maxcoeff 76
+unit 77 direct maxcoeff 30
+unit 78 direct maxcoeff 68
+unit 79 direct maxcoeff 46
+unit 80 direct maxcoeff 30
+round 10 tested 250 small 63 coll 3 units 80 seconds 12.199279711000031
+FINAL 12 300 74 6 80 seconds 14.690173655000024

@@ -1,0 +1,100 @@
+{
+  "discriminant": -23,
+  "norm": "Norm(a+b*(1+sqrt(-23))/2) = a^2+a*b+6*b^2",
+  "classNumberExact": 3,
+  "heuristicM1RationalPrimeDensity": "1/(2*classNumber)=1/6 (Chebotarev heuristic; not proved by this finite count)",
+  "counts": [
+    {
+      "X": 1000,
+      "primeCount": 168,
+      "M1Count": 26,
+      "M1DensityAmongPrimes": 0.15476,
+      "M2Count": 26,
+      "M3Count": 13
+    },
+    {
+      "X": 10000,
+      "primeCount": 1229,
+      "M1Count": 194,
+      "M1DensityAmongPrimes": 0.15785,
+      "M2Count": 194,
+      "M3Count": 92
+    },
+    {
+      "X": 50000,
+      "primeCount": 5133,
+      "M1Count": 838,
+      "M1DensityAmongPrimes": 0.16326,
+      "M2Count": 838,
+      "M3Count": 419
+    },
+    {
+      "X": 100000,
+      "primeCount": 9592,
+      "M1Count": 1568,
+      "M1DensityAmongPrimes": 0.16347,
+      "M2Count": 1568,
+      "M3Count": 772
+    },
+    {
+      "X": 200000,
+      "primeCount": 17984,
+      "M1Count": 2960,
+      "M1DensityAmongPrimes": 0.16459,
+      "M2Count": 2960,
+      "M3Count": 1462
+    }
+  ],
+  "M1RepresentationExamples": {
+    "23": [
+      1,
+      -2
+    ],
+    "59": [
+      -5,
+      -2
+    ],
+    "101": [
+      -1,
+      -4
+    ],
+    "167": [
+      -11,
+      -2
+    ],
+    "173": [
+      -7,
+      -4
+    ],
+    "211": [
+      1,
+      -6
+    ],
+    "223": [
+      -1,
+      -6
+    ],
+    "271": [
+      -5,
+      -6
+    ],
+    "307": [
+      -7,
+      -6
+    ],
+    "317": [
+      -13,
+      -4
+    ],
+    "347": [
+      -17,
+      -2
+    ],
+    "449": [
+      -5,
+      -8
+    ]
+  },
+  "primalitySieveExactTo": 200000,
+  "limitations": "Finite enumeration supports only elementary representability, congruence and density sanity checks. It does not prove C9 uniform in discriminant, conductor, variable h, nor a lower bound for every short interval. The ray class character of order 3 is a Hecke L-function, not a Dirichlet L-function over Q; RH for only Dirichlet L does not directly imply it."
+}

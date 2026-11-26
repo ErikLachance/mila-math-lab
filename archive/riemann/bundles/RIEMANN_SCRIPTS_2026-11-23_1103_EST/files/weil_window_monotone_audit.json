@@ -1,0 +1,12 @@
+{
+  "source": "https://arxiv.org/html/2608.24827v2 (September 2026 v2); report L=.8 upper 2.27e-17 even real, lower 8.9e-18 all parity",
+  "window_inclusion": "C_c(-0.8,0.8) is a subset of C_c(-0.81,0.81), so lambda_even*(0.81)<=lambda_even*(0.8)",
+  "exact_upper_lambda_even_L081": "227/10000000000000000000",
+  "invalid_possible_extrapolated_global_margin": "1/100000000000000",
+  "exact_ratio_wrong_margin_to_upper": "100000/227",
+  "conclusion": "A claimed full-window >=1e-14 at L=.81 would contradict the independent, unconditional L=.8 upper bound. The recorded 8-even finite Fourier span lower bound is NOT a full-window claim and remains compatible.",
+  "heuristic_Tstar_at_L081": 31.749502832885536,
+  "heuristic_time_bandwidth_count": 16.372012625666933,
+  "warning": "Empirical resolution Tstar and Shannon count are heuristics and NOT a finite-dimensional completeness certificate.",
+  "status": "EXACT RATIONAL COMPARISON PASS; mathematical implication conditional on correctness and matching normalization of source certificate"
+}

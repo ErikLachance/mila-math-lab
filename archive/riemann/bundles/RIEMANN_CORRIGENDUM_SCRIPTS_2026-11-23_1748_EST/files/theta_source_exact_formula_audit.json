@@ -1,0 +1,109 @@
+{
+  "test_count": 3780,
+  "exact_lean_source_matches": true,
+  "positive_lower_bound_cases": 1515,
+  "min_slack": "13/2",
+  "examples": [
+    {
+      "p": 3,
+      "N": 9,
+      "i": 1,
+      "R": 1,
+      "targetValuation": 3,
+      "sourceLowerBound": "-39/4",
+      "computedState": {
+        "al": {
+          "0": 9,
+          "1": 0
+        },
+        "cap": {
+          "0": 0,
+          "1": 1
+        },
+        "ls": {
+          "0": 0,
+          "1": 1
+        },
+        "deLoss": 13,
+        "count_odd_terms": 1,
+        "dSet0": []
+      }
+    },
+    {
+      "p": 3,
+      "N": 27,
+      "i": 3,
+      "R": 4,
+      "targetValuation": 11,
+      "sourceLowerBound": "-343/4",
+      "computedState": {
+        "al": {
+          "0": 27,
+          "1": 0
+        },
+        "cap": {
+          "0": 1,
+          "1": 3
+        },
+        "ls": {
+          "0": 4,
+          "1": 3
+        },
+        "deLoss": 96,
+        "count_odd_terms": 1,
+        "dSet0": []
+      }
+    },
+    {
+      "p": 5,
+      "N": 125,
+      "i": 3,
+      "R": 9,
+      "targetValuation": 28,
+      "sourceLowerBound": "-6415/24",
+      "computedState": {
+        "al": {
+          "0": 125,
+          "1": 0
+        },
+        "cap": {
+          "0": 1,
+          "1": 3
+        },
+        "ls": {
+          "0": 9,
+          "1": 3
+        },
+        "deLoss": 295,
+        "count_odd_terms": 1,
+        "dSet0": []
+      }
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 2,
+      "R": 10,
+      "targetValuation": 398,
+      "sourceLowerBound": "1021/48",
+      "computedState": {
+        "al": {
+          "0": 2401,
+          "1": 0
+        },
+        "cap": {
+          "0": 1,
+          "1": 2
+        },
+        "ls": {
+          "0": 10,
+          "1": 2
+        },
+        "deLoss": 375,
+        "count_odd_terms": 2,
+        "dSet0": []
+      }
+    }
+  ],
+  "source_semantics": "direct from alG/capG/lsG,deLoss,rhoP,gamP,excessGain and dSet. TT singleton even site0; dSet0 empty; cap(site1)=i; alg sum for R>=2 has al0=N ls0=R; R1 no extra column. Key odd terms positive until N/p^(2e+1)<=i. Demonstrates previous human formula B_R equals actual source exponent in this narrow model after replacing F with full hhS globally."
+}

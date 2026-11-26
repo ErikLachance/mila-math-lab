@@ -1,0 +1,267 @@
+[
+  {
+    "p": 3,
+    "derivation": "D(x_i)=x_(i+1) for i< 2; D(x_2)=3x_0",
+    "Dpowp_all_generators": "p times identical generator",
+    "Dpowp_modp_is_zero_on_entire_polynomial_ring": true,
+    "tests": [
+      {
+        "a": 3,
+        "monomial": "x_0",
+        "coefficient": "3^1",
+        "vp": 1,
+        "baseline_floor_a_over_p": 1,
+        "height_two_proposal": 1,
+        "height_two_holds": true
+      },
+      {
+        "a": 9,
+        "monomial": "x_0",
+        "coefficient": "3^3",
+        "vp": 3,
+        "baseline_floor_a_over_p": 3,
+        "height_two_proposal": 3,
+        "height_two_holds": true
+      },
+      {
+        "a": 27,
+        "monomial": "x_0",
+        "coefficient": "3^9",
+        "vp": 9,
+        "baseline_floor_a_over_p": 9,
+        "height_two_proposal": 10,
+        "height_two_holds": false
+      },
+      {
+        "a": 54,
+        "monomial": "x_0",
+        "coefficient": "3^18",
+        "vp": 18,
+        "baseline_floor_a_over_p": 18,
+        "height_two_proposal": 20,
+        "height_two_holds": false
+      },
+      {
+        "a": 81,
+        "monomial": "x_0",
+        "coefficient": "3^27",
+        "vp": 27,
+        "baseline_floor_a_over_p": 27,
+        "height_two_proposal": 30,
+        "height_two_holds": false
+      }
+    ]
+  },
+  {
+    "p": 5,
+    "derivation": "D(x_i)=x_(i+1) for i< 4; D(x_4)=5x_0",
+    "Dpowp_all_generators": "p times identical generator",
+    "Dpowp_modp_is_zero_on_entire_polynomial_ring": true,
+    "tests": [
+      {
+        "a": 5,
+        "monomial": "x_0",
+        "coefficient": "5^1",
+        "vp": 1,
+        "baseline_floor_a_over_p": 1,
+        "height_two_proposal": 1,
+        "height_two_holds": true
+      },
+      {
+        "a": 25,
+        "monomial": "x_0",
+        "coefficient": "5^5",
+        "vp": 5,
+        "baseline_floor_a_over_p": 5,
+        "height_two_proposal": 5,
+        "height_two_holds": true
+      },
+      {
+        "a": 125,
+        "monomial": "x_0",
+        "coefficient": "5^25",
+        "vp": 25,
+        "baseline_floor_a_over_p": 25,
+        "height_two_proposal": 26,
+        "height_two_holds": false
+      },
+      {
+        "a": 250,
+        "monomial": "x_0",
+        "coefficient": "5^50",
+        "vp": 50,
+        "baseline_floor_a_over_p": 50,
+        "height_two_proposal": 52,
+        "height_two_holds": false
+      },
+      {
+        "a": 375,
+        "monomial": "x_0",
+        "coefficient": "5^75",
+        "vp": 75,
+        "baseline_floor_a_over_p": 75,
+        "height_two_proposal": 78,
+        "height_two_holds": false
+      }
+    ]
+  },
+  {
+    "p": 7,
+    "derivation": "D(x_i)=x_(i+1) for i< 6; D(x_6)=7x_0",
+    "Dpowp_all_generators": "p times identical generator",
+    "Dpowp_modp_is_zero_on_entire_polynomial_ring": true,
+    "tests": [
+      {
+        "a": 7,
+        "monomial": "x_0",
+        "coefficient": "7^1",
+        "vp": 1,
+        "baseline_floor_a_over_p": 1,
+        "height_two_proposal": 1,
+        "height_two_holds": true
+      },
+      {
+        "a": 49,
+        "monomial": "x_0",
+        "coefficient": "7^7",
+        "vp": 7,
+        "baseline_floor_a_over_p": 7,
+        "height_two_proposal": 7,
+        "height_two_holds": true
+      },
+      {
+        "a": 343,
+        "monomial": "x_0",
+        "coefficient": "7^49",
+        "vp": 49,
+        "baseline_floor_a_over_p": 49,
+        "height_two_proposal": 50,
+        "height_two_holds": false
+      },
+      {
+        "a": 686,
+        "monomial": "x_0",
+        "coefficient": "7^98",
+        "vp": 98,
+        "baseline_floor_a_over_p": 98,
+        "height_two_proposal": 100,
+        "height_two_holds": false
+      },
+      {
+        "a": 1029,
+        "monomial": "x_0",
+        "coefficient": "7^147",
+        "vp": 147,
+        "baseline_floor_a_over_p": 147,
+        "height_two_proposal": 150,
+        "height_two_holds": false
+      }
+    ]
+  },
+  {
+    "p": 11,
+    "derivation": "D(x_i)=x_(i+1) for i< 10; D(x_10)=11x_0",
+    "Dpowp_all_generators": "p times identical generator",
+    "Dpowp_modp_is_zero_on_entire_polynomial_ring": true,
+    "tests": [
+      {
+        "a": 11,
+        "monomial": "x_0",
+        "coefficient": "11^1",
+        "vp": 1,
+        "baseline_floor_a_over_p": 1,
+        "height_two_proposal": 1,
+        "height_two_holds": true
+      },
+      {
+        "a": 121,
+        "monomial": "x_0",
+        "coefficient": "11^11",
+        "vp": 11,
+        "baseline_floor_a_over_p": 11,
+        "height_two_proposal": 11,
+        "height_two_holds": true
+      },
+      {
+        "a": 1331,
+        "monomial": "x_0",
+        "coefficient": "11^121",
+        "vp": 121,
+        "baseline_floor_a_over_p": 121,
+        "height_two_proposal": 122,
+        "height_two_holds": false
+      },
+      {
+        "a": 2662,
+        "monomial": "x_0",
+        "coefficient": "11^242",
+        "vp": 242,
+        "baseline_floor_a_over_p": 242,
+        "height_two_proposal": 244,
+        "height_two_holds": false
+      },
+      {
+        "a": 3993,
+        "monomial": "x_0",
+        "coefficient": "11^363",
+        "vp": 363,
+        "baseline_floor_a_over_p": 363,
+        "height_two_proposal": 366,
+        "height_two_holds": false
+      }
+    ]
+  },
+  {
+    "p": 13,
+    "derivation": "D(x_i)=x_(i+1) for i< 12; D(x_12)=13x_0",
+    "Dpowp_all_generators": "p times identical generator",
+    "Dpowp_modp_is_zero_on_entire_polynomial_ring": true,
+    "tests": [
+      {
+        "a": 13,
+        "monomial": "x_0",
+        "coefficient": "13^1",
+        "vp": 1,
+        "baseline_floor_a_over_p": 1,
+        "height_two_proposal": 1,
+        "height_two_holds": true
+      },
+      {
+        "a": 169,
+        "monomial": "x_0",
+        "coefficient": "13^13",
+        "vp": 13,
+        "baseline_floor_a_over_p": 13,
+        "height_two_proposal": 13,
+        "height_two_holds": true
+      },
+      {
+        "a": 2197,
+        "monomial": "x_0",
+        "coefficient": "13^169",
+        "vp": 169,
+        "baseline_floor_a_over_p": 169,
+        "height_two_proposal": 170,
+        "height_two_holds": false
+      },
+      {
+        "a": 4394,
+        "monomial": "x_0",
+        "coefficient": "13^338",
+        "vp": 338,
+        "baseline_floor_a_over_p": 338,
+        "height_two_proposal": 340,
+        "height_two_holds": false
+      },
+      {
+        "a": 6591,
+        "monomial": "x_0",
+        "coefficient": "13^507",
+        "vp": 507,
+        "baseline_floor_a_over_p": 507,
+        "height_two_proposal": 510,
+        "height_two_holds": false
+      }
+    ]
+  }
+]

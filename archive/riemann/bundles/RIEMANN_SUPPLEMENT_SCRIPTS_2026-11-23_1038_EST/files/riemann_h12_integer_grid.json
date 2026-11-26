@@ -1,0 +1,46 @@
+{
+  "proof": "For fixed rational theta=p/q with 1/2<p/q<1, Y=m^2 and upper=m^3 are integers. For each a, choose maximum positive integer h with h^(2q) <= 8^q a^(q+p), then b=min(m^3,a+h). These purely integer comparisons verify h^2 <= 8 a^(1+theta), so the semiconvex finite-grid lemma applies without floating node-rounding risks. There are asymptotically O(m^(3*(1-theta)/2)) nodes, equivalent to O(Y^(3*(1-theta)/4)).",
+  "tests": [
+    {
+      "m": 10,
+      "theta": "3/5",
+      "n_intervals": 4,
+      "upper": 1000,
+      "samples": 2000,
+      "C_finite": 0.10863108364187359,
+      "max_G_minus_exact_interpolant": -0.03518569895718038,
+      "violations": 0,
+      "integer_mesh_proof": "PASS, exact integer power comparisons on every edge"
+    },
+    {
+      "m": 30,
+      "theta": "11/20",
+      "n_intervals": 10,
+      "upper": 27000,
+      "samples": 5000,
+      "C_finite": 0.046033170993810435,
+      "max_G_minus_exact_interpolant": -0.030026142313420934,
+      "violations": 0,
+      "integer_mesh_proof": "PASS, exact integer power comparisons on every edge"
+    },
+    {
+      "m": 60,
+      "theta": "13/25",
+      "n_intervals": 20,
+      "upper": 216000,
+      "samples": 10000,
+      "C_finite": 0.021632935596152314,
+      "max_G_minus_exact_interpolant": -0.031547673547185795,
+      "violations": 0,
+      "integer_mesh_proof": "PASS, exact integer power comparisons on every edge"
+    },
+    {
+      "m": 1000,
+      "theta": "3/5",
+      "n_intervals": 87,
+      "upper": 1000000000,
+      "integer_mesh_proof": "PASS by exact big integers, prime-sum diagnostics skipped (range exceeds sieve)"
+    }
+  ],
+  "quantifier": "Combined with the source one-sided Landau interval criterion and theta arbitrarily close to 1/2, a uniform-in-m bound G(node)<=C_theta node^theta for arbitrarily large m along these integer meshes implies RH. Conversely RH implies it. These are equivalent unsolved node estimates, NOT computational proof by the finite tests."
+}

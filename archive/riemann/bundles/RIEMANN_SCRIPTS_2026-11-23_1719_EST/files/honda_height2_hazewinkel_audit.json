@@ -1,0 +1,148 @@
+{
+  "tests": [
+    {
+      "p": 3,
+      "N": 9,
+      "v_p(N!)": 4,
+      "v_p(coef_X^N_exp(epsilonL))_epsilon_unit": -4,
+      "v_p(coef_X^N_inverse_L)": -1,
+      "F_N_mixed_integral": true,
+      "nonzero_modp_mixed_exponents": [
+        3,
+        6
+      ],
+      "modp_coeff_binomial_over_p": {
+        "3": 1,
+        "6": 1
+      },
+      "dwork_height1_defect_X^N": "0",
+      "dwork_height2_defect_X^N": "-1",
+      "pseries_X^N_modp": 1
+    },
+    {
+      "p": 5,
+      "N": 25,
+      "v_p(N!)": 6,
+      "v_p(coef_X^N_exp(epsilonL))_epsilon_unit": -6,
+      "v_p(coef_X^N_inverse_L)": -1,
+      "F_N_mixed_integral": true,
+      "nonzero_modp_mixed_exponents": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "modp_coeff_binomial_over_p": {
+        "5": 1,
+        "10": 2,
+        "15": 2,
+        "20": 1
+      },
+      "dwork_height1_defect_X^N": "0",
+      "dwork_height2_defect_X^N": "-1",
+      "pseries_X^N_modp": 1
+    },
+    {
+      "p": 7,
+      "N": 49,
+      "v_p(N!)": 8,
+      "v_p(coef_X^N_exp(epsilonL))_epsilon_unit": -8,
+      "v_p(coef_X^N_inverse_L)": -1,
+      "F_N_mixed_integral": true,
+      "nonzero_modp_mixed_exponents": [
+        7,
+        14,
+        21,
+        28,
+        35,
+        42
+      ],
+      "modp_coeff_binomial_over_p": {
+        "7": 1,
+        "14": 3,
+        "21": 5,
+        "28": 5,
+        "35": 3,
+        "42": 1
+      },
+      "dwork_height1_defect_X^N": "0",
+      "dwork_height2_defect_X^N": "-1",
+      "pseries_X^N_modp": 1
+    },
+    {
+      "p": 11,
+      "N": 121,
+      "v_p(N!)": 12,
+      "v_p(coef_X^N_exp(epsilonL))_epsilon_unit": -12,
+      "v_p(coef_X^N_inverse_L)": -1,
+      "F_N_mixed_integral": true,
+      "nonzero_modp_mixed_exponents": [
+        11,
+        22,
+        33,
+        44,
+        55,
+        66,
+        77,
+        88,
+        99,
+        110
+      ],
+      "modp_coeff_binomial_over_p": {
+        "11": 1,
+        "22": 5,
+        "33": 4,
+        "44": 8,
+        "55": 9,
+        "66": 9,
+        "77": 8,
+        "88": 4,
+        "99": 5,
+        "110": 1
+      },
+      "dwork_height1_defect_X^N": "0",
+      "dwork_height2_defect_X^N": "-1",
+      "pseries_X^N_modp": 1
+    },
+    {
+      "p": 13,
+      "N": 169,
+      "v_p(N!)": 14,
+      "v_p(coef_X^N_exp(epsilonL))_epsilon_unit": -14,
+      "v_p(coef_X^N_inverse_L)": -1,
+      "F_N_mixed_integral": true,
+      "nonzero_modp_mixed_exponents": [
+        13,
+        26,
+        39,
+        52,
+        65,
+        78,
+        91,
+        104,
+        117,
+        130,
+        143,
+        156
+      ],
+      "modp_coeff_binomial_over_p": {
+        "13": 1,
+        "26": 6,
+        "39": 9,
+        "52": 3,
+        "65": 8,
+        "78": 2,
+        "91": 2,
+        "104": 8,
+        "117": 3,
+        "130": 9,
+        "143": 6,
+        "156": 1
+      },
+      "dwork_height1_defect_X^N": "0",
+      "dwork_height2_defect_X^N": "-1",
+      "pseries_X^N_modp": 1
+    }
+  ],
+  "all_passed": true
+}

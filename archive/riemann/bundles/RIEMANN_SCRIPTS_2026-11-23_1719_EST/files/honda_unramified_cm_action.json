@@ -1,0 +1,149 @@
+{
+  "pass": true,
+  "data": [
+    {
+      "p": 3,
+      "D_nonsquare": 2,
+      "primitive_order": 4,
+      "count_primitive_(p+1)-roots": 2,
+      "example_w": [
+        0,
+        1
+      ],
+      "w_p_frobenius_conjugate": [
+        0,
+        2
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    },
+    {
+      "p": 5,
+      "D_nonsquare": 2,
+      "primitive_order": 6,
+      "count_primitive_(p+1)-roots": 2,
+      "example_w": [
+        3,
+        2
+      ],
+      "w_p_frobenius_conjugate": [
+        3,
+        3
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    },
+    {
+      "p": 7,
+      "D_nonsquare": 3,
+      "primitive_order": 8,
+      "count_primitive_(p+1)-roots": 4,
+      "example_w": [
+        2,
+        1
+      ],
+      "w_p_frobenius_conjugate": [
+        2,
+        6
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    },
+    {
+      "p": 11,
+      "D_nonsquare": 2,
+      "primitive_order": 12,
+      "count_primitive_(p+1)-roots": 4,
+      "example_w": [
+        3,
+        2
+      ],
+      "w_p_frobenius_conjugate": [
+        3,
+        9
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    },
+    {
+      "p": 13,
+      "D_nonsquare": 2,
+      "primitive_order": 14,
+      "count_primitive_(p+1)-roots": 6,
+      "example_w": [
+        3,
+        2
+      ],
+      "w_p_frobenius_conjugate": [
+        3,
+        11
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    },
+    {
+      "p": 17,
+      "D_nonsquare": 3,
+      "primitive_order": 18,
+      "count_primitive_(p+1)-roots": 6,
+      "example_w": [
+        2,
+        1
+      ],
+      "w_p_frobenius_conjugate": [
+        2,
+        16
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    },
+    {
+      "p": 19,
+      "D_nonsquare": 2,
+      "primitive_order": 20,
+      "count_primitive_(p+1)-roots": 8,
+      "example_w": [
+        3,
+        2
+      ],
+      "w_p_frobenius_conjugate": [
+        3,
+        17
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    },
+    {
+      "p": 23,
+      "D_nonsquare": 5,
+      "primitive_order": 24,
+      "count_primitive_(p+1)-roots": 8,
+      "example_w": [
+        4,
+        7
+      ],
+      "w_p_frobenius_conjugate": [
+        4,
+        16
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    },
+    {
+      "p": 31,
+      "D_nonsquare": 3,
+      "primitive_order": 32,
+      "count_primitive_(p+1)-roots": 16,
+      "example_w": [
+        2,
+        1
+      ],
+      "w_p_frobenius_conjugate": [
+        2,
+        30
+      ],
+      "w_p_squared_identity": true,
+      "sigma_w_minus_w_residue_nonzero": true
+    }
+  ]
+}

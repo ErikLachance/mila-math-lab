@@ -1,0 +1,60 @@
+[
+  {
+    "p": 3,
+    "nonzero_cases_tested": 15688,
+    "worst": {
+      "p": 3,
+      "i": 0,
+      "N0": 0,
+      "N1": 0,
+      "u0": 0,
+      "u1": 0,
+      "T": [],
+      "hcoef": 1,
+      "v_p_coefficient": 0,
+      "lower_bound": "0",
+      "slack": "0"
+    },
+    "nontriv_worst": {
+      "p": 3,
+      "i": 2,
+      "N0": 8,
+      "N1": 2,
+      "T": [],
+      "v": 0,
+      "bound": "-7/4",
+      "slack": "7/4"
+    },
+    "positive_bound_cases": 0,
+    "all_pass": true
+  },
+  {
+    "p": 5,
+    "nonzero_cases_tested": 4584,
+    "worst": {
+      "p": 5,
+      "i": 0,
+      "N0": 0,
+      "N1": 0,
+      "u0": 0,
+      "u1": 0,
+      "T": [],
+      "hcoef": 1,
+      "v_p_coefficient": 0,
+      "lower_bound": "0",
+      "slack": "0"
+    },
+    "nontriv_worst": {
+      "p": 5,
+      "i": 4,
+      "N0": 24,
+      "N1": 4,
+      "T": [],
+      "v": 0,
+      "bound": "-11/6",
+      "slack": "11/6"
+    },
+    "positive_bound_cases": 0,
+    "all_pass": true
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "analytic_identity_for_Re_s_gt_1": "integral_1^infty (psi(x)-x) x^(-s-1) dx = -zeta'(s)/(s*zeta(s))-1/(s-1)",
+  "extension_note": "Taking s->1+ requires an integrable PNT remainder bound, not mere pointwise convergence; Laurent expansion gives -1-gamma.",
+  "finite_step_integral_exact_identity": "integral_1^X (psi(u)-u)/u^2 du = sum_{n<=X}Lambda(n)/n - psi(X)/X - log(X)",
+  "checks": [
+    {
+      "N": 100,
+      "prime_powers": 35,
+      "psi": "94.045311229357392246",
+      "finite_integral": "-1.5599987984061647406466",
+      "limiting_value": "-1.5772156649015328606065",
+      "error_vs_asymptotic": "0.01721686649536811996",
+      "dirichlet_partial_sum_minus_log": "-0.61954568611259081818656"
+    },
+    {
+      "N": 1000,
+      "prime_powers": 193,
+      "psi": "996.68091224717524026",
+      "finite_integral": "-1.5756847515653469897049",
+      "limiting_value": "-1.5772156649015328606065",
+      "error_vs_asymptotic": "0.0015309133361858709016",
+      "dirichlet_partial_sum_minus_log": "-0.5790038393181717494419"
+    },
+    {
+      "N": 10000,
+      "prime_powers": 1280,
+      "psi": "10013.396693263114784",
+      "finite_integral": "-1.5770407333770710230232",
+      "limiting_value": "-1.5772156649015328606065",
+      "error_vs_asymptotic": "0.0001749315244618375833",
+      "dirichlet_partial_sum_minus_log": "-0.57570106405075954465118"
+    },
+    {
+      "N": 100000,
+      "prime_powers": 9700,
+      "psi": "100051.56402565795425",
+      "finite_integral": "-1.5771789502829177927584",
+      "limiting_value": "-1.5772156649015328606065",
+      "error_vs_asymptotic": "0.000036714618615067848075",
+      "dirichlet_partial_sum_minus_log": "-0.57666331002633825024921"
+    },
+    {
+      "N": 1000000,
+      "prime_powers": 78734,
+      "psi": "999586.59749563292203",
+      "finite_integral": "-1.5772046244654058593279",
+      "limiting_value": "-1.5772156649015328606065",
+      "error_vs_asymptotic": "0.000011040436127001278628",
+      "dirichlet_partial_sum_minus_log": "-0.57761802696977293729482"
+    },
+    {
+      "s": "1.1",
+      "meromorphic_Mellin": "-1.417239649741238750468",
+      "limit_minus_1_minus_gamma": "0.15997601516029411"
+    },
+    {
+      "s": "1.01",
+      "meromorphic_Mellin": "-1.559747877950271555998",
+      "limit_minus_1_minus_gamma": "0.017467786951261305"
+    },
+    {
+      "s": "1.001",
+      "meromorphic_Mellin": "-1.575452717624952440341",
+      "limit_minus_1_minus_gamma": "0.0017629472765804203"
+    },
+    {
+      "s": "1.0001",
+      "meromorphic_Mellin": "-1.577039206874432949915",
+      "limit_minus_1_minus_gamma": "0.00017645802709991069"
+    },
+    {
+      "s": "1.00001",
+      "meromorphic_Mellin": "-1.577198017464198663419",
+      "limit_minus_1_minus_gamma": "1.7647437334197187e-5"
+    }
+  ],
+  "status": "Exact finite identity; numerical evaluations not proof of PNT remainder or RH."
+}

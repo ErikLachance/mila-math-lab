@@ -1,0 +1,39 @@
+{
+  "field": "Q(sqrt(-23))",
+  "ring": "Z[w], w=(1+sqrt(-23))/2, w^2=w-6",
+  "reducedFormClassNumber": 3,
+  "rayClassExactSequence": "Cl_(m)(K) -> Cl(K) quotient by residue unit group (O/m)^* / image(O^*) ; thus size=h_K * #((O/m)^*)/#image(O^*) for integral modulus m, when m is an ordinary integer ideal.",
+  "mods": {
+    "2": {
+      "unitGroupSize": 1,
+      "globalUnitsImageSize": 1,
+      "rayClassNumberIfClassNumber3": 3,
+      "predictedRationalPrimeDensity": "1/6"
+    },
+    "3": {
+      "unitGroupSize": 4,
+      "globalUnitsImageSize": 2,
+      "rayClassNumberIfClassNumber3": 6,
+      "predictedRationalPrimeDensity": "1/12"
+    },
+    "4": {
+      "unitGroupSize": 4,
+      "globalUnitsImageSize": 2,
+      "rayClassNumberIfClassNumber3": 6,
+      "predictedRationalPrimeDensity": "1/12"
+    },
+    "5": {
+      "unitGroupSize": 24,
+      "globalUnitsImageSize": 2,
+      "rayClassNumberIfClassNumber3": 36,
+      "predictedRationalPrimeDensity": "1/72"
+    },
+    "7": {
+      "unitGroupSize": 48,
+      "globalUnitsImageSize": 2,
+      "rayClassNumberIfClassNumber3": 72,
+      "predictedRationalPrimeDensity": "1/144"
+    }
+  },
+  "limitation": "The predicted rational-prime densities are consequences of Chebotarev/prime ideal theorem, NOT proved by finite enumeration. The residue group cardinalities and ray class sizes are exact given the class number 3. C9 requires uniform short-interval lower bounds for all admissible varying d,M,X,h, not shown."
+}

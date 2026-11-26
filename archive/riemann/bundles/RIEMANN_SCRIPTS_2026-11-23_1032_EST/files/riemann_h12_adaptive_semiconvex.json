@@ -1,0 +1,47 @@
+{
+  "claim": "For a>1, b>a and 0<theta<1, the one-sided interpolant G(x)<=chord(G endpoints)+D where D=chord(xlogx)-xlogx<= (b-a)^2/(8a). Choosing b-a<=sqrt(8*a^(1+theta)) makes D<=a^theta<=x^theta; G at adaptive grid nodes<=C node^theta implies G(x)<=(C+1)x^theta, with C independent of the window scale.",
+  "asymptotics": "Adaptive step length ~a^((1+theta)/2), so grid count O(Y^((3/2)*(1-theta)/2)) = O(Y^(3*(1-theta)/4)) on [Y,Y^1.5]. This is conditional sampling complexity, not a method to prove bounds at each node.",
+  "proof": "Positive Lambda(n)/n implies S(x)=sum Lambda(n)/n*(x-n)_+ is convex. Since G=S-xlogx+(1+gamma)x, Jensen S(x)<=chord(S) (FALSE: convex S(x) <= its chord: YES). D>=0 from convexity xlogx; D <= (b-a)^2/(8a) from upper second derivative 1/a. Concavity of x^theta gives chord(x^theta)<=x^theta. The adaptive step ensures D <= x^theta. A dyadic grouping over [Y,Y^1.5] yields O(Y^(3*(1-theta)/4)) cells; no PNT is required.",
+  "tests": [
+    {
+      "Y": 100,
+      "theta": 0.52,
+      "upper": 1000.0,
+      "uniform_steps": 10,
+      "adaptive_steps": 5,
+      "samples_including_prime_power_knots": 1479,
+      "C_from_adaptive_nodes": 0.1570196886351914,
+      "max_G_minus_exact_interpolant": -0.001996855706180467,
+      "max_defect_over_local_quadratic_bound": 0.9751678509686942,
+      "worst_defect": 21.36799919180885,
+      "violations": 0
+    },
+    {
+      "Y": 1000,
+      "theta": 0.57,
+      "upper": 31622.776601683792,
+      "uniform_steps": 48,
+      "adaptive_steps": 10,
+      "samples_including_prime_power_knots": 11859,
+      "C_from_adaptive_nodes": 0.02985043101260989,
+      "max_G_minus_exact_interpolant": -0.0037183876865962695,
+      "max_defect_over_local_quadratic_bound": 0.9589451101216999,
+      "worst_defect": 256.63739713071845,
+      "violations": 0
+    },
+    {
+      "Y": 5000,
+      "theta": 0.6,
+      "upper": 353553.39059327374,
+      "uniform_steps": 136,
+      "adaptive_steps": 15,
+      "samples_including_prime_power_knots": 92133,
+      "C_from_adaptive_nodes": 0.013065767873936653,
+      "max_G_minus_exact_interpolant": -0.020847716508354264,
+      "max_defect_over_local_quadratic_bound": 0.9296366972917801,
+      "worst_defect": 1545.9949186989106,
+      "violations": 0
+    }
+  ],
+  "warning": "No proof of RH. Error checks are float-only and do not certify an infinite set; formal inequalities are unconditional basic convexity."
+}

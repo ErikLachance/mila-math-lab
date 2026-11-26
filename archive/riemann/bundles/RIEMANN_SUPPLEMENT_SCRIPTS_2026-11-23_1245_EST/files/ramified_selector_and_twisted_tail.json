@@ -1,0 +1,208 @@
+{
+  "source": "Rubinstein et al zeta working v2 Nov22 2026 Eq II.7 II.8 II.9 II.10; independent elementary character checks",
+  "classification_statement": "For q,d primes q==3(mod8), d==7(mod16), q|(d+1): S_{q,d}(x)=4*sum_{p distinct q,d, (p/q)=1,(p/d)=-1} sum_{k odd} log(p)*(x/p^k-1)_+ + 2*log(d)*sum_{j>=1}(x/d^(2j)-1)_+, and all q^k vanish.",
+  "character_reciprocity": "(d/q)=(-1/q)=-1 and (q/d)=-(d/q)=1; p=d has only even powers with coeff 2",
+  "exact_selector_tests": [
+    {
+      "q": 3,
+      "d": 23,
+      "x": 100,
+      "prime_power_terms": 35,
+      "nonzero_prime_log_coeffs": 8,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "0",
+      "exact_equality": true
+    },
+    {
+      "q": 3,
+      "d": 23,
+      "x": 528,
+      "prime_power_terms": 119,
+      "nonzero_prime_log_coeffs": 25,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "0",
+      "exact_equality": true
+    },
+    {
+      "q": 3,
+      "d": 23,
+      "x": 529,
+      "prime_power_terms": 120,
+      "nonzero_prime_log_coeffs": 25,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "0",
+      "exact_equality": true
+    },
+    {
+      "q": 3,
+      "d": 23,
+      "x": 530,
+      "prime_power_terms": 120,
+      "nonzero_prime_log_coeffs": 26,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "2/529",
+      "exact_equality": true
+    },
+    {
+      "q": 3,
+      "d": 23,
+      "x": 700,
+      "prime_power_terms": 147,
+      "nonzero_prime_log_coeffs": 32,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "342/529",
+      "exact_equality": true
+    },
+    {
+      "q": 3,
+      "d": 23,
+      "x": 1000,
+      "prime_power_terms": 193,
+      "nonzero_prime_log_coeffs": 42,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "942/529",
+      "exact_equality": true
+    },
+    {
+      "q": 3,
+      "d": 23,
+      "x": 10000,
+      "prime_power_terms": 1280,
+      "nonzero_prime_log_coeffs": 316,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "18942/529",
+      "exact_equality": true
+    },
+    {
+      "q": 11,
+      "d": 1319,
+      "x": 100,
+      "prime_power_terms": 35,
+      "nonzero_prime_log_coeffs": 5,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "0",
+      "exact_equality": true
+    },
+    {
+      "q": 11,
+      "d": 1319,
+      "x": 10000,
+      "prime_power_terms": 1280,
+      "nonzero_prime_log_coeffs": 320,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "0",
+      "exact_equality": true
+    },
+    {
+      "q": 11,
+      "d": 1319,
+      "x": 2000000,
+      "prime_power_terms": 149235,
+      "nonzero_prime_log_coeffs": 37270,
+      "ramified_q_coefficient": "0",
+      "ramified_d_coefficient": "520478/1739761",
+      "exact_equality": true
+    }
+  ],
+  "twist_finite_identity": "Gchi(x)-[-x*integral_x^T(Psi_chi(t)/t^2 dt)]=x*(cchi+sum_{n<=T}Lambda(n)chi(n)/n-Psi_chi(T)/T), for x<T. This identity is EXACT for finite T, with integration of step Psi; the limit T->infinity requires arithmetic PNT for fixed chi and uniform estimate for varying chi.",
+  "chi4_log_derivative_c": "0.24560958476625327136532146365953231",
+  "twist_numerical_tests": [
+    {
+      "x": 10,
+      "T": 1000,
+      "Gchi_x": "0.79021162615966775439",
+      "truncated_integral": "0.79538096628555179134",
+      "residual": "-0.0051693401258840369435",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 50,
+      "T": 1000,
+      "Gchi_x": "0.69147884392069269804",
+      "truncated_integral": "0.71732554455011288276",
+      "residual": "-0.025846700629420184717",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 200,
+      "T": 1000,
+      "Gchi_x": "1.4237454675454746354",
+      "truncated_integral": "1.5271322700631553743",
+      "residual": "-0.10338680251768073887",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 10,
+      "T": 10000,
+      "Gchi_x": "0.79021162615966775439",
+      "truncated_integral": "0.7832163580118876769",
+      "residual": "0.0069952681477800774921",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 50,
+      "T": 10000,
+      "Gchi_x": "0.69147884392069269804",
+      "truncated_integral": "0.65650250318179231058",
+      "residual": "0.03497634073890038746",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 200,
+      "T": 10000,
+      "Gchi_x": "1.4237454675454746354",
+      "truncated_integral": "1.2838401045898730856",
+      "residual": "0.13990536295560154984",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 10,
+      "T": 30000,
+      "Gchi_x": "0.79021162615966775439",
+      "truncated_integral": "0.7871412770367740717",
+      "residual": "0.0030703491228936826925",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 50,
+      "T": 30000,
+      "Gchi_x": "0.69147884392069269804",
+      "truncated_integral": "0.67612709830622428458",
+      "residual": "0.015351745614468413463",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 200,
+      "T": 30000,
+      "Gchi_x": "1.4237454675454746354",
+      "truncated_integral": "1.3623384850876009816",
+      "residual": "0.061406982457873653851",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 10,
+      "T": 100000,
+      "Gchi_x": "0.79021162615966775439",
+      "truncated_integral": "0.78840380835447903289",
+      "residual": "0.0018078178051887215071",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 50,
+      "T": 100000,
+      "Gchi_x": "0.69147884392069269804",
+      "truncated_integral": "0.6824397548947490905",
+      "residual": "0.0090390890259436075356",
+      "exact_finite_tail_identity_verified_high_precision": true
+    },
+    {
+      "x": 200,
+      "T": 100000,
+      "Gchi_x": "1.4237454675454746354",
+      "truncated_integral": "1.3875891114417002053",
+      "residual": "0.036156356103774430142",
+      "exact_finite_tail_identity_verified_high_precision": true
+    }
+  ],
+  "limits": "No uniform bound for growing conductor q,d established; no new RH proof; tests are finite and numerical for L derivatives."
+}

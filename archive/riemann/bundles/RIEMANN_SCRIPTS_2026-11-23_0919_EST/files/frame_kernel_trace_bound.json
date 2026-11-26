@@ -1,0 +1,26 @@
+{
+  "test": "Exact trace-concentration kernel inequality",
+  "time_label": "2026-11-23 09:08 EST run",
+  "formula": "k/D <= [(sqrt(eta)+sqrt(eta+4delta))/2]^2 with delta=(alpha+sqrt(alpha*e))/(1-sqrt(e)), e<1, mu=tr(Q)/D>0",
+  "random_cases": 2880,
+  "admissible_e_less_than_one": 2706,
+  "minimum_numerical_slack": 0.0,
+  "new_bound_stronger_than_prior_in_cases": 23,
+  "comparisons_count": 198,
+  "median_old_minus_new": -0.21934608200618838,
+  "worst_case": {
+    "D": 2,
+    "w": 2,
+    "r": 0,
+    "S": 4,
+    "e": 0.2017439717826789,
+    "eta": 0.0,
+    "delta": 0.0,
+    "kernel": 0,
+    "upper": 0.0,
+    "gap": 0.0
+  },
+  "exact_tight_family": "R repeated ONB copies, delete k same coordinates: e=eta=0, alpha=k/D, kernel=k, new bound equals alpha exactly",
+  "status": "PASS; algebraic proof in journal",
+  "limitations": "not a proof of arithmetic frame estimates H8, no RH proof"
+}

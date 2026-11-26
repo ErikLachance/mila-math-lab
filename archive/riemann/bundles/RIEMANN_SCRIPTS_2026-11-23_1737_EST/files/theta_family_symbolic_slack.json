@@ -1,0 +1,14 @@
+{
+  "identity_checks": 20702,
+  "smallest_slack_tested": "101/8",
+  "minimum_case": {
+    "p": 3,
+    "k": 2,
+    "N": 9,
+    "i": 2,
+    "r": 1,
+    "delta": 13,
+    "slack": "101/8"
+  },
+  "exact_general_statement": "For any odd prime p, integer k>=1, N=p^k, and integer 1<=i<=N/p, set h=q0^p q1+q1^p q0, F=p^-i h^i Z0^(N-pi), with T={0}, nu=r0=r1=1 and height-1 column counts N at 0 and i at 1. If r counts odd positive e with N/p^e>i, delta=(k+1)+ell_p(i)+(k+1)^2, and v=v_p(N!)+v_p(i!)-i, then v-B=delta+(r-1)i+v_p(i!)+(N*p^(1-2r)-i)/(p^2-1)-1/(p-1)>0. For r>=1, N*p^(1-2r)>i; for r=0, i=N/p and expression reduces to delta+v_p(i!)-1/(p-1)>0. This proves this entire specialization of PHT.1753 by elementary algebra; not the general theorem."
+}

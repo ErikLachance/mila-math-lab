@@ -1,0 +1,37 @@
+{
+  "identity": "(1/|G|) sum_character conjugate(chi(g))*(1/|I|)sum_h_in_I chi(j F+h) = (1/|I|)1[g-jF in I]",
+  "cases": [
+    {
+      "group": "(2, 2, 3)",
+      "order": 12,
+      "checked": 60
+    },
+    {
+      "group": "(2, 2, 5)",
+      "order": 20,
+      "checked": 60
+    },
+    {
+      "group": "(2, 2, 7)",
+      "order": 28,
+      "checked": 60
+    },
+    {
+      "group": "(2, 2, 9)",
+      "order": 36,
+      "checked": 60
+    }
+  ],
+  "tests": 240,
+  "max_numerical_error_high_precision": "6.71375294649e-66",
+  "without_conjugation_counterexample": {
+    "G": "(2, 2, 5)",
+    "I": "trivial",
+    "j": 1,
+    "g": "(1, 0, 1)",
+    "correct_value": "(1.0 + 0.0j)",
+    "wrong_value": "(1.42434e-66 + 2.37389e-67j)"
+  },
+  "proof": "For each h, the character sum is |G| if jf+h-g=0 and 0 otherwise by finite Fourier orthogonality. Exactly one h in I may solve this, giving the stated formula.",
+  "status": "independent finite character algebra sanity check, not a proof of analytic/geometric inputs or RH"
+}

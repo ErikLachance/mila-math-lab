@@ -1,0 +1,145 @@
+{
+  "p_cases": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29
+  ],
+  "k_range": [
+    1,
+    10
+  ],
+  "exact_cases": 90,
+  "independent_Hurwitz_checks": 63,
+  "parity_violations": 0,
+  "denominator_clear_violations": 0,
+  "sample_nonzero": [
+    {
+      "p": 3,
+      "k": 1,
+      "chi_of_minus_one": -1,
+      "value": "-1/3",
+      "cleared_integer": "-2"
+    },
+    {
+      "p": 3,
+      "k": 3,
+      "chi_of_minus_one": -1,
+      "value": "2/3",
+      "cleared_integer": "12"
+    },
+    {
+      "p": 3,
+      "k": 5,
+      "chi_of_minus_one": -1,
+      "value": "-10/3",
+      "cleared_integer": "-300"
+    },
+    {
+      "p": 3,
+      "k": 7,
+      "chi_of_minus_one": -1,
+      "value": "98/3",
+      "cleared_integer": "20580"
+    },
+    {
+      "p": 3,
+      "k": 9,
+      "chi_of_minus_one": -1,
+      "value": "-1618/3",
+      "cleared_integer": "-339780"
+    },
+    {
+      "p": 5,
+      "k": 2,
+      "chi_of_minus_one": 1,
+      "value": "4/5",
+      "cleared_integer": "24"
+    },
+    {
+      "p": 5,
+      "k": 4,
+      "chi_of_minus_one": 1,
+      "value": "-8",
+      "cleared_integer": "-1200"
+    },
+    {
+      "p": 5,
+      "k": 6,
+      "chi_of_minus_one": 1,
+      "value": "804/5",
+      "cleared_integer": "168840"
+    },
+    {
+      "p": 5,
+      "k": 8,
+      "chi_of_minus_one": 1,
+      "value": "-5776",
+      "cleared_integer": "-6064800"
+    },
+    {
+      "p": 5,
+      "k": 10,
+      "chi_of_minus_one": 1,
+      "value": "1651004/5",
+      "cleared_integer": "3813819240"
+    },
+    {
+      "p": 7,
+      "k": 1,
+      "chi_of_minus_one": -1,
+      "value": "-1",
+      "cleared_integer": "-14"
+    },
+    {
+      "p": 7,
+      "k": 3,
+      "chi_of_minus_one": -1,
+      "value": "48/7",
+      "cleared_integer": "288"
+    },
+    {
+      "p": 7,
+      "k": 5,
+      "chi_of_minus_one": -1,
+      "value": "-160",
+      "cleared_integer": "-33600"
+    },
+    {
+      "p": 7,
+      "k": 7,
+      "chi_of_minus_one": -1,
+      "value": "8176",
+      "cleared_integer": "12018720"
+    },
+    {
+      "p": 7,
+      "k": 9,
+      "chi_of_minus_one": -1,
+      "value": "-5086656/7",
+      "cleared_integer": "-1068197760"
+    },
+    {
+      "p": 11,
+      "k": 1,
+      "chi_of_minus_one": -1,
+      "value": "-1",
+      "cleared_integer": "-22"
+    },
+    {
+      "p": 11,
+      "k": 3,
+      "chi_of_minus_one": -1,
+      "value": "18",
+      "cleared_integer": "1188"
+    }
+  ],
+  "formula": "B_{k,chi}=N^{k-1} sum_{a=1}^N chi(a) B_k(a/N) = k! [t^k] sum chi(a)exp(a*t) / ((exp(Nt)-1)/t).",
+  "source_context": "Rubinstein III.9 quoted PsiBound (III.261) bounds a COHOMOLOGY LENGTH by v_O(N * product_{p<=k+1}p * B_{k,psi}), with k=e+1 and a primitive character. These tests verify only special-function normalization, parity, denominator clearing and L(1-k,chi)=-B_{k,chi}/k for quadratic primitive chars of prime conductor.",
+  "excluded": "No exact source proof of PsiBound, no class-group cohomology computation, no uniform bound for growing p or k, no RH implication."
+}

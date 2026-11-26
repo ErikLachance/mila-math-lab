@@ -1,0 +1,8 @@
+{
+  "cohomology_cutoff_checks": 96,
+  "window_exact_equivalences": 840,
+  "sharp_threshold_checks": 210,
+  "dyadic_rank_checks": 10452,
+  "runtime_seconds": 0.23609260500001028
+}
+

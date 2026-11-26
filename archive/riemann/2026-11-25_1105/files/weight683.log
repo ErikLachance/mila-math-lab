@@ -1,0 +1,43 @@
+unit 34 direct maxcoeff 7
+unit 35 direct maxcoeff 3
+unit 36 direct maxcoeff 6
+unit 37 direct maxcoeff 8
+unit 38 direct maxcoeff 10
+unit 39 direct maxcoeff 7
+unit 40 direct maxcoeff 12
+unit 41 direct maxcoeff 4
+unit 42 direct maxcoeff 8
+unit 43 direct maxcoeff 2
+unit 44 direct maxcoeff 2
+unit 45 direct maxcoeff 1
+unit 46 direct maxcoeff 2
+unit 47 direct maxcoeff 3
+unit 48 direct maxcoeff 2
+round 5 tested 112 small 45 coll 3 units 48 seconds 3.4805655330000036
+unit 49 direct maxcoeff 1
+unit 50 direct maxcoeff 2
+unit 51 direct maxcoeff 2
+unit 52 ideal norm 19208 maxcoeff 3
+unit 53 direct maxcoeff 3
+unit 54 direct maxcoeff 1
+unit 55 direct maxcoeff 2
+round 10 tested 226 small 85 coll 5 units 55 seconds 6.739062744000023
+unit 56 direct maxcoeff 1
+unit 57 ideal norm 5993 maxcoeff 2
+unit 58 direct maxcoeff 3
+unit 59 direct maxcoeff 3
+unit 60 ideal norm 19208 maxcoeff 1
+unit 61 ideal norm 769 maxcoeff 3
+unit 62 ideal norm 769 maxcoeff 6
+unit 63 ideal norm 769 maxcoeff 9
+unit 64 ideal norm 769 maxcoeff 3
+unit 65 direct maxcoeff 2
+unit 66 direct maxcoeff 1
+unit 67 direct maxcoeff 2
+unit 68 direct maxcoeff 3
+round 15 tested 339 small 129 coll 13 units 68 seconds 10.524061966000033
+unit 69 direct maxcoeff 3
+unit 70 direct maxcoeff 1
+round 20 tested 458 small 158 coll 13 units 70 seconds 14.053551679999998
+round 25 tested 579 small 204 coll 24 units 70 seconds 18.156982926000012
+FINAL 25 579 204 24 70 seconds 18.158988968000017

@@ -1,0 +1,16 @@
+initial disc -261078301114993547543504860382664505353329136677979648794456700522583597523
+p 7 radical dimension 6 step index 7
+p 7 radical dimension 6 step index 49
+p 7 radical dimension 5 step index 7
+p 7 radical dimension 5 step index 7
+p 7 radical dimension 4 step index None
+p 107 radical dimension 3 step index None
+p 373599001 radical dimension 1 step index 373599001
+p 373599001 radical dimension 0 step index None
+p 47447980890086283233 radical dimension 1 step index 47447980890086283233
+p 47447980890086283233 radical dimension 0 step index None
+final disc -2941328243
+small poly x**7 - 4*x**6 - 3*x**5 - 12*x**4 + 8*x**3 - 10*x**2 - 7*x - 8
+found (1, [1, 0, 1, 0, -1, 0, 0], ['-47/127', '-219/254', '-327/254', '-505/254', '-133/127', '-75/254', '15/127']) tested 23
+count 1 tested 23
+

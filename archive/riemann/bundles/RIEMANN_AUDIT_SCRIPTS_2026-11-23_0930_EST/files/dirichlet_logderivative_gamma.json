@@ -1,0 +1,13 @@
+{
+  "d": 1319,
+  "chi_parity": "odd (-1)",
+  "L0_exact_integer": 45,
+  "sum_a_chi": -59355,
+  "Lprime_over_L_at_1": "-1.520227887516296814969187798954505138126754443693971257",
+  "paper_12digit_value": "-1.520227887516",
+  "difference_to_paper": "-2.968149691877989545051381e-13",
+  "analytical_formula": "For primitive real odd quadratic chi of conductor d and root number +1: Lprime(1)/L(1)=EulerGamma+log(2*pi)-[sum_{a=1}^{d-1}chi(a)logGamma(a/d)]/L(0,chi), L(0,chi)=-(1/d)sum_{a=1}^{d-1}a chi(a). Uses Hurwitz zeta at zero and functional equation, no RH.",
+  "independent_reflection_sum": "PAIRWISE CHECK PASS (60-digit loggamma)",
+  "status": "PASS",
+  "caveats": "d=1319 quadratic character Legendre modulo d, fundamental discriminant -d; finite gamma evaluations mpmath, formula analytically exact, high-precision numeric is not a Lean certificate"
+}

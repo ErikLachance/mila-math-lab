@@ -1,0 +1,158 @@
+{
+  "exact_cases": 66,
+  "statuses": [
+    {
+      "q": 20,
+      "split_primes": [
+        5
+      ],
+      "nonsplit_primes": [],
+      "asymptotic_correction": "Delta(x) = 1*log(x) + O_q(1)",
+      "extra_zeros_at_s0": 1
+    },
+    {
+      "q": 12,
+      "split_primes": [],
+      "nonsplit_primes": [
+        3
+      ],
+      "asymptotic_correction": "Delta(x) = 0*log(x) + O_q(1)",
+      "extra_zeros_at_s0": 0
+    },
+    {
+      "q": 140,
+      "split_primes": [
+        5
+      ],
+      "nonsplit_primes": [
+        7
+      ],
+      "asymptotic_correction": "Delta(x) = 1*log(x) + O_q(1)",
+      "extra_zeros_at_s0": 1
+    },
+    {
+      "q": 260,
+      "split_primes": [
+        5,
+        13
+      ],
+      "nonsplit_primes": [],
+      "asymptotic_correction": "Delta(x) = 2*log(x) + O_q(1)",
+      "extra_zeros_at_s0": 2
+    },
+    {
+      "q": 6500,
+      "split_primes": [
+        5,
+        13
+      ],
+      "nonsplit_primes": [],
+      "asymptotic_correction": "Delta(x) = 2*log(x) + O_q(1)",
+      "extra_zeros_at_s0": 2
+    },
+    {
+      "q": 84,
+      "split_primes": [],
+      "nonsplit_primes": [
+        3,
+        7
+      ],
+      "asymptotic_correction": "Delta(x) = 0*log(x) + O_q(1)",
+      "extra_zeros_at_s0": 0
+    }
+  ],
+  "selected_samples": [
+    {
+      "q": 20,
+      "x": 1,
+      "extra_prime_coefficients": {
+        "5": "1/4"
+      }
+    },
+    {
+      "q": 20,
+      "x": 10000,
+      "extra_prime_coefficients": {
+        "5": "29/5"
+      }
+    },
+    {
+      "q": 12,
+      "x": 1,
+      "extra_prime_coefficients": {
+        "3": "-1/4"
+      }
+    },
+    {
+      "q": 12,
+      "x": 10000,
+      "extra_prime_coefficients": {
+        "3": "-2500/6561"
+      }
+    },
+    {
+      "q": 140,
+      "x": 1,
+      "extra_prime_coefficients": {
+        "5": "1/4",
+        "7": "-1/8"
+      }
+    },
+    {
+      "q": 140,
+      "x": 10000,
+      "extra_prime_coefficients": {
+        "5": "29/5",
+        "7": "-1250/2401"
+      }
+    },
+    {
+      "q": 260,
+      "x": 1,
+      "extra_prime_coefficients": {
+        "5": "1/4",
+        "13": "1/12"
+      }
+    },
+    {
+      "q": 260,
+      "x": 10000,
+      "extra_prime_coefficients": {
+        "5": "29/5",
+        "13": "22273/6591"
+      }
+    },
+    {
+      "q": 6500,
+      "x": 1,
+      "extra_prime_coefficients": {
+        "5": "1/4",
+        "13": "1/12"
+      }
+    },
+    {
+      "q": 6500,
+      "x": 10000,
+      "extra_prime_coefficients": {
+        "5": "29/5",
+        "13": "22273/6591"
+      }
+    },
+    {
+      "q": 84,
+      "x": 1,
+      "extra_prime_coefficients": {
+        "3": "-1/4",
+        "7": "-1/8"
+      }
+    },
+    {
+      "q": 84,
+      "x": 10000,
+      "extra_prime_coefficients": {
+        "3": "-2500/6561",
+        "7": "-1250/2401"
+      }
+    }
+  ]
+}

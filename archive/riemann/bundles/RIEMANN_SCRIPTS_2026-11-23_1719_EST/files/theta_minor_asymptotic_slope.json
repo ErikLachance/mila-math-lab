@@ -1,0 +1,384 @@
+{
+  "pass": true,
+  "cases": 42,
+  "rows": [
+    {
+      "p": 3,
+      "k": 2,
+      "N": 9,
+      "v": 3,
+      "B": "-39/4",
+      "slack": "51/4",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 3,
+      "k": 3,
+      "N": 27,
+      "v": 12,
+      "B": "-19/2",
+      "slack": "43/2",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 3,
+      "k": 4,
+      "N": 81,
+      "v": 39,
+      "B": "29/4",
+      "slack": "127/4",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 3,
+      "k": 5,
+      "N": 243,
+      "v": 120,
+      "B": "151/2",
+      "slack": "89/2",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 3,
+      "k": 6,
+      "N": 729,
+      "v": 363,
+      "B": "1217/4",
+      "slack": "235/4",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 3,
+      "k": 7,
+      "N": 2187,
+      "v": 1092,
+      "B": "2033/2",
+      "slack": "151/2",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 3,
+      "k": 8,
+      "N": 6561,
+      "v": 3279,
+      "B": "12741/4",
+      "slack": "375/4",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 5,
+      "k": 2,
+      "N": 25,
+      "v": 5,
+      "B": "-95/12",
+      "slack": "155/12",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 5,
+      "k": 3,
+      "N": 125,
+      "v": 30,
+      "B": "33/4",
+      "slack": "87/4",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 5,
+      "k": 4,
+      "N": 625,
+      "v": 155,
+      "B": "1477/12",
+      "slack": "383/12",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 5,
+      "k": 5,
+      "N": 3125,
+      "v": 780,
+      "B": "2941/4",
+      "slack": "179/4",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 5,
+      "k": 6,
+      "N": 15625,
+      "v": 3905,
+      "B": "46153/12",
+      "slack": "707/12",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 5,
+      "k": 7,
+      "N": 78125,
+      "v": 19530,
+      "B": "77817/4",
+      "slack": "303/4",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 5,
+      "k": 8,
+      "N": 390625,
+      "v": 97655,
+      "B": "1170733/12",
+      "slack": "1127/12",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 7,
+      "k": 2,
+      "N": 49,
+      "v": 7,
+      "B": "-143/24",
+      "slack": "311/24",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 7,
+      "k": 3,
+      "N": 343,
+      "v": 56,
+      "B": "205/6",
+      "slack": "131/6",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 7,
+      "k": 4,
+      "N": 2401,
+      "v": 399,
+      "B": "8809/24",
+      "slack": "767/24",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 7,
+      "k": 5,
+      "N": 16807,
+      "v": 2800,
+      "B": "16531/6",
+      "slack": "269/6",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 7,
+      "k": 6,
+      "N": 117649,
+      "v": 19607,
+      "B": "469153/24",
+      "slack": "1415/24",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 7,
+      "k": 7,
+      "N": 823543,
+      "v": 137256,
+      "B": "823081/6",
+      "slack": "455/6",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 7,
+      "k": 8,
+      "N": 5764801,
+      "v": 960799,
+      "B": "23056921/24",
+      "slack": "2255/24",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 11,
+      "k": 2,
+      "N": 121,
+      "v": 11,
+      "B": "-119/60",
+      "slack": "779/60",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 11,
+      "k": 3,
+      "N": 1331,
+      "v": 132,
+      "B": "1101/10",
+      "slack": "219/10",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 11,
+      "k": 4,
+      "N": 14641,
+      "v": 1463,
+      "B": "85861/60",
+      "slack": "1919/60",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 11,
+      "k": 5,
+      "N": 161051,
+      "v": 16104,
+      "B": "160591/10",
+      "slack": "449/10",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 11,
+      "k": 6,
+      "N": 1771561,
+      "v": 177155,
+      "B": "10625761/60",
+      "slack": "3539/60",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 11,
+      "k": 7,
+      "N": 19487171,
+      "v": 1948716,
+      "B": "19486401/10",
+      "slack": "759/10",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 11,
+      "k": 8,
+      "N": 214358881,
+      "v": 21435887,
+      "B": "1286147581/60",
+      "slack": "5639/60",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 13,
+      "k": 2,
+      "N": 169,
+      "v": 13,
+      "B": "1/84",
+      "slack": "1091/84",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 13,
+      "k": 3,
+      "N": 2197,
+      "v": 182,
+      "B": "1921/12",
+      "slack": "263/12",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 13,
+      "k": 4,
+      "N": 28561,
+      "v": 2379,
+      "B": "197149/84",
+      "slack": "2687/84",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 13,
+      "k": 5,
+      "N": 371293,
+      "v": 30940,
+      "B": "370741/12",
+      "slack": "539/12",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 13,
+      "k": 6,
+      "N": 4826809,
+      "v": 402233,
+      "B": "33782617/84",
+      "slack": "4955/84",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 13,
+      "k": 7,
+      "N": 62748517,
+      "v": 5229042,
+      "B": "62747593/12",
+      "slack": "911/12",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 13,
+      "k": 8,
+      "N": 815730721,
+      "v": 67977559,
+      "B": "5710107061/84",
+      "slack": "7895/84",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 17,
+      "k": 2,
+      "N": 289,
+      "v": 17,
+      "B": "577/144",
+      "slack": "1871/144",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 17,
+      "k": 3,
+      "N": 4913,
+      "v": 306,
+      "B": "4545/16",
+      "slack": "351/16",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 17,
+      "k": 4,
+      "N": 83521,
+      "v": 5219,
+      "B": "746929/144",
+      "slack": "4607/144",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 17,
+      "k": 5,
+      "N": 1419857,
+      "v": 88740,
+      "B": "1419121/16",
+      "slack": "719/16",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 17,
+      "k": 6,
+      "N": 24137569,
+      "v": 1508597,
+      "B": "217229473/144",
+      "slack": "8495/144",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 17,
+      "k": 7,
+      "N": 410338673,
+      "v": 25646166,
+      "B": "410337441/16",
+      "slack": "1215/16",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    },
+    {
+      "p": 17,
+      "k": 8,
+      "N": 6975757441,
+      "v": 435984839,
+      "B": "62781803281/144",
+      "slack": "13535/144",
+      "asymptotic_slope": "N/(p-1) on both sides"
+    }
+  ]
+}

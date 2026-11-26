@@ -1,0 +1,10 @@
+{
+  "verified_exact_fractional": {
+    "eta_right_branch_max": true,
+    "c_smaller_than_log_ratio": true,
+    "sigma252_dominates_theta0_ratio": true,
+    "eta_less_than_one": true
+  },
+  "consequence": "eta=(6/5)e^(-1/5) dominates the left eta branch; c=0.008 is below log((1+eta)/(2eta)); sigma>=252 ensures (sigma-theta)/(sigma-2) < exp(c) for 0<theta<1.",
+  "limitation": "Does not establish Mellin transform, Cauchy estimates, localization, theta lifts, or RH."
+}

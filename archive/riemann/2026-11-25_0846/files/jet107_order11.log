@@ -1,0 +1,6 @@
+linear rank 12 consistent False
+truncated_exp rank 12 consistent True
+B log nonzero coefficients [(5, 0, 2, 6)]
+u_theta [(7, 0, 1, 1), (7, 1, 2, 1)]
+u_4 [(10, 0, 1, 1), (10, 1, 2, 6)]
+

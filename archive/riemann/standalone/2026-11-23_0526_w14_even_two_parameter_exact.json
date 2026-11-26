@@ -1,0 +1,15 @@
+{
+  "L": "81/100",
+  "w": "1/14",
+  "parity": "even",
+  "result_type": "conditional exact rational grid sufficient certificate",
+  "Qpositive": true,
+  "worst_display": 0.10963545255629206,
+  "worst_pbin": 63,
+  "worst_qbin": 15,
+  "cutoff": "25",
+  "fail_bins": 0,
+  "p_bins": 128,
+  "q_bins": 128,
+  "runtime_s": 4.829291973000181
+}

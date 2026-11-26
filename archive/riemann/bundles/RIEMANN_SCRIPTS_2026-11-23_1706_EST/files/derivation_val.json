@@ -1,0 +1,686 @@
+[
+  {
+    "curve": "j0_inert5",
+    "element": "x",
+    "selected": [
+      {
+        "n": 5,
+        "valuation": 1,
+        "guarantee": 1
+      },
+      {
+        "n": 10,
+        "valuation": 2,
+        "guarantee": 2
+      },
+      {
+        "n": 15,
+        "valuation": 3,
+        "guarantee": 3
+      },
+      {
+        "n": 20,
+        "valuation": 4,
+        "guarantee": 4
+      },
+      {
+        "n": 24,
+        "valuation": 5,
+        "guarantee": 4
+      },
+      {
+        "n": 25,
+        "valuation": 5,
+        "guarantee": 5
+      },
+      {
+        "n": 26,
+        "valuation": 5,
+        "guarantee": 5
+      },
+      {
+        "n": 30,
+        "valuation": 6,
+        "guarantee": 6
+      },
+      {
+        "n": 35,
+        "valuation": 7,
+        "guarantee": 7
+      },
+      {
+        "n": 40,
+        "valuation": 8,
+        "guarantee": 8
+      },
+      {
+        "n": 45,
+        "valuation": 9,
+        "guarantee": 9
+      },
+      {
+        "n": 50,
+        "valuation": 10,
+        "guarantee": 10
+      },
+      {
+        "n": 55,
+        "valuation": 11,
+        "guarantee": 11
+      },
+      {
+        "n": 60,
+        "valuation": 12,
+        "guarantee": 12
+      },
+      {
+        "n": 65,
+        "valuation": 13,
+        "guarantee": 13
+      },
+      {
+        "n": 70,
+        "valuation": 14,
+        "guarantee": 14
+      },
+      {
+        "n": 75,
+        "valuation": 15,
+        "guarantee": 15
+      },
+      {
+        "n": 80,
+        "valuation": 16,
+        "guarantee": 16
+      }
+    ],
+    "all_pass": true,
+    "maxval": 16
+  },
+  {
+    "curve": "j0_inert5",
+    "element": "y",
+    "selected": [
+      {
+        "n": 5,
+        "valuation": 1,
+        "guarantee": 1
+      },
+      {
+        "n": 10,
+        "valuation": 2,
+        "guarantee": 2
+      },
+      {
+        "n": 15,
+        "valuation": 3,
+        "guarantee": 3
+      },
+      {
+        "n": 20,
+        "valuation": 4,
+        "guarantee": 4
+      },
+      {
+        "n": 24,
+        "valuation": 5,
+        "guarantee": 4
+      },
+      {
+        "n": 25,
+        "valuation": 5,
+        "guarantee": 5
+      },
+      {
+        "n": 26,
+        "valuation": 5,
+        "guarantee": 5
+      },
+      {
+        "n": 30,
+        "valuation": 6,
+        "guarantee": 6
+      },
+      {
+        "n": 35,
+        "valuation": 7,
+        "guarantee": 7
+      },
+      {
+        "n": 40,
+        "valuation": 8,
+        "guarantee": 8
+      },
+      {
+        "n": 45,
+        "valuation": 9,
+        "guarantee": 9
+      },
+      {
+        "n": 50,
+        "valuation": 10,
+        "guarantee": 10
+      },
+      {
+        "n": 55,
+        "valuation": 11,
+        "guarantee": 11
+      },
+      {
+        "n": 60,
+        "valuation": 12,
+        "guarantee": 12
+      },
+      {
+        "n": 65,
+        "valuation": 13,
+        "guarantee": 13
+      },
+      {
+        "n": 70,
+        "valuation": 14,
+        "guarantee": 14
+      },
+      {
+        "n": 75,
+        "valuation": 15,
+        "guarantee": 15
+      },
+      {
+        "n": 80,
+        "valuation": 17,
+        "guarantee": 16
+      }
+    ],
+    "all_pass": true,
+    "maxval": 17
+  },
+  {
+    "curve": "j0_split7",
+    "element": "x",
+    "selected": [
+      {
+        "n": 7,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 14,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 21,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 28,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 35,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 42,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 48,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 49,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 50,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 56,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 63,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 70,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 77,
+        "valuation": 0,
+        "guarantee": 0
+      }
+    ],
+    "all_pass": true,
+    "maxval": 0
+  },
+  {
+    "curve": "j0_split7",
+    "element": "y",
+    "selected": [
+      {
+        "n": 7,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 14,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 21,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 28,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 35,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 42,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 48,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 49,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 50,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 56,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 63,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 70,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 77,
+        "valuation": 0,
+        "guarantee": 0
+      }
+    ],
+    "all_pass": true,
+    "maxval": 0
+  },
+  {
+    "curve": "j1728_inert7",
+    "element": "x",
+    "selected": [
+      {
+        "n": 7,
+        "valuation": 1,
+        "guarantee": 1
+      },
+      {
+        "n": 14,
+        "valuation": 2,
+        "guarantee": 2
+      },
+      {
+        "n": 21,
+        "valuation": 3,
+        "guarantee": 3
+      },
+      {
+        "n": 28,
+        "valuation": 4,
+        "guarantee": 4
+      },
+      {
+        "n": 35,
+        "valuation": 5,
+        "guarantee": 5
+      },
+      {
+        "n": 42,
+        "valuation": 6,
+        "guarantee": 6
+      },
+      {
+        "n": 48,
+        "valuation": 7,
+        "guarantee": 6
+      },
+      {
+        "n": 49,
+        "valuation": 7,
+        "guarantee": 7
+      },
+      {
+        "n": 50,
+        "valuation": 7,
+        "guarantee": 7
+      },
+      {
+        "n": 56,
+        "valuation": 8,
+        "guarantee": 8
+      },
+      {
+        "n": 63,
+        "valuation": 9,
+        "guarantee": 9
+      },
+      {
+        "n": 70,
+        "valuation": 10,
+        "guarantee": 10
+      },
+      {
+        "n": 77,
+        "valuation": 11,
+        "guarantee": 11
+      }
+    ],
+    "all_pass": true,
+    "maxval": 11
+  },
+  {
+    "curve": "j1728_inert7",
+    "element": "y",
+    "selected": [
+      {
+        "n": 7,
+        "valuation": 1,
+        "guarantee": 1
+      },
+      {
+        "n": 14,
+        "valuation": 2,
+        "guarantee": 2
+      },
+      {
+        "n": 21,
+        "valuation": 3,
+        "guarantee": 3
+      },
+      {
+        "n": 28,
+        "valuation": 4,
+        "guarantee": 4
+      },
+      {
+        "n": 35,
+        "valuation": 5,
+        "guarantee": 5
+      },
+      {
+        "n": 42,
+        "valuation": 6,
+        "guarantee": 6
+      },
+      {
+        "n": 48,
+        "valuation": 7,
+        "guarantee": 6
+      },
+      {
+        "n": 49,
+        "valuation": 7,
+        "guarantee": 7
+      },
+      {
+        "n": 50,
+        "valuation": 7,
+        "guarantee": 7
+      },
+      {
+        "n": 56,
+        "valuation": 8,
+        "guarantee": 8
+      },
+      {
+        "n": 63,
+        "valuation": 9,
+        "guarantee": 9
+      },
+      {
+        "n": 70,
+        "valuation": 10,
+        "guarantee": 10
+      },
+      {
+        "n": 77,
+        "valuation": 11,
+        "guarantee": 11
+      }
+    ],
+    "all_pass": true,
+    "maxval": 11
+  },
+  {
+    "curve": "j1728_split5",
+    "element": "x",
+    "selected": [
+      {
+        "n": 5,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 10,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 15,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 20,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 24,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 25,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 26,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 30,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 35,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 40,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 45,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 50,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 55,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 60,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 65,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 70,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 75,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 80,
+        "valuation": 0,
+        "guarantee": 0
+      }
+    ],
+    "all_pass": true,
+    "maxval": 0
+  },
+  {
+    "curve": "j1728_split5",
+    "element": "y",
+    "selected": [
+      {
+        "n": 5,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 10,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 15,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 20,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 24,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 25,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 26,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 30,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 35,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 40,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 45,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 50,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 55,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 60,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 65,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 70,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 75,
+        "valuation": 0,
+        "guarantee": 0
+      },
+      {
+        "n": 80,
+        "valuation": 0,
+        "guarantee": 0
+      }
+    ],
+    "all_pass": true,
+    "maxval": 0
+  }
+]

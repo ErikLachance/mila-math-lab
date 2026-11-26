@@ -1,0 +1,452 @@
+{
+  "counts": [
+    {
+      "p": 3,
+      "N": 27,
+      "checked": 9,
+      "positive_B2": 0,
+      "failures": 0
+    },
+    {
+      "p": 3,
+      "N": 81,
+      "checked": 27,
+      "positive_B2": 0,
+      "failures": 0
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "checked": 81,
+      "positive_B2": 49,
+      "failures": 0
+    },
+    {
+      "p": 5,
+      "N": 125,
+      "checked": 25,
+      "positive_B2": 0,
+      "failures": 0
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "checked": 125,
+      "positive_B2": 104,
+      "failures": 0
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "checked": 49,
+      "positive_B2": 20,
+      "failures": 0
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "checked": 343,
+      "positive_B2": 343,
+      "failures": 0
+    }
+  ],
+  "cases": [
+    {
+      "p": 3,
+      "N": 27,
+      "i": 1,
+      "v": 12,
+      "B_2x2": "-81/4",
+      "slack": "129/4",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "43/2",
+      "bound_degradation_B1_minus_B2": "43/4"
+    },
+    {
+      "p": 3,
+      "N": 27,
+      "i": 2,
+      "v": 11,
+      "B_2x2": "-169/8",
+      "slack": "257/8",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "171/8",
+      "bound_degradation_B1_minus_B2": "43/4"
+    },
+    {
+      "p": 3,
+      "N": 27,
+      "i": 3,
+      "v": 11,
+      "B_2x2": "-26",
+      "slack": "37",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "93/4",
+      "bound_degradation_B1_minus_B2": "55/4"
+    },
+    {
+      "p": 3,
+      "N": 27,
+      "i": 9,
+      "v": 8,
+      "B_2x2": "-141/4",
+      "slack": "173/4",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "53/2",
+      "bound_degradation_B1_minus_B2": "67/4"
+    },
+    {
+      "p": 3,
+      "N": 81,
+      "i": 1,
+      "v": 39,
+      "B_2x2": "-9/2",
+      "slack": "87/2",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "127/4",
+      "bound_degradation_B1_minus_B2": "47/4"
+    },
+    {
+      "p": 3,
+      "N": 81,
+      "i": 2,
+      "v": 38,
+      "B_2x2": "-51/8",
+      "slack": "355/8",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "261/8",
+      "bound_degradation_B1_minus_B2": "47/4"
+    },
+    {
+      "p": 3,
+      "N": 81,
+      "i": 3,
+      "v": 38,
+      "B_2x2": "-49/4",
+      "slack": "201/4",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "71/2",
+      "bound_degradation_B1_minus_B2": "59/4"
+    },
+    {
+      "p": 3,
+      "N": 81,
+      "i": 9,
+      "v": 35,
+      "B_2x2": "-43/2",
+      "slack": "113/2",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "155/4",
+      "bound_degradation_B1_minus_B2": "71/4"
+    },
+    {
+      "p": 3,
+      "N": 81,
+      "i": 27,
+      "v": 26,
+      "B_2x2": "-165/4",
+      "slack": "269/4",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "93/2",
+      "bound_degradation_B1_minus_B2": "83/4"
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 1,
+      "v": 120,
+      "B_2x2": "251/4",
+      "slack": "229/4",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "89/2",
+      "bound_degradation_B1_minus_B2": "51/4"
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 2,
+      "v": 119,
+      "B_2x2": "487/8",
+      "slack": "465/8",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "363/8",
+      "bound_degradation_B1_minus_B2": "51/4"
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 3,
+      "v": 119,
+      "B_2x2": "55",
+      "slack": "64",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "193/4",
+      "bound_degradation_B1_minus_B2": "63/4"
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 27,
+      "v": 107,
+      "B_2x2": "20",
+      "slack": "87",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "261/4",
+      "bound_degradation_B1_minus_B2": "87/4"
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 81,
+      "v": 80,
+      "B_2x2": "-125/4",
+      "slack": "445/4",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "173/2",
+      "bound_degradation_B1_minus_B2": "99/4"
+    },
+    {
+      "p": 5,
+      "N": 125,
+      "i": 1,
+      "v": 30,
+      "B_2x2": "-8/3",
+      "slack": "98/3",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "87/4",
+      "bound_degradation_B1_minus_B2": "131/12"
+    },
+    {
+      "p": 5,
+      "N": 125,
+      "i": 2,
+      "v": 29,
+      "B_2x2": "-29/8",
+      "slack": "261/8",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "521/24",
+      "bound_degradation_B1_minus_B2": "131/12"
+    },
+    {
+      "p": 5,
+      "N": 125,
+      "i": 3,
+      "v": 28,
+      "B_2x2": "-55/12",
+      "slack": "391/12",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "65/3",
+      "bound_degradation_B1_minus_B2": "131/12"
+    },
+    {
+      "p": 5,
+      "N": 125,
+      "i": 5,
+      "v": 27,
+      "B_2x2": "-21/2",
+      "slack": "75/2",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "283/12",
+      "bound_degradation_B1_minus_B2": "167/12"
+    },
+    {
+      "p": 5,
+      "N": 125,
+      "i": 25,
+      "v": 12,
+      "B_2x2": "-101/3",
+      "slack": "137/3",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "115/4",
+      "bound_degradation_B1_minus_B2": "203/12"
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 1,
+      "v": 155,
+      "B_2x2": "667/6",
+      "slack": "263/6",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "383/12",
+      "bound_degradation_B1_minus_B2": "143/12"
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 2,
+      "v": 154,
+      "B_2x2": "2621/24",
+      "slack": "1075/24",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "263/8",
+      "bound_degradation_B1_minus_B2": "143/12"
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 3,
+      "v": 153,
+      "B_2x2": "429/4",
+      "slack": "183/4",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "203/6",
+      "bound_degradation_B1_minus_B2": "143/12"
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 5,
+      "v": 152,
+      "B_2x2": "298/3",
+      "slack": "158/3",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "151/4",
+      "bound_degradation_B1_minus_B2": "179/12"
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 25,
+      "v": 137,
+      "B_2x2": "457/6",
+      "slack": "365/6",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "515/12",
+      "bound_degradation_B1_minus_B2": "215/12"
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 125,
+      "v": 62,
+      "B_2x2": "-71/3",
+      "slack": "257/3",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "259/4",
+      "bound_degradation_B1_minus_B2": "251/12"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 1,
+      "v": 56,
+      "B_2x2": "557/24",
+      "slack": "787/24",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "131/6",
+      "bound_degradation_B1_minus_B2": "263/24"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 2,
+      "v": 55,
+      "B_2x2": "1067/48",
+      "slack": "1573/48",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "349/16",
+      "bound_degradation_B1_minus_B2": "263/24"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 3,
+      "v": 54,
+      "B_2x2": "85/4",
+      "slack": "131/4",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "523/24",
+      "bound_degradation_B1_minus_B2": "263/24"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 7,
+      "v": 51,
+      "B_2x2": "40/3",
+      "slack": "113/3",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "569/24",
+      "bound_degradation_B1_minus_B2": "335/24"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 49,
+      "v": 16,
+      "B_2x2": "-763/24",
+      "slack": "1147/24",
+      "B_2x2_positive": false,
+      "improvement_v_over_B1": "185/6",
+      "bound_degradation_B1_minus_B2": "407/24"
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 1,
+      "v": 399,
+      "B_2x2": "4261/12",
+      "slack": "527/12",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "767/24",
+      "bound_degradation_B1_minus_B2": "287/24"
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 2,
+      "v": 398,
+      "B_2x2": "16949/48",
+      "slack": "2155/48",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "527/16",
+      "bound_degradation_B1_minus_B2": "287/24"
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 3,
+      "v": 397,
+      "B_2x2": "2809/8",
+      "slack": "367/8",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "407/12",
+      "bound_degradation_B1_minus_B2": "287/24"
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 7,
+      "v": 394,
+      "B_2x2": "8141/24",
+      "slack": "1315/24",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "239/6",
+      "bound_degradation_B1_minus_B2": "359/24"
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 49,
+      "v": 359,
+      "B_2x2": "3529/12",
+      "slack": "779/12",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "1127/24",
+      "bound_degradation_B1_minus_B2": "431/24"
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 343,
+      "v": 114,
+      "B_2x2": "53/24",
+      "slack": "2683/24",
+      "B_2x2_positive": true,
+      "improvement_v_over_B1": "545/6",
+      "bound_degradation_B1_minus_B2": "503/24"
+    }
+  ],
+  "analytic_proof": "For p odd, h=sum_(s,a,b) q_(s,a,b)^p q_(s+1,a,b), r0=r1=2. Site0: N height1 columns with I=1 and one height2 column with I(1)=1,I(2)=2. Site1: i height1 columns with I=1. T={0}. Let F=p^-i h^i (Z_(0,1,1))^(N+1-pi)*Z_(0,2,2). The target X monomial X_(0,1,1)^(N+1) X_(0,2,2) X_(1,1,1)^i in J_F has exact coefficient (N+1)! i! /p^i; other determinant branch vanishes by Z multidegree. v=vp(N!)+vp(i!)-i. Delta2-Delta1=ell(N)+4+3ell(i), and dQ2-dQ1=2, so B2=B1-(ell(N)+4+3ell(i)-2/(p^2-1)) < B1. The previous universally proven 1x1 slack ensures v>B2 for all odd p,k,i. This checks an honest size-2 determinant but a tightly controlled F and X coefficient, NOT arbitrary high-rank minors or global theta class membership."
+}

@@ -1,0 +1,40 @@
+initial disc -261078301114993547543504860382664505353329136677979648794456700522583597523
+p 7 radical dimension 6 step index 7
+p 7 radical dimension 6 step index 49
+p 7 radical dimension 5 step index 7
+p 7 radical dimension 5 step index 7
+p 7 radical dimension 4 step index None
+p 107 radical dimension 3 step index None
+p 373599001 radical dimension 1 step index 373599001
+p 373599001 radical dimension 0 step index None
+p 47447980890086283233 radical dimension 1 step index 47447980890086283233
+p 47447980890086283233 radical dimension 0 step index None
+final disc -2941328243
+initial disc -17258499708161576487569653438535082910043
+p 7 radical dimension 18 step index 49
+p 7 radical dimension 18 step index 2401
+p 7 radical dimension 14 step index None
+p 107 radical dimension 9 step index None
+final disc -1246885456355149615796896680443
+LLL norms [4.583, 5.916, 5.916, 8.573, 8.474, 8.373, 6.508, 7.971, 6.508, 9.0, 9.273, 8.811, 8.077, 8.471, 8.796, 7.99, 7.788, 7.95, 7.865, 8.286, 7.865]
+unit 1 (1,) () norm 1 logrank 1
+unit 2 (2,) () norm 1 logrank 2
+unit 3 (0, 1) (-1,) norm -1 logrank 2
+unit 4 (0, 1) (1,) norm -1 logrank 2
+unit 5 (0, 2) (-1,) norm -1 logrank 2
+unit 6 (0, 2) (1,) norm -1 logrank 2
+unit 7 (0, 3) (-1,) norm 1 logrank 3
+unit 8 (0, 6) (1,) norm -1 logrank 4
+unit 9 (0, 7) (1,) norm -1 logrank 5
+unit 10 (0, 8) (-1,) norm -1 logrank 6
+unit 11 (1, 2) (1,) norm 1 logrank 6
+unit 12 (1, 6) (1,) norm -1 logrank 7
+unit 13 (1, 7) (1,) norm -1 logrank 7
+unit 14 (1, 8) (-1,) norm -1 logrank 7
+unit 15 (2, 8) (-1,) norm -1 logrank 7
+unit 16 (12, 16) (-1,) norm -1 logrank 8
+unit 17 (16, 17) (1,) norm 1 logrank 9
+unit 18 (16, 18) (-1,) norm -1 logrank 10
+unit 19 (0, 1, 2) (-1, -1) norm 1 logrank 10
+attempts 442 passfilter 29 unit count 19 seconds 0.44153842900000484
+

@@ -1,0 +1,21 @@
+{
+  "finite_domain": "[2,250000], exhaustive left/right derivative endpoints of each piece, computed in float64; NOT proof for all x",
+  "observed_max_abs_G_primepower_one_sided_derivative": 0.23064207462156022,
+  "max_at": [
+    2,
+    "right",
+    0.23064207462156022
+  ],
+  "N": 250000,
+  "lemma": "By the classical unconditional von Mangoldt harmonic estimate sum_{n<=x} Lambda(n)/n = log x + O(1) (Metamath vmadivsum; Shapiro, equation 9.2.13), G'(x)=sum Lambda(n)/n - log x+gamma = O(1) away from prime powers. G continuous at breaks, therefore globally Lipschitz beyond x0 with some absolute M0. For any Y>=x0 and 0<theta<1, a left h-net with h=Y^theta/M0 and G(nodes)<=C nodes^theta implies G(x)<=(C+1)x^theta throughout [Y,Y^(3/2)]. Number nodes O(Y^(3/2-theta)), improving elementary O(Y^(3/2-theta)*log^2Y).",
+  "proof_ingredients": "Classical harmonic von Mangoldt estimate; derivative of smoothed S; continuity at breaks. The explicit M0 is not evaluated analytically; numeric max in finite interval is only a diagnostic.",
+  "finite_Y_illustration": {
+    "Y": 1000.0,
+    "theta": 0.6,
+    "old_h": 0.48878570131407373,
+    "finite_empirical_M": 0.2307420746215602,
+    "finite_h": 273.4470276021508,
+    "h_ratio": 559.441544355744
+  },
+  "warning": "This is an expository sufficient criterion for the scalar statistic G only, not an estimate on G, not a bound on the arithmetic construction data, and not RH."
+}

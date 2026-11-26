@@ -1,0 +1,9 @@
+{
+  "complex_cases": 1600,
+  "e_less_than_one_cases": 1600,
+  "new_tighter_than_old_cases": 97,
+  "psd_Q_minus_Qprime_cases": 1600,
+  "failures": [],
+  "status": "ALL PASS",
+  "limitation": "floating point falsification only, no Lean verification"
+}

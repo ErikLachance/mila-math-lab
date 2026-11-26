@@ -1,0 +1,29 @@
+{
+  "exact_fraction_test_cases": 180,
+  "largest_ratio_to_claimed_bound": "559435222404563/561544322258116",
+  "largest_ratio_float": 0.9962441079538089,
+  "most_stressed_case": {
+    "t": 3,
+    "x": 1,
+    "m": 19,
+    "k": 1000,
+    "ratio": "559435222404563/561544322258116"
+  },
+  "sharp_relative_coefficient": "4n*m*X/(T*\u03b4) = 8*m*t^17 at the density endpoints; explains exponent 17/8",
+  "counterexamples_without_required_densities": {
+    "drop_T_density": {
+      "T": 1,
+      "T2": 100,
+      "ratio": "505025/30001",
+      "fails": true
+    },
+    "drop_delta_density": {
+      "T": 100,
+      "T2": 1,
+      "ratio": "4000001/120004",
+      "fails": true
+    }
+  },
+  "status": "PASS; algebraic normalisation only",
+  "limitation": "Does not establish unnormalised estimate (III.309), density/existence conditions, or RH"
+}

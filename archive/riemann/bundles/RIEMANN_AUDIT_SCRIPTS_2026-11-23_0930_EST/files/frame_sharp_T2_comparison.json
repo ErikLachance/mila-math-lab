@@ -1,0 +1,227 @@
+{
+  "source": "Rubinstein v2 III.8 Cor T2, with its \u03b7=5\u03ba,e0<=\u03ba\u00b2/4, \u03b1=\u03b1_ram+\u03b1_prime",
+  "status": "PASS",
+  "rows": [
+    {
+      "kappa": "0.25",
+      "alpha": "0.0",
+      "e0": "0.015625",
+      "eta": "1.25",
+      "delta": "0.0",
+      "published_bound_D": "1.75",
+      "previous_trace_bound_D": "0.555555555556",
+      "new_sharp_bound_D": "0.555555555556",
+      "improvement_factor": "3.15"
+    },
+    {
+      "kappa": "0.25",
+      "alpha": "0.0025",
+      "e0": "0.015625",
+      "eta": "1.25",
+      "delta": "0.01",
+      "published_bound_D": "1.76",
+      "previous_trace_bound_D": "0.5644",
+      "new_sharp_bound_D": "0.5643656933",
+      "improvement_factor": "3.11854533487"
+    },
+    {
+      "kappa": "0.25",
+      "alpha": "0.025",
+      "e0": "0.015625",
+      "eta": "1.25",
+      "delta": "0.05115912614",
+      "published_bound_D": "1.85",
+      "previous_trace_bound_D": "0.599867109378",
+      "new_sharp_bound_D": "0.599088676934",
+      "improvement_factor": "3.08802364529"
+    },
+    {
+      "kappa": "0.25",
+      "alpha": "0.25",
+      "e0": "0.015625",
+      "eta": "1.25",
+      "delta": "0.3571428571",
+      "published_bound_D": "2.75",
+      "previous_trace_bound_D": "0.816326530612",
+      "new_sharp_bound_D": "0.802362875289",
+      "improvement_factor": "3.42737691971"
+    },
+    {
+      "kappa": "0.25",
+      "alpha": "0.75",
+      "e0": "0.015625",
+      "eta": "1.25",
+      "delta": "0.980860772",
+      "published_bound_D": "4.75",
+      "previous_trace_bound_D": "0.999837195534",
+      "new_sharp_bound_D": "0.999715517914",
+      "improvement_factor": "4.75135167443"
+    },
+    {
+      "kappa": "0.01",
+      "alpha": "0.0",
+      "e0": "2.5e-5",
+      "eta": "0.05",
+      "delta": "0.0",
+      "published_bound_D": "0.07",
+      "previous_trace_bound_D": "0.047619047619",
+      "new_sharp_bound_D": "0.047619047619",
+      "improvement_factor": "1.47"
+    },
+    {
+      "kappa": "0.01",
+      "alpha": "0.0001",
+      "e0": "2.5e-5",
+      "eta": "0.05",
+      "delta": "0.0001507537688",
+      "published_bound_D": "0.0704",
+      "previous_trace_bound_D": "0.0479061760105",
+      "new_sharp_bound_D": "0.0479057458412",
+      "improvement_factor": "1.46955232121"
+    },
+    {
+      "kappa": "0.01",
+      "alpha": "0.001",
+      "e0": "2.5e-5",
+      "eta": "0.05",
+      "delta": "0.001163933551",
+      "published_bound_D": "0.074",
+      "previous_trace_bound_D": "0.0498347736764",
+      "new_sharp_bound_D": "0.049810160962",
+      "improvement_factor": "1.48564065184"
+    },
+    {
+      "kappa": "0.01",
+      "alpha": "0.01",
+      "e0": "2.5e-5",
+      "eta": "0.05",
+      "delta": "0.01055276382",
+      "published_bound_D": "0.11",
+      "previous_trace_bound_D": "0.0676134922038",
+      "new_sharp_bound_D": "0.0661154170479",
+      "improvement_factor": "1.66375718269"
+    },
+    {
+      "kappa": "0.01",
+      "alpha": "0.03",
+      "e0": "2.5e-5",
+      "eta": "0.05",
+      "delta": "0.03102113106",
+      "published_bound_D": "0.19",
+      "previous_trace_bound_D": "0.105790430044",
+      "new_sharp_bound_D": "0.0972864211463",
+      "improvement_factor": "1.95299608888"
+    },
+    {
+      "kappa": "0.0001",
+      "alpha": "0.0",
+      "e0": "2.5e-9",
+      "eta": "0.0005",
+      "delta": "0.0",
+      "published_bound_D": "0.0007",
+      "previous_trace_bound_D": "0.000499750124938",
+      "new_sharp_bound_D": "0.000499750124938",
+      "improvement_factor": "1.4007"
+    },
+    {
+      "kappa": "0.0001",
+      "alpha": "1.0e-6",
+      "e0": "2.5e-9",
+      "eta": "0.0005",
+      "delta": "1.050052503e-6",
+      "published_bound_D": "0.000704",
+      "previous_trace_bound_D": "0.000501849179313",
+      "new_sharp_bound_D": "0.000501846984409",
+      "improvement_factor": "1.40281803393"
+    },
+    {
+      "kappa": "0.0001",
+      "alpha": "1.0e-5",
+      "e0": "2.5e-9",
+      "eta": "0.0005",
+      "delta": "1.015862181e-5",
+      "published_bound_D": "0.00074",
+      "previous_trace_bound_D": "0.000520057111875",
+      "new_sharp_bound_D": "0.000519858803407",
+      "improvement_factor": "1.42346343882"
+    },
+    {
+      "kappa": "0.0001",
+      "alpha": "0.0001",
+      "e0": "2.5e-9",
+      "eta": "0.0005",
+      "delta": "0.0001005050253",
+      "published_bound_D": "0.0011",
+      "previous_trace_bound_D": "0.00070064962443",
+      "new_sharp_bound_D": "0.000685940943329",
+      "improvement_factor": "1.60363659685"
+    },
+    {
+      "kappa": "0.0001",
+      "alpha": "0.0003",
+      "e0": "2.5e-9",
+      "eta": "0.0005",
+      "delta": "0.0003008810695",
+      "published_bound_D": "0.0019",
+      "previous_trace_bound_D": "0.00110112104897",
+      "new_sharp_bound_D": "0.0010117809332",
+      "improvement_factor": "1.87787685817"
+    },
+    {
+      "kappa": "1.0e-8",
+      "alpha": "0.0",
+      "e0": "2.5e-17",
+      "eta": "5.0e-8",
+      "delta": "0.0",
+      "published_bound_D": "7.0e-8",
+      "previous_trace_bound_D": "4.99999975e-8",
+      "new_sharp_bound_D": "4.99999975e-8",
+      "improvement_factor": "1.40000007"
+    },
+    {
+      "kappa": "1.0e-8",
+      "alpha": "1.0e-10",
+      "e0": "2.5e-17",
+      "eta": "5.0e-8",
+      "delta": "1.000500005e-10",
+      "published_bound_D": "7.04e-8",
+      "previous_trace_bound_D": "5.0200097491e-8",
+      "new_sharp_bound_D": "5.01998980882e-8",
+      "improvement_factor": "1.40239328527"
+    },
+    {
+      "kappa": "1.0e-8",
+      "alpha": "1.0e-9",
+      "e0": "2.5e-17",
+      "eta": "5.0e-8",
+      "delta": "1.000158119e-9",
+      "published_bound_D": "7.4e-8",
+      "previous_trace_bound_D": "5.20003136368e-8",
+      "new_sharp_bound_D": "5.19810697819e-8",
+      "improvement_factor": "1.42359517244"
+    },
+    {
+      "kappa": "1.0e-8",
+      "alpha": "1.0e-8",
+      "e0": "2.5e-17",
+      "eta": "5.0e-8",
+      "delta": "1.000050005e-8",
+      "published_bound_D": "1.1e-7",
+      "previous_trace_bound_D": "7.00009964999e-8",
+      "new_sharp_bound_D": "6.85418889241e-8",
+      "improvement_factor": "1.60485801787"
+    },
+    {
+      "kappa": "1.0e-8",
+      "alpha": "3.0e-8",
+      "e0": "2.5e-17",
+      "eta": "5.0e-8",
+      "delta": "3.000086618e-8",
+      "published_bound_D": "1.9e-7",
+      "previous_trace_bound_D": "1.10001725951e-7",
+      "new_sharp_bound_D": "1.01099052666e-7",
+      "improvement_factor": "1.87934500858"
+    }
+  ],
+  "warning": "Illustrative upper-bound parameter substitutions, not actual source parameter verification; delta_p projection multiplies all by 1/(1-delta_p). The sharpened bound cannot replace proofs of S/I/P/H8 or (M)."
+}

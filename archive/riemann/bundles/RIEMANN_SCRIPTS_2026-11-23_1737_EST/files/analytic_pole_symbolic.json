@@ -1,0 +1,10 @@
+{
+  "nonprincipal_correct_pole_residue": "0",
+  "nonprincipal_wrong_sign_residue": "-2*K",
+  "nonprincipal_finite_limit": "K - K1",
+  "zeta_correct_pole_residue": "0",
+  "zeta_wrong_center_residue": "-1",
+  "zeta_finite_limit": "g**2 + g + 2*g1 + 1",
+  "real_zero_beta_3over4_residue": "16/3",
+  "negative_toy_real_residue": "-1"
+}

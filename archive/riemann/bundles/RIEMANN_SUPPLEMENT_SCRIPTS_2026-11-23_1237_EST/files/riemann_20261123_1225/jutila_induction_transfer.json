@@ -1,0 +1,61 @@
+{
+  "source": "M. Jutila On Linnik's constant Math Scand 41 (1977) theorem 1 eq (1.8) is PRIMITIVE summed over q<=Q, not all characters",
+  "exact_induction_count_identity": "S_all(Q)=sum_d<=Q floor(Q/d)*a_d = sum_k<=Q A_prim(floor(Q/k)); a_d primitive zero-count at conductor d",
+  "single_nonzero_conductor_countermodel": [
+    {
+      "Q": 4,
+      "A_primitive": 1,
+      "S_all_char": 1,
+      "ratio_all_over_primitive": 1
+    },
+    {
+      "Q": 12,
+      "A_primitive": 1,
+      "S_all_char": 3,
+      "ratio_all_over_primitive": 3
+    },
+    {
+      "Q": 100,
+      "A_primitive": 1,
+      "S_all_char": 25,
+      "ratio_all_over_primitive": 25
+    },
+    {
+      "Q": 1000,
+      "A_primitive": 1,
+      "S_all_char": 250,
+      "ratio_all_over_primitive": 250
+    },
+    {
+      "Q": 10000,
+      "A_primitive": 1,
+      "S_all_char": 2500,
+      "ratio_all_over_primitive": 2500
+    }
+  ],
+  "transfer_exponent_regimes": [
+    {
+      "alpha": "4/5",
+      "eps": "1/10",
+      "primitive_exponent_Q": "21/25",
+      "loss_exponent_Q_if_b_lt_1": "4/25",
+      "status": "b<1"
+    },
+    {
+      "alpha": "9/10",
+      "eps": "1/10",
+      "primitive_exponent_Q": "21/50",
+      "loss_exponent_Q_if_b_lt_1": "29/50",
+      "status": "b<1"
+    },
+    {
+      "alpha": "99/100",
+      "eps": "1/10",
+      "primitive_exponent_Q": "21/500",
+      "loss_exponent_Q_if_b_lt_1": "479/500",
+      "status": "b<1"
+    }
+  ],
+  "upper_bound_deduction": "If A_prim(U) <= C*(U^2*T)^a with a=(2+eps)(1-alpha), then S_all(Q) <= C*(Q^2*T)^a*sum_{k<=Q}k^(-2a). For 2a<1 this is O(C*Q*T^a), not O(C*Q^(2a)*T^a) without other input. For 2a=1 add logQ; for 2a>1 no power loss.",
+  "qualification": "The single conductor toy assigns a fictitious zero; it is an exact combinatorial countermodel to an illegitimate inference, not a statement that real Dirichlet characters have zeros off critical line. Source eq(1.7) separately bounds all characters for ONE fixed modulus q; check whether the archive uses (1.7) or (1.8) before drawing any conclusion about source fidelity."
+}

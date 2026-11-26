@@ -1,0 +1,63 @@
+{
+  "source": "Rubinstein working draft v2 \u00a7III.10-III.11, parameter powers and four errors; this is merely independent exact symbolic bookkeeping, not proof of the 13 H inputs",
+  "formulas": {
+    "x_over_m": "(epsilon + 8)/16",
+    "x_times_m_over_k": "-(161*epsilon + 48)/16",
+    "m": "-(epsilon - 8)/16",
+    "k_over_n_squared": "-(12*epsilon - 1)/2",
+    "word_count_required_m5_f_xepsilon": "(139*epsilon + 72)/16",
+    "word_count_slack_k_minus_m5_f_xepsilon": "21*epsilon/16",
+    "k_upper_constraint_slack_n2_xhalfminepsilon_over_k": "5*epsilon",
+    "k_lower_constraint_slack_k_over_xm": "(161*epsilon + 48)/16",
+    "m_lower_constraint_slack_m_over_xhalfminepsilon": "15*epsilon/16"
+  },
+  "assertions": {
+    "x_over_m": "epsilon/16 + 1/2",
+    "x_times_m_over_k": "-161*epsilon/16 - 3",
+    "k_over_n_squared": "1/2 - 6*epsilon",
+    "word_count_slack_k_minus_m5_f_xepsilon": "21*epsilon/16",
+    "k_upper_constraint_slack_n2_xhalfminepsilon_over_k": "5*epsilon",
+    "k_lower_constraint_slack_k_over_xm": "161*epsilon/16 + 3",
+    "m_lower_constraint_slack_m_over_xhalfminepsilon": "15*epsilon/16"
+  },
+  "checked": true,
+  "auxiliary_growth_numerics": [
+    {
+      "logY": 50,
+      "half_Y_eps_over5": "0.55258545903782381241",
+      "J_logY": "500",
+      "condition": false
+    },
+    {
+      "logY": 100,
+      "half_Y_eps_over5": "0.61070137908008491696",
+      "J_logY": "1000",
+      "condition": false
+    },
+    {
+      "logY": 1000,
+      "half_Y_eps_over5": "3.6945280494653251136",
+      "J_logY": "10000",
+      "condition": false
+    },
+    {
+      "logY": 6000,
+      "half_Y_eps_over5": "81377.395709501960404",
+      "J_logY": "60000",
+      "condition": true
+    },
+    {
+      "logY": 10000,
+      "half_Y_eps_over5": "242582597.70489513898",
+      "J_logY": "100000",
+      "condition": true
+    },
+    {
+      "logY": 30000,
+      "half_Y_eps_over5": "5.7100369490784214183e+25",
+      "J_logY": "300000",
+      "condition": true
+    }
+  ],
+  "warning": "Constant factors, arithmetic existence, and uniformity across x and characters remain unproved here; asymptotic exponent slack cannot establish H12."
+}

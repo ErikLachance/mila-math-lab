@@ -1,0 +1,45 @@
+{
+  "samples": [
+    {
+      "epsilon": "0.002",
+      "threshold_t_exp_bound_i": "12.4230797908233686",
+      "threshold_t_d_le_xeps_ii": "23.420555431022092",
+      "threshold_t_size_bound_iv": "15.6603330418220071",
+      "threshold_t_d_lt_Xprime": "170.280859285145215",
+      "sufficient_log10_x_for_iv": "3400.59811241523",
+      "sufficient_log10_x_for_d_lt_Xprime": "36976.0187806413",
+      "all_thresholds_t_ordered": true
+    },
+    {
+      "epsilon": "0.005",
+      "threshold_t_exp_bound_i": "11.4229168933910499",
+      "threshold_t_d_le_xeps_ii": "20.8377034449562679",
+      "threshold_t_size_bound_iv": "14.6793866596646265",
+      "threshold_t_d_lt_Xprime": "155.139645221723418",
+      "sufficient_log10_x_for_iv": "1275.03532480331",
+      "sufficient_log10_x_for_d_lt_Xprime": "13475.2583688445",
+      "all_thresholds_t_ordered": true
+    },
+    {
+      "epsilon": "0.01",
+      "threshold_t_exp_bound_i": "10.6608376666818653",
+      "threshold_t_d_le_xeps_ii": "18.8548510410822602",
+      "threshold_t_size_bound_iv": "13.9341833010396763",
+      "threshold_t_d_lt_Xprime": "143.581047824291294",
+      "sufficient_log10_x_for_iv": "605.153891746997",
+      "sufficient_log10_x_for_d_lt_Xprime": "6235.64567759766",
+      "all_thresholds_t_ordered": true
+    },
+    {
+      "epsilon": "0.018",
+      "threshold_t_exp_bound_i": "10.0102800471361552",
+      "threshold_t_d_le_xeps_ii": "17.1481904383269232",
+      "threshold_t_size_bound_iv": "13.2998651057966385",
+      "threshold_t_d_lt_Xprime": "133.694064106484614",
+      "sufficient_log10_x_for_iv": "320.89211252806",
+      "sufficient_log10_x_for_d_lt_Xprime": "3225.69968359255",
+      "all_thresholds_t_ordered": true
+    }
+  ],
+  "interpretation": "finite numerical threshold regressions with rigorous algebraic implication, not new RH proof"
+}

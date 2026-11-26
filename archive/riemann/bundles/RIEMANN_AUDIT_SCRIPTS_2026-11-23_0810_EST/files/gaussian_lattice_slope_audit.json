@@ -1,0 +1,92 @@
+{
+  "Q_i_normalization": "rank r=2, n0=2, base Z[i]^2 covolume 1, mu=-ln |det_complex phi|; ht=ln ||phi||_op^2",
+  "exact_identity": "T=sum(|a_ij|^2), D=|det(phi)|^2, discriminant T^2-4D>=0; lambda_max=(T+sqrt(discriminant))/2; mu(phi Lambda)+ht(phi)-mu(Lambda)=ln(lambda_max/sqrt(D)) >= 0",
+  "nonzero_random_gaussian_matrices": 597,
+  "minimum_ratio": 1.0289915108550531,
+  "maximum_ratio": 73.98648401781386,
+  "scalar_and_anisotropic_examples": [
+    {
+      "a": 1,
+      "b": 1,
+      "slope_shift": -0.0,
+      "height": 0.0,
+      "slack": 0.0,
+      "ratio": 1.0
+    },
+    {
+      "a": 2,
+      "b": 2,
+      "slope_shift": -1.3862943611198906,
+      "height": 1.3862943611198906,
+      "slack": 0.0,
+      "ratio": 1.0
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "slope_shift": -1.0986122886681098,
+      "height": 2.1972245773362196,
+      "slack": 1.0986122886681098,
+      "ratio": 3.0
+    },
+    {
+      "a": 2,
+      "b": 9,
+      "slope_shift": -2.8903717578961645,
+      "height": 4.394449154672439,
+      "slack": 1.5040773967762742,
+      "ratio": 4.5
+    },
+    {
+      "a": 3,
+      "b": 7,
+      "slope_shift": -3.044522437723423,
+      "height": 3.8918202981106265,
+      "slack": 0.8472978603872037,
+      "ratio": 2.3333333333333335
+    },
+    {
+      "a": 10,
+      "b": 100,
+      "slope_shift": -6.907755278982137,
+      "height": 9.210340371976184,
+      "slack": 2.302585092994046,
+      "ratio": 10.0
+    }
+  ],
+  "nonspanning_rank_one_warning": [
+    {
+      "N": 2,
+      "target_mu": -0.34657359027997264,
+      "maps": "all 1 -> (1,0)",
+      "image_rank": 1,
+      "target_rank": 2,
+      "hypothetical_mean_slope_bound_valid": false
+    },
+    {
+      "N": 10,
+      "target_mu": -1.151292546497023,
+      "maps": "all 1 -> (1,0)",
+      "image_rank": 1,
+      "target_rank": 2,
+      "hypothetical_mean_slope_bound_valid": false
+    },
+    {
+      "N": 1000,
+      "target_mu": -3.4538776394910684,
+      "maps": "all 1 -> (1,0)",
+      "image_rank": 1,
+      "target_rank": 2,
+      "hypothetical_mean_slope_bound_valid": false
+    },
+    {
+      "N": 1000000000,
+      "target_mu": -10.361632918473205,
+      "maps": "all 1 -> (1,0)",
+      "image_rank": 1,
+      "target_rank": 2,
+      "hypothetical_mean_slope_bound_valid": false
+    }
+  ],
+  "status": "simple 2x2 number field toy check; no audit of high rank Arakelov theorem or RH proof"
+}

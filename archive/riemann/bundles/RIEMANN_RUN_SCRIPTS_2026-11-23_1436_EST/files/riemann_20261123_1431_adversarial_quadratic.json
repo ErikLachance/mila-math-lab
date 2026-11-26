@@ -1,0 +1,35 @@
+[
+  {
+    "Y": 10,
+    "prime_count": 4,
+    "progression_modulus": "840",
+    "k": 3,
+    "ell": "2521",
+    "ell_digits": 4,
+    "all_small_prime_legendre_plus": true,
+    "all_n_le_Y_character_plus": true,
+    "signed_prime_power_sum": 0
+  },
+  {
+    "Y": 30,
+    "prime_count": 10,
+    "progression_modulus": "25878772920",
+    "k": 3,
+    "ell": "77636318761",
+    "ell_digits": 11,
+    "all_small_prime_legendre_plus": true,
+    "all_n_le_Y_character_plus": true,
+    "signed_prime_power_sum": 0
+  },
+  {
+    "Y": 100,
+    "prime_count": 25,
+    "progression_modulus": "9222271855782073699012408589327024280",
+    "k": 5,
+    "ell": "46111359278910368495062042946635121401",
+    "ell_digits": 38,
+    "all_small_prime_legendre_plus": true,
+    "all_n_le_Y_character_plus": true,
+    "signed_prime_power_sum": 0
+  }
+]

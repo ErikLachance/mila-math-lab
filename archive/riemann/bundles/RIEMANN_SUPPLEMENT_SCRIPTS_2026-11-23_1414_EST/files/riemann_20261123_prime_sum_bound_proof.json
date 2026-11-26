@@ -1,0 +1,13 @@
+{
+  "source": "https://isa-afp.org/entries/Chebyshev_Prime_Bounds.html",
+  "exp_9_over_5_degree_6_lower": "7542629/1250000",
+  "exp_7_over_10_degree_4_lower": "482921/240000",
+  "tail_constant_upper": "43/20",
+  "psi_bound_constant": "6/5",
+  "proved_additive_bound": "67/20",
+  "quoted_source_bound": "17/5",
+  "numerical_prime_check_up_to": 300000,
+  "largest_sample_gap": 0.1438410362258904,
+  "largest_sample_at_prime": 3,
+  "proof_status": "conditional on formally certified unconditional psi(x)<=1.2x; elementary steps rational except external psi theorem; not RH"
+}

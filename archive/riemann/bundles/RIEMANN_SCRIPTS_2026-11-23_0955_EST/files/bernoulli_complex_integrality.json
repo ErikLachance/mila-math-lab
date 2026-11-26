@@ -1,0 +1,1304 @@
+{
+  "tests": 144,
+  "all_pass": true,
+  "cases": [
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 1,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 1,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 1,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 1,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 1,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 1,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 1,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 1,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 2,
+      "t": 2,
+      "k": 1,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 2,
+      "t": 2,
+      "k": 2,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 5,
+      "character_order": 2,
+      "t": 2,
+      "k": 3,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 2,
+      "t": 2,
+      "k": 4,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 5,
+      "character_order": 2,
+      "t": 2,
+      "k": 5,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 2,
+      "t": 2,
+      "k": 6,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 5,
+      "character_order": 2,
+      "t": 2,
+      "k": 7,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 2,
+      "t": 2,
+      "k": 8,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 3,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 3,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 3,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 3,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 3,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 3,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 3,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 5,
+      "character_order": 4,
+      "t": 3,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 6,
+      "t": 1,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 7,
+      "character_order": 6,
+      "t": 1,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 6,
+      "t": 1,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 7,
+      "character_order": 6,
+      "t": 1,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 6,
+      "t": 1,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 7,
+      "character_order": 6,
+      "t": 1,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 6,
+      "t": 1,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 7,
+      "character_order": 6,
+      "t": 1,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 3,
+      "t": 2,
+      "k": 1,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 3,
+      "t": 2,
+      "k": 2,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 7,
+      "character_order": 3,
+      "t": 2,
+      "k": 3,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 3,
+      "t": 2,
+      "k": 4,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 7,
+      "character_order": 3,
+      "t": 2,
+      "k": 5,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 3,
+      "t": 2,
+      "k": 6,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 7,
+      "character_order": 3,
+      "t": 2,
+      "k": 7,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 3,
+      "t": 2,
+      "k": 8,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 7,
+      "character_order": 2,
+      "t": 3,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 7,
+      "character_order": 2,
+      "t": 3,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 2,
+      "t": 3,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 7,
+      "character_order": 2,
+      "t": 3,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 2,
+      "t": 3,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 7,
+      "character_order": 2,
+      "t": 3,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 7,
+      "character_order": 2,
+      "t": 3,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 7,
+      "character_order": 2,
+      "t": 3,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 1,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 1,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 1,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 1,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 1,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 1,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 1,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 1,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 5,
+      "t": 2,
+      "k": 1,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 5,
+      "t": 2,
+      "k": 2,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 5,
+      "t": 2,
+      "k": 3,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 5,
+      "t": 2,
+      "k": 4,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 5,
+      "t": 2,
+      "k": 5,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 5,
+      "t": 2,
+      "k": 6,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 5,
+      "t": 2,
+      "k": 7,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 5,
+      "t": 2,
+      "k": 8,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 3,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 3,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 3,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 3,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 3,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 3,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 3,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 11,
+      "character_order": 10,
+      "t": 3,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 12,
+      "t": 1,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 13,
+      "character_order": 12,
+      "t": 1,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 12,
+      "t": 1,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 13,
+      "character_order": 12,
+      "t": 1,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 12,
+      "t": 1,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 13,
+      "character_order": 12,
+      "t": 1,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 12,
+      "t": 1,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 3
+    },
+    {
+      "modulus": 13,
+      "character_order": 12,
+      "t": 1,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 6,
+      "t": 2,
+      "k": 1,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 6,
+      "t": 2,
+      "k": 2,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 13,
+      "character_order": 6,
+      "t": 2,
+      "k": 3,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 6,
+      "t": 2,
+      "k": 4,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 13,
+      "character_order": 6,
+      "t": 2,
+      "k": 5,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 6,
+      "t": 2,
+      "k": 6,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 13,
+      "character_order": 6,
+      "t": 2,
+      "k": 7,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 6,
+      "t": 2,
+      "k": 8,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 13,
+      "character_order": 4,
+      "t": 3,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 13,
+      "character_order": 4,
+      "t": 3,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 4,
+      "t": 3,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 13,
+      "character_order": 4,
+      "t": 3,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 4,
+      "t": 3,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 13,
+      "character_order": 4,
+      "t": 3,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 13,
+      "character_order": 4,
+      "t": 3,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 1
+    },
+    {
+      "modulus": 13,
+      "character_order": 4,
+      "t": 3,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 1,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 7
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 1,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 1,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 7
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 1,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 1,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 7
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 1,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 1,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 7
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 1,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 8,
+      "t": 2,
+      "k": 1,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 8,
+      "t": 2,
+      "k": 2,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 2
+    },
+    {
+      "modulus": 17,
+      "character_order": 8,
+      "t": 2,
+      "k": 3,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 8,
+      "t": 2,
+      "k": 4,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 2
+    },
+    {
+      "modulus": 17,
+      "character_order": 8,
+      "t": 2,
+      "k": 5,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 8,
+      "t": 2,
+      "k": 6,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 2
+    },
+    {
+      "modulus": 17,
+      "character_order": 8,
+      "t": 2,
+      "k": 7,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 8,
+      "t": 2,
+      "k": 8,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 2
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 3,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 7
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 3,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 3,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 7
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 3,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 3,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 7
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 3,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 3,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 7
+    },
+    {
+      "modulus": 17,
+      "character_order": 16,
+      "t": 3,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 18,
+      "t": 1,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 5
+    },
+    {
+      "modulus": 19,
+      "character_order": 18,
+      "t": 1,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 18,
+      "t": 1,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 5
+    },
+    {
+      "modulus": 19,
+      "character_order": 18,
+      "t": 1,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 18,
+      "t": 1,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 5
+    },
+    {
+      "modulus": 19,
+      "character_order": 18,
+      "t": 1,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 18,
+      "t": 1,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 5
+    },
+    {
+      "modulus": 19,
+      "character_order": 18,
+      "t": 1,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 9,
+      "t": 2,
+      "k": 1,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 9,
+      "t": 2,
+      "k": 2,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 5
+    },
+    {
+      "modulus": 19,
+      "character_order": 9,
+      "t": 2,
+      "k": 3,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 9,
+      "t": 2,
+      "k": 4,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 5
+    },
+    {
+      "modulus": 19,
+      "character_order": 9,
+      "t": 2,
+      "k": 5,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 9,
+      "t": 2,
+      "k": 6,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 5
+    },
+    {
+      "modulus": 19,
+      "character_order": 9,
+      "t": 2,
+      "k": 7,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 9,
+      "t": 2,
+      "k": 8,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 5
+    },
+    {
+      "modulus": 19,
+      "character_order": 6,
+      "t": 3,
+      "k": 1,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 19,
+      "character_order": 6,
+      "t": 3,
+      "k": 2,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 6,
+      "t": 3,
+      "k": 3,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 19,
+      "character_order": 6,
+      "t": 3,
+      "k": 4,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 6,
+      "t": 3,
+      "k": 5,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 19,
+      "character_order": 6,
+      "t": 3,
+      "k": 6,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    },
+    {
+      "modulus": 19,
+      "character_order": 6,
+      "t": 3,
+      "k": 7,
+      "parity_forces_zero": false,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": 0
+    },
+    {
+      "modulus": 19,
+      "character_order": 6,
+      "t": 3,
+      "k": 8,
+      "parity_forces_zero": true,
+      "integral_after_clearing": true,
+      "polynomial_degree_reduced": -1
+    }
+  ],
+  "theorem": "For any Dirichlet character chi mod N with root-of-unity values and integer k>=1, N*P_k*B_{k,chi} is an algebraic integer, where P_k is the product of all rational primes <=k+1. Proof: expand B_k(a/N), then N*B_{k,chi}=sum_a chi(a) sum_{j=0}^k binom(k,j)B_j*a^(k-j)*N^j; von Staudt-Clausen implies P_k B_j integer for j<=k, chi(a) algebraic integer. This is denominator integrality, not a Selmer-length bound.",
+  "limitation": "Finite tests use primitive nontrivial characters of prime modulus only; proof applies more broadly provided chi values are roots of unity."
+}

@@ -1,0 +1,169 @@
+{
+  "setting": "K=Q(sqrt(-3)), psi=1, ell>=5, even twist e>=2, generic position (ell-1) does not divide 2e; normalized residual triple after chi^-1 is chi^(e-1) direct sum chi^-1 direct sum chi^(-e-1).",
+  "algebra": "Individual conjugate self-duality for each one-dimensional character chi^a in n=3 requires chi^a = chi^(-a-2) (since chi^c=chi), equivalently ell-1 divides 2(a+1). For extreme a=e-1 or a=-e-1 this is equivalent to ell-1 dividing 2e, CONTRARY to generic-position hypothesis. Middle a=-1 does satisfy. However the entire multiset is CSD because extremes are swapped. Thus 2020 Allen-Newton-Thorne Theorem 1.1(iv) cannot apply as stated on this generic input, independently of its Steinberg requirements (v),(vi)(c).",
+  "numberOfEligibleChecked": 11155,
+  "numberFailingIndividualCSD": 11155,
+  "sample": [
+    {
+      "ell": 7,
+      "e": 2,
+      "order": 6,
+      "triple": [
+        1,
+        5,
+        3
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 4,
+      "order": 6,
+      "triple": [
+        3,
+        5,
+        1
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 8,
+      "order": 6,
+      "triple": [
+        1,
+        5,
+        3
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 10,
+      "order": 6,
+      "triple": [
+        3,
+        5,
+        1
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 14,
+      "order": 6,
+      "triple": [
+        1,
+        5,
+        3
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 16,
+      "order": 6,
+      "triple": [
+        3,
+        5,
+        1
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 20,
+      "order": 6,
+      "triple": [
+        1,
+        5,
+        3
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 22,
+      "order": 6,
+      "triple": [
+        3,
+        5,
+        1
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 26,
+      "order": 6,
+      "triple": [
+        1,
+        5,
+        3
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    },
+    {
+      "ell": 7,
+      "e": 28,
+      "order": 6,
+      "triple": [
+        3,
+        5,
+        1
+      ],
+      "individualCSD": [
+        false,
+        true,
+        false
+      ],
+      "wholeCSD": true
+    }
+  ],
+  "limitation": "Assumes K cyclotomic disjointness for ell>=5 and the normalization of the residual triple given in incomplete human reconstruction. This algebra does not prove or disprove RH or the Lean development, and does not exclude a different automorphy theorem or a new argument."
+}

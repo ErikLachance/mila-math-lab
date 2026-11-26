@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "exact_fraction_cases": 5000,
+  "least_difference": "0",
+  "scope": "source algebra g1>=g0 at positive adjusted al and nonnegative caps, before price; not proof of source lower bound"
+}

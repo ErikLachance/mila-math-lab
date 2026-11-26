@@ -1,0 +1,57 @@
+{
+  "exact_one_sided_interpolation": "For any 1<=a<x<b, t=(x-a)/(b-a), let S(x)=sum_n (Lambda(n)/n)*(x-n)_+, convex since Lambda>=0. Thus S(x)<=(1-t)S(a)+t S(b). For G=S-x log x+(1+gamma)x, conclude G(x)<=(1-t)G(a)+tG(b)+D(a,b;x), D=(1-t)a log a+t b log b -x log x >=0.",
+  "rigorous_semiconvex_bound": "For a,b>=Y>=2, 0<=D(a,b;x)<= (x-a)(b-x)/(2Y) <=(b-a)^2/(8Y). This follows from convexity of G(x)+x^2/(2Y): distributional G second derivative is sum_n Lambda(n)/n delta_n-1/x dx, bounded below by -1/Y.",
+  "finite_net_lemma": "If 0<theta<1, C>=0, Y>=2, nodes cover [Y,Y^(3/2)] with each gap h<=sqrt(8Y^(1+theta)) and G(node)<=C node^theta for every node, then G(x)<=(C+1)x^theta for every x in the window: concavity of x^theta ensures chord(node^theta)<=x^theta and interpolation defect <=Y^theta<=x^theta.",
+  "mesh_cardinality": "Number of nodes O(Y^(1-theta/2)), versus O(Y^(3/2-theta)) for constant-Lipschitz first-derivative grid, and O(Y^(3/2-theta)*log^2Y) for purely elementary first-derivative grid. No PNT or RH assumption is needed for the semiconvex lemma.",
+  "tests": [
+    {
+      "Y": 100,
+      "upper": 1000.0,
+      "theta": 0.52,
+      "mesh_bound": 93.65802458489866,
+      "actual_steps": 10,
+      "sample_count": 1500,
+      "C_from_nodes_only": 0.1570196886351914,
+      "max_G_minus_exact_interpolant": -0.0036456445316135344,
+      "max_D_over_h2_over_8Y": 0.7031211491754378,
+      "violations": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Y": 1000,
+      "upper": 31622.776601683792,
+      "theta": 0.57,
+      "mesh_bound": 640.5381387498261,
+      "actual_steps": 48,
+      "sample_count": 7200,
+      "C_from_nodes_only": 0.02985043101260989,
+      "max_G_minus_exact_interpolant": -0.00032796367524756675,
+      "max_D_over_h2_over_8Y": 0.7669829244859602,
+      "violations": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Y": 5000,
+      "upper": 353553.39059327374,
+      "theta": 0.6,
+      "mesh_bound": 2574.6665870904485,
+      "actual_steps": 136,
+      "sample_count": 20400,
+      "C_from_nodes_only": 0.010742915994664648,
+      "max_G_minus_exact_interpolant": -0.0017256287210116739,
+      "max_D_over_h2_over_8Y": 0.8025375995937692,
+      "violations": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "limitations": "This is a mathematical reduction of continuous one-sided G bounds to finite, but Y-growing, testing grids with a UNIFORM C for arbitrarily large Y. It does not prove those bounds, does not yield the arithmetic H12 data, and does not prove/disprove RH. Numerical tests are illustrative; the analytic convexity argument proves the finite-net implication."
+}

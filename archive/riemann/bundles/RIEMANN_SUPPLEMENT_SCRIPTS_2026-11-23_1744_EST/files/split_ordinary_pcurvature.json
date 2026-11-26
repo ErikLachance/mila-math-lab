@@ -1,0 +1,126 @@
+[
+  {
+    "prime": 7,
+    "curve": "j0 split",
+    "records": [
+      {
+        "a": 7,
+        "A": {},
+        "B": {
+          "0": 1
+        },
+        "nonzero": true
+      },
+      {
+        "a": 49,
+        "A": {},
+        "B": {
+          "0": 4
+        },
+        "nonzero": true
+      }
+    ]
+  },
+  {
+    "prime": 13,
+    "curve": "j0 split",
+    "records": [
+      {
+        "a": 13,
+        "A": {},
+        "B": {
+          "0": 4
+        },
+        "nonzero": true
+      },
+      {
+        "a": 169,
+        "A": {},
+        "B": {
+          "0": 8
+        },
+        "nonzero": true
+      }
+    ]
+  },
+  {
+    "prime": 5,
+    "curve": "j1728 split",
+    "records": [
+      {
+        "a": 5,
+        "A": {},
+        "B": {
+          "0": 1
+        },
+        "nonzero": true
+      },
+      {
+        "a": 25,
+        "A": {},
+        "B": {
+          "0": 3
+        },
+        "nonzero": true
+      }
+    ]
+  },
+  {
+    "prime": 13,
+    "curve": "j1728 split",
+    "records": [
+      {
+        "a": 13,
+        "A": {},
+        "B": {
+          "0": 12
+        },
+        "nonzero": true
+      },
+      {
+        "a": 169,
+        "A": {},
+        "B": {
+          "0": 7
+        },
+        "nonzero": true
+      }
+    ]
+  },
+  {
+    "prime": 5,
+    "curve": "j0 inert",
+    "records": [
+      {
+        "a": 5,
+        "A": {},
+        "B": {},
+        "nonzero": false
+      },
+      {
+        "a": 25,
+        "A": {},
+        "B": {},
+        "nonzero": false
+      }
+    ]
+  },
+  {
+    "prime": 7,
+    "curve": "j1728 inert",
+    "records": [
+      {
+        "a": 7,
+        "A": {},
+        "B": {},
+        "nonzero": false
+      },
+      {
+        "a": 49,
+        "A": {},
+        "B": {},
+        "nonzero": false
+      }
+    ]
+  }
+]

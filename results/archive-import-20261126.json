@@ -1,0 +1,31 @@
+{
+  "asset_count": 587,
+  "date": "2026-11-26",
+  "embedded_blocks_preserved": 220,
+  "format_checks": {
+    "json_files_parsed": 238,
+    "json_lines_files_parsed": 2,
+    "python_syntax_checked_not_executed": 283,
+    "text_files_hash_checked": 64
+  },
+  "historical_scripts_executed": 0,
+  "manifest_bytes_checked": 3728297,
+  "manifest_files_checked": 706,
+  "manifest_sha256": "841f4ab7584b2184cea21ff14893d441f49fadc4fb0c1f3895d692064dd45e65",
+  "record_count": 90,
+  "records_by_date": {
+    "2026-11-07": 3,
+    "2026-11-23": 50,
+    "2026-11-24": 24,
+    "2026-11-25": 13
+  },
+  "schema_version": 1,
+  "scope": "Sizes, SHA-256 hashes, inventory completeness within the declared 151-source Riemann collection, Python syntax and JSON/JSON Lines parsing. No mathematical correctness or completeness claim for every historical research project.",
+  "script_bundle_count": 29,
+  "separate_finite_replay": "results/archived-units-20261126.json",
+  "source_files_accounted_for": 151,
+  "source_sha256": "2bd391d35385b76d33fb8e0ec9dfa8137d08aea44e7f3eebb29e4ed25612d36d",
+  "standalone_files_preserved": 32,
+  "status": "pass",
+  "zip_members_preserved": 335
+}

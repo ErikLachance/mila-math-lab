@@ -2,7 +2,7 @@
 
 Independent AI-assisted mathematical research / Recherche mathématique indépendante assistée par IA.
 
-**Research collection 0.5.0 — 26 November 2026.** [Scientific website](https://eriklachance.github.io/mila-math-lab/) · [Research catalog](https://eriklachance.github.io/mila-math-lab/catalog.html) · [Reproducibility](https://eriklachance.github.io/mila-math-lab/methods.html) · [Bibliography](https://eriklachance.github.io/mila-math-lab/references.html)
+**Research collection 0.5.1 — 26 November 2026.** [Scientific website](https://eriklachance.github.io/mila-math-lab/) · [Research catalog](https://eriklachance.github.io/mila-math-lab/catalog.html) · [Reproducibility](https://eriklachance.github.io/mila-math-lab/methods.html) · [Bibliography](https://eriklachance.github.io/mila-math-lab/references.html)
 
 No solution of P vs NP, Beal's conjecture, or the Riemann hypothesis is claimed. Research notes are not peer reviewed; novelty and prize eligibility are not established. We distinguish elementary proofs, finite certificates, conditional deductions, formal arguments and unresolved steps.
 
@@ -26,9 +26,23 @@ No solution of P vs NP, Beal's conjecture, or the Riemann hypothesis is claimed.
 
 Public reconstruction and verification: 26 November 2026. See [research archive index](notes/research-archive.md) for the selected scope. The private research journal is not published.
 
+## Historical checkpoint archive
+
+The [scientific checkpoint archive](archive/README.md) preserves the scientific contents of all **151 inventoried Riemann sources**: 90 narrative records, 29 script bundles and 32 standalone files, including corrections and historical outputs. Its [manifest](archive/manifest.json) identifies each file and its SHA-256 hash. The [website archive](https://eriklachance.github.io/mila-math-lab/archive.html) provides a chronological directory.
+
+This archival transfer has its own verification scope. All recorded files receive integrity and format checks; a new independent finite replay verifies ten selected unit determinants and the reported ranks of recorded local vectors over F₇. Historical mathematical arguments and local arithmetic embeddings have not all been independently audited or recomputed. The archive is a separate evidence layer alongside the thirteen research notes.
+
+```sh
+python3 scripts/verify-archive.py --check
+python3 experiments/verify-archived-units.py --check
+```
+
+See the [import integrity report](results/archive-import-20261126.json), [finite replay report](results/archived-units-20261126.json), and the archive's [coverage statement](archive/README.md#coverage-and-remaining-gaps). Completion is measured against its listed source records; completeness of the entire historical research collection is not claimed.
+
+
 ## Reproduction
 
-Python 3.10+ and Node.js with BigInt support; standard libraries only.
+The current verification commands below use Python 3.10+ and Node.js with BigInt support, with standard libraries only. Historical programs in the separate archive may need additional packages and path adaptation, as documented there.
 
 ```sh
 python3 experiments/verify.py

@@ -1,0 +1,29 @@
+LLL 7 norms [2.646, 8.029, 8.781, 8.951, 10.171, 8.293, 11.569]
+smallgen x**7 - 9*x**6 + 41*x**5 - 19*x**4 - 121*x**3 - 374*x**2 + 456*x - 121 index 1219231 candidates 157 mod7 (1, [(Poly(x - 2, x, modulus=7), 1), (Poly(x**2 + 2, x, modulus=7), 3)])
+initial disc -303623493878257924332734860016578913580274805147
+p 7 radical dimension 18 step index 49
+p 7 radical dimension 18 step index 2401
+p 7 radical dimension 14 step index None
+final disc -21936073536305340936530059074278066747
+LLL 21 norms [4.583, 5.916, 5.916, 11.742, 11.842, 13.837, 13.746, 11.742, 11.742, 12.657, 11.795, 12.401, 13.126, 14.704, 13.126, 10.439, 11.105, 12.401, 10.595, 11.098, 11.098]
+max structure coeff 8
+unit 1 (1,) () norm 1 logrank 1
+unit 2 (2,) () norm -1 logrank 2
+unit 3 (0, 1) (-1,) norm -1 logrank 2
+unit 4 (0, 1) (1,) norm -1 logrank 2
+unit 5 (0, 2) (-1,) norm -1 logrank 2
+unit 6 (0, 2) (1,) norm -1 logrank 2
+unit 7 (0, 18) (-1,) norm 1 logrank 3
+unit 8 (1, 2) (-1,) norm 1 logrank 3
+unit 9 (1, 18) (1,) norm 1 logrank 4
+unit 10 (0, 1, 2) (-1, 1) norm 1 logrank 4
+unit 11 (0, 1, 2) (1, -1) norm -1 logrank 4
+unit 12 (0, 1, 2) (1, 1) norm 1 logrank 4
+unit 13 (0, 1, 16) (-1, 1) norm -1 logrank 4
+unit 14 (1, 2, 16) (-1, 1) norm 1 logrank 4
+unit 15 (1, 8, 20) (1, -1) norm 1 logrank 4
+unit 16 (2, 7, 19) (1, 1) norm -1 logrank 4
+unit 17 (0, 1, 7, 19) (1, -1, -1) norm -1 logrank 4
+unit 18 (0, 7, 18, 19) (-1, -1, -1) norm 1 logrank 4
+unit 19 (1, 2, 8, 20) (-1, -1, 1) norm 1 logrank 4
+attempts 23793 passfilter 196 unit count 19 elapsed 21.390756232

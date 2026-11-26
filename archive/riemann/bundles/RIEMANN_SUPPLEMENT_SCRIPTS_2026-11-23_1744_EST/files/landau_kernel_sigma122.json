@@ -1,0 +1,100 @@
+{
+  "fixed_lambda": "3/2",
+  "q": 120,
+  "sigma": 122,
+  "A": 1,
+  "k_formula": "floor(150U)-1",
+  "full_U_range": "all real U>=1",
+  "rigorous_bound": "[integral outside U..1.5U u^k exp((2-sigma)u)/k!du]*sigma^k <= (1/60)*exp(-31U/375) < 1",
+  "proof": "m=floor(150U)>=149U; k=m-1>=U; gamma rate120 shape m; lower threshold ratio<=120/149<0.81, upper ratio>=1.2; both h(r)=r-1-log r at least13/750; Ptail<=2exp(-149*13U/750); factor sigma^k*120^-m <=(1/120)*exp(5U/2); combine.",
+  "regressions": [
+    {
+      "U": "1",
+      "m": 150,
+      "k": 149,
+      "log10_actual_ratio": "-2.8489967744843",
+      "log10_certified_upper": "-1.8140529275543",
+      "pass": true
+    },
+    {
+      "U": "1.01",
+      "m": 151,
+      "k": 150,
+      "log10_actual_ratio": "-2.8686149664039",
+      "log10_certified_upper": "-1.814411944326",
+      "pass": true
+    },
+    {
+      "U": "1.1",
+      "m": 165,
+      "k": 164,
+      "log10_actual_ratio": "-2.8838537451916",
+      "log10_certified_upper": "-1.8176430952714",
+      "pass": true
+    },
+    {
+      "U": "1.25",
+      "m": 187,
+      "k": 186,
+      "log10_actual_ratio": "-2.9526376570982",
+      "log10_certified_upper": "-1.823028346847",
+      "pass": true
+    },
+    {
+      "U": "1.5",
+      "m": 225,
+      "k": 224,
+      "log10_actual_ratio": "-3.0065074828867",
+      "log10_certified_upper": "-1.8320037661396",
+      "pass": true
+    },
+    {
+      "U": "2",
+      "m": 300,
+      "k": 299,
+      "log10_actual_ratio": "-3.1322275759079",
+      "log10_certified_upper": "-1.849954604725",
+      "pass": true
+    },
+    {
+      "U": "3",
+      "m": 450,
+      "k": 449,
+      "log10_actual_ratio": "-3.3269147855304",
+      "log10_certified_upper": "-1.8858562818957",
+      "pass": true
+    },
+    {
+      "U": "5",
+      "m": 750,
+      "k": 749,
+      "log10_actual_ratio": "-3.6071175178028",
+      "log10_certified_upper": "-1.957659636237",
+      "pass": true
+    },
+    {
+      "U": "10",
+      "m": 1500,
+      "k": 1499,
+      "log10_actual_ratio": "-4.1313417032636",
+      "log10_certified_upper": "-2.1371680220903",
+      "pass": true
+    },
+    {
+      "U": "20",
+      "m": 3000,
+      "k": 2999,
+      "log10_actual_ratio": "-5.0264955690982",
+      "log10_certified_upper": "-2.496184793797",
+      "pass": true
+    },
+    {
+      "U": "100",
+      "m": 15000,
+      "k": 14999,
+      "log10_actual_ratio": "-11.361377964108",
+      "log10_certified_upper": "-5.3683189674505",
+      "pass": true
+    }
+  ]
+}

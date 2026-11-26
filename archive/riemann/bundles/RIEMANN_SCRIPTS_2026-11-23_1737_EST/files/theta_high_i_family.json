@@ -1,0 +1,401 @@
+{
+  "summary": [
+    {
+      "p": 3,
+      "N": 243,
+      "i_range": 81,
+      "nonnegative_bounds_count": 74,
+      "largest_i_with_positive_bound": 74,
+      "smallest_i_with_positive_bound": 1,
+      "violations": [],
+      "passed": 81
+    },
+    {
+      "p": 3,
+      "N": 729,
+      "i_range": 243,
+      "nonnegative_bounds_count": 243,
+      "largest_i_with_positive_bound": 243,
+      "smallest_i_with_positive_bound": 1,
+      "violations": [],
+      "passed": 243
+    },
+    {
+      "p": 3,
+      "N": 2187,
+      "i_range": 729,
+      "nonnegative_bounds_count": 729,
+      "largest_i_with_positive_bound": 729,
+      "smallest_i_with_positive_bound": 1,
+      "violations": [],
+      "passed": 729
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i_range": 125,
+      "nonnegative_bounds_count": 123,
+      "largest_i_with_positive_bound": 123,
+      "smallest_i_with_positive_bound": 1,
+      "violations": [],
+      "passed": 125
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "i_range": 625,
+      "nonnegative_bounds_count": 625,
+      "largest_i_with_positive_bound": 625,
+      "smallest_i_with_positive_bound": 1,
+      "violations": [],
+      "passed": 625
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i_range": 343,
+      "nonnegative_bounds_count": 343,
+      "largest_i_with_positive_bound": 343,
+      "smallest_i_with_positive_bound": 1,
+      "violations": [],
+      "passed": 343
+    }
+  ],
+  "sample_cases": [
+    {
+      "p": 3,
+      "N": 243,
+      "i": 1,
+      "vp": 120,
+      "bound": "151/2",
+      "slack": "89/2",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 2,
+      "vp": 119,
+      "bound": "589/8",
+      "slack": "363/8",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 3,
+      "vp": 119,
+      "bound": "283/4",
+      "slack": "193/4",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 9,
+      "vp": 116,
+      "bound": "117/2",
+      "slack": "115/2",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 27,
+      "vp": 107,
+      "bound": "167/4",
+      "slack": "261/4",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 243,
+      "i": 81,
+      "vp": 80,
+      "bound": "-13/2",
+      "slack": "173/2",
+      "positive_bound": false
+    },
+    {
+      "p": 3,
+      "N": 729,
+      "i": 1,
+      "vp": 363,
+      "bound": "1217/4",
+      "slack": "235/4",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 729,
+      "i": 2,
+      "vp": 362,
+      "bound": "2411/8",
+      "slack": "485/8",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 729,
+      "i": 3,
+      "vp": 362,
+      "bound": "595/2",
+      "slack": "129/2",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 729,
+      "i": 9,
+      "vp": 359,
+      "bound": "1141/4",
+      "slack": "295/4",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 729,
+      "i": 81,
+      "vp": 323,
+      "bound": "809/4",
+      "slack": "483/4",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 729,
+      "i": 243,
+      "vp": 242,
+      "bound": "119/2",
+      "slack": "365/2",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 2187,
+      "i": 1,
+      "vp": 1092,
+      "bound": "2033/2",
+      "slack": "151/2",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 2187,
+      "i": 2,
+      "vp": 1091,
+      "bound": "8109/8",
+      "slack": "619/8",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 2187,
+      "i": 3,
+      "vp": 1091,
+      "bound": "4039/4",
+      "slack": "325/4",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 2187,
+      "i": 9,
+      "vp": 1088,
+      "bound": "1983/2",
+      "slack": "193/2",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 2187,
+      "i": 243,
+      "vp": 971,
+      "bound": "2847/4",
+      "slack": "1037/4",
+      "positive_bound": true
+    },
+    {
+      "p": 3,
+      "N": 2187,
+      "i": 729,
+      "vp": 728,
+      "bound": "571/2",
+      "slack": "885/2",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 1,
+      "vp": 155,
+      "bound": "1477/12",
+      "slack": "383/12",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 2,
+      "vp": 154,
+      "bound": "969/8",
+      "slack": "263/8",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 3,
+      "vp": 153,
+      "bound": "715/6",
+      "slack": "203/6",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 5,
+      "vp": 152,
+      "bound": "457/4",
+      "slack": "151/4",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 25,
+      "vp": 137,
+      "bound": "1129/12",
+      "slack": "515/12",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 125,
+      "vp": 62,
+      "bound": "-11/4",
+      "slack": "259/4",
+      "positive_bound": false
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "i": 1,
+      "vp": 780,
+      "bound": "2941/4",
+      "slack": "179/4",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "i": 2,
+      "vp": 779,
+      "bound": "17599/24",
+      "slack": "1097/24",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "i": 3,
+      "vp": 778,
+      "bound": "2194/3",
+      "slack": "140/3",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "i": 5,
+      "vp": 777,
+      "bound": "8717/12",
+      "slack": "607/12",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "i": 25,
+      "vp": 762,
+      "bound": "2745/4",
+      "slack": "303/4",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "i": 125,
+      "vp": 687,
+      "bound": "7073/12",
+      "slack": "1171/12",
+      "positive_bound": true
+    },
+    {
+      "p": 5,
+      "N": 3125,
+      "i": 625,
+      "vp": 312,
+      "bound": "437/4",
+      "slack": "811/4",
+      "positive_bound": true
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 1,
+      "vp": 399,
+      "bound": "8809/24",
+      "slack": "767/24",
+      "positive_bound": true
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 2,
+      "vp": 398,
+      "bound": "5841/16",
+      "slack": "527/16",
+      "positive_bound": true
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 3,
+      "vp": 397,
+      "bound": "4357/12",
+      "slack": "407/12",
+      "positive_bound": true
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 7,
+      "vp": 394,
+      "bound": "2125/6",
+      "slack": "239/6",
+      "positive_bound": true
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 49,
+      "vp": 359,
+      "bound": "7489/24",
+      "slack": "1127/24",
+      "positive_bound": true
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 343,
+      "vp": 114,
+      "bound": "139/6",
+      "slack": "545/6",
+      "positive_bound": true
+    }
+  ],
+  "coefficient_proof": "In h^i, each h factor contains at least one Z1, so Z1^i forces all factors to take (Z0^p Z1) with coefficient 1; higher q terms cannot contribute. Thus target coefficient p^-i, v_p(J)=v_p(N!)+v_p(i!)-i.",
+  "class_membership": "Choose U_i=Z0^(N-p*i) and all other U_j=0. F=p^-i h^i U_i satisfies the integral-U series class exactly."
+}

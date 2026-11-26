@@ -1,0 +1,21 @@
+{
+  "host_cases": 17,
+  "unit_residues": 221728,
+  "local_group_checks": 108,
+  "min_residue_degree_d": 2,
+  "counterexample_without_d_mod16_7": {
+    "S": 16,
+    "q": 19,
+    "d": 31,
+    "D_size": 4,
+    "c": [
+      1,
+      -1,
+      -1
+    ]
+  },
+  "riemann_forms": 192,
+  "alternating_entries": 5760,
+  "seconds": 0.9681759940000347
+}
+

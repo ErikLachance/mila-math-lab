@@ -1,0 +1,96 @@
+{
+  "exact_rational_checks": 912,
+  "complex_transform_checks": 20,
+  "max_transform_error": "8.40148494285944074872322071661469216509081047e-42",
+  "rows": [
+    {
+      "k": 1,
+      "smoothness": 0,
+      "exact_moments": [
+        "1",
+        "0",
+        "1/6",
+        "1/15"
+      ],
+      "largest_integer_p_with_r_strict": -1
+    },
+    {
+      "k": 2,
+      "smoothness": 2,
+      "exact_moments": [
+        "1",
+        "0",
+        "1/12",
+        "3/160"
+      ],
+      "largest_integer_p_with_r_strict": 3
+    },
+    {
+      "k": 3,
+      "smoothness": 4,
+      "exact_moments": [
+        "1",
+        "0",
+        "1/18",
+        "7/810"
+      ],
+      "largest_integer_p_with_r_strict": 7
+    },
+    {
+      "k": 4,
+      "smoothness": 6,
+      "exact_moments": [
+        "1",
+        "0",
+        "1/24",
+        "19/3840"
+      ],
+      "largest_integer_p_with_r_strict": 11
+    },
+    {
+      "k": 5,
+      "smoothness": 8,
+      "exact_moments": [
+        "1",
+        "0",
+        "1/30",
+        "2/625"
+      ],
+      "largest_integer_p_with_r_strict": 15
+    },
+    {
+      "k": 6,
+      "smoothness": 10,
+      "exact_moments": [
+        "1",
+        "0",
+        "1/36",
+        "29/12960"
+      ],
+      "largest_integer_p_with_r_strict": 19
+    },
+    {
+      "k": 7,
+      "smoothness": 12,
+      "exact_moments": [
+        "1",
+        "0",
+        "1/42",
+        "17/10290"
+      ],
+      "largest_integer_p_with_r_strict": 23
+    },
+    {
+      "k": 8,
+      "smoothness": 14,
+      "exact_moments": [
+        "1",
+        "0",
+        "1/48",
+        "13/10240"
+      ],
+      "largest_integer_p_with_r_strict": 27
+    }
+  ],
+  "elapsed_seconds": 1.778711477999991
+}

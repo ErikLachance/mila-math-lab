@@ -1,0 +1,11 @@
+{
+  "exact_frame_inequalities": 20000,
+  "frame_trials": 4000,
+  "dense_complex_trials": 600,
+  "mean_capped_codimension_bound_improvement": 0.2337867958273912,
+  "chain_identities": 2000,
+  "torsion_residues": 10000,
+  "split_congruences": 1250,
+  "inert_congruences": 1250,
+  "seconds": 1.1263421400000198
+}

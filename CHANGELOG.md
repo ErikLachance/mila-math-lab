@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.1 — 2026-11-26
+
+- Imported the scientific contents of all 151 inventoried Riemann research sources: 90 narrative records, 29 script bundles and 32 standalone Python/JSON files. The published archive contains 220 extracted source blocks and all 335 ZIP members, with private operational metadata omitted from narrative derivatives.
+- Added a complete source ledger, per-file hashes and an integrity verifier covering 706 public files. Parsed 283 Python files without running them, 238 JSON files and two JSON Lines files; preserved 64 text assets. Historical calculations are not globally recertified by this import.
+- Added an independent exact replay of ten selected unit determinants, 882 multiplication-table composition identities and the finite F7 ranks, filtrations and weight dimensions of two recorded-vector spaces. Local embeddings and global arithmetic hypotheses remain outside its scope.
+- Added the bilingual historical archive page, chronological index, source-bundle links and prominent corrigendum/addendum references. The research-note collection remains thirteen notes; no new proof of RH, H9 or another main conjecture is claimed.
+
 ## 0.5.0 — 2026-11-26
 
 - Added ML-PNP-005: self-contained graph-immunity characterization, exact threshold degrees, the maximal-degree majority family, Cartesian-product non-amplification, affine invariance and an inverse-degree bound.

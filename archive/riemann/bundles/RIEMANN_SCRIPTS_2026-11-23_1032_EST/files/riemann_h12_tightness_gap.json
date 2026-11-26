@@ -1,0 +1,78 @@
+{
+  "theorem": "For adjacent prime powers a<b with no prime-power strictly between, S(x)=sum Lambda(n)/n*(x-n)_+ is affine on [a,b]. Thus G(x)=chord(G(a),G(b))+D(a,b;x) EXACTLY, and at the midpoint D/((b-a)^2/(8a)) tends 1 as h/a tends 0. The interpolation upper-bound defect is therefore genuinely needed, not a numerical artifact.",
+  "verification": [
+    {
+      "gap": 52,
+      "a": 19609,
+      "b": 19661,
+      "D": "0.0172141634212283665528344860249",
+      "h2_over_8a": "0.01723698301800193788566474578",
+      "D_to_upper_ratio": "0.99867612581913325365245987119",
+      "midpoint_interpolation_error": "0.0"
+    },
+    {
+      "gap": 44,
+      "a": 15683,
+      "b": 15727,
+      "D": "0.0154091104200512575536955874222",
+      "h2_over_8a": "0.0154307211630427851814066186316",
+      "D_to_upper_ratio": "0.998599498833321786010776436128",
+      "midpoint_interpolation_error": "0.0"
+    },
+    {
+      "gap": 42,
+      "a": 16141,
+      "b": 16183,
+      "D": "0.0136431173149913587561180785621",
+      "h2_over_8a": "0.0136608636391797286413481196952",
+      "D_to_upper_ratio": "0.998700936876532978151936081956",
+      "midpoint_interpolation_error": "-2.10843959e-81"
+    },
+    {
+      "gap": 40,
+      "a": 19333,
+      "b": 19373,
+      "D": "0.0103343169327427973314374230528",
+      "h2_over_8a": "0.0103450059483784203175916826152",
+      "D_to_upper_ratio": "0.998966746303582504043398499402",
+      "midpoint_interpolation_error": "-1.31777474e-82"
+    },
+    {
+      "gap": 36,
+      "a": 18803,
+      "b": 18839,
+      "D": "0.00860740793240663500902057416672",
+      "h2_over_8a": "0.00861564643939796840929638887412",
+      "D_to_upper_ratio": "0.999043773784209617744529975659",
+      "midpoint_interpolation_error": "1.05421979e-81"
+    },
+    {
+      "gap": 36,
+      "a": 15823,
+      "b": 15859,
+      "D": "0.0102266293075764576497571081584",
+      "h2_over_8a": "0.0102382607596536687101055425646",
+      "D_to_upper_ratio": "0.998863923048038823408066187595",
+      "midpoint_interpolation_error": "-1.05421979e-81"
+    },
+    {
+      "gap": 36,
+      "a": 14107,
+      "b": 14143,
+      "D": "0.0114690296528296263872176684834",
+      "h2_over_8a": "0.0114836605940313319628553200539",
+      "D_to_upper_ratio": "0.998725934027577403978269440097",
+      "midpoint_interpolation_error": "-1.18599727e-81"
+    },
+    {
+      "gap": 36,
+      "a": 12853,
+      "b": 12889,
+      "D": "0.0125864387231880555265841988856",
+      "h2_over_8a": "0.0126040613086438963666070178169",
+      "D_to_upper_ratio": "0.998601832772444923970288322693",
+      "midpoint_interpolation_error": "0.0"
+    }
+  ],
+  "limits": "Tightness of a convexity envelope is not RH progress and does not imply ability to check endpoint upper bounds for arbitrarily large scales."
+}

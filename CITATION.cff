@@ -4,7 +4,7 @@ title: "MILA Mathematical Research Lab"
 type: software
 authors:
   - name: "MILA Mathematical Research Lab"
-version: "0.5.0"
+version: "0.5.1"
 date-released: 2026-11-26
 url: "https://eriklachance.github.io/mila-math-lab/"
 repository-code: "https://github.com/ErikLachance/mila-math-lab"

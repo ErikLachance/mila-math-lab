@@ -1,0 +1,27 @@
+{
+  "source": "Rubinstein working v2 Nov22 2026 printed page63, \u00a7III.1 proof (III.6), text states pi*=theta(U)/logU-theta(sqrtU)/logU+integral; source Thorner & Zaman Cor1.4 fully checked elsewhere",
+  "printed_identity": "pi*=theta(U)/logU - theta(sqrt(U))/logU + integral_a^U theta(t)/(t(logt)^2) dt",
+  "correct_identity": "pi*=theta(U)/logU - theta(sqrt(U))/log(sqrt(U)) + same integral",
+  "missing_term": "printed_right_side minus correct = theta(sqrt(U))/logU, when a=sqrt(U). This is nonzero for any residue class containing a prime <=sqrt(U).",
+  "exact_rational_counterexample_v_logdomain": {
+    "theta_a": "5",
+    "theta_U": "26",
+    "integral": "3",
+    "correct": "7",
+    "printed": "33/4",
+    "true_count": "7",
+    "difference": "5/4"
+  },
+  "actual_prime_test": {
+    "m": 5,
+    "b": 1,
+    "U": 1000000,
+    "sqrtU": 1000,
+    "primes_in_window": 19577,
+    "theta_at_sqrtU": "231.1287189006277465677392",
+    "correct_rhs": "19577.0",
+    "printed_rhs": "19593.72965453798507592325",
+    "positive_discrepancy": "16.72965453798507592324864"
+  },
+  "impact": "Likely isolated typesetting error in human working guide, NOT in formally checked Lean source. Subsequent proof prose uses factors 1+2+2, consistent with correct denominator 2/logU. Replacement of theta by Lambda_b yields exactly M_b only with correct endpoint denominator. A rigorous author-side erratum would change /logU to /log(sqrtU) in first boundary subtraction. No question about theorem statement, RH Lean validity, or full article proved here."
+}

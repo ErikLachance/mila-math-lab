@@ -1,0 +1,68 @@
+{
+  "source": "Rubinstein v2 \u00a7III.11 Hypothesis H12 exact quantifiers, printed pp212-214",
+  "nonimplication_1": "(forall x exists pair B(x,p)) AND (forall x exists pair M(x,p)) does not imply forall x exists same pair B and M; two-element pair set gives exact witness",
+  "model1_pairs": [
+    "alpha",
+    "beta"
+  ],
+  "model1_values": {
+    "B_valid": [
+      "alpha"
+    ],
+    "M_valid": [
+      "beta"
+    ],
+    "C_valid": [
+      "alpha",
+      "beta"
+    ]
+  },
+  "model1_checked_points": 1000,
+  "nonimplication_2": "forall x exists K_x finite does not imply exists uniform K forall x; use required K_x>=x over positive integers",
+  "model2_min_K_for_prefixes": [
+    10,
+    100,
+    1000,
+    10000
+  ],
+  "nonimplication_3": "arbitrarily large isolated x or bounded multiplicative intervals do not imply arbitrarily large power-width [Z,Z^(3/2)] intervals of success",
+  "model3_toy": "G_toy(x)=x^(3/4) cos(log x), theta=3/5; G<=0 on [Y_n,e^(pi/3)Y_n] but every sufficiently large [Z,Z^(3/2)] contains x=e^(2*pi*k) where G>x^theta",
+  "model3_witnesses": [
+    {
+      "U": 20,
+      "x_log_point": 25.132741228718345,
+      "interval_end": 30.0,
+      "cos_at_witness": 1.0,
+      "failure_analytic": "G_toy(e^u)=e^(3u/4)>e^(3u/5) at this point"
+    },
+    {
+      "U": 50,
+      "x_log_point": 50.26548245743669,
+      "interval_end": 75.0,
+      "cos_at_witness": 1.0,
+      "failure_analytic": "G_toy(e^u)=e^(3u/4)>e^(3u/5) at this point"
+    },
+    {
+      "U": 100,
+      "x_log_point": 100.53096491487338,
+      "interval_end": 150.0,
+      "cos_at_witness": 1.0,
+      "failure_analytic": "G_toy(e^u)=e^(3u/4)>e^(3u/5) at this point"
+    },
+    {
+      "U": 400,
+      "x_log_point": 402.1238596594935,
+      "interval_end": 600.0,
+      "cos_at_witness": 1.0,
+      "failure_analytic": "G_toy(e^u)=e^(3u/4)>e^(3u/5) at this point"
+    },
+    {
+      "U": 1000,
+      "x_log_point": 1005.3096491487338,
+      "interval_end": 1500.0,
+      "cos_at_witness": 1.0,
+      "failure_analytic": "G_toy(e^u)=e^(3u/4)>e^(3u/5) at this point"
+    }
+  ],
+  "scope": "Simple logical sanity tests, not tests of actual Lean assumptions, not RH disproof."
+}

@@ -1,0 +1,55 @@
+{
+  "cases_checked": 9048,
+  "positive_lower_bound_cases": 4424,
+  "min_slack_case": {
+    "slack": "179/8",
+    "p": 3,
+    "k": 2,
+    "N": 9,
+    "i": 2,
+    "rank": 2
+  },
+  "examples": [
+    {
+      "p": 3,
+      "N": 243,
+      "i": 1,
+      "rank": 3,
+      "vp": 120,
+      "theorem_bound": "303/8",
+      "slack": "657/8",
+      "delta": 81
+    },
+    {
+      "p": 5,
+      "N": 625,
+      "i": 1,
+      "rank": 4,
+      "vp": 155,
+      "theorem_bound": "309/4",
+      "slack": "311/4",
+      "delta": 77
+    },
+    {
+      "p": 7,
+      "N": 2401,
+      "i": 3,
+      "rank": 9,
+      "vp": 397,
+      "theorem_bound": "3901/48",
+      "slack": "15155/48",
+      "delta": 313
+    },
+    {
+      "p": 11,
+      "N": 14641,
+      "i": 2,
+      "rank": 12,
+      "vp": 1462,
+      "theorem_bound": "7545/8",
+      "slack": "4151/8",
+      "delta": 517
+    }
+  ],
+  "general_identity": "For rank R>=2 choose r0=r1=R, one R-by-R determinant at s0, N height1 columns at s0, i height1 at s1. T={0}; F=p^-i h^i Z_(0,1,1)^(N+1-pi) product_{j=2..R} Z_(0,j,j). Selected diagonal X-monomial coefficient J_F=(N+1)! i! /p^i. Delta_R=ell(N)^2+R ell(N)+R^2(ell(R)+ell(i)), d_Q=N+R+i, and positive-sum part same as 1x1. Comparing previous rank1 no-tall-column result: B_R=B_1-(Delta_R-Delta_1)+R/(p^2-1) < B_1, since Delta_R-Delta_1=(R-1)ell(N)+R^2 ell(R)+(R^2-1)ell(i)>R/(p^2-1). Thus v_p(J_F)>B_R universally for all odd primes p, k>=1, i<=p^(k-1), R>=2. This is a single selected diagonal coefficient for a determinant of arbitrary rank; it does NOT certify arbitrary matrix coefficients or source-global theta membership."
+}

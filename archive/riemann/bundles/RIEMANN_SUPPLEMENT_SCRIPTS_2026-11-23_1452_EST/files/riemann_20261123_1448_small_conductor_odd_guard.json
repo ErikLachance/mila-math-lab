@@ -1,0 +1,386 @@
+{
+  "status": "PASS",
+  "total_witness_cases": 503,
+  "selected_exact_algebraic_witnesses": [
+    {
+      "d": 19,
+      "q": 5,
+      "nonresidue_factor": 3,
+      "n": 3,
+      "witness_contribution": "0.6745864930418217403304137",
+      "required_bound": "0.1549704725877073926320541"
+    },
+    {
+      "d": 19,
+      "q": 7,
+      "nonresidue_factor": 3,
+      "n": 15,
+      "witness_contribution": "0.6745864930418217403304137",
+      "required_bound": "0.1549704725877073926320541"
+    },
+    {
+      "d": 19,
+      "q": 11,
+      "nonresidue_factor": 3,
+      "n": 15,
+      "witness_contribution": "0.6745864930418217403304137",
+      "required_bound": "0.1549704725877073926320541"
+    },
+    {
+      "d": 19,
+      "q": 13,
+      "nonresidue_factor": 3,
+      "n": 15,
+      "witness_contribution": "0.6745864930418217403304137",
+      "required_bound": "0.1549704725877073926320541"
+    },
+    {
+      "d": 19,
+      "q": 17,
+      "nonresidue_factor": 3,
+      "n": 15,
+      "witness_contribution": "0.6745864930418217403304137",
+      "required_bound": "0.1549704725877073926320541"
+    },
+    {
+      "d": 23,
+      "q": 5,
+      "nonresidue_factor": 19,
+      "n": 19,
+      "witness_contribution": "0.18192185912469998265502",
+      "required_bound": "0.136325835475180421339424"
+    },
+    {
+      "d": 23,
+      "q": 7,
+      "nonresidue_factor": 19,
+      "n": 19,
+      "witness_contribution": "0.18192185912469998265502",
+      "required_bound": "0.136325835475180421339424"
+    },
+    {
+      "d": 23,
+      "q": 11,
+      "nonresidue_factor": 19,
+      "n": 19,
+      "witness_contribution": "0.18192185912469998265502",
+      "required_bound": "0.136325835475180421339424"
+    },
+    {
+      "d": 23,
+      "q": 13,
+      "nonresidue_factor": 19,
+      "n": 19,
+      "witness_contribution": "0.18192185912469998265502",
+      "required_bound": "0.136325835475180421339424"
+    },
+    {
+      "d": 23,
+      "q": 17,
+      "nonresidue_factor": 19,
+      "n": 19,
+      "witness_contribution": "0.18192185912469998265502",
+      "required_bound": "0.136325835475180421339424"
+    },
+    {
+      "d": 23,
+      "q": 19,
+      "nonresidue_factor": 7,
+      "n": 7,
+      "witness_contribution": "0.4713695392121566391248991",
+      "required_bound": "0.136325835475180421339424"
+    },
+    {
+      "d": 31,
+      "q": 5,
+      "nonresidue_factor": 3,
+      "n": 27,
+      "witness_contribution": "0.6969690863593384063690265",
+      "required_bound": "0.1107737807898434272880376"
+    },
+    {
+      "d": 31,
+      "q": 7,
+      "nonresidue_factor": 3,
+      "n": 27,
+      "witness_contribution": "0.6969690863593384063690265",
+      "required_bound": "0.1107737807898434272880376"
+    },
+    {
+      "d": 31,
+      "q": 11,
+      "nonresidue_factor": 3,
+      "n": 27,
+      "witness_contribution": "0.6969690863593384063690265",
+      "required_bound": "0.1107737807898434272880376"
+    },
+    {
+      "d": 31,
+      "q": 13,
+      "nonresidue_factor": 3,
+      "n": 27,
+      "witness_contribution": "0.6969690863593384063690265",
+      "required_bound": "0.1107737807898434272880376"
+    },
+    {
+      "d": 31,
+      "q": 17,
+      "nonresidue_factor": 3,
+      "n": 27,
+      "witness_contribution": "0.6969690863593384063690265",
+      "required_bound": "0.1107737807898434272880376"
+    },
+    {
+      "d": 31,
+      "q": 19,
+      "nonresidue_factor": 3,
+      "n": 27,
+      "witness_contribution": "0.6969690863593384063690265",
+      "required_bound": "0.1107737807898434272880376"
+    },
+    {
+      "d": 43,
+      "q": 5,
+      "nonresidue_factor": 3,
+      "n": 39,
+      "witness_contribution": "0.7068590694531248402000415",
+      "required_bound": "0.0874697701324084284528568"
+    },
+    {
+      "d": 43,
+      "q": 7,
+      "nonresidue_factor": 3,
+      "n": 39,
+      "witness_contribution": "0.7068590694531248402000415",
+      "required_bound": "0.0874697701324084284528568"
+    },
+    {
+      "d": 43,
+      "q": 11,
+      "nonresidue_factor": 3,
+      "n": 39,
+      "witness_contribution": "0.7068590694531248402000415",
+      "required_bound": "0.0874697701324084284528568"
+    },
+    {
+      "d": 43,
+      "q": 13,
+      "nonresidue_factor": 3,
+      "n": 27,
+      "witness_contribution": "0.7068590694531248402000415",
+      "required_bound": "0.0874697701324084284528568"
+    },
+    {
+      "d": 43,
+      "q": 17,
+      "nonresidue_factor": 3,
+      "n": 39,
+      "witness_contribution": "0.7068590694531248402000415",
+      "required_bound": "0.0874697701324084284528568"
+    },
+    {
+      "d": 43,
+      "q": 19,
+      "nonresidue_factor": 3,
+      "n": 39,
+      "witness_contribution": "0.7068590694531248402000415",
+      "required_bound": "0.0874697701324084284528568"
+    },
+    {
+      "d": 67,
+      "q": 5,
+      "nonresidue_factor": 3,
+      "n": 63,
+      "witness_contribution": "0.7160109941070764655362046",
+      "required_bound": "0.062756606259566657607016"
+    },
+    {
+      "d": 67,
+      "q": 7,
+      "nonresidue_factor": 3,
+      "n": 51,
+      "witness_contribution": "0.7160109941070764655362046",
+      "required_bound": "0.062756606259566657607016"
+    },
+    {
+      "d": 67,
+      "q": 11,
+      "nonresidue_factor": 3,
+      "n": 63,
+      "witness_contribution": "0.7160109941070764655362046",
+      "required_bound": "0.062756606259566657607016"
+    },
+    {
+      "d": 67,
+      "q": 13,
+      "nonresidue_factor": 3,
+      "n": 63,
+      "witness_contribution": "0.7160109941070764655362046",
+      "required_bound": "0.062756606259566657607016"
+    },
+    {
+      "d": 67,
+      "q": 17,
+      "nonresidue_factor": 3,
+      "n": 63,
+      "witness_contribution": "0.7160109941070764655362046",
+      "required_bound": "0.062756606259566657607016"
+    },
+    {
+      "d": 67,
+      "q": 19,
+      "nonresidue_factor": 3,
+      "n": 63,
+      "witness_contribution": "0.7160109941070764655362046",
+      "required_bound": "0.062756606259566657607016"
+    },
+    {
+      "d": 127,
+      "q": 5,
+      "nonresidue_factor": 3,
+      "n": 123,
+      "witness_contribution": "0.7237577019834528413128781",
+      "required_bound": "0.03814320540518575805549166"
+    },
+    {
+      "d": 127,
+      "q": 7,
+      "nonresidue_factor": 3,
+      "n": 123,
+      "witness_contribution": "0.7237577019834528413128781",
+      "required_bound": "0.03814320540518575805549166"
+    },
+    {
+      "d": 127,
+      "q": 11,
+      "nonresidue_factor": 3,
+      "n": 123,
+      "witness_contribution": "0.7237577019834528413128781",
+      "required_bound": "0.03814320540518575805549166"
+    },
+    {
+      "d": 127,
+      "q": 13,
+      "nonresidue_factor": 3,
+      "n": 123,
+      "witness_contribution": "0.7237577019834528413128781",
+      "required_bound": "0.03814320540518575805549166"
+    },
+    {
+      "d": 127,
+      "q": 17,
+      "nonresidue_factor": 3,
+      "n": 123,
+      "witness_contribution": "0.7237577019834528413128781",
+      "required_bound": "0.03814320540518575805549166"
+    },
+    {
+      "d": 127,
+      "q": 19,
+      "nonresidue_factor": 3,
+      "n": 123,
+      "witness_contribution": "0.7237577019834528413128781",
+      "required_bound": "0.03814320540518575805549166"
+    },
+    {
+      "d": 223,
+      "q": 5,
+      "nonresidue_factor": 3,
+      "n": 219,
+      "witness_contribution": "0.7274816799401683008790637",
+      "required_bound": "0.02424740704690636214635025"
+    },
+    {
+      "d": 223,
+      "q": 7,
+      "nonresidue_factor": 3,
+      "n": 219,
+      "witness_contribution": "0.7274816799401683008790637",
+      "required_bound": "0.02424740704690636214635025"
+    },
+    {
+      "d": 223,
+      "q": 11,
+      "nonresidue_factor": 3,
+      "n": 219,
+      "witness_contribution": "0.7274816799401683008790637",
+      "required_bound": "0.02424740704690636214635025"
+    },
+    {
+      "d": 223,
+      "q": 13,
+      "nonresidue_factor": 3,
+      "n": 219,
+      "witness_contribution": "0.7274816799401683008790637",
+      "required_bound": "0.02424740704690636214635025"
+    },
+    {
+      "d": 223,
+      "q": 17,
+      "nonresidue_factor": 3,
+      "n": 219,
+      "witness_contribution": "0.7274816799401683008790637",
+      "required_bound": "0.02424740704690636214635025"
+    },
+    {
+      "d": 223,
+      "q": 19,
+      "nonresidue_factor": 3,
+      "n": 219,
+      "witness_contribution": "0.7274816799401683008790637",
+      "required_bound": "0.02424740704690636214635025"
+    }
+  ],
+  "full_prime_sum_checks": [
+    {
+      "d": 19,
+      "q": 7,
+      "y": 38,
+      "P_over_a": "1.05870277661038368697482974364",
+      "bound": "0.154970472587707392632054075363"
+    },
+    {
+      "d": 23,
+      "q": 7,
+      "y": 46,
+      "P_over_a": "1.34717955474827532619706339814",
+      "bound": "0.136325835475180421339424036166"
+    },
+    {
+      "d": 31,
+      "q": 5,
+      "y": 62,
+      "P_over_a": "2.10667859734702650976034992312",
+      "bound": "0.110773780789843427288037558856"
+    },
+    {
+      "d": 43,
+      "q": 7,
+      "y": 86,
+      "P_over_a": "1.95352177969917522442027726684",
+      "bound": "0.0874697701324084284528568026359"
+    },
+    {
+      "d": 67,
+      "q": 11,
+      "y": 134,
+      "P_over_a": "2.98766802477488566612826518729",
+      "bound": "0.0627566062595666576070159999457"
+    },
+    {
+      "d": 127,
+      "q": 7,
+      "y": 254,
+      "P_over_a": "2.83810947439801742131739387163",
+      "bound": "0.0381432054051857580554916599033"
+    },
+    {
+      "d": 223,
+      "q": 19,
+      "y": 446,
+      "P_over_a": "3.88770285566558580457266611028",
+      "bound": "0.0242474070469063621463502475772"
+    }
+  ],
+  "scope": "all d prime 3 mod4 >17; q odd prime >=5 distinct from d; y>=2d"
+}

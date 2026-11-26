@@ -1,0 +1,91 @@
+{
+  "unbounded_scales_not_dense": {
+    "proof": "For theta<=1 and a>=4: gap=a(a-1), gap^2>=9a^2>8*a^(1+theta). This fails the sufficient interpolation mesh bound. Unboundedness is not enough for H12_grid.",
+    "scales": [
+      {
+        "j": 1,
+        "a_digits": 1,
+        "gap_digits": 2,
+        "theta_3over5_budget_violated": true
+      },
+      {
+        "j": 2,
+        "a_digits": 2,
+        "gap_digits": 3,
+        "theta_3over5_budget_violated": true
+      },
+      {
+        "j": 3,
+        "a_digits": 3,
+        "gap_digits": 5,
+        "theta_3over5_budget_violated": true
+      },
+      {
+        "j": 4,
+        "a_digits": 5,
+        "gap_digits": 10,
+        "theta_3over5_budget_violated": true
+      },
+      {
+        "j": 5,
+        "a_digits": 10,
+        "gap_digits": 20,
+        "theta_3over5_budget_violated": true
+      },
+      {
+        "j": 6,
+        "a_digits": 20,
+        "gap_digits": 39,
+        "theta_3over5_budget_violated": true
+      },
+      {
+        "j": 7,
+        "a_digits": 39,
+        "gap_digits": 78,
+        "theta_3over5_budget_violated": true
+      },
+      {
+        "j": 8,
+        "a_digits": 78,
+        "gap_digits": 155,
+        "theta_3over5_budget_violated": true
+      }
+    ]
+  },
+  "one_sided_height_not_spread": {
+    "proof": "Even for common upper bound 0, y1=0 and y2=-R yield arbitrary spread R. H3 does not follow from the one-sided upper part of H1 alone.",
+    "examples_R": [
+      1,
+      5,
+      100,
+      100000
+    ]
+  },
+  "slope_covolume_sign_test": {
+    "covol_base": "1/30",
+    "covol_sublattice": "1/5",
+    "covol_dilated": "1/10290",
+    "index_sublattice": "6",
+    "uniform_scale": "1/7",
+    "symbolic_differences": {
+      "mu_sub_minus_base": "-log(6)/3",
+      "mu_dilated_minus_base": "log(7)"
+    },
+    "status": "exact determinant identities; no claim about theta-lift lattices"
+  },
+  "robin_lagarias_regression": {
+    "N": 100000,
+    "no_robin_failures_after_5040": true,
+    "no_lagarias_failures": true,
+    "sieve_sigma_and_factorint_crosschecks": 131,
+    "smallest_float_margin_robin": {
+      "n": 10080,
+      "margin": "565.5185643415818500539200101760516787174484324869517008060516969491168"
+    },
+    "smallest_float_margin_lagarias": {
+      "n": 1,
+      "margin": "0.0"
+    },
+    "caveat": "Finite numerical checks of RH-equivalent consequences are not proof of RH; these inequalities were reportedly separately formalized and deduced from submitted Lean RH proof."
+  }
+}

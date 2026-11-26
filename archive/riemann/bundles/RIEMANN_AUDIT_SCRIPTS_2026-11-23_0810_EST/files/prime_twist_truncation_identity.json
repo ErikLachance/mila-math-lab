@@ -1,0 +1,43 @@
+{
+  "identity": "For T>=y>=1 and arbitrary coefficients a_n, A(y)=sum_{n<=y}a_n(y/n-1), S(y)=sum_{n<=T}a_n min(1,y/n), C=sum_{n<=T}a_n/n, R=-ell-C, G=A+y ell, exact G=-S-y R. All sums finite, no conditional convergence needed.",
+  "rational_random_trials": 239,
+  "examples": [
+    {
+      "T": 8,
+      "y": "1",
+      "G": "11/19",
+      "neg_S_minus_yR": "11/19",
+      "wrong_plus_S_plus_yR_is_valid": false
+    },
+    {
+      "T": 8,
+      "y": "2",
+      "G": "22/19",
+      "neg_S_minus_yR": "22/19",
+      "wrong_plus_S_plus_yR_is_valid": false
+    },
+    {
+      "T": 8,
+      "y": "7/2",
+      "G": "2545/684",
+      "neg_S_minus_yR": "2545/684",
+      "wrong_plus_S_plus_yR_is_valid": false
+    },
+    {
+      "T": 8,
+      "y": "4",
+      "G": "776/171",
+      "neg_S_minus_yR": "776/171",
+      "wrong_plus_S_plus_yR_is_valid": false
+    },
+    {
+      "T": 8,
+      "y": "8",
+      "G": "55802/5985",
+      "neg_S_minus_yR": "55802/5985",
+      "wrong_plus_S_plus_yR_is_valid": false
+    }
+  ],
+  "wrong_sign_examples": 5,
+  "status": "finite algebra identity only; no uniform analytic estimate for actual Dirichlet characters"
+}

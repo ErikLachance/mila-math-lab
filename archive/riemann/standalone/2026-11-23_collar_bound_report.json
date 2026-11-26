@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-23",
+  "purpose": "independent support-collar positivity lower bound; not RH proof",
+  "L": "0.81",
+  "w": "0.025",
+  "E": [
+    "(-0.81,-0.785)",
+    "(0.785,0.81)"
+  ],
+  "A": "3.75",
+  "T": "62.831853071795864769252867665590057683943387987502116419498891846",
+  "H0": "-5.372183419225665582232957497449742289014539251623553843168902631",
+  "arch_bathtub_actual_integral": "1.2900956474399711769722270820798048114727934869919951880008535383",
+  "arch_crude_lower": "0.95642309176917332872066926934914547017615175914328020000715142764",
+  "arch_rational_lower": "71/80",
+  "prime5_overlap_delta": "0.010562087565899625399240666773812360474398645731482278087352108524",
+  "prime_shifts": {
+    "2": "0.69314718055994530941723212145817656807550013436025525412068000949",
+    "3": "1.0986122886681096913952452369225257046474905578227494517346943336",
+    "4": "1.386294361119890618834464242916353136151000268720510508241360019",
+    "5": "1.6094379124341003746007593332261876395256013542685177219126478915"
+  },
+  "prime5_coefficient": "0.71976251555360049121866307327840345267889578238599213870495977821",
+  "prime5_rational_upper": "3/4",
+  "negative_odd_pole_bound": "0.01731915132248531384152239098098004061517516003769030178876878903",
+  "pole_rational_upper": "1/40",
+  "Q_norm_lower_simple": "9/80",
+  "scope": "smooth complex test functions supported in E, using source Weil formula and Zhu high digamma lower t>=15/4",
+  "spectrum_test_N": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "spectrum_test": "PASS, prime5 active-pair exchange matrix has eigenvalues +-log(5)/sqrt(5)",
+  "caveats": "Fourier bathtub yields an analytically justified lower bound under H monotonicity; must verify complex signed pole decomposition. This does not extend to arbitrary f in full window."
+}

@@ -1,0 +1,195 @@
+{
+  "exact_integer_fraction_checks": 27,
+  "all_pass": true,
+  "cases": [
+    {
+      "epsilon": "1/4",
+      "t": 2,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/4",
+      "t": 2,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/4",
+      "t": 2,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/4",
+      "t": 3,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/4",
+      "t": 3,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/4",
+      "t": 3,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/4",
+      "t": 5,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/4",
+      "t": 5,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/4",
+      "t": 5,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 2,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 2,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 2,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 3,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 3,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 3,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 5,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 5,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/8",
+      "t": 5,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 2,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 2,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 2,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 3,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 3,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 3,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 5,
+      "m_multiplier": "1",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 5,
+      "m_multiplier": "3/2",
+      "passed": true,
+      "exact_slack_positive": true
+    },
+    {
+      "epsilon": "1/16",
+      "t": 5,
+      "m_multiplier": "2",
+      "passed": true,
+      "exact_slack_positive": true
+    }
+  ]
+}

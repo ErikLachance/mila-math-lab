@@ -1,0 +1,50 @@
+[
+  {
+    "weights": [
+      0.0001,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "log_geometric_mean": -5.756462732485113,
+    "P_odd_p_not_q": 2.5344852356744982,
+    "formal_uniform_cell_main_M": 4.547528683553729,
+    "difference": -2.0130434478792307
+  },
+  {
+    "weights": [
+      0.01,
+      0.0001,
+      0.01,
+      0.01
+    ],
+    "log_geometric_mean": -5.756462732485113,
+    "P_odd_p_not_q": 7.028487668671618,
+    "formal_uniform_cell_main_M": 4.547528683553729,
+    "difference": 2.480958985117889
+  },
+  {
+    "weights": [
+      0.01,
+      0.01,
+      0.0001,
+      0.01
+    ],
+    "log_geometric_mean": -5.756462732485113,
+    "P_odd_p_not_q": 2.5842486717976536,
+    "formal_uniform_cell_main_M": 4.547528683553729,
+    "difference": -1.9632800117560754
+  },
+  {
+    "weights": [
+      0.01,
+      0.01,
+      0.01,
+      0.0001
+    ],
+    "log_geometric_mean": -5.756462732485113,
+    "P_odd_p_not_q": 2.5344852356744982,
+    "formal_uniform_cell_main_M": 4.547528683553729,
+    "difference": -2.0130434478792307
+  }
+]

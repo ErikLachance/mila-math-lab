@@ -1,0 +1,58 @@
+{
+  "N": 100,
+  "C": "0.04619141793224206762862051",
+  "weight_partial": "0.0399697048078476106006009",
+  "tail_weight_exact_identity_using_verified_zeros": "0.006221713124394457028019607",
+  "elapsed_seconds": 12.331449805000148,
+  "rows": [
+    {
+      "x": 2,
+      "G": "1.7681369686831751",
+      "partial_reconstruction": "1.76909094339850684",
+      "abs_error": "0.000953974715332",
+      "tail_bound": "0.00879883108171",
+      "fraction_of_bound": "0.108420619338"
+    },
+    {
+      "x": 3,
+      "G": "1.78238371898024216",
+      "partial_reconstruction": "1.78385266399640566",
+      "abs_error": "0.00146894501616",
+      "tail_bound": "0.0107763232416",
+      "fraction_of_bound": "0.136312263769"
+    },
+    {
+      "x": 10,
+      "G": "1.86079811781409182",
+      "partial_reconstruction": "1.86082298884316585",
+      "abs_error": "2.4871029074e-5",
+      "tail_bound": "0.0196747844212",
+      "fraction_of_bound": "0.00126410681518"
+    },
+    {
+      "x": 100,
+      "G": "1.721686649536812",
+      "partial_reconstruction": "1.71865537713229033",
+      "abs_error": "0.00303127240452",
+      "tail_bound": "0.0622171312439",
+      "fraction_of_bound": "0.0487208642365"
+    },
+    {
+      "x": 1000,
+      "G": "1.5309133361858709",
+      "partial_reconstruction": "1.52800995568138904",
+      "abs_error": "0.00290338050448",
+      "tail_bound": "0.196747844212",
+      "fraction_of_bound": "0.0147568605699"
+    },
+    {
+      "x": 10000,
+      "G": "1.74931524461837583",
+      "partial_reconstruction": "1.71665850232948535",
+      "abs_error": "0.0326567422889",
+      "tail_bound": "0.622171312439",
+      "fraction_of_bound": "0.0524883446664"
+    }
+  ],
+  "note": "conditional on RH and properly certified first N zeros; actual numerics mpmath ordinates, not certified, so only falsification regression"
+}

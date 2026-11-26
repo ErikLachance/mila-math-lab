@@ -1,0 +1,26 @@
+{
+  "mod8_missing": {
+    "m0": 3,
+    "fixed_a0": 1,
+    "n": 3,
+    "nprime": 4,
+    "q": [
+      19,
+      13
+    ],
+    "legendre_values": [
+      -1,
+      1
+    ],
+    "squarefree_s_outside_m0": 1,
+    "consequence": "No fixed sign constant exists as q runs over same progression: 8|m0 is substantive"
+  },
+  "q_coprimality_missing": {
+    "q": 7,
+    "n": 7,
+    "nprime": 2,
+    "legendre_nnprime_q": 0,
+    "note": "Legendre is zero, not a +/-1 sign, when q divides n*nprime. q>n*nprime ensures this cannot happen."
+  },
+  "status": "PASS; exact arithmetic examples, do not contradict the actual theorem with its assumptions"
+}

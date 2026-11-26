@@ -1,0 +1,30 @@
+[
+  {
+    "w_plus": "1/10000",
+    "w_minus": "1/100",
+    "w_zero": "1/100",
+    "P": 3.4026520793258297,
+    "M_geometric_unweighted_3cells": 4.931292865719403,
+    "difference": -1.5286407863935731,
+    "terms_in_each_cell": {
+      "-1": 15,
+      "0": 4,
+      "1": 645
+    },
+    "independent_finite_integral": 3.4026520793258297
+  },
+  {
+    "w_plus": "1/100",
+    "w_minus": "1/10000",
+    "w_zero": "1/100",
+    "P": 7.951657094903467,
+    "M_geometric_unweighted_3cells": 4.931292865719403,
+    "difference": 3.0203642291840644,
+    "terms_in_each_cell": {
+      "-1": 627,
+      "0": 4,
+      "1": 16
+    },
+    "independent_finite_integral": 7.951657094903467
+  }
+]

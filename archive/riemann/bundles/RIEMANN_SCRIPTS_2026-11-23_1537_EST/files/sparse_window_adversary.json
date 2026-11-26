@@ -1,0 +1,15 @@
+{
+  "model": "G(x)=x^beta*cos(omega*log(x)), x>1",
+  "beta": "0.75",
+  "theta": "0.6",
+  "omega": "3.0",
+  "Mellin_formula": "(s-beta)/((s-beta)^2+omega^2), Re(s)>beta",
+  "Mellin_poles": "beta +/- i omega",
+  "numerical_Mellin_regression_abs_error": "2.254573029e-44",
+  "sample_zeros_count": 15,
+  "max_sample_cos_abs": 5.97228689439031e-60,
+  "peak_growth_F_over_x_theta_first": 1.369107770624847,
+  "peak_growth_F_over_x_theta_last": 111.31777848985622,
+  "logY_sufficient_for_all_[Y,Y^1.5]_to_contain_period_peak": "4.188790204786391",
+  "logical_warning": "Sparse pointwise sample is insufficient for Landau-style window criterion; all-x uniform long window is essential. Toy poles are not zeta zeros."
+}

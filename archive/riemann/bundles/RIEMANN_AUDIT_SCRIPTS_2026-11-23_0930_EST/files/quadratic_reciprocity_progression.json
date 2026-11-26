@@ -1,0 +1,45 @@
+{
+  "progressions_checked": 132,
+  "primepower_pairs_checked": 42768,
+  "legendre_jacobi_tests": 171072,
+  "status": "PASS",
+  "proof": "Quadratic reciprocity for odd p and supplements for p=2; q fixed modulo 8m forces all signs from prime factors dividing m and reciprocity parity to be constant. Remaining factors are s and give Jacobi(q,s).",
+  "scope": "Toy finite progressions q 2000..20000; no prime-counting equidistribution, character cancellation or RH conclusion",
+  "example_progressions": [
+    {
+      "modulus": 8,
+      "class": 1,
+      "primes_available": 488
+    },
+    {
+      "modulus": 8,
+      "class": 3,
+      "primes_available": 494
+    },
+    {
+      "modulus": 8,
+      "class": 5,
+      "primes_available": 490
+    },
+    {
+      "modulus": 8,
+      "class": 7,
+      "primes_available": 487
+    },
+    {
+      "modulus": 24,
+      "class": 1,
+      "primes_available": 237
+    },
+    {
+      "modulus": 24,
+      "class": 5,
+      "primes_available": 242
+    },
+    {
+      "modulus": 24,
+      "class": 7,
+      "primes_available": 241
+    }
+  ]
+}

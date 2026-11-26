@@ -1,0 +1,18 @@
+{
+  "source": "Rubinstein v2 section III.1 Step 2, page 64",
+  "cases_checked": 1533,
+  "max_ratio": 0.39569708522805264,
+  "worst_case": {
+    "Z": 250,
+    "y": 2,
+    "m0": 8,
+    "s": 3,
+    "actual": 3.1677190683844785,
+    "bound": 8.005414208595504,
+    "ratio": 0.39569708522805264
+  },
+  "all_pass": true,
+  "identity": "s(n*nprime) outside m0 is 1, a single prime, or a product of two different primes",
+  "bound": "exceptional class s*=p: \u22646 log(y)*R; s*=pr: \u226418 log(y)^2",
+  "limitation": "finite combinatorics only; DOES NOT bound nonexceptional character sums, supply primes, zero-density, or RH"
+}

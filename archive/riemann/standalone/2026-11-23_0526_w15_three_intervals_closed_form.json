@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-23",
+  "L": "81/100",
+  "w": "1/15",
+  "collar_support": "(-81/100,-81/100+1/15) union (81/100-1/15,81/100)",
+  "mathematical_result": "Weil Q_W(f)>||f||_2^2/60 on this support for complex smooth compact support, conditional on source-to-formula interpretation, not global RH",
+  "checks": "all inequalities and comparisons performed with exact Fraction and isqrt outward bounds",
+  "n_p_bin_checks": 0,
+  "n_closed_form_intervals": 3,
+  "passes": [
+    {
+      "p_range": [
+        "0",
+        "2/5"
+      ],
+      "T": "4711/200",
+      "method": "increasing_endpoint",
+      "conservative_lower_float_display": 0.018318900246983294,
+      "uniform_density_mass_check": true,
+      "exact_comparison_gt_1_over_60": true,
+      "p_star_bracket_display": [
+        0.5077257097670097,
+        0.5077257097670199
+      ],
+      "h_T_lower_display": 1.3131355035,
+      "I_T_lower_display": 6.49822120287771,
+      "max_density_display": 0.021223860104808923
+    },
+    {
+      "p_range": [
+        "2/5",
+        "11/25"
+      ],
+      "T": "25",
+      "method": "increasing_endpoint",
+      "conservative_lower_float_display": 0.016768299846135228,
+      "uniform_density_mass_check": true,
+      "exact_comparison_gt_1_over_60": true,
+      "p_star_bracket_display": [
+        0.4810987983736912,
+        0.4810987983737147
+      ],
+      "h_T_lower_display": 1.3726268195,
+      "I_T_lower_display": 8.431847194508464,
+      "max_density_display": 0.01965646190899714
+    },
+    {
+      "p_range": [
+        "11/25",
+        "1"
+      ],
+      "T": "26",
+      "method": "global_closed_form",
+      "conservative_lower_float_display": 0.016936480508550934,
+      "uniform_density_mass_check": true,
+      "exact_comparison_gt_1_over_60": true,
+      "p_star_bracket_display": [
+        0.46442361728147136,
+        0.4644236172815139
+      ],
+      "h_T_lower_display": 1.4118127124,
+      "I_T_lower_display": 9.819135921745312,
+      "max_density_display": 0.019177271690507463
+    }
+  ],
+  "minimum_reported_lower_display": 0.016768299846135228,
+  "all_pass": true,
+  "runtime_seconds": 0.2339253310001368,
+  "critical_caveat": "Only a restricted-support result, nested inside previously certified w=1/12 support; 1/60 margin is a stronger quantitative lower bound on this narrower subset, not an extension of RH proof."
+}

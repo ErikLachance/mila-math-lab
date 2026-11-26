@@ -1,0 +1,33 @@
+# Riemann research — append-only second checkpoint, 2026-11-23 05:06:24 EST (America/Toronto)
+
+> **Historical research record / Archive de recherche.** Imported on 26 November 2026. Mathematical claims, source reports and test outcomes below describe the historical checkpoint. They have not all been independently audited or rerun during this import. No proof of RH is claimed.
+> Private operational sections and scheduling metadata have been omitted. All embedded code, data and output blocks have been extracted byte-for-byte into linked files. Source scripts retain their historical paths and dependencies; they are not automatically executed.
+
+**Source record:** `RIEMANN_DELTA_2026-11-23_0506_EST_LEAN_VERIFICATION.md`. **Recorded time label:** 2026-11-23 05:06 EST (from the filename).
+
+[Archive index](../../../README.md) · [Manifest](../../../manifest.json) · [Verification scope](../../../README.md#what-was-checked-during-import)
+
+## Critical newly discovered public development (20–23 November 2026)
+
+On 20 November 2026, mathematician Levent Alpöge published a purported proof of the Riemann Hypothesis and Dirichlet GRH as ~17.4 million lines of Lean formalizations, developed working with Claude. On 21 November 2026, the Lean FRO and Mathlib Initiative published a joint statement certifying the correctness of **both the mathematical statement and the machine-checkable proof** of the Riemann Hypothesis (https://leanprover-community.github.io/blog/posts/riemann-hypothesis/). Their official wording is unusually strong: they have full confidence in the proof. The formal statement is a pre-existing Mathlib definition, not an ad hoc or weaker replacement. Their independent statement comparison tools verify that the published theorem matches it, and multiple independent checkers accepted the formal export.
+
+Original independent verification records actually opened on 2026-11-23:
+- Andrew Sutherland, MIT, https://math.mit.edu/~drew/grh/ (last updated 2026-11-22 16:20 UTC): 175,187 modules compiled; 175,187 module kernel replays; standard axioms only (`propext`, `Classical.choice`, `Quot.sound`); independent kernels nanoda and con-leche accept; con-leche and con-ron compare all five theorem statements successfully to independent challenge; separate whole-export Lean default/paranoid kernels and end-to-end lake comparator were still running as of the posted update, despite the completed module-wise kernel checks.
+- Michael Rubinstein, independent check, https://mrubinst.github.io/grh-lean-verification/ : 175,187 modules compile and replay, no nonstandard axioms; independent Rust kernel nanoda checked 1,484,729 declarations on 2026-11-21 without typechecking errors. Plain mathematical reading of the exact RH statement is every zero of the Riemann zeta function other than trivial negative even zeros lies on Re s = 1/2. The verified GRH concerns Dirichlet L-functions for all characters and moduli, not arbitrary Dedekind or automorphic L-functions.
+
+The available primary verification evidence is **much stronger than an unreviewed numerical/prose proof claim**. However this run did NOT compile the 175,187 modules or replay the 61+ GB export itself: these are external independently reported checks. A mathematical human-readable account is still emerging, and Clay Institute recognition and its prize procedures are separate from proof-checker validity. Do NOT represent this as our own proof or as our project independently having established RH. Do NOT persist the former assertion “RH is certainly unsolved” as the CURRENT scientific status without qualifying it by the November 20–21 formal announcement and official verification.
+
+## Research consequences and new focus
+
+(1) Mathematically, the formally verified theorem has no user-added assumption, and its core statement is exactly the classical RH. Conditional on the soundness of Lean and Mathlib as independently audited, this strongly supports acceptance of RH. A vacuous or false intermediate definition cannot prove the nonvacuous target from standard axioms unless an error in kernel/Mathlib logic exists, the independent statement is misidentified, or a genuine proof discharges every assumption. Independently audit the top dependency (`UpperTheory.FinalTheorems.everyCharacter`) and any nonstandard logic / abstraction semantics, rather than assuming that massive size equals mathematical rigor.
+
+(2) Earlier Weil-form local certificates and index bounds in our research still require independent verification of their estimates. They are separate quantitative questions and are NOT an original proof of RH. If RH and the known Weil positivity equivalence are accepted, global nonnegativity follows conceptually, but that does not supply the finite quantitative lower bounds claimed in the user's earlier journal or directly verify any interval-arithmetic program.
+
+(3) Newly constructed in this current run *before learning of Alpöge's announcement*: independent simple Fourier bathtub proof for restricted two-collar support of width w=1/40 at L=81/100, giving Q(f)>9/80||f||² under the signed Weil-form normalization already used, with time-domain prime shift n=5, explicit arch bound, and signed pole estimate. This is a narrower class than prior w=1/12 collar claim with stronger margin, NOT full-window RH. Program `/mnt/data/riemann_research_20261123/independent_collar_bound.py` and report `collar_bound_report.json` were executed in this session. A separate first full Markdown fallback checkpoint already records proof and all numerical checks in greater detail. Previous unverified guesses and coarse L2 perturbation arguments should not be used as proof.
+
+(4) Another useful falsification: compressed n=5 prime-shift operator jumps in operator norm from zero to logarithm(5)/sqrt(5) as window half-width a crosses log(5)/2, due to a normalized function supported on arbitrarily tiny overlap between shifted endpoints. Therefore cannot obtain extension above L=0.8 by assuming operator-norm smallness in naive L2. Suzuki's continuous lowest eigenvalue for the full closed H^log form avoids naive norm continuity. Need investigate the actual form topology, not a false norm estimate.
+
+## Next independent research
+
+
+New highest-value investigation: inspect mathematical architecture and scrutinize the exact formal theorem against three independent statement definitions; read emerging proof exposition, independently verify one small but pivotal lemma in ordinary math, assess what the new proof implies for quantitative Weil positivity and Dirichlet L-function applications. Monitor only authoritative Lean/Mathlib/MIT/Waterloo status and any concrete formal counter-audit, not social rumors.

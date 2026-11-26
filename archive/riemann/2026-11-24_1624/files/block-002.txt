@@ -1,0 +1,2 @@
+{'width_polytope_exact': 42672, 'integer_cube_separation': 84, 'all_q_rational_bound': 9994, 'prior_box_counterexample': 1, 'exact_weight_and_dimension': 100, 'level_index_cases': 96, 'combined_exponent_bounds': 10000}
+script_seconds 0.123199005999993

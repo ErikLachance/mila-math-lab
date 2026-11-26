@@ -1,0 +1,62 @@
+{
+  "source_matched": "Matti Jutila, On Linnik's constant, Math. Scand. 41 (1977), p.46, Theorem 1 eqs(1.7),(1.8): N*(alpha,T,Q) \u226a_eps (Q^2*T)^((2+eps)*(1-alpha)), 4/5<=alpha<=1, T>=1; N* sums only primitive characters.",
+  "exact_character_primitive_decomposition_check": {
+    "moduli_checked": 500,
+    "failures": []
+  },
+  "example_Q": 500,
+  "examples": {
+    "1": {
+      "primitive_characters_at_conductor": 1,
+      "all_characters_induced_from_conductor_n_up_to_Q": 500,
+      "repetition_factor": 500
+    },
+    "2": {
+      "primitive_characters_at_conductor": 0,
+      "all_characters_induced_from_conductor_n_up_to_Q": 0,
+      "repetition_factor": 250
+    },
+    "3": {
+      "primitive_characters_at_conductor": 1,
+      "all_characters_induced_from_conductor_n_up_to_Q": 166,
+      "repetition_factor": 166
+    },
+    "4": {
+      "primitive_characters_at_conductor": 1,
+      "all_characters_induced_from_conductor_n_up_to_Q": 125,
+      "repetition_factor": 125
+    },
+    "5": {
+      "primitive_characters_at_conductor": 3,
+      "all_characters_induced_from_conductor_n_up_to_Q": 300,
+      "repetition_factor": 100
+    },
+    "8": {
+      "primitive_characters_at_conductor": 2,
+      "all_characters_induced_from_conductor_n_up_to_Q": 124,
+      "repetition_factor": 62
+    },
+    "12": {
+      "primitive_characters_at_conductor": 1,
+      "all_characters_induced_from_conductor_n_up_to_Q": 41,
+      "repetition_factor": 41
+    },
+    "20": {
+      "primitive_characters_at_conductor": 3,
+      "all_characters_induced_from_conductor_n_up_to_Q": 75,
+      "repetition_factor": 25
+    },
+    "25": {
+      "primitive_characters_at_conductor": 16,
+      "all_characters_induced_from_conductor_n_up_to_Q": 320,
+      "repetition_factor": 20
+    },
+    "100": {
+      "primitive_characters_at_conductor": 16,
+      "all_characters_induced_from_conductor_n_up_to_Q": 80,
+      "repetition_factor": 5
+    }
+  },
+  "critical_strip_identity": "For 0<alpha<=1 and nontrivial Dirichlet L zeros only, sum over ALL chars mod q <=Q equals sum over conductors d<=Q of floor(Q/d) times sum over PRIMITIVE chars conductor d. No new zeros in Re(s)>0 from finite missing Euler factors.",
+  "caution": "Replacing the asterisk primitive sum by all characters while keeping the same zero-density exponent is NOT justified without addressing induction multiplicity; this does NOT challenge Jutila or the formal Lean proof. Exact Lean theorem declaration/signature not inspected."
+}

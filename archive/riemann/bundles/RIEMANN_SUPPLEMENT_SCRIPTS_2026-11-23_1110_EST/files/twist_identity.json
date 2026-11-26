@@ -1,0 +1,142 @@
+{
+  "toy_q": 11,
+  "toy_d": 1319,
+  "qdivides_dplus1": true,
+  "all_n_character_weight_counts": {
+    "0": 7287,
+    "2": 430,
+    "4": 2283
+  },
+  "first_allows_weight4_prime_numbers": [
+    23,
+    37,
+    47,
+    59,
+    97,
+    103,
+    113,
+    137,
+    157,
+    163,
+    179,
+    199,
+    251,
+    269,
+    311,
+    313,
+    389,
+    397,
+    419,
+    421,
+    433,
+    467,
+    509,
+    521,
+    577
+  ],
+  "rational_prime_power_weight_identity": [
+    {
+      "x": 20,
+      "nonzero_prime_coefficients": 0,
+      "first_positive_prime_coefficients": []
+    },
+    {
+      "x": 30,
+      "nonzero_prime_coefficients": 1,
+      "first_positive_prime_coefficients": [
+        23
+      ]
+    },
+    {
+      "x": 70,
+      "nonzero_prime_coefficients": 4,
+      "first_positive_prime_coefficients": [
+        23,
+        37,
+        47,
+        59
+      ]
+    },
+    {
+      "x": 100,
+      "nonzero_prime_coefficients": 5,
+      "first_positive_prime_coefficients": [
+        23,
+        37,
+        47,
+        59,
+        97
+      ]
+    },
+    {
+      "x": 1319,
+      "nonzero_prime_coefficients": 58,
+      "first_positive_prime_coefficients": [
+        23,
+        37,
+        47,
+        59,
+        97,
+        103,
+        113,
+        137,
+        157,
+        163,
+        179,
+        199
+      ]
+    },
+    {
+      "x": 4000,
+      "nonzero_prime_coefficients": 134,
+      "first_positive_prime_coefficients": [
+        23,
+        37,
+        47,
+        59,
+        97,
+        103,
+        113,
+        137,
+        157,
+        163,
+        179,
+        199
+      ]
+    },
+    {
+      "x": 10000,
+      "nonzero_prime_coefficients": 320,
+      "first_positive_prime_coefficients": [
+        23,
+        37,
+        47,
+        59,
+        97,
+        103,
+        113,
+        137,
+        157,
+        163,
+        179,
+        199
+      ]
+    }
+  ],
+  "first_inert_primes_below_100": [
+    13,
+    17,
+    23,
+    29,
+    37,
+    41,
+    47,
+    59,
+    61,
+    73,
+    79,
+    97
+  ],
+  "tested_range": 10000,
+  "scope": "finite algebraic sanity check, not RH"
+}

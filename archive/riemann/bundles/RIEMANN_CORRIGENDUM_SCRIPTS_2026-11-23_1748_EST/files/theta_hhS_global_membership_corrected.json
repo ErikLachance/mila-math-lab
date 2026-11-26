@@ -1,0 +1,145 @@
+{
+  "count": 112,
+  "all_pass": true,
+  "corrected_source_membership": "Let H=hhS p u with u0=u1=1, summing ALL R^2 matrix-coordinate pairs. Let U_i = Z_(0,1,1)^(N+1-p*i)*product_{j=2..R}Z_(0,j,j), with U_j=0 for j!=i. Define F=p^-i * H^i * U_i. Then F belongs to Lean InClass(p,H,F) by construction. Its exact target diagonal frameJet coefficient is (N+1)!*i!/p^i. The earlier restricted h_11^i choice did not establish this membership and must be REPLACED in all claimed theorem specializations.",
+  "source_paths": [
+    "src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/CyclicPowerClassOfExpEquiv.lean",
+    "src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/OddLogRelation.lean",
+    "src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementG.lean",
+    "src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementAB.lean",
+    "src/Formalism/GrowthSums/StatementA.lean",
+    "src/Formalism/GaussJetBounds/StatementP.lean"
+  ],
+  "samples": [
+    {
+      "p": 3,
+      "N": 9,
+      "i": 1,
+      "R": 1,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 3,
+      "N": 9,
+      "i": 1,
+      "R": 2,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 3,
+      "N": 9,
+      "i": 1,
+      "R": 3,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 3,
+      "N": 9,
+      "i": 1,
+      "R": 4,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 3,
+      "N": 9,
+      "i": 2,
+      "R": 1,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1,
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 4,
+      "R": 4,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 5,
+      "R": 1,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 5,
+      "R": 2,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 5,
+      "R": 3,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    },
+    {
+      "p": 7,
+      "N": 343,
+      "i": 5,
+      "R": 4,
+      "raw_hh_power_coeff": 1,
+      "truncated_support_count_each_step": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output_coefficient_factorial": "(N+1)!*i!/p^i"
+    }
+  ]
+}

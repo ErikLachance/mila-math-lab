@@ -1,0 +1,18 @@
+{
+  "L": "0.81",
+  "w": "0.0666666666666666666666666666666666666666666666666666666666667",
+  "source": "Suzuki 2606.09096v4 Weil form and Zhu 2608.24827v2 signed pole",
+  "arch_diagonal": "1.27632320904615462307935370617",
+  "arch_cross": "-0.032105385735194885534784395208",
+  "pole_diag": "0.133345679469602122320437713952",
+  "pole_cross": "0.175626219316291199333677773876",
+  "prime5_overlap": "0.158431313488494380988610001607",
+  "prime5_offdiag": "-0.114032920738939792195378611188",
+  "full_diagonal": "1.40966888851575674539979142012",
+  "full_offdiagonal": "0.0294879128421565216035147674799",
+  "smallest_2by2_eigenvalue": "1.38018097567360022379627665264",
+  "largest_2by2_eigenvalue": "1.4391568013579132670033061876",
+  "claim_check_smallest_gt_1_over_60": true,
+  "elapsed_seconds": 0.15860731800012218,
+  "scope": "independent two-mode numerical cross-check only; discontinuous indicator functions; NOT rigorous global positivity or RH proof"
+}

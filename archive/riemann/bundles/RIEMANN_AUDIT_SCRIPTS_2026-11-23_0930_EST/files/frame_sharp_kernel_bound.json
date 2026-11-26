@@ -1,0 +1,40 @@
+{
+  "run": "2026-11-23 09:08 EST",
+  "theorem": "Let Qp<=Q be PSD on C^D, mu=trQ/D>0, eta=trQ\u00b2/(Dmu\u00b2)-1>=0, tr(Q-Qp)/trQ<=delta<1. Then dim kerQp /D <= [2delta+eta+sqrt(eta\u00b2+4eta delta(1-delta))]/[2(1+eta)].",
+  "proof": "P=projection ker Qp, t=rank P/D; 0<=tr(PQ)<=tr(Q-Qp). Centered Hilbert-Schmidt Cauchy implies tr(PQ)>=mu D[t-sqrt(eta*t*(1-t))]. Thus t-sqrt(eta*t*(1-t))<=delta. Solve quadratic in t; valid for delta<1, eta>=0.",
+  "sharp_abstract_rational_example": {
+    "D": 4,
+    "kernel_dim": 2,
+    "delta": "1/4",
+    "eta": "1/4",
+    "bound": "1/2",
+    "Q_diagonal": [
+      "1/2",
+      "1/2",
+      "3/2",
+      "3/2"
+    ],
+    "Qprime_diagonal": [
+      "0",
+      "0",
+      "3/2",
+      "3/2"
+    ]
+  },
+  "cases": 3500,
+  "bounded_delta_cases": 3019,
+  "new_tighter_than_uncentered_Cauchy_bound": 2934,
+  "min_slack": 0.025229563811359212,
+  "worst": {
+    "D": 11,
+    "w": 2,
+    "k": 8,
+    "delta": 0.0,
+    "eta": 3.0404414423882473,
+    "new": 0.7525022910840865,
+    "old": 0.7525022910840865,
+    "slack": 0.025229563811359212
+  },
+  "limitation": "Sharp in abstract Q/Qp trace moments. Not proven optimal under the stronger decomposed-frame constraints, and not a proof of H8 or RH.",
+  "status": "PASS"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "Y": 10,
+    "sign": 1,
+    "ell": "2521",
+    "ell_digits": 4,
+    "progression": "840",
+    "prime_count": 4,
+    "signed_prime_power_sum": 0.0,
+    "positive_prime_powers": 0,
+    "neglected_even_power_count": 2
+  },
+  {
+    "Y": 10,
+    "sign": -1,
+    "ell": "1277",
+    "ell_digits": 4,
+    "progression": "840",
+    "prime_count": 4,
+    "signed_prime_power_sum": 1.5905407191650134,
+    "positive_prime_powers": 5,
+    "neglected_even_power_count": 2
+  },
+  {
+    "Y": 30,
+    "sign": 1,
+    "ell": "77636318761",
+    "ell_digits": 11,
+    "progression": "25878772920",
+    "prime_count": 10,
+    "signed_prime_power_sum": 0.0,
+    "positive_prime_powers": 0,
+    "neglected_even_power_count": 4
+  },
+  {
+    "Y": 30,
+    "sign": -1,
+    "ell": "29751842837",
+    "ell_digits": 11,
+    "progression": "25878772920",
+    "prime_count": 10,
+    "signed_prime_power_sum": 3.233221100019961,
+    "positive_prime_powers": 12,
+    "neglected_even_power_count": 4
+  },
+  {
+    "Y": 100,
+    "sign": 1,
+    "ell": "46111359278910368495062042946635121401",
+    "ell_digits": 38,
+    "progression": "9222271855782073699012408589327024280",
+    "prime_count": 25,
+    "signed_prime_power_sum": 0.0,
+    "positive_prime_powers": 0,
+    "neglected_even_power_count": 7
+  },
+  {
+    "Y": 100,
+    "sign": -1,
+    "ell": "87995321176219449974135873673999044717",
+    "ell_digits": 38,
+    "progression": "9222271855782073699012408589327024280",
+    "prime_count": 25,
+    "signed_prime_power_sum": 5.312662990995399,
+    "positive_prime_powers": 28,
+    "neglected_even_power_count": 7
+  }
+]

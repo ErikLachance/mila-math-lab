@@ -1,0 +1,32 @@
+{
+  "M_from_independently_evaluated_quadratic_Lprime_over_L": "84463.39422293839469249837626989726914002380909",
+  "rows": [
+    {
+      "class": 1,
+      "P": "84701.031685162533297878941356647",
+      "difference_P_minus_M": "237.63746222413860538056508674973085998",
+      "difference_vs_report": "-3.77758613946e-5"
+    },
+    {
+      "class": 3,
+      "P": "84163.137182066086120603463330628",
+      "difference_P_minus_M": "-300.25704087230857189491293926926914002",
+      "difference_vs_report": "-4.08723085719e-5"
+    },
+    {
+      "class": 5,
+      "P": "84286.662824189005702823888212958",
+      "difference_P_minus_M": "-176.73139874938898967448805693926914002",
+      "difference_vs_report": "1.25061101033e-6"
+    },
+    {
+      "class": 7,
+      "P": "84692.527171971168490336079856051",
+      "difference_P_minus_M": "229.13294903277379783770358615373085998",
+      "difference_vs_report": "4.90327737978e-5"
+    }
+  ],
+  "mean_excess": "-2.55450709119628958778308082626914002",
+  "status": "PASS all four reported 4-decimal excesses and M from independent Dirichlet L function gamma sum.",
+  "interpretation": "Finite pedagogical table only; source explicitly says q,d are too small to satisfy theorem M size and congruence hypotheses."
+}

@@ -1,0 +1,62 @@
+{
+  "selected": [
+    {
+      "n": 17,
+      "log_abs_A": 23.778424880873285,
+      "inert_prime_log_contribution_actual": 12.881389302917656,
+      "ratio_inert_to_total": 0.541725928754814,
+      "inert_prime_guaranteed_lower": 12.881389302917656,
+      "inert_count": 3
+    },
+    {
+      "n": 49,
+      "log_abs_A": 115.08275103988656,
+      "inert_prime_log_contribution_actual": 67.29178693135471,
+      "ratio_inert_to_total": 0.5847252200986404,
+      "inert_prime_guaranteed_lower": 66.1931746426866,
+      "inert_count": 8
+    },
+    {
+      "n": 101,
+      "log_abs_A": 306.7674444076651,
+      "inert_prime_log_contribution_actual": 167.6720188749986,
+      "ratio_inert_to_total": 0.5465769654884833,
+      "inert_prime_guaranteed_lower": 163.5944814310929,
+      "inert_count": 13
+    },
+    {
+      "n": 201,
+      "log_abs_A": 745.2096659005684,
+      "inert_prime_log_contribution_actual": 393.4391194373382,
+      "ratio_inert_to_total": 0.5279576170846848,
+      "inert_prime_guaranteed_lower": 393.4391194373382,
+      "inert_count": 24
+    },
+    {
+      "n": 501,
+      "log_abs_A": 2309.0057147558755,
+      "inert_prime_log_contribution_actual": 1209.3764527999306,
+      "ratio_inert_to_total": 0.5237650323129643,
+      "inert_prime_guaranteed_lower": 1209.3764527999306,
+      "inert_count": 50
+    },
+    {
+      "n": 1001,
+      "log_abs_A": 5301.802710786331,
+      "inert_prime_log_contribution_actual": 2753.7956937158597,
+      "ratio_inert_to_total": 0.5194074249713894,
+      "inert_prime_guaranteed_lower": 2749.7181562719543,
+      "inert_count": 87
+    },
+    {
+      "n": 2001,
+      "log_abs_A": 11979.505785015679,
+      "inert_prime_log_contribution_actual": 6188.293600359027,
+      "ratio_inert_to_total": 0.5165733638277071,
+      "inert_prime_guaranteed_lower": 6188.293600359027,
+      "inert_count": 155
+    }
+  ],
+  "status": "PASS",
+  "warning": "size comparison is a finite independent illustration of the factor-2 obstruction already stated in source; not RH proof"
+}

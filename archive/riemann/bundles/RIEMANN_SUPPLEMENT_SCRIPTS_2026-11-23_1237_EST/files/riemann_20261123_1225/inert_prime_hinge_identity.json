@@ -1,0 +1,206 @@
+{
+  "source_identity": "For quadratic chi=Kronecker(-d,.), d prime =3(mod4): w[S(x)-S_chi(x)] = 2 sum_{inert p} sum_{odd k} log(p)*max(a/p^k-w,0) + log(d)*sum_{k>=1}max(a/d^k-w,0), where x=a/w, S(x)=sum_{n<=x}Lambda(n)(x/n-1).",
+  "status": "Exact rational equality of every log(p) coefficient; excludes separate analytic/linear normalizations in G and G_chi; NOT proof of (M) or RH.",
+  "tests": [
+    {
+      "d": 3,
+      "a": 2,
+      "w": "1",
+      "x": "2",
+      "inert_terms": 1,
+      "ramified_terms": 0,
+      "nonzero_log_p_coefficients": 0,
+      "coefficient_equality": true
+    },
+    {
+      "d": 3,
+      "a": 13,
+      "w": "1/3",
+      "x": "39",
+      "inert_terms": 8,
+      "ramified_terms": 3,
+      "nonzero_log_p_coefficients": 7,
+      "coefficient_equality": true
+    },
+    {
+      "d": 3,
+      "a": 100,
+      "w": "1/7",
+      "x": "700",
+      "inert_terms": 70,
+      "ramified_terms": 5,
+      "nonzero_log_p_coefficients": 66,
+      "coefficient_equality": true
+    },
+    {
+      "d": 3,
+      "a": 1000,
+      "w": "2/3",
+      "x": "1500",
+      "inert_terms": 129,
+      "ramified_terms": 6,
+      "nonzero_log_p_coefficients": 124,
+      "coefficient_equality": true
+    },
+    {
+      "d": 7,
+      "a": 2,
+      "w": "1",
+      "x": "2",
+      "inert_terms": 0,
+      "ramified_terms": 0,
+      "nonzero_log_p_coefficients": 0,
+      "coefficient_equality": true
+    },
+    {
+      "d": 7,
+      "a": 13,
+      "w": "1/3",
+      "x": "39",
+      "inert_terms": 7,
+      "ramified_terms": 1,
+      "nonzero_log_p_coefficients": 7,
+      "coefficient_equality": true
+    },
+    {
+      "d": 7,
+      "a": 100,
+      "w": "1/7",
+      "x": "700",
+      "inert_terms": 67,
+      "ramified_terms": 3,
+      "nonzero_log_p_coefficients": 65,
+      "coefficient_equality": true
+    },
+    {
+      "d": 7,
+      "a": 1000,
+      "w": "2/3",
+      "x": "1500",
+      "inert_terms": 125,
+      "ramified_terms": 3,
+      "nonzero_log_p_coefficients": 123,
+      "coefficient_equality": true
+    },
+    {
+      "d": 11,
+      "a": 2,
+      "w": "1",
+      "x": "2",
+      "inert_terms": 1,
+      "ramified_terms": 0,
+      "nonzero_log_p_coefficients": 0,
+      "coefficient_equality": true
+    },
+    {
+      "d": 11,
+      "a": 13,
+      "w": "1/3",
+      "x": "39",
+      "inert_terms": 8,
+      "ramified_terms": 1,
+      "nonzero_log_p_coefficients": 7,
+      "coefficient_equality": true
+    },
+    {
+      "d": 11,
+      "a": 100,
+      "w": "1/7",
+      "x": "700",
+      "inert_terms": 68,
+      "ramified_terms": 2,
+      "nonzero_log_p_coefficients": 64,
+      "coefficient_equality": true
+    },
+    {
+      "d": 11,
+      "a": 1000,
+      "w": "2/3",
+      "x": "1500",
+      "inert_terms": 126,
+      "ramified_terms": 3,
+      "nonzero_log_p_coefficients": 122,
+      "coefficient_equality": true
+    },
+    {
+      "d": 19,
+      "a": 2,
+      "w": "1",
+      "x": "2",
+      "inert_terms": 1,
+      "ramified_terms": 0,
+      "nonzero_log_p_coefficients": 0,
+      "coefficient_equality": true
+    },
+    {
+      "d": 19,
+      "a": 13,
+      "w": "1/3",
+      "x": "39",
+      "inert_terms": 9,
+      "ramified_terms": 1,
+      "nonzero_log_p_coefficients": 7,
+      "coefficient_equality": true
+    },
+    {
+      "d": 19,
+      "a": 100,
+      "w": "1/7",
+      "x": "700",
+      "inert_terms": 69,
+      "ramified_terms": 2,
+      "nonzero_log_p_coefficients": 64,
+      "coefficient_equality": true
+    },
+    {
+      "d": 19,
+      "a": 1000,
+      "w": "2/3",
+      "x": "1500",
+      "inert_terms": 126,
+      "ramified_terms": 2,
+      "nonzero_log_p_coefficients": 121,
+      "coefficient_equality": true
+    },
+    {
+      "d": 31,
+      "a": 2,
+      "w": "1",
+      "x": "2",
+      "inert_terms": 0,
+      "ramified_terms": 0,
+      "nonzero_log_p_coefficients": 0,
+      "coefficient_equality": true
+    },
+    {
+      "d": 31,
+      "a": 13,
+      "w": "1/3",
+      "x": "39",
+      "inert_terms": 8,
+      "ramified_terms": 1,
+      "nonzero_log_p_coefficients": 8,
+      "coefficient_equality": true
+    },
+    {
+      "d": 31,
+      "a": 100,
+      "w": "1/7",
+      "x": "700",
+      "inert_terms": 67,
+      "ramified_terms": 1,
+      "nonzero_log_p_coefficients": 66,
+      "coefficient_equality": true
+    },
+    {
+      "d": 31,
+      "a": 1000,
+      "w": "2/3",
+      "x": "1500",
+      "inert_terms": 125,
+      "ramified_terms": 2,
+      "nonzero_log_p_coefficients": 123,
+      "coefficient_equality": true
+    }
+  ]
+}

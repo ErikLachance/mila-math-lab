@@ -1,0 +1,9 @@
+{
+  "character_cases": 2176,
+  "unit_pair_evaluations": 443520,
+  "odd_dyadic_only_factor2_cases": 120,
+  "full_crt_units": 960,
+  "full_crt_image": 32,
+  "full_crt_kernel": 30,
+  "seconds": 0.09484475900001144
+}

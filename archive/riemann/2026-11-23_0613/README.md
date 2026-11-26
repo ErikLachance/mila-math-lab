@@ -1,0 +1,49 @@
+# Riemann Proof Watch — 2026-11-23 06:13:43 EST / America-New_York — checkpoint intermédiaire
+
+> **Historical research record / Archive de recherche.** Imported on 26 November 2026. Mathematical claims, source reports and test outcomes below describe the historical checkpoint. They have not all been independently audited or rerun during this import. No proof of RH is claimed.
+> Private operational sections and scheduling metadata have been omitted. All embedded code, data and output blocks have been extracted byte-for-byte into linked files. Source scripts retain their historical paths and dependencies; they are not automatically executed.
+
+**Source record:** `RIEMANN_CHECKPOINT_2026-11-23_0613_EST.md`. **Recorded time label:** 2026-11-23 06:13 EST (from the filename).
+
+[Archive index](../../README.md) · [Manifest](../../manifest.json) · [Verification scope](../../README.md#what-was-checked-during-import)
+
+## Scientific continuity
+
+Earlier Riemann checkpoint: **2026-11-08 15:30:58 EST** (conditional signed Weil Q>0.001 on two endpoint collars width w=1/12 in window L=0.81; separate conditional negative index <=14; core/tail mixed terms uncontrolled; no RH proof).
+
+
+The preceding checkpoint `2026-11-23_0526_RIEMANN_CHECKPOINT_2026-11-23_0543_EST.md` reports conditional exact-rational Weil collars **w=1/13 Q>1/20** and **w=1/14 Q>1/10**; these are on smaller support than prior w=1/12 and NOT whole-window RH. Previous w=1/12 simplified parity bounds failed as sufficient tests, not counterexamples. This run does not count those earlier scripts as new work.
+
+
+## Primary sources actually inspected (dates verified)
+
+- Lean FRO and Mathlib Initiative joint certification, **2026-11-21**: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/ — certifies correct RH statement and Lean proof; separate independent kernels.
+- Andrew Sutherland (MIT), verification log updated **2026-11-22 16:20 UTC**: https://math.mit.edu/~drew/grh/ — all **175187** modules built; standard axioms only; independent nanoda/con-leche/con-ron/lean4lean/comparator statement checks; several redundant monolithic replays still running as of update. Dirichlet-GRH only, NOT every possible generalized L-function.
+- Michael Rubinstein (Waterloo), **2026-11-22 version 2**, 265-page *working* guide: https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/zeta-paper_v2.pdf ; overview https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/ . The crucial arithmetic (M) remains reduced to **13 hypotheses H0–H12, none proved outright in this readable draft**, despite independently verified formal Lean theorem; distinction crucial.
+- Alpöge original announcement 2026-11-20: https://alpo.ge/remark.pdf . Separate author's announced RH proof, **NOT** independently created by Riemann Proof Watch. Clay's prize recognition remains administratively pending.
+- Historical positive Weil model: https://arxiv.org/html/2608.24827v2 (Zhu), https://arxiv.org/html/2606.09096v4 (Suzuki). Prior local numbers not independently rerun here.
+
+## Independently executed micro-passes and falsification tests during this run
+
+1. **Exact residue CRT and explicit model:** Independently enumerated all 105440 invertible residues modulo 232144=16*11*1319. Quadratic nonresidue subset has 52720, each of 8 row/column classes has EXACTLY 6590, so density per cell =1/16; matches Waterloo II.22 under example q=11,d=1319,N=16. Exact finite counting only. Script `riemann_exact_residue_density_20261123.py`, JSON matching name.
+2. **Toy table of weighted prime powers:** Evaluated Waterloo II.14 for q11,d1319,N16, x1000,a10000, four translates. All four sums match paper II.26 to displayed 4 decimals: **84701.03168516254, 84163.13718206609, 84286.66282418901, 84692.52717197117**. Independent grouping into eight residue classes agrees to <3e-10; finite toy does not meet full strong (M) hypotheses. `riemann_regression_20261123.py`, `riemann_regression_all_translates_20261123.py` and JSON reports.
+3. **Smoothed prime sum used to imply RH:** Independently computed von Mangoldt `S(x)=sum_{p^h<=x} log p (x/p^h-1)` and `G=S-x log x+(1+EulerGamma)x` via sieve of 148933 primes ≤2e6. Observed G(10000)=**1.749315244619**; G(100000)=**3.671461861435**; G(1e6)=**11.040436128620**; G(2e6)=**-12.267800732516**, all round exactly as Waterloo page 5. 16 Mellin kernel integrals verified against `n^(-s)/(s(s-1))` with max residual ~1.3e-38. Laurent cancellation at s=1 numerically checked with high-precision mpmath and derived analytically using `-zeta'/zeta=1/(s-1)-gamma+O(s-1)`. Script `riemann_mellin_and_prime_sum_20261123.py`, JSON.
+4. **Window Landau lemma:** Independently computed `eta=max(.8e^.2,1.2e^(-.2))≈.982476903694`, `log((1+eta)/(2eta))-.008≈.000878287>0`; for 60 gamma-concentration cases (sigma 252,400,700; theta .000001,.5,.75,.99; U=1,2,5,10,20), regularized-gamma probability outside [U,1.5U] was smaller than `exp(-.008*j)` in every case, max ratio ~.006389 at j312. Numerical stress test not a proof of Landau lemma. Also checked source only gives G(x)≤x^theta on **arbitrarily large long windows** and uses one-sided Landau, not an all-x two-sided statement. `riemann_landau_window_concentration_20261123.py`/JSON.
+5. **Error exponent and logical obstruction:** From (A) bound x/m+xm/k+m+k/n², the `x/m+m≥2sqrt(x)` AM–GM lower envelope holds for every positive m; a bound of THIS FORM cannot be tuned to yield o(sqrt(x)) by m alone. For m=x^.5,k=x^4.5,n=x², individual orders x^.5,x^-3,x^.5,x^.5. This says nothing about lower bounds on actual prime-error. `riemann_M_error_optimization_20261123.py`/JSON.
+6. **Lemniscate cubic fractional series:** From `s''=-2s^3`, `s(0)=0,s'(0)=1`, derive b0=1 and `b_k=-2/[(4k)(4k+1)]*sum_{i+j+l=k-1} b_i b_j b_l` for s(z)=sum b_k z^(4k+1); A_n=n! b_k. All A_n integers for n≤201, 1224 inert p≡3 mod4 valuation checks had zero violations, matches A5=-12,A9=3024,A13=-4390848; 157 divides A101, but split primes 5,13,17,29 do not divide any nonzero A_n through n201. **Finite only.** `riemann_lemniscate_recurrence_20261123.py`/JSON.
+7. **Independent integer recurrence gives a genuine elementary theorem (known, not a new RH theorem):** Set A_n=s^(n)(0), B_n=(s²)^(n)(0). Then `B_n=sum_j binom(n,j) A_j A_(n-j)` and `A_(n+2)=-2 sum_j binom(n,j) A_j B_(n-j)`, A0=0,A1=1. Induction proves **A_n∈Z for all n**; cubic recursion shows A_n=0 unless n≡1 mod4 and signs of nonzero A_(4k+1) alternate (-1)^k. Independently computed to n501; agreement with independent Fraction recurrence through n201 and same p3 valuations for n101,201,501. `riemann_lemniscate_integer_crosscheck_20261123.py`/JSON.
+8. **Higher-index exceptional 3-adic valuations:** Two **independent methods** at n1945: exact Fraction recurrence up to k486 gives `v3(A_1945)=734`, while floor(3*1945/8)=729, slack 5; paper records excess over REAL `3n/8` =4.625. Initial full-rational print failed due Python 4300-digit conversion limit; corrected with `sys.set_int_max_str_digits(0)` then reran. An independent pure integer *modular* binomial recurrence confirms n1945. Further extended in 8 *checkpointed* bounded chunks to n5833 using residues modulo `3^2195`: **v3(A_5833)=2193**, floor(3*5833/8)=2187 (slack 6), excess over real 3n/8 exactly 5.625, matching paper. All 1458 tested nonzero A_n recovered unambiguously with no valuations violating finite bound, 81 with slack≥2. One original uncheckpointed run timed out at k800; replaced with persisted segments; do not count the partial timed out trial as a proof. `riemann_lemniscate_1945_fast_20261123.py` and JSON; `riemann_lemniscate_padic_modular_20261123.py` for baseline; `riemann_lemniscate_padic_resume_20261123.py` plus completed `riemann_lemniscate_padic_modular_n5833_20261123.json` and an intermediate pickle checkpoint. **Finite modular tests are not a proof of all-n inert prime divisibility, theta-lift inputs, or RH**.
+9. **Classical zero sum regression:** 150 mpmath zeros on Re=1/2 gave partial reciprocal sum 0.0412846743001 vs `2+gamma−log(4*pi)=0.0461914179322`. Strictly numerical and tail not rigorously bounded; this does not prove all RH zeros. `riemann_zero_sum_constant_20261123.py`/JSON.
+
+## Genuine limits / avoid next time
+
+- Do not present finite prime tables, finite derivatives, p-adic checks, or Lean's community verification as our independent proof. The formal archive itself was NOT compiled locally here; report MIT/Waterloo/Lean checks as those groups' checks.
+- The Waterloo guide (M) and theta lift hypotheses remain unproven in readable exposition; no logical transfer from 13 quoted assumptions to a new self-contained human proof without checking all of them.
+- Entire support Weil positivity is not implied by our old collar-only Q bounds; need an independent mixed Schur complement, and source normalization check for complex f.
+- Toy table parameters q11,d1319,N16 are EXPLICITLY not valid at genuine (M) scale. The finite density and toy sum are regression only.
+- Landau criterion needs upper bound on arbitrarily large multiplicative windows [Y,Y^(3/2)] and analytic control, NOT just isolated sample values.
+- Watch exponent order, uniformity in auxiliary q,d and x; do not minimize k freely without construction constraints.
+
+## Next distinct experiments
+
+(1) Formal human derivation of analytic Mellin/one-sided Landau bridge with valid window quantifiers, check constants and analyticity at s=1 independently; (2) take ONE numbered hypothesis (H0-H12) from Waterloo III.11 and trace exact source-to-kernel theorem boundary, including uniform quantification, noncircularity and no hidden assumption; (3) use finite p-adic recurrences as test harness for any proposed ALL-n lemma, not as substitute; (4) locate the precise finite signed Weil Q and complex-parity normalization from Suzuki and Zhu to audit prior collateral certificates.

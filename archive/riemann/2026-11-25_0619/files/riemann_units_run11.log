@@ -1,0 +1,47 @@
+initial disc -1537220816943715829381358208074412329364476657664
+p 2 radical dimension 3 step index 2
+p 2 radical dimension 3 step index 4
+p 2 radical dimension 3 step index 8
+p 2 radical dimension 3 step index 2
+p 2 radical dimension 3 step index 4
+p 2 radical dimension 3 step index 8
+p 2 radical dimension 0 step index None
+p 7 radical dimension 6 step index 7
+p 7 radical dimension 6 step index 49
+p 7 radical dimension 5 step index 7
+p 7 radical dimension 5 step index 7
+p 7 radical dimension 4 step index None
+p 79 radical dimension 3 step index None
+p 38737 radical dimension 1 step index 38737
+p 38737 radical dimension 0 step index None
+p 13513109 radical dimension 1 step index 13513109
+p 13513109 radical dimension 0 step index None
+final disc -1183786639
+initial disc -1125104500722532050725138910096832584031
+p 7 radical dimension 18 step index 49
+p 7 radical dimension 18 step index 2401
+p 7 radical dimension 14 step index None
+p 79 radical dimension 9 step index None
+final disc -81286117713188259904898920831
+LLL norms [4.583, 5.916, 5.916, 7.516, 7.47, 8.147, 7.15, 6.883, 8.332, 7.082, 9.033, 9.555, 9.348, 7.567, 7.845, 7.518, 8.395, 7.518, 7.179, 7.136, 7.248]
+unit 1 (1,) () norm 1 logrank 1
+unit 2 (2,) () norm 1 logrank 2
+unit 3 (0, 1) (-1,) norm -1 logrank 2
+unit 4 (0, 1) (1,) norm -1 logrank 2
+unit 5 (0, 2) (-1,) norm -1 logrank 2
+unit 6 (0, 2) (1,) norm -1 logrank 2
+unit 7 (1, 2) (1,) norm 1 logrank 2
+unit 8 (4, 10) (1,) norm -1 logrank 3
+unit 9 (4, 18) (-1,) norm 1 logrank 4
+unit 10 (4, 20) (1,) norm 1 logrank 5
+unit 11 (5, 18) (1,) norm -1 logrank 6
+unit 12 (0, 1, 2) (-1, -1) norm 1 logrank 6
+unit 13 (0, 1, 2) (-1, 1) norm 1 logrank 6
+unit 14 (0, 1, 2) (1, 1) norm -1 logrank 6
+unit 15 (3, 5, 17) (1, 1) norm 1 logrank 7
+unit 16 (3, 6, 20) (1, 1) norm 1 logrank 8
+unit 17 (6, 13, 17) (-1, -1) norm -1 logrank 9
+unit 18 (0, 3, 5, 18) (-1, -1, 1) norm -1 logrank 10
+unit 19 (0, 4, 9, 13) (-1, 1, -1) norm -1 logrank 11
+attempts 9900 passfilter 135 unit count 19 seconds 5.386917337
+

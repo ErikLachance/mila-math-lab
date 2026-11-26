@@ -1,0 +1,13 @@
+{
+  "exact_local_rescaling_checks": 135973,
+  "exact_rank_volume_checks": 29913,
+  "exact_weighted_rescaling_checks": 29913,
+  "exact_diagonal_group_cases": 4000,
+  "strict_unweighted_improvement_cases": 3075,
+  "exact_entropy_comparisons": 45936,
+  "exact_DVR_cases": 5000,
+  "numerical_complex_group_cases": 2000,
+  "max_float_violation": 1.7763568394002505e-15,
+  "elapsed_seconds": 2.003369546000002
+}
+
