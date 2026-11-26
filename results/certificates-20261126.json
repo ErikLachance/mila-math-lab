@@ -1,0 +1,8456 @@
+{
+  "tseitin": {
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "bit_encoding": "edge i: low bit 2i; high bit 2i+1; flow outgoing minus incoming",
+    "results": [
+      {
+        "charges": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "generators": 192,
+        "degree6": {
+          "degree": 6,
+          "row_count": 192,
+          "rank": 192,
+          "contains_constant": true,
+          "certificate": [
+            {
+              "generator": 0,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 1,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 3,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 5,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 6,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 8,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 10,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 11,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 12,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 14,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 15,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 17,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 19,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 20,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 21,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 22,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 24,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 26,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 28,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 29,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 30,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 31,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 33,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 35,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 37,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 38,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 39,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 40,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 42,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 44,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 45,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 47,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 48,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 50,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 51,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 52,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 55,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 56,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 57,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 59,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 60,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 61,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 64,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 65,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 66,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 68,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 69,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 71,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 73,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 74,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 75,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 77,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 78,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 80,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 81,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 82,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 84,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 86,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 87,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 89,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 90,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 91,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 94,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 95,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 96,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 98,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 99,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 101,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 103,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 104,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 105,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 106,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 108,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 109,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 111,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 113,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 114,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 116,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 118,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 119,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 121,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 122,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 123,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 124,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 126,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 128,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 129,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 131,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 132,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 134,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 136,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 137,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 138,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 139,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 141,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 143,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 144,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 146,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 147,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 149,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 151,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 152,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 153,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 154,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 156,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 158,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 160,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 161,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 162,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 163,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 165,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 167,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 169,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 170,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 171,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 172,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 174,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 176,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 177,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 179,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 180,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 181,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 183,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 185,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 186,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 188,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 190,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 191,
+              "multiplier_bit": -1
+            }
+          ]
+        },
+        "degree7": null,
+        "minimum_static_degree": 6
+      },
+      {
+        "charges": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "generators": 192,
+        "degree6": {
+          "degree": 6,
+          "row_count": 192,
+          "rank": 191,
+          "contains_constant": false,
+          "certificate": []
+        },
+        "degree7": {
+          "degree": 7,
+          "row_count": 1344,
+          "rank": 1227,
+          "contains_constant": true,
+          "certificate": [
+            {
+              "generator": 0,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 0,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 0,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 1,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 1,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 1,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 2,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 2,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 2,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 2,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 2,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 3,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 3,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 3,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 4,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 4,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 4,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 4,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 4,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 5,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 5,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 5,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 6,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 6,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 6,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 6,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 6,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 7,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 7,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 7,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 8,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 8,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 8,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 9,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 9,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 9,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 9,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 9,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 10,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 10,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 10,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 11,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 11,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 11,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 12,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 12,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 12,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 12,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 13,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 13,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 13,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 14,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 14,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 15,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 15,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 15,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 16,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 16,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 17,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 17,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 17,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 17,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 18,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 18,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 18,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 19,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 19,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 20,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 20,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 20,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 20,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 21,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 21,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 22,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 22,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 22,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 22,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 23,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 23,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 23,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 24,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 24,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 24,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 24,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 25,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 25,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 25,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 26,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 26,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 27,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 27,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 27,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 27,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 28,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 28,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 28,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 29,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 29,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 30,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 30,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 30,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 31,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 31,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 32,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 32,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 32,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 32,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 33,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 33,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 34,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 34,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 34,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 34,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 35,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 35,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 35,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 36,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 36,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 37,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 37,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 38,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 38,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 38,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 38,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 38,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 39,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 39,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 40,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 40,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 40,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 40,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 40,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 41,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 41,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 42,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 42,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 42,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 42,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 42,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 43,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 43,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 44,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 44,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 45,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 45,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 46,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 46,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 47,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 47,
+              "multiplier_bit": 8
+            },
+            {
+              "generator": 47,
+              "multiplier_bit": 9
+            },
+            {
+              "generator": 47,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 47,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 48,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 48,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 48,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 49,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 49,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 49,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 50,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 50,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 50,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 51,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 51,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 51,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 52,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 52,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 52,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 52,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 53,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 53,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 54,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 54,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 54,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 55,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 55,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 55,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 55,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 56,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 56,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 56,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 56,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 57,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 57,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 57,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 57,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 57,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 58,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 58,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 59,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 59,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 60,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 60,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 60,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 60,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 60,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 61,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 61,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 61,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 62,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 62,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 62,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 63,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 63,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 64,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 64,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 64,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 65,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 65,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 65,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 65,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 66,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 66,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 67,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 67,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 67,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 68,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 68,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 68,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 68,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 69,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 69,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 69,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 70,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 70,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 71,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 71,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 71,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 71,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 72,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 72,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 72,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 73,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 73,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 73,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 74,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 74,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 74,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 75,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 75,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 75,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 75,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 76,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 76,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 77,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 77,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 77,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 78,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 78,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 78,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 78,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 79,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 79,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 79,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 80,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 80,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 80,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 80,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 81,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 81,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 82,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 82,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 82,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 82,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 82,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 83,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 83,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 84,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 84,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 84,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 85,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 85,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 85,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 86,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 86,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 86,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 86,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 86,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 87,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 87,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 87,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 87,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 88,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 88,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 89,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 89,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 89,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 90,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 90,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 90,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 90,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 91,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 91,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 92,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 92,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 92,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 93,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 93,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 94,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 94,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 94,
+              "multiplier_bit": 10
+            },
+            {
+              "generator": 94,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 95,
+              "multiplier_bit": 2
+            },
+            {
+              "generator": 95,
+              "multiplier_bit": 3
+            },
+            {
+              "generator": 95,
+              "multiplier_bit": 11
+            },
+            {
+              "generator": 96,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 97,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 98,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 99,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 99,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 100,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 101,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 101,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 102,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 103,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 104,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 105,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 105,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 106,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 106,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 107,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 108,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 109,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 110,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 111,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 112,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 113,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 114,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 115,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 116,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 117,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 118,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 119,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 120,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 121,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 122,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 123,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 123,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 124,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 124,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 125,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 126,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 127,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 128,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 129,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 129,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 130,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 131,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 131,
+              "multiplier_bit": 0
+            },
+            {
+              "generator": 132,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 133,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 134,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 135,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 136,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 137,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 138,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 139,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 140,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 141,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 142,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 143,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 144,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 145,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 146,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 148,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 150,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 151,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 152,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 155,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 157,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 159,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 164,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 166,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 168,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 169,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 170,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 173,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 174,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 175,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 176,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 178,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 182,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 184,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 187,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 189,
+              "multiplier_bit": -1
+            }
+          ]
+        },
+        "minimum_static_degree": 7
+      },
+      {
+        "charges": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "generators": 192,
+        "degree6": {
+          "degree": 6,
+          "row_count": 192,
+          "rank": 192,
+          "contains_constant": true,
+          "certificate": [
+            {
+              "generator": 0,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 2,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 4,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 5,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 6,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 7,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 9,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 11,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 13,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 14,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 15,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 16,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 18,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 20,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 21,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 23,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 24,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 25,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 27,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 29,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 30,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 32,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 34,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 35,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 36,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 38,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 39,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 41,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 43,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 44,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 45,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 46,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 48,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 50,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 51,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 52,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 55,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 56,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 57,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 59,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 60,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 61,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 64,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 65,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 66,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 68,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 69,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 71,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 73,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 74,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 75,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 77,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 78,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 80,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 81,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 82,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 84,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 86,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 87,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 89,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 90,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 91,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 94,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 95,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 96,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 98,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 99,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 101,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 103,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 104,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 105,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 106,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 108,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 109,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 111,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 113,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 114,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 116,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 118,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 119,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 121,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 122,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 123,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 124,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 126,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 128,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 129,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 131,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 132,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 134,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 136,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 137,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 138,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 139,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 141,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 143,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 144,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 146,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 147,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 149,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 151,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 152,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 153,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 154,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 156,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 158,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 160,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 161,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 162,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 163,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 165,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 167,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 169,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 170,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 171,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 172,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 174,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 176,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 177,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 179,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 180,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 181,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 183,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 185,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 186,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 188,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 190,
+              "multiplier_bit": -1
+            },
+            {
+              "generator": 191,
+              "multiplier_bit": -1
+            }
+          ]
+        },
+        "degree7": null,
+        "minimum_static_degree": 6
+      }
+    ],
+    "scope": "static degree-truncated monomial-multiple span in Boolean quotient, not a general polynomial calculus lower bound"
+  },
+  "beal_local": {
+    "curves": 36,
+    "excluded_over_Q3": 9,
+    "certified_Q3_points": 27,
+    "other_primes": [
+      2,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "rows": [
+      {
+        "u": 1,
+        "delta": 1,
+        "k": 0,
+        "coefficients": [
+          "0",
+          "0",
+          "3",
+          "3",
+          "-24",
+          "21",
+          "-4",
+          "21",
+          "-21",
+          "25"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            0
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 2,
+          "F": "0",
+          "derivative": "3",
+          "v3_F": "infinity",
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 1,
+        "k": 1,
+        "coefficients": [
+          "2",
+          "21",
+          "-60",
+          "-60",
+          "-78",
+          "381",
+          "-13",
+          "381",
+          "-273",
+          "-584"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            7
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "-182061",
+          "derivative": "-13902",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              2,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              1,
+              14
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              23
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              13
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 1,
+        "k": 2,
+        "coefficients": [
+          "117",
+          "-432",
+          "-1383",
+          "-1383",
+          "8310",
+          "2307",
+          "1385",
+          "2307",
+          "-25878",
+          "6808"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            6
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 2,
+          "F": "1545399",
+          "derivative": "761565",
+          "v3_F": 4,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              1,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              1,
+              13
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              13
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              1,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              35
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 3,
+        "k": 0,
+        "coefficients": [
+          "1",
+          "-6",
+          "-9",
+          "-9",
+          "90",
+          "-9",
+          "15",
+          "-9",
+          "-234",
+          "114"
+        ],
+        "N27": 81,
+        "hensel3": {
+          "point": [
+            0,
+            1,
+            17
+          ],
+          "fixed_coordinate": 1,
+          "derivative_coordinate": 2,
+          "F": "492318",
+          "derivative": "90873",
+          "v3_F": 5,
+          "v3_derivative": 2
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              3,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              9
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              1,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              3,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              30
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              33
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 3,
+        "k": 1,
+        "coefficients": [
+          "-10",
+          "-201",
+          "423",
+          "423",
+          "1134",
+          "-3060",
+          "189",
+          "-3060",
+          "792",
+          "5289"
+        ],
+        "N27": 81,
+        "hensel3": {
+          "point": [
+            0,
+            1,
+            3
+          ],
+          "fixed_coordinate": 1,
+          "derivative_coordinate": 0,
+          "F": "140940",
+          "derivative": "-23715",
+          "v3_F": 5,
+          "v3_derivative": 2
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              1,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              2,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              1,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              2,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              2,
+              13
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 3,
+        "k": 2,
+        "coefficients": [
+          "-983",
+          "2253",
+          "13383",
+          "13383",
+          "-59148",
+          "-35946",
+          "-9858",
+          "-35946",
+          "209205",
+          "-23232"
+        ],
+        "N27": 81,
+        "hensel3": {
+          "point": [
+            0,
+            1,
+            14
+          ],
+          "fixed_coordinate": 1,
+          "derivative_coordinate": 2,
+          "F": "-23257530",
+          "derivative": "-7838622",
+          "v3_F": 5,
+          "v3_derivative": 2
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              19
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              2,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              24
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              28
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 5,
+        "k": 0,
+        "coefficients": [
+          "0",
+          "-3",
+          "6",
+          "6",
+          "6",
+          "-21",
+          "1",
+          "-21",
+          "-33",
+          "92"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            0
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "0",
+          "derivative": "-3",
+          "v3_F": "infinity",
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 5,
+        "k": 1,
+        "coefficients": [
+          "-11",
+          "18",
+          "159",
+          "159",
+          "-606",
+          "-489",
+          "-101",
+          "-489",
+          "2298",
+          "-82"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            4
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 2,
+          "F": "-12447",
+          "derivative": "-7689",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              2,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              2,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              1,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              13
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              1,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 5,
+        "k": 2,
+        "coefficients": [
+          "-90",
+          "2247",
+          "-1389",
+          "-1389",
+          "-21234",
+          "21264",
+          "-3539",
+          "21264",
+          "31332",
+          "-52483"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            6
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "-10579248",
+          "derivative": "1002795",
+          "v3_F": 6,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              2,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              1,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              3,
+              25
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              34
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 11,
+        "k": 0,
+        "coefficients": [
+          "1",
+          "-3",
+          "-12",
+          "-12",
+          "60",
+          "33",
+          "10",
+          "33",
+          "-222",
+          "47"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            2,
+            0
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "27",
+          "derivative": "69",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              3,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              9
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              1,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              23
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 11,
+        "k": 1,
+        "coefficients": [
+          "3",
+          "-198",
+          "204",
+          "204",
+          "1662",
+          "-2190",
+          "277",
+          "-2190",
+          "-1779",
+          "4787"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            2,
+            2
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 2,
+          "F": "7479",
+          "derivative": "29220",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              2,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              1,
+              9
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              29
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              36
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 11,
+        "k": 2,
+        "coefficients": [
+          "-776",
+          "-426",
+          "13389",
+          "13389",
+          "-29604",
+          "-54903",
+          "-4934",
+          "-54903",
+          "151995",
+          "36059"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            2,
+            3
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "2431539",
+          "derivative": "614229",
+          "v3_F": 4,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              1,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              23
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              17
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              26
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 15,
+        "k": 0,
+        "coefficients": [
+          "0",
+          "7",
+          "-9",
+          "-9",
+          "-54",
+          "84",
+          "-9",
+          "84",
+          "42",
+          "-173"
+        ],
+        "N27": 54,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            0
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "0",
+          "derivative": "7",
+          "v3_F": "infinity",
+          "v3_derivative": 0
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 15,
+        "k": 1,
+        "coefficients": [
+          "29",
+          "-7",
+          "-471",
+          "-471",
+          "1284",
+          "1776",
+          "214",
+          "1776",
+          "-5817",
+          "-782"
+        ],
+        "N27": 54,
+        "hensel3": {
+          "point": [
+            1,
+            3,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "4455",
+          "derivative": "9068",
+          "v3_F": 4,
+          "v3_derivative": 0
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              1,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              38
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 15,
+        "k": 2,
+        "coefficients": [
+          "405",
+          "-5963",
+          "936",
+          "936",
+          "63396",
+          "-45771",
+          "10566",
+          "-45771",
+          "-116238",
+          "133807"
+        ],
+        "N27": 54,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            0
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "405",
+          "derivative": "-5963",
+          "v3_F": 4,
+          "v3_derivative": 0
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              9
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              9
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              22
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              2,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              3,
+              26
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              2,
+              38
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              41
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 33,
+        "k": 0,
+        "coefficients": [
+          "-8",
+          "12",
+          "117",
+          "117",
+          "-432",
+          "-369",
+          "-72",
+          "-369",
+          "1665",
+          "-33"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              7,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              1,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              3,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              2,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              3,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              14
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              25
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              32
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 33,
+        "k": 1,
+        "coefficients": [
+          "-70",
+          "1635",
+          "-936",
+          "-936",
+          "-15642",
+          "15183",
+          "-2607",
+          "15183",
+          "23697",
+          "-38040"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              4,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              1,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              29
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              3,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              23
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 33,
+        "k": 2,
+        "coefficients": [
+          "5731",
+          "12828",
+          "-111285",
+          "-111285",
+          "143586",
+          "521973",
+          "23931",
+          "521973",
+          "-1064754",
+          "-505212"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              3,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              25
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              2,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              1,
+              25
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 55,
+        "k": 0,
+        "coefficients": [
+          "-1",
+          "18",
+          "-6",
+          "-6",
+          "-186",
+          "156",
+          "-31",
+          "156",
+          "303",
+          "-407"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            1,
+            2
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 2,
+          "F": "-1512",
+          "derivative": "-3084",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              7,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              2,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              14
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              2,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              27
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 55,
+        "k": 1,
+        "coefficients": [
+          "60",
+          "192",
+          "-1239",
+          "-1239",
+          "1056",
+          "6159",
+          "176",
+          "6159",
+          "-10803",
+          "-6713"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            1,
+            4
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "-480843",
+          "derivative": "-121110",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              2,
+              17
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              24
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              36
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              21
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 55,
+        "k": 2,
+        "coefficients": [
+          "1694",
+          "-12537",
+          "-11976",
+          "-11976",
+          "169014",
+          "-42189",
+          "28169",
+          "-42189",
+          "-412167",
+          "253588"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            1,
+            5
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 2,
+          "F": "20919195",
+          "derivative": "14590389",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              13
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              17
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              26
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              29
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              19
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 165,
+        "k": 0,
+        "coefficients": [
+          "4",
+          "-47",
+          "-6",
+          "-6",
+          "534",
+          "-309",
+          "89",
+          "-309",
+          "-1077",
+          "1028"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            3,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "-1485",
+          "derivative": "-77",
+          "v3_F": 3,
+          "v3_derivative": 0
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              3,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              2,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              14
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              2,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              9
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              21
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              36
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 165,
+        "k": 1,
+        "coefficients": [
+          "-135",
+          "-778",
+          "3231",
+          "3231",
+          "306",
+          "-18021",
+          "51",
+          "-18021",
+          "22242",
+          "23642"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            0,
+            0
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "-135",
+          "derivative": "-778",
+          "v3_F": 3,
+          "v3_derivative": 0
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              2,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              9
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              3,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              3,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              25
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 1,
+        "delta": 165,
+        "k": 2,
+        "coefficients": [
+          "-5246",
+          "28543",
+          "50259",
+          "50259",
+          "-443706",
+          "6936",
+          "-73951",
+          "6936",
+          "1215048",
+          "-531607"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            3,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "438075",
+          "derivative": "-853622",
+          "v3_F": 3,
+          "v3_derivative": 0
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              2,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              1,
+              28
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              3,
+              30
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 1,
+        "k": 0,
+        "coefficients": [
+          "-7364803589",
+          "60073256826",
+          "-163335253596",
+          "-163335253596",
+          "888195728910",
+          "-1207473027846",
+          "148032621485",
+          "-1207473027846",
+          "3283040135229",
+          "-2975457085709"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            5,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "1036786083660",
+          "derivative": "1625672917920",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              1,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              21
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              19
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              22
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              42
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 1,
+        "k": 1,
+        "coefficients": [
+          "-8778248",
+          "71602446",
+          "-194682363",
+          "-194682363",
+          "1058657196",
+          "-1439209815",
+          "176442866",
+          "-1439209815",
+          "3913117323",
+          "-3546503309"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            5,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "1235764890",
+          "derivative": "1937670135",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              2,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              17
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              35
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 1,
+        "k": 2,
+        "coefficients": [
+          "-10460",
+          "85347",
+          "-232098",
+          "-232098",
+          "1261938",
+          "-1715199",
+          "210323",
+          "-1715199",
+          "4663545",
+          "-4227308"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            5,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "1477035",
+          "derivative": "2312085",
+          "v3_F": 4,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              4,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              2,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              25
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              21
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              28
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 3,
+        "k": 0,
+        "coefficients": [
+          "333360530",
+          "-2719156389",
+          "7393208256",
+          "7393208256",
+          "-40203298746",
+          "54655069023",
+          "-6700549791",
+          "54655069023",
+          "-148603555575",
+          "134681113896"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              9
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              1,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              2,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              33
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              23
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 3,
+        "k": 1,
+        "coefficients": [
+          "397339",
+          "-3241020",
+          "8812107",
+          "8812107",
+          "-47919006",
+          "65144349",
+          "-7986501",
+          "65144349",
+          "-177123474",
+          "160529100"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              1,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              3,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              20
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              1,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              20
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              20
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              20
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 3,
+        "k": 2,
+        "coefficients": [
+          "452",
+          "-3921",
+          "10935",
+          "10935",
+          "-57582",
+          "75564",
+          "-9597",
+          "75564",
+          "-207162",
+          "193479"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              1,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              1,
+              28
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              32
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              2,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              42
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 11,
+        "k": 0,
+        "coefficients": [
+          "-1736631295",
+          "14165360493",
+          "-38514688077",
+          "-38514688077",
+          "209437832292",
+          "-284723879286",
+          "34906305382",
+          "-284723879286",
+          "774145592985",
+          "-701617066852"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            2,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "-44798520366",
+          "derivative": "123670180902",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              1,
+              5
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              1,
+              11
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              28
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              5,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              1,
+              28
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              26
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              31
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 11,
+        "k": 1,
+        "coefficients": [
+          "-2069923",
+          "16883955",
+          "-45906384",
+          "-45906384",
+          "249632952",
+          "-339367773",
+          "41605492",
+          "-339367773",
+          "922718568",
+          "-836270485"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            2,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "-53396307",
+          "derivative": "147404751",
+          "v3_F": 3,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              1,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              12
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              2,
+              17
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              21
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              2,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              1,
+              19
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              15
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              2,
+              23
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              27
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 11,
+        "k": 2,
+        "coefficients": [
+          "-2479",
+          "20022",
+          "-54390",
+          "-54390",
+          "297834",
+          "-406488",
+          "49639",
+          "-406488",
+          "1101549",
+          "-993853"
+        ],
+        "N27": 27,
+        "hensel3": {
+          "point": [
+            1,
+            2,
+            1
+          ],
+          "fixed_coordinate": 0,
+          "derivative_coordinate": 1,
+          "F": "-64800",
+          "derivative": "171561",
+          "v3_F": 4,
+          "v3_derivative": 1
+        },
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              10
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              1,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              1,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              28
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              2,
+              26
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 33,
+        "k": 0,
+        "coefficients": [
+          "78606893",
+          "-641180994",
+          "1743329160",
+          "1743329160",
+          "-9479995758",
+          "12887743986",
+          "-1579999293",
+          "12887743986",
+          "-35040932433",
+          "31758000681"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              7,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              2,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              1,
+              21
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              40
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              0,
+              33
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 33,
+        "k": 1,
+        "coefficients": [
+          "93688",
+          "-764202",
+          "2077947",
+          "2077947",
+          "-11299860",
+          "15361227",
+          "-1883310",
+          "15361227",
+          "-41764743",
+          "37852293"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              4
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              0,
+              7
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 2
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              18
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              0,
+              27
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              1,
+              27
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              26
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              2,
+              1
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      },
+      {
+        "u": 5,
+        "delta": 33,
+        "k": 2,
+        "coefficients": [
+          "176",
+          "93",
+          "126",
+          "126",
+          "-18522",
+          "34515",
+          "-3087",
+          "34515",
+          "-56601",
+          "18228"
+        ],
+        "N27": 0,
+        "hensel3": null,
+        "other_prime_witnesses": [
+          {
+            "prime": 2,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 5,
+            "point": [
+              1,
+              0,
+              3
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 7,
+            "point": [
+              1,
+              0,
+              2
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 11,
+            "point": [
+              1,
+              0,
+              0
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 13,
+            "point": [
+              1,
+              1,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 17,
+            "point": [
+              1,
+              0,
+              16
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 19,
+            "point": [
+              1,
+              0,
+              8
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 23,
+            "point": [
+              1,
+              0,
+              20
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 29,
+            "point": [
+              1,
+              1,
+              13
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 31,
+            "point": [
+              1,
+              0,
+              6
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 37,
+            "point": [
+              1,
+              0,
+              19
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 41,
+            "point": [
+              1,
+              1,
+              22
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          },
+          {
+            "prime": 43,
+            "point": [
+              1,
+              1,
+              42
+            ],
+            "fixed_coordinate": 0,
+            "derivative_coordinate": 1
+          }
+        ]
+      }
+    ],
+    "scope": "local points on explicit cubics, not global rational points or proof of Beal"
+  },
+  "riemann_constants": {
+    "prime_powers": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "beta_lower": "169187191976/1000000000000",
+    "M_upper": "9753681975557/1000000000000",
+    "trace_upper": "307334561308174/1000000000000",
+    "variance_upper": "926592466403/1000000000000",
+    "pole_tail_upper": "185782925/1000000000000",
+    "index_upper": "307639/850",
+    "margin_lower": "11085943/98300000000",
+    "scope": "rational enclosures for fixed-window spectral argument, using stated analytic inequalities"
+  }
+}
