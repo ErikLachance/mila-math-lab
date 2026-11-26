@@ -2,7 +2,7 @@
 
 Independent AI-assisted mathematical research / Recherche mathématique indépendante assistée par IA.
 
-**Research collection 0.3.0 — 26 November 2026.** [Scientific website](https://eriklachance.github.io/mila-math-lab/) · [Research catalog](https://eriklachance.github.io/mila-math-lab/catalog.html) · [Reproducibility](https://eriklachance.github.io/mila-math-lab/methods.html) · [Bibliography](https://eriklachance.github.io/mila-math-lab/references.html)
+**Research collection 0.4.0 — 26 November 2026.** [Scientific website](https://eriklachance.github.io/mila-math-lab/) · [Research catalog](https://eriklachance.github.io/mila-math-lab/catalog.html) · [Reproducibility](https://eriklachance.github.io/mila-math-lab/methods.html) · [Bibliography](https://eriklachance.github.io/mila-math-lab/references.html)
 
 No solution of P vs NP, Beal's conjecture, or the Riemann hypothesis is claimed. Research notes are not peer reviewed; novelty and prize eligibility are not established. We distinguish elementary proofs, finite certificates, conditional deductions, formal arguments and unresolved steps.
 
@@ -10,6 +10,9 @@ No solution of P vs NP, Beal's conjecture, or the Riemann hypothesis is claimed.
 
 | Identifier | Research note | Historical source date |
 |---|---|---|
+| ML-PNP-004 | [Exact integer recursion for fixed rational bilinear matrix identities](notes/pnp-rational-recursion.md) | 2026-11-09 |
+| ML-BEAL-004 | [Valuation obstructions to the rational-root reduction for (3,4,11)](notes/beal-rational-root-obstruction.md) | 2026-11-08 |
+| ML-RH-004 | [A Carleman obstruction at a spatial interface in the Weil form](notes/riemann-carleman-obstruction.md) | 2026-11-08 |
 | ML-PNP-003 | [Prime-power Tseitin constraints in matching characteristic](notes/pnp-tseitin.md) | 2026-11-08 |
 | ML-BEAL-003 | [Local arithmetic of 36 auxiliary ternary cubics](notes/beal-local-points.md) | 2026-11-08 |
 | ML-RH-003 | [Rational enclosures for a compact-window Weil-form estimate](notes/riemann-intervals.md) | 2026-11-08 |
@@ -30,9 +33,10 @@ Python 3.10+ and Node.js with BigInt support; standard libraries only.
 python3 experiments/verify.py
 node experiments/recheck-historical.mjs
 node experiments/certificates-20261126.mjs
+node experiments/frontier-20261126.mjs
 ```
 
-Exact outputs: [finite checks](results/independent-reproduction.json), [historical rechecks](results/historical-recheck-20261126.json), [explicit certificates](results/certificates-20261126.json). The original [Mertens scripts](experiments/mertens/) are provided for deliberate reproduction. The [compute pilot](notes/compute.md) is supporting technical documentation, not a mathematical publication.
+Verification outputs: [frontier arguments and countertests](results/frontier-20261126.json) (including illustrative floating-point quadrature), [finite checks](results/independent-reproduction.json), [historical rechecks](results/historical-recheck-20261126.json), [explicit certificates](results/certificates-20261126.json). The original [Mertens scripts](experiments/mertens/) are provided for deliberate reproduction. The [compute pilot](notes/compute.md) is supporting technical documentation, not a mathematical publication.
 
 ## Integrity and contributions
 

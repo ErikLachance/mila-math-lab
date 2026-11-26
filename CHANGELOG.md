@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0 — 2026-11-26
+
+- Added three notes on fixed rational bilinear recursion, rational-image valuation obstructions, and Carleman spatial-interface coupling (ML-PNP-004, ML-BEAL-004, ML-RH-004).
+- Added 96 exact matrix comparisons, 36,576 exact divisions, 20,087 coprime-pair checks and non-certified numerical illustrations of the Carleman witness integral.
+- Expanded the catalog to twelve notes and nineteen HTML pages, updated program roadmaps and bibliographic context. Older article versions are retained. The three conjectures remain open.
+
 ## 0.3.0 — 2026-11-26
 
 - Academic portal, nine research notes with stable identifiers, full English article pages and bilingual navigation and summaries.
