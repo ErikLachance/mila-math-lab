@@ -165,7 +165,11 @@ def render(meta, source_ref):
                 entry.set("data-search", ' '.join([meta["id"], "P vs NP", *[v for key in ("title", "summary", "result", "scope") for v in meta[key].values()]]))
             first.addprevious(entry)
         if path.endswith("catalog.html"):
-            tree.xpath('//*[@id="count"]')[0].text = f'{len(tree.xpath("//article[@data-paper]"))} notes'
+            note_count = len(tree.xpath("//article[@data-paper]"))
+            tree.xpath('//*[@id="count"]')[0].text = f'{note_count} notes'
+            introduction = tree.xpath('//section[@class="pagehead"]/p[@class="lede"]/span')[0]
+            introduction.text = f'{note_count} research notes with stable identifiers, source dates, full English text and verification data. None has been peer reviewed.'
+            introduction.set("data-fr", f'{note_count} notes de recherche avec identifiants stables, dates sources, texte intégral anglais et données de vérification. Aucune n’a été évaluée par les pairs.')
         if path.endswith("p-vs-np.html"):
             item = tree.xpath('//ol[@class="list"]/li')[-1]
             item.clear()
