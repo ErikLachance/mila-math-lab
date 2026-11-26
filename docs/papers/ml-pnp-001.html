@@ -2,7 +2,7 @@
 <h2 id="section-1">1. Structured 3-CNF instance</h2>
 <p>Let b_1,...,b_18 be Boolean variables and let F be the conjunction of 16 clauses (b_i OR b_(i+1) OR NOT b_(i+2)), for i=1,...,16. Encode b_i as bit i-1 of integer x in [0,2^18). The full truth table is reproduced by the verifier using both ordinary clause evaluation and the independent compact expression</p>
 <pre><code>((x | (x &gt;&gt; 1) | ~(x &gt;&gt; 2)) &amp; 65535) == 65535</code></pre>
-<p>Of 262,144 assignments, 10,945 satisfy the formula and 251,199 do not. The SHA-256 of the sequence of little-endian uint32 Boolean outputs (0 or 1, increasing x) is 5af5b258801a1138709617d3dceb6c4a669ea2b1139f4fea366e7f4b2259657d. Both test accelerators GPUs independently returned this digest in a bounded GPU arithmetic test on 2026-11-26, with host-side verification. The public verifier independently reproduces it. This highly structured instance is not a hard-instance benchmark or evidence of polynomial-time SAT solving.</p>
+<p>Of 262,144 assignments, 10,945 satisfy the formula and 251,199 do not. The SHA-256 of the sequence of little-endian uint32 Boolean outputs (0 or 1, increasing x) is 5af5b258801a1138709617d3dceb6c4a669ea2b1139f4fea366e7f4b2259657d. Both tested GPUs independently returned this digest in a bounded GPU arithmetic test on 2026-11-26, with host-side verification. The public verifier independently reproduces it. This highly structured instance is not a hard-instance benchmark or evidence of polynomial-time SAT solving.</p>
 <h2 id="section-2">2. Easy decision does not automatically provide easy counting</h2>
 <p>For a finite simple graph G=(V,E), construct the negative monotone 2-CNF formula</p>
 <div class="display-math">$$F_G = \bigwedge_{uv\in E}(\neg x_u\lor\neg x_v).$$</div>

@@ -4,3 +4,6 @@
 @media(prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#121a23;--paper:#19232e;--ink:#edf1f4;--muted:#b6c2cd;--line:#384653;--accent:#c7b4f6;--blue:#bed9ef;--soft:#263644;--green:#a5dec8}.primary{color:#111820}}
 @media(max-width:850px){.hero,.programs,.article-layout,.subgrid{grid-template-columns:1fr}.hero{padding-top:38px;gap:20px}.article-layout{gap:15px}.article-layout aside nav{position:static}.toc{display:flex;gap:5px 15px;flex-wrap:wrap}.toc li{margin:0}}@media(max-width:550px){.wrap{width:calc(100% - 34px)}.nav{gap:12px;font-size:13px}.paper{grid-template-columns:1fr;gap:8px;padding:18px 0}.paper-meta{display:flex;gap:8px 12px;flex-wrap:wrap}.paper-meta strong{margin:0}.section{padding:27px 0}.article{font-size:16px}.abstract{padding:15px}}
 @media print{header,footer,.crumb,.filters,.article-layout aside,.links,.skip{display:none!important}body{background:#fff;color:#000}.wrap{width:100%}.article-layout{display:block;padding:0}.article{font-size:11pt;line-height:1.5}a{color:#000}h1{font-size:26pt}.pagehead{padding:0 0 12px}.article h2{break-after:avoid}.tablewrap{overflow:visible}.abstract{break-inside:avoid}}
+
+/* Long certificate hashes and source identifiers must fit narrow article columns. */
+.article p,.article li{overflow-wrap:anywhere}

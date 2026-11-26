@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Self-contained proofs for threshold graphs and Cartesian products, applied to the finite-generator research program."><title>Graph algebraic immunity: exact threshold benchmarks and limits of repetition | MILA Mathematical Research Lab</title><link rel="stylesheet" href="../assets/site.css"><script defer src="../assets/site.js"></script><script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['$$','$$']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script></head><body><a class="skip" href="#main"><span data-fr="Aller au contenu">Skip to content</span></a><header><div class="wrap mast"><a class="brand" data-local href="../index.html"><span class="mark" aria-hidden="true">M</span><span><strong>MILA Mathematical Research Lab</strong><small><span data-fr="Recherche mathématique indépendante">Independent mathematical research</span></small></span></a><nav class="nav" aria-label="Main navigation"><a data-local href="../index.html"><span data-fr="Accueil">Overview</span></a><a data-local href="../catalog.html"><span data-fr="Publications">Research notes</span></a><a data-local href="../methods.html"><span data-fr="Reproductibilité">Reproducibility</span></a><a data-local href="../references.html"><span data-fr="Références">References</span></a><a href="https://github.com/ErikLachance/mila-math-lab">GitHub</a><button id="language" type="button" aria-label="Change language / Changer de langue">Français</button></nav></div></header><main id="main" class="wrap"><div class="crumb"><a data-local href="../index.html"><span data-fr="Accueil">Overview</span></a> / <a data-local href="../p-vs-np.html">P vs NP</a> / ML-PNP-005</div><section class="pagehead"><p class="eyebrow">ML-PNP-005 · <span data-fr="Preuve et vérification finie">Proof and finite verification</span></p><h1><span data-fr="Immunité algébrique des graphes : fonctions à seuil et limites de la répétition">Graph algebraic immunity: exact threshold benchmarks and limits of repetition</span></h1><p class="quiet">2026-11-26 · <span data-fr="Non évalué par les pairs">Not peer reviewed</span></p><div class="abstract"><h2><span data-fr="Résumé">Summary</span></h2><p><span data-fr="Preuves autonomes pour les graphes des fonctions à seuil et les produits cartésiens, appliquées à notre recherche sur les générateurs finis.">Self-contained proofs for threshold graphs and Cartesian products, applied to the finite-generator research program.</span></p><p><strong><span data-fr="Résultat.">Result.</span></strong> <span data-fr="La majorité sur 2k−1 entrées a un degré minimal de relation exactement égal à k ; répéter des blocs indépendants conserve le degré minimal.">Odd majority on 2k−1 inputs has exact graph relation degree k; repeating independent blocks preserves the minimum degree.</span></p><p><strong><span data-fr="Portée.">Scope.</span></strong> <span data-fr="La majorité possède de petits circuits. Un degré croissant ne suffit pas à établir une borne inférieure générale de circuits ou à séparer P de NP. Concepts établis ; aucune nouveauté revendiquée.">Majority has small circuits. A growing relation degree alone gives no general circuit lower bound or P vs NP separation. Established concepts; no novelty claim.</span></p></div><div class="links"><a href="https://github.com/ErikLachance/mila-math-lab/blob/e1123849df53355e80cc0c7cbbc0c8ba1ab7ec5f/notes/pnp-graph-degree.md"><span data-fr="Source Markdown (EN)">Source Markdown (EN)</span></a><a href="https://github.com/ErikLachance/mila-math-lab/blob/e1123849df53355e80cc0c7cbbc0c8ba1ab7ec5f/experiments/boolean-degree-20261126.py"><span data-fr="Code de vérification">Verification code</span></a><a href="https://github.com/ErikLachance/mila-math-lab/blob/e1123849df53355e80cc0c7cbbc0c8ba1ab7ec5f/results/boolean-degree-20261126.json"><span data-fr="Données exactes">Exact data</span></a></div></section><div class="article-layout"><aside><nav aria-label="Contents"><p class="eyebrow"><span data-fr="Sommaire (anglais)">Contents (English)</span></p><ul class="toc"><li><a href="#section-1">Abstract</a></li><li><a href="#section-2">1. Boolean polynomial functions and the degree being measured</a></li><li><a href="#section-3">2. Exact characterization of graph relations</a></li><li><a href="#section-4">3. Ordinary algebraic immunity and the equality case</a></li><li><a href="#section-5">4. Exact formula for all Hamming-weight thresholds</a></li><li><a href="#section-6">5. A maximal-degree family with a small Boolean circuit</a></li><li><a href="#section-7">6. Cartesian repetition cannot amplify this degree</a></li><li><a href="#section-8">7. Output changes: affine invariance and the inverse-degree bound</a></li><li><a href="#section-9">8. Reproduction and scope of verification</a></li><li><a href="#section-10">9. Consequences for the research program</a></li><li><a href="#section-11">References</a></li></ul><p class="quiet">ML-PNP-005</p></nav></aside><article class="article" lang="en"><p class="notice"><span data-fr="Note intégrale en anglais ; résumé et navigation en français.">Full note in English; summary and navigation in French.</span></p><p><strong>ML-PNP-005.</strong> 26 November 2026. Self-contained proofs and applications of established algebraic-immunity concepts. Not peer reviewed; no claim of literature novelty.</p>
+<h2 id="section-1">Abstract</h2>
+<p>We identify the minimum degree of a nonzero Boolean polynomial relation on a one-bit graph, relate it precisely to algebraic immunity, and compute it for every Hamming-weight threshold. The majority graph on 2k−1 input bits has minimum relation degree k, which is the largest possible value for any graph with those dimensions. In particular, the 13-to-14 majority generator has exact minimum relation degree 7, while admitting a Boolean circuit with O(n²) gates as the input dimension grows. We also prove that Cartesian repetition preserves the minimum relation degree, that affine output changes preserve it, and that output changes with uniformly bounded inverse degree cannot turn repetition of a fixed example into a family with unbounded relation degree.</p>
+<p>These results delimit what the degree statistic can establish in the present P-vs-NP research program. Algebraic immunity, graph algebraic immunity, their basic comparison bounds, and the optimal algebraic immunity of majority are established subjects; see Carlet's monograph [1]. The proofs below make the particular benchmarks and their assumptions explicit. They do not establish general circuit lower bounds or resolve P vs NP.</p>
+<h2 id="section-2">1. Boolean polynomial functions and the degree being measured</h2>
+<p>All coefficients are in the field with two elements. Work in the quotient ring</p>
+<div class="display-math">$$
+R_m=\mathbb F_2[y_1,\ldots,y_m]/(y_1^2-y_1,\ldots,y_m^2-y_m).
+$$</div>
+<p>Every element has a unique multilinear algebraic normal form and represents a unique function on the Boolean cube. Its degree is the degree of that normal form. Set deg(0)=−∞. In particular, a polynomial relation must be a <strong>nonzero element of this quotient</strong>. The formal polynomial y_i²−y_i represents zero and is not an admissible relation.</p>
+<p>For a subset S of the m-dimensional Boolean cube, define</p>
+<div class="display-math">$$
+\delta(S)=\min\{\deg Q:0\ne Q\in R_m,\ Q(s)=0\text{ for all }s\in S\}.
+$$</div>
+<p>Set δ(S)=∞ if S is the full cube: no nonzero Boolean function vanishes everywhere. Set δ(∅)=0, witnessed by the constant function 1. For every nonempty proper S, the degree lies between 1 and m. The upper bound follows by taking the indicator of any point outside S.</p>
+<p>The quantity δ(S) is the algebraic immunity of a set in the standard terminology. For the graph</p>
+<div class="display-math">$$
+\Gamma_h=\{(y,h(y)):y\in\mathbb F_2^n\}
+$$</div>
+<p>of a Boolean function h, δ(Γ_h) is its graph algebraic immunity, conventionally denoted AI_gr(h). We retain δ to distinguish graph relations from the ordinary algebraic immunity of h.</p>
+<h2 id="section-3">2. Exact characterization of graph relations</h2>
+<p><strong>Proposition 1.</strong> For every Boolean function h on n variables,</p>
+<div class="display-math">$$
+\delta(\Gamma_h)=
+\min_{0\ne B\in R_n}\max\{\deg(hB),\ 1+\deg B\}.
+$$</div>
+<p>Here hB is multiplied and reduced in the Boolean quotient ring.</p>
+<p><strong>Proof.</strong> Every element of R_(n+1) has a unique expression</p>
+<div class="display-math">$$
+Q(y,z)=A(y)+zB(y).
+$$</div>
+<p>It vanishes on Γ_h exactly when A+hB=0, equivalently A=hB. If B=0, this condition forces A=0; thus a graph relation is nonzero exactly when B is nonzero. Monomials in A contain no z, and those in zB contain z, so these two parts cannot cancel. Their combined degree is exactly the maximum in the displayed formula. Conversely, every nonzero B produces the relation Q=hB+zB. This proves the formula.</p>
+<p>The graph's vanishing ideal is therefore the principal ideal generated by z+h, interpreted in the quotient ring. The formula concerns the degree after Boolean reduction; an unreduced product may have a larger syntactic degree.</p>
+<h2 id="section-4">3. Ordinary algebraic immunity and the equality case</h2>
+<p>The ordinary algebraic immunity of h is</p>
+<div class="display-math">$$
+\operatorname{AI}(h)=\min\{\deg g:0\ne g\in R_n,
+\ gh=0\text{ or }g(h+1)=0\}.
+$$</div>
+<p>An annihilator of h is supported where h=0; an annihilator of h+1 is supported where h=1. The established comparison is</p>
+<div class="display-math">$$
+\operatorname{AI}(h)\le\delta(\Gamma_h)
+\le\operatorname{AI}(h)+1.
+$$</div>
+<p>For completeness, the upper bound follows by taking a minimum-degree annihilator g and using zg when gh=0, or (z+1)g when g(h+1)=0. For the lower bound, take a graph relation Q=A+zB of degree d and define C=A+B. Then</p>
+<div class="display-math">$$
+A=hB,\qquad C=(1+h)B,\qquad A(1+h)=0,\qquad Ch=0.
+$$</div>
+<p>At least one of A,C is nonzero, because B is nonzero. Both have degree at most d, so AI(h)≤d.</p>
+<p>This proof also gives an exact equality criterion. Write k=AI(h). Then δ(Γ_h)=k if and only if there are nonzero annihilators A of h+1 and C of h, both of degree k, whose homogeneous degree-k parts are equal. In that case B=A+C is nonzero and has degree at most k−1, and Q=A+zB has degree k.</p>
+<p>To prove necessity, start from a graph relation of degree k. If either A or C were zero, B would itself be a nonzero annihilator of degree at most k−1, contradicting the definition of k. Thus both have degree exactly k, and deg(A+C)=deg B≤k−1 forces equality of their leading parts. For sufficiency, the supports of A and C are disjoint, so A+C cannot be zero; their sum supplies B in Proposition 1. This argument also handles constant h: AI(h)=0, the equality criterion cannot hold, and δ(Γ_h)=1.</p>
+<h2 id="section-5">4. Exact formula for all Hamming-weight thresholds</h2>
+<p>Let n≥1 and 1≤t≤n. Define</p>
+<div class="display-math">$$
+h_{n,t}(y)=\begin{cases}
+1,&amp;\operatorname{wt}(y)\ge t,\\
+0,&amp;\operatorname{wt}(y)&lt;t,
+\end{cases}
+$$</div>
+<p>where wt(y) is the number of coordinates equal to 1.</p>
+<p><strong>Theorem 2.</strong> The minimum nonzero annihilator degrees of h_(n,t)+1 and h_(n,t) are respectively t and n−t+1. Consequently,</p>
+<div class="display-math">$$
+\operatorname{AI}(h_{n,t})=\min\{t,n-t+1\},
+$$</div>
+<p>and</p>
+<div class="display-math">$$
+\delta(\Gamma_{h_{n,t}})=
+\begin{cases}
+t,&amp;n=2t-1,\\
+\min\{t,n-t+1\}+1,&amp;n\ne2t-1.
+\end{cases}
+$$</div>
+<p>The constant thresholds t=0 and t=n+1 have AI=0 and graph degree 1.</p>
+<p><strong>Proof of the one-sided degrees.</strong> Suppose g vanishes at every input of weight less than t. Write its normal form as a sum of squarefree monomials with coefficients a_S. Boolean Möbius inversion gives</p>
+<div class="display-math">$$
+a_S=\sum_{T\subseteq S}g(1_T)\quad\text{in }\mathbb F_2,
+$$</div>
+<p>where 1_T is the vector with ones exactly in T. If |S|&lt;t, every summand is zero. Hence a nonzero g supported on the region of weight at least t must have degree at least t. The monomial consisting of any t distinct variables attains this bound and annihilates h_(n,t)+1.</p>
+<p>Apply the coordinate complement y_i↦1+y_i to obtain the other bound. The region of weight less than t becomes the region of weight at least n−t+1. Complementing coordinates preserves algebraic degree because the substitution and its inverse are affine. A product of any n−t+1 factors (1+y_i) attains the bound and annihilates h_(n,t).</p>
+<p><strong>Proof of the graph degree when the two bounds differ.</strong> Let k=min(t,n−t+1). One of the two annihilator spaces has no nonzero element of degree at most k. A graph relation of degree at most k would yield A,C as in Section 3. The member of the more constrained space must be zero, making B itself an annihilator of degree at most k−1. This is impossible. Thus the graph degree is at least k+1; the upper bound in Section 3 makes it exactly k+1.</p>
+<p><strong>Proof in the balanced case.</strong> If n=2t−1, choose any set J of t input coordinates and put</p>
+<div class="display-math">$$
+A(y)=\prod_{i\in J}y_i,\qquad
+C(y)=\prod_{i\in J}(1+y_i),\qquad B=A+C.
+$$</div>
+<p>If A=1, the total weight is at least t. If C=1, there are t zero coordinates, so the total weight is at most t−1. Thus A is supported where h=1 and C where h=0. Their degree-t monomials cancel in B, and B has degree exactly t−1: all proper-subset monomials of J occur. For t=1 this says B=1, of degree zero. Therefore</p>
+<div class="display-math">$$
+Q(y,z)=A(y)+z\bigl(A(y)+C(y)\bigr)
+$$</div>
+<p>is a nonzero graph relation of degree exactly t. Section 3 gives the matching lower bound t.</p>
+<h2 id="section-6">5. A maximal-degree family with a small Boolean circuit</h2>
+<p>Take n=2k−1 and h to be majority: h(y)=1 exactly when wt(y)≥k. Theorem 2 gives</p>
+<div class="display-math">$$
+G_n(y)=(y,h(y)),\qquad \delta(\operatorname{im}G_n)=k=\frac{n+1}{2}.
+$$</div>
+<p>This value is maximal among all one-bit graphs of the same dimension. Indeed, the space of Boolean polynomials in 2k variables of degree at most k has dimension</p>
+<div class="display-math">$$
+\sum_{j=0}^{k}\binom{2k}{j}
+=2^{2k-1}+\frac12\binom{2k}{k}&gt;2^{2k-1}.
+$$</div>
+<p>Evaluation on any such graph has only 2^(2k−1) coordinates, so it must have a nonzero kernel. Every graph therefore has a nonzero relation of degree at most k, and majority attains this upper bound.</p>
+<p>For n=13, choose J={1,…,7}. The concrete degree-7 witness is</p>
+<div class="display-math">$$
+Q(y,z)=\prod_{i=1}^{7}y_i+
+z\left(\prod_{i=1}^{7}y_i+
+\prod_{i=1}^{7}(1+y_i)\right).
+$$</div>
+<p>The polynomial in parentheses has degree 6. Thus Q has degree 7 and vanishes on all 8,192 outputs (y,Maj_13(y)). The theorem proves that no nonzero Boolean relation of degree at most 6 exists. This is an exact mathematical conclusion, independent of finite-rank computations. It supplies a degree benchmark for comparison with the degree-4 and degree-5 13-to-14 examples of ML-PNP-002.</p>
+<p>The family nevertheless has small Boolean circuits. Let T_(i,j) mean that at least j of the first i input bits are 1. With constants T_(i,0)=1 and T_(0,j)=0 for j&gt;0, use</p>
+<div class="display-math">$$
+T_{i,j}=T_{i-1,j}\lor\bigl(y_i\land T_{i-1,j-1}\bigr).
+$$</div>
+<p>Computing the entries 1≤i≤n and 1≤j≤k requires at most two fan-in-two gates per entry; entries j&gt;i may be fixed to zero. The output is T_(n,k). This gives a uniform explicit O(nk), hence O(n²), circuit construction; the remaining outputs are input wires.</p>
+<p>Consequently, minimum graph-relation degree can grow linearly with n and be maximal for the dimensions while the generator remains computable by a polynomial-size circuit. The degree statistic alone does not establish superpolynomial unrestricted Boolean circuit size.</p>
+<p>The comparison with ML-PNP-002 concerns the degree statistic. The majority output depends on every input bit, so this family does not have uniformly bounded output locality. It does not replace a construction subject to an NC0 or other specific local-circuit requirement. Any intended lower-bound application must preserve its actual circuit class, uniformity, stretch, field, and testing promises.</p>
+<h2 id="section-7">6. Cartesian repetition cannot amplify this degree</h2>
+<p><strong>Theorem 3.</strong> For nonempty sets S_i in disjoint Boolean coordinate blocks,</p>
+<div class="display-math">$$
+\delta(S_1\times\cdots\times S_r)=\min_i\delta(S_i).
+$$</div>
+<p>The value ∞ is allowed; if all factors are full cubes, the product is a full cube.</p>
+<p><strong>Upper bound.</strong> Any relation on one factor is also a relation on the product when treated as a polynomial independent of the other coordinate blocks. This proves the upper bound whenever some factor has a finite relation degree.</p>
+<p><strong>Lower bound.</strong> Fix an integer d smaller than every δ(S_i). In each block, the evaluations on S_i of all squarefree monomials of degree at most d are linearly independent. Otherwise their nonzero linear combination would be a relation of degree at most d on that factor.</p>
+<p>The tensor products of these independent evaluation families are independent on the Cartesian product. This follows either by extending each family to a basis or by applying the corresponding dual linear functionals one coordinate block at a time. Every global squarefree monomial of total degree at most d is one of these tensor products: its degree within each block is at most d. These global monomials therefore have independent evaluations. No nonzero polynomial of total degree at most d vanishes on the product, which proves the lower bound.</p>
+<p>If an empty factor is permitted, the product is empty and the same equality holds with δ(∅)=0. Zero-dimensional blocks cause no additional exception: their nonempty cube consists of one point and has δ=∞.</p>
+<p>In particular, for any fixed generator G with image S, independent repetition on r input blocks has image S^r and exactly the same minimum relation degree δ(S). If the input blocks are correlated or overlap, the image is merely a subset of S^r. The single-block relation still vanishes, so the degree is at most δ(S); equality need not hold. Repeating a fixed finite example therefore cannot by itself produce unbounded minimum relation degree.</p>
+<h2 id="section-8">7. Output changes: affine invariance and the inverse-degree bound</h2>
+<p><strong>Proposition 4.</strong> If T is an invertible affine transformation of the ambient Boolean cube, then</p>
+<div class="display-math">$$
+\delta(T(S))=\delta(S).
+$$</div>
+<p>Indeed, substituting T or its affine inverse into a polynomial cannot increase its degree. Composition with a bijection preserves nonzeroness as a Boolean function. Applying the two substitutions gives the two inequalities. This includes invertible mixing between repeated output blocks, coordinate permutations, and coordinate complements.</p>
+<p>A nonlinear bijection requires a different bound. Suppose S is nonempty and proper, and T and T^(-1) have coordinate algebraic degrees at most a and b, respectively, where a,b≥1. Then</p>
+<div class="display-math">$$
+\left\lceil\frac{\delta(S)}{a}\right\rceil
+\le\delta(T(S))\le b\,\delta(S).
+$$</div>
+<p>For the upper bound, compose a minimum-degree relation on S with T^(-1). Substitution into a degree-d monomial has degree at most bd, and Boolean reduction can only lower degree. The resulting function remains nonzero and vanishes on T(S). Applying the same argument in the opposite direction gives δ(S)≤aδ(T(S)), proving the lower bound.</p>
+<p>Thus, if S is fixed and T_r is a bijection on the output cube of S^r whose <strong>inverse</strong> coordinate degrees are bounded by a constant b independent of r, then</p>
+<div class="display-math">$$
+\delta(T_r(S^r))\le b\,\delta(S).
+$$</div>
+<p>This remains bounded as r grows. A bound on the forward degree alone does not give this upper bound; the inverse-degree hypothesis is essential to the argument. Growing inverse degree only removes this particular obstruction and is not sufficient to prove degree growth.</p>
+<h2 id="section-9">8. Reproduction and scope of verification</h2>
+<p>The arguments above are general algebraic proofs. Finite computation can independently check the normal-form characterization, threshold cases, explicit witnesses, and product formula on selected instances; it cannot replace their general proofs.</p>
+<p>The exact verifier is <a href="https://github.com/ErikLachance/mila-math-lab/blob/e1123849df53355e80cc0c7cbbc0c8ba1ab7ec5f/experiments/boolean-degree-20261126.py">experiments/boolean-degree-20261126.py</a>, with its recorded output in <a href="https://github.com/ErikLachance/mila-math-lab/blob/e1123849df53355e80cc0c7cbbc0c8ba1ab7ec5f/results/boolean-degree-20261126.json">results/boolean-degree-20261126.json</a>. It uses binary arithmetic and integer bitsets, with no floating point. Reproduce and compare against the recorded output from the repository root with:</p>
+<pre><code class="language-text">python3 experiments/boolean-degree-20261126.py --check
+</code></pre>
+<p>The completed run records the following finite checks:</p>
+<div class="tablewrap"><table>
+<thead>
+<tr>
+  <th>Check</th>
+  <th>Completed scope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Graph formula and ordinary immunity</td>
+  <td>All 278 Boolean functions with zero through three input variables; 65,534 nonzero multiplier evaluations</td>
+</tr>
+<tr>
+  <td>Cartesian products and free coordinates</td>
+  <td>529 cases, comprising 361 exhaustive small products, 95 free-coordinate extensions, and 73 structured or seeded larger products</td>
+</tr>
+<tr>
+  <td>Balanced functions</td>
+  <td>All 12,870 balanced four-input functions, plus two recorded balanced five-input examples with AI=2 and graph degree 3</td>
+</tr>
+<tr>
+  <td>Threshold formula</td>
+  <td>All 36 nonconstant thresholds with one through eight input variables, checked by exact binary rank and witnesses</td>
+</tr>
+<tr>
+  <td>Expanded majority witnesses</td>
+  <td>Odd input dimensions 1 through 13, with 10,922 graph-point evaluations in total</td>
+</tr>
+</tbody>
+</table>
+</div><p>The five-input balanced example is specified by truth table <code>0x17543756</code> under the little-endian conventions recorded in the JSON. Its degree-2 graph evaluation matrix has full column rank 22, and the verifier supplies a degree-3 relation. Thus balancedness alone does not force graph immunity to equal ordinary immunity. The equality observed for all balanced four-input functions is reported only for that finite scope.</p>
+<p>A second, structured example is given by f=b+c+d+bc+bd+cd and h=(1+a)f+a(1+b)e over the field with two elements. Its truth table is <code>0x37761554</code>, with twelve ones on a=0 and four on a=1. The monomial ab annihilates h; exact ranks certify AI(h)=2 and graph degree 3. The displayed relation (1+a)(z+f)=0 on its graph gives a concise cubic upper witness.</p>
+<p>A rank check uses a matrix whose columns are evaluations of distinct squarefree monomials and whose rows are points of the specified set. Full column rank over the field with two elements excludes all nonzero relations in that monomial span. Rank deficiency supplies such a relation. Integer, floating-point, and characteristic-zero ranks do not certify the required binary rank.</p>
+<p>For the 13-to-14 majority example, the general proof already establishes exact degree 7. Exhaustive evaluation of the displayed witness certifies its vanishing on that finite graph; it is not, by itself, a computational certificate of the degree-6 lower bound. These two forms of evidence should be reported separately.</p>
+<h2 id="section-10">9. Consequences for the research program</h2>
+<p>The degree-4 and degree-5 relations in ML-PNP-002 should be interpreted as graph algebraic-immunity measurements for those finite output sets. Repetition preserves the minimum degree, and uniformly bounded inverse-degree output changes keep it bounded. A growing-family argument must address this obstruction explicitly.</p>
+<p>Majority supplies an explicit infinite family with optimal graph degree and polynomial-size circuits. It therefore rules out treating high graph degree alone as a general circuit-hardness certificate. A useful next question is whether a family satisfying the precise restrictions of the intended lower-bound application admits a provable growing degree bound, and whether the intended reduction actually consumes that bound with the required parameters.</p>
+<p>No conclusion about P versus NP, general circuit lower bounds, or a new polynomial identity testing algorithm follows from this note. Its contribution to this repository is a sourced conceptual clarification, complete proofs for the stated benchmarks, and reproducible tests of the finite instances.</p>
+<h2 id="section-11">References</h2>
+<ol>
+<li>Claude Carlet, <a href="https://www.math.univ-paris13.fr/~carlet/book-fcts-Bool-vect-crypt-codes.pdf">Boolean Functions for Cryptography and Coding Theory</a>, author-hosted monograph. Definition 23, printed p. 111: ordinary algebraic immunity. Printed p. 366: majority's optimal algebraic immunity and its limitations. Definitions 74–76, printed pp. 376–377: immunity of a set and graph immunity. Section 9.2.1, printed p. 377: comparison bounds for vectorial functions, including AI(F)≤AI_gr(F)≤AI(F)+m. These references establish the terminology and relevant prior context; no novelty claim is made for the elementary derivations here.</li>
+<li>MILA Math Lab, <a href="https://github.com/ErikLachance/mila-math-lab/blob/e1123849df53355e80cc0c7cbbc0c8ba1ab7ec5f/notes/pnp-advanced-20261109.md">ML-PNP-002: finite generator relations and formal exponent analysis</a>. Earlier repository examples, retained with their original scope.</li>
+</ol>
+</article></div></main><footer><div class="wrap foot"><div><strong>MILA Mathematical Research Lab</strong><br><span data-fr="Collection 0.5.0 · 26 novembre 2026 · Assistée par IA · Non évaluée par les pairs">Collection 0.5.0 · 26 November 2026 · AI-assisted · Not peer reviewed</span></div><div class="links"><a data-local href="../methods.html#integrity"><span data-fr="Intégrité scientifique">Research integrity</span></a><a href="https://github.com/ErikLachance/mila-math-lab/issues"><span data-fr="Corrections">Corrections</span></a><a href="https://github.com/ErikLachance/mila-math-lab/blob/bdd72e8fc60b1cde45b7c22bac25621ee8f20152/LICENSE"><span data-fr="Apache-2.0">Apache-2.0</span></a></div></div></footer></body></html>
