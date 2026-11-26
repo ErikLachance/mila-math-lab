@@ -1,5 +1,10 @@
 # Changelog
 
+## Deployment maintenance — 2026-11-26
+
+- Replaced automatic branch-based Pages publishing with a versioned workflow using pinned official Node.js 24 actions, including the nested artifact uploader. The workflow deploys the existing `docs/` site and preserves `.nojekyll`.
+- Added automatic deployment for site/workflow changes on `main` and a manual trigger. The scientific collection remains version 0.5.1.
+
 ## 0.5.1 — 2026-11-26
 
 - Imported the scientific contents of all 151 inventoried Riemann research sources: 90 narrative records, 29 script bundles and 32 standalone Python/JSON files. The published archive contains 220 extracted source blocks and all 335 ZIP members, with private operational metadata omitted from narrative derivatives.

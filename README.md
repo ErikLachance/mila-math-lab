@@ -58,7 +58,9 @@ The [Boolean graph verifier](experiments/boolean-degree-20261126.py) compares ex
 
 ## Website maintenance
 
-The static site is served from `docs/` by GitHub Pages. To regenerate ML-PNP-005 and its catalog, overview, program and reproduction entries, install `scripts/requirements-site.txt` and run `python3 scripts/render-note.py publication/ml-pnp-005.json --source-ref COMMIT_SHA`. Use the full commit containing the reviewed note, verifier and exact output; it pins the published provenance links. The renderer uses the existing article shell and does not regenerate unrelated notes.
+The static site is served from `docs/` by the [versioned GitHub Pages workflow](.github/workflows/pages.yml). In the repository's Pages settings, the publishing source is **GitHub Actions**. Changes to `docs/` or the workflow on `main` trigger deployment; a manual dispatch is also available. Official actions are pinned to reviewed releases using Node.js 24, including the upload action inside `upload-pages-artifact`. The workflow publishes the existing HTML directly and preserves `docs/.nojekyll`.
+
+To regenerate ML-PNP-005 and its catalog, overview, program and reproduction entries, install `scripts/requirements-site.txt` and run `python3 scripts/render-note.py publication/ml-pnp-005.json --source-ref COMMIT_SHA`. Use the full commit containing the reviewed note, verifier and exact output; it pins the published provenance links. The renderer uses the existing article shell and does not regenerate unrelated notes.
 
 ## Integrity and contributions
 
