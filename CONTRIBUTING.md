@@ -1,0 +1,3 @@
+# Contributing
+
+Report errors, counterexamples, new experiments or literature leads through Issues. For a reproducible result, include an exact statement, input range and seed, software version, verification method, and limits. Distinguish finite observations from general proofs. Include citations and explain how an argument relates to established results; no claim of novelty without a literature review. Preserve failed approaches and correct errors openly. Do not submit private logs, credentials, internal infrastructure settings or unrelated personal data. No automatic GPU runs or deployments are part of the public repository.

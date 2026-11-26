@@ -1,0 +1,26 @@
+{
+  "beal": {
+    "abc_obstruction": {"c": 6436343, "exact_inequality": true, "radical": 15042},
+    "fixed_base_exponents": [3, 59],
+    "fixed_base_matches": 0,
+    "threshold_71_105_count": 115,
+    "threshold_89_132_count": 143
+  },
+  "independent_sets": {"all_agree": true, "graphs": 198, "scope": "new deterministic replication, not the historical random sample", "seed": 20261126},
+  "mertens": {
+    "M_N": 1928,
+    "N": 100000000,
+    "base": 1000000,
+    "checkpoints": {"1": 1, "10": -1, "100": 1, "1000": 2, "10000": -23, "100000": -48, "1000000": 212, "10000000": 1037, "100000000": 1928, "20000000": -953, "30000000": -1157, "40000000": -333, "50000000": -908, "60000000": 1267, "70000000": -1270, "80000000": 1088, "90000000": 2050},
+    "scope": "endpoint verification, not a pointwise independent sieve through N"
+  },
+  "sat": {
+    "assignments": 262144,
+    "boolean_byte_sha256": "8131215d783bd00f256c351d43ef555cc3468e5fb26c58877d6efa197c054166",
+    "clauses": 16,
+    "satisfying": 10945,
+    "uint32_le_sha256": "5af5b258801a1138709617d3dceb6c4a669ea2b1139f4fea366e7f4b2259657d",
+    "unsatisfying": 251199,
+    "variables": 18
+  }
+}
