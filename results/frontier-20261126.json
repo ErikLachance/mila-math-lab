@@ -1,0 +1,166 @@
+{
+  "matrix": {
+    "tests": 96,
+    "exact_divisions": 36576,
+    "leaf_multiplications": 48408,
+    "maximum_intermediate_bits": 131,
+    "all_pass": true,
+    "details": [
+      {
+        "dimensions": [
+          2,
+          2,
+          2
+        ],
+        "rank": 7,
+        "integer_denominators": [
+          "12",
+          "60",
+          "12600"
+        ],
+        "row_norms": [
+          "40",
+          "240",
+          "126350"
+        ],
+        "tests": 24,
+        "divisions": 3360,
+        "leaf_multiplications": 3192,
+        "max_intermediate_bits": 131
+      },
+      {
+        "dimensions": [
+          2,
+          3,
+          2
+        ],
+        "rank": 12,
+        "integer_denominators": [
+          "12",
+          "60",
+          "12600"
+        ],
+        "row_norms": [
+          "30",
+          "150",
+          "101150"
+        ],
+        "tests": 24,
+        "divisions": 7200,
+        "leaf_multiplications": 15072,
+        "max_intermediate_bits": 128
+      },
+      {
+        "dimensions": [
+          2,
+          2,
+          3
+        ],
+        "rank": 12,
+        "integer_denominators": [
+          "12",
+          "60",
+          "12600"
+        ],
+        "row_norms": [
+          "30",
+          "150",
+          "78750"
+        ],
+        "tests": 24,
+        "divisions": 13008,
+        "leaf_multiplications": 15072,
+        "max_intermediate_bits": 128
+      },
+      {
+        "dimensions": [
+          3,
+          2,
+          2
+        ],
+        "rank": 12,
+        "integer_denominators": [
+          "12",
+          "60",
+          "12600"
+        ],
+        "row_norms": [
+          "30",
+          "150",
+          "78750"
+        ],
+        "tests": 24,
+        "divisions": 13008,
+        "leaf_multiplications": 15072,
+        "max_intermediate_bits": 128
+      }
+    ],
+    "scope": "fixed tested identities only; general lemma proved in note, no PIT transfer claimed"
+  },
+  "rational_root": {
+    "coprime_pairs": 20087,
+    "polynomial_identity_checks": 20087,
+    "even_denominator_checks": 6716,
+    "three_divides_denominator_checks": 4980,
+    "excluded_target": {
+      "numerator": "1",
+      "denominator": "2",
+      "reason": "v2=-1, not 3 mod 11"
+    },
+    "all_pass": true,
+    "scope": "necessary restrictions on the rational-root method, not on all solutions of the original equation"
+  },
+  "carleman": {
+    "witnesses": [
+      {
+        "T": 2,
+        "quotient": 1.5797847963166751
+      },
+      {
+        "T": 5,
+        "quotient": 2.4142105086561547
+      },
+      {
+        "T": 10,
+        "quotient": 2.7752245758906766
+      },
+      {
+        "T": 20,
+        "quotient": 2.95839953516651
+      },
+      {
+        "T": 40,
+        "quotient": 3.0499960941719824
+      },
+      {
+        "T": 80,
+        "quotient": 3.095794373880855
+      }
+    ],
+    "kernel": [
+      {
+        "s": 0.01,
+        "remainder": -0.24978854230685243
+      },
+      {
+        "s": 0.001,
+        "remainder": -0.24997913541727712
+      },
+      {
+        "s": 0.0001,
+        "remainder": -0.2499979163530952
+      },
+      {
+        "s": 0.00001,
+        "remainder": -0.24999979166022968
+      },
+      {
+        "s": 0.000001,
+        "remainder": -0.24999997927807271
+      }
+    ],
+    "limit": 3.141592653589793,
+    "half_limit": 1.5707963267948966,
+    "scope": "floating quadrature illustration only; proof in analytic note"
+  }
+}
