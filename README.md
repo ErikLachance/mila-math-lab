@@ -1,56 +1,41 @@
 # MILA Mathematical Research Lab
 
-Independent AI-assisted mathematical research and reproducible computational experiments. / Laboratoire indépendant de recherche mathématique assistée par IA.
+Independent AI-assisted mathematical research / Recherche mathématique indépendante assistée par IA.
 
-**Research collection 0.2.0 — 26 November 2026.** No solution of P vs NP, the Riemann hypothesis, or Beal's conjecture is claimed. These are research notes, not peer-reviewed publications. Novelty and prize eligibility have not been established.
+**Research collection 0.3.0 — 26 November 2026.** [Scientific website](https://eriklachance.github.io/mila-math-lab/) · [Research catalog](https://eriklachance.github.io/mila-math-lab/catalog.html) · [Reproducibility](https://eriklachance.github.io/mila-math-lab/methods.html) · [Bibliography](https://eriklachance.github.io/mila-math-lab/references.html)
 
-[Project homepage source](docs/index.html) · [Reproduction output](results/independent-reproduction.json)
+No solution of P vs NP, Beal's conjecture, or the Riemann hypothesis is claimed. Research notes are not peer reviewed; novelty and prize eligibility are not established. We distinguish elementary proofs, finite certificates, conditional deductions, formal arguments and unresolved steps.
 
-## Research programs
+## Research notes
 
-| Program | Public notes | Status |
+| Identifier | Research note | Historical source date |
 |---|---|---|
-| P vs NP | [SAT and counting](notes/p-vs-np.md) | Exact finite tests; elementary reduction; no asymptotic separation |
-| Beal | [Signatures and fixed bases](notes/beal.md) | Exact enumeration and special cases; literature frontier under audit |
-| Riemann | [Möbius and Mertens](notes/riemann.md) | Finite exact calculations; no global conclusion |
-| Computing | [Two-GPU validation](notes/compute.md) | Local 120-second prototype succeeded; no unattended service claimed |
+| ML-PNP-003 | [Prime-power Tseitin constraints in matching characteristic](notes/pnp-tseitin.md) | 2026-11-08 |
+| ML-BEAL-003 | [Local arithmetic of 36 auxiliary ternary cubics](notes/beal-local-points.md) | 2026-11-08 |
+| ML-RH-003 | [Rational enclosures for a compact-window Weil-form estimate](notes/riemann-intervals.md) | 2026-11-08 |
+| ML-PNP-002 | [Formal contraction bounds and finite Boolean generators](notes/pnp-advanced-20261109.md) | 2026-11-09 |
+| ML-BEAL-002 | [Thirty-six auxiliary cubics and nine 3-adic exclusions](notes/beal-advanced-20261108.md) | 2026-11-08 |
+| ML-RH-002 | [A compact-window spectral candidate: codimension 361](notes/riemann-advanced-20261108.md) | 2026-11-08 |
+| ML-PNP-001 | [SAT enumeration and decision versus counting](notes/p-vs-np.md) | 2026-11-26 |
+| ML-BEAL-001 | [Exponent signatures, fixed bases and an abc obstruction](notes/beal.md) | 2026-11-07 |
+| ML-RH-001 | [Exact Möbius and Mertens computations](notes/riemann.md) | 2026-11-26 |
 
-## Advanced historical research
+Public reconstruction and verification: 26 November 2026. See [research archive index](notes/research-archive.md) for the selected scope. The private research journal is not published.
 
-[Research archive index](notes/research-archive.md)
+## Reproduction
 
-- [P vs NP: formal 49/72 contraction envelope and exact finite Boolean annihilator degrees](notes/pnp-advanced-20261109.md).
-- [Beal: 36 explicit auxiliary cubics and nine modulo-27 exclusions](notes/beal-advanced-20261108.md). The global rational-root prerequisite is unproved.
-- [Riemann: conditional codimension-361 compact-window spectral estimate](notes/riemann-advanced-20261108.md). Only the final rational inequalities have been independently rechecked.
-
-The advanced collection is reconstructed from dated historical notes, not a release of the private journal. The public verification script (Node.js, no dependencies) and its results are:
-
-```sh
-node experiments/recheck-historical.mjs
-```
-
-[Recheck results](results/historical-recheck-20261126.json)
-
-## Reproduce
-
-Python 3.10+; standard library only:
+Python 3.10+ and Node.js with BigInt support; standard libraries only.
 
 ```sh
 python3 experiments/verify.py
+node experiments/recheck-historical.mjs
+node experiments/certificates-20261126.mjs
 ```
 
-The verifier evaluates a structured 18-variable SAT instance in two ways, checks 198 graphs in a fresh deterministic replication, enumerates Beal signatures with rational arithmetic, and computes Mertens endpoints up to 100 million. It does not independently check every Möbius value to 100 million.
+Exact outputs: [finite checks](results/independent-reproduction.json), [historical rechecks](results/historical-recheck-20261126.json), [explicit certificates](results/certificates-20261126.json). The original [Mertens scripts](experiments/mertens/) are provided for deliberate reproduction. The [compute pilot](notes/compute.md) is supporting technical documentation, not a mathematical publication.
 
-The original two CPU Mertens scripts are also in [experiments/mertens/](experiments/mertens/). The larger script uses Linux fork multiprocessing and substantial CPU/RAM resources; run it intentionally, not as an automatic install.
+## Integrity and contributions
 
-## Research integrity
+Finite tests do not establish asymptotic theorems. Static certificate degree is not dynamic polynomial-calculus degree; local solubility is not global solubility; a fixed-window estimate is not RH. Corrections and independent checks are welcome in [Issues](https://github.com/ErikLachance/mila-math-lab/issues) or pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md), [CHANGELOG.md](CHANGELOG.md), and [CITATION.cff](CITATION.cff).
 
-Distinguish elementary proofs, cited results, finite experiments, conjectures, conditional arguments and rejected approaches. Report inputs, scope, method, reproducibility evidence and limitations. Faster exhaustive search is not a polynomial-time algorithm. A finite test cannot establish an unbounded conjecture.
-
-The historical research journal is private; only reviewed research excerpts and selected sanitized results are included here. Further historical arguments require independent mathematical and privacy review. Corrections and replication reports are welcome through Issues or pull requests.
-
-## Citation and license
-
-MILA Mathematical Research Lab, *Initial research collection*, 2026-11-26, version 0.2.0, AI-assisted research notes and code. Human-maintained independent project, not affiliated with OpenAI, Clay Mathematics Institute, or the Beal prize.
-
-See [LICENSE](LICENSE) for Apache License 2.0. External works are cited for reference and remain subject to their own rights.
+[Apache License 2.0](LICENSE). Independent project; no affiliation with OpenAI, Clay Mathematics Institute or the Beal prize.

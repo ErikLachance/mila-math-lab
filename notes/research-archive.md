@@ -1,13 +1,17 @@
-# Historical research collection — edition 0.2.0
+# Research archive — edition 0.3.0
 
-The initial public collection emphasized elementary reproducible experiments and the new compute engine. This second collection recovers selected advanced investigations from the November 8–9 historical checkpoints.
+Selected historical results reconstructed and rechecked on 26 November 2026. Source dates are not priority claims. The private journal is not published.
 
-| Program | Historical note | Current recheck | Remaining gap |
-|---|---|---|---|
-| P vs NP | [Contraction envelope and Boolean generator](pnp-advanced-20261109.md) | Exact finite profile sweep and GF(2) evaluation ranks | General bit complexity, source hypotheses and asymptotic lower bounds |
-| Beal | [36 auxiliary cubics](beal-advanced-20261108.md) | Exact coefficients and all modulo-27 projective classes | Unproved rational-root premise, upstream descent and global rational points |
-| Riemann | [Compact-window candidate](riemann-advanced-20261108.md) | Exact rational final inequalities only | Independent analytic certificates, exceptional directions and uniform positivity |
+| Program | Note | Scope |
+|---|---|---|
+| P vs NP | [ML-PNP-003: Prime-power Tseitin constraints in matching characteristic](pnp-tseitin.md) | No general dynamic polynomial-calculus lower bound. |
+| Beal's conjecture | [ML-BEAL-003: Local arithmetic of 36 auxiliary ternary cubics](beal-local-points.md) | The upstream descent remains conditional; local points do not establish global rational points. |
+| Riemann hypothesis | [ML-RH-003: Rational enclosures for a compact-window Weil-form estimate](riemann-intervals.md) | Analytic review, exceptional directions and arbitrary windows remain open. |
+| P vs NP | [ML-PNP-002: Formal contraction bounds and finite Boolean generators](pnp-advanced-20261109.md) | No general bit-complexity theorem or asymptotic separation. |
+| Beal's conjecture | [ML-BEAL-002: Thirty-six auxiliary cubics and nine 3-adic exclusions](beal-advanced-20261108.md) | The descent's prerequisite is unproved. See ML-BEAL-003 for stronger local certificates. |
+| Riemann hypothesis | [ML-RH-002: A compact-window spectral candidate: codimension 361](riemann-advanced-20261108.md) | See ML-RH-003 for reconstructed bounds; no global positivity proof. |
+| P vs NP | [ML-PNP-001: SAT enumeration and decision versus counting](p-vs-np.md) | No representative hard-instance or asymptotic SAT result. |
+| Beal's conjecture | [ML-BEAL-001: Exponent signatures, fixed bases and an abc obstruction](beal.md) | Enumeration alone does not certify the literature-based frontier. |
+| Riemann hypothesis | [ML-RH-001: Exact Möbius and Mertens computations](riemann.md) | Finite arithmetic does not prove an asymptotic estimate. |
 
-These notes are dated by their historical checkpoints and explicitly separate reconstruction on 26 November from past reports. The private archive inventory has 158 files in three targeted checkpoint folders (77 P vs NP, 62 Beal, 19 Riemann), in addition to the principal journal. File counts include records and scripts, not distinct findings; only a small selection has been reviewed for this release. No private journal or internal machine identifiers are included. No claim of priority, novelty, peer review or resolution of any of the three open problems is made.
-
-[Verifier](../experiments/recheck-historical.mjs) · [Full recheck results](../results/historical-recheck-20261126.json)
+[Scientific catalog](https://eriklachance.github.io/mila-math-lab/catalog.html) · [Certificate suite](../experiments/certificates-20261126.mjs) · [Exact results](../results/certificates-20261126.json).
