@@ -178,6 +178,8 @@ Computing the entries 1≤i≤n and 1≤j≤k requires at most two fan-in-two ga
 
 Consequently, minimum graph-relation degree can grow linearly with n and be maximal for the dimensions while the generator remains computable by a polynomial-size circuit. The degree statistic alone does not establish superpolynomial unrestricted Boolean circuit size.
 
+Small generator circuits alone would not refute a pseudorandom-generator or range-avoidance strategy: efficient generation is compatible with other kinds of hardness. For this particular majority family, the stronger limitations are explicit. Membership in the image is decided by checking z=Maj_n(y), and (0^n,1) is outside the image for every odd n≥1. Moreover, the displayed relation Q=A+z(A+C) has an arithmetic circuit of size O(k): form A and C using 2(k−1) multiplications and k additions of the constant 1, then compute A+C, multiply by z, and add A. Counting constants as free, this uses 2k−1 multiplications and k+2 additions; it is an upper bound, not a minimality claim. Thus optimal graph degree here coexists with easy image membership, an explicit avoided output, and a small circuit for a nonzero relation. Degree alone does not certify hardness for these tasks either.
+
 The comparison with ML-PNP-002 concerns the degree statistic. The majority output depends on every input bit, so this family does not have uniformly bounded output locality. It does not replace a construction subject to an NC0 or other specific local-circuit requirement. Any intended lower-bound application must preserve its actual circuit class, uniformity, stretch, field, and testing promises.
 
 ## 6. Cartesian repetition cannot amplify this degree
