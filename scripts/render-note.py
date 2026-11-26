@@ -167,6 +167,7 @@ def render(meta, source_ref):
         if path.endswith("catalog.html"):
             note_count = len(tree.xpath("//article[@data-paper]"))
             tree.xpath('//*[@id="count"]')[0].text = f'{note_count} notes'
+            tree.xpath('//meta[@name="description"]')[0].set("content", f'Search all {note_count} mathematical research notes and certificates.')
             introduction = tree.xpath('//section[@class="pagehead"]/p[@class="lede"]/span')[0]
             introduction.text = f'{note_count} research notes with stable identifiers, source dates, full English text and verification data. None has been peer reviewed.'
             introduction.set("data-fr", f'{note_count} notes de recherche avec identifiants stables, dates sources, texte intégral anglais et données de vérification. Aucune n’a été évaluée par les pairs.')
